@@ -1,0 +1,49 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ProductSans-Bold
+FamilyName:Product Sans
+StyleName:Bold
+FullName:Product Sans Bold
+MenuName:Product Sans
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Modest Giant Dropbox\Don Ulinski\HDI\Google\Google Cloud Developer Cheat Sheet Poster\Google Cloud Developer Poster(Dark)_2021-12-10 Folder\Document fonts\ProductSans-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:92096
+FileModTime:1536022906
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Product Sans Bold
+NameArray:0,Win,1,Product Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ProductSans-Medium
+FamilyName:Product Sans Medium
+StyleName:Regular
+FullName:Product Sans Medium
+MenuName:Product Sans Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Modest Giant Dropbox\Don Ulinski\HDI\Google\Google Cloud Developer Cheat Sheet Poster\Google Cloud Developer Poster(Dark)_2021-12-10 Folder\Document fonts\ProductSans-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:92312
+FileModTime:1536023530
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Product Sans Medium
+NameArray:0,Win,1,Product Sans Medium
+%EndFont
+
