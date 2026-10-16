@@ -9,6 +9,10 @@ repo_url: https://github.com/markbac/markbac.github.io
 copyright: "&copy; Mark Bacon. Content under the MIT licence unless a section says otherwise"
 docs_dir: docs
 site_dir: build
+# MkDocs always leaves out a top-level templates/ folder (as well as dot files), and that folder is
+# the Templates & Checklists section here, so take it back in.
+exclude_docs: |
+  !/templates/
 
 theme:
   name: material
@@ -50,7 +54,13 @@ markdown_extensions:
   - tables
   - toc: {permalink: true}
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      # Blog posts are not py-doc pages, so their Mermaid blocks are drawn in the browser.
+      # (py-doc draws the sections' diagrams as SVG before MkDocs sees them.)
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tasklist: {custom_checkbox: true}
   - pymdownx.arithmatex: {generic: true}
 
