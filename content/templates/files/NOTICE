@@ -1,0 +1,15 @@
+Licences of the files in this folder
+
+architecture-communication-canvas.drawio
+architecture-communication-canvas.pptx
+architecture-inception-canvas.drawio
+architecture-inception-canvas.pptx
+    Software Architecture Canvas, (c) 2023 Gernot Starke, Patrick Roos,
+    Ben Wolf and arc42 contributors, https://canvas.arc42.org/
+    Licensed under Creative Commons Attribution-ShareAlike 4.0 International,
+    https://creativecommons.org/licenses/by-sa/4.0/
+    Copied unchanged, except that a stray test label was removed from the
+    communication canvas.
+
+All other files
+    (c) Mark Bacon, under the MIT licence in the repository's LICENSE file.
