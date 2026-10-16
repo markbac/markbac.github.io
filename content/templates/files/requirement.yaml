@@ -1,0 +1,11 @@
+# One requirement. Keep one file per requirement, or a list of these per component.
+id: REQ-XX-0000          # stable, never reused
+title: Short title
+statement: The system shall ...
+type: functional         # functional | performance | security | safety | interface | constraint
+level: firmware          # system | subsystem | software | firmware | hardware
+parent: REQ-SYS-0000     # the requirement this one refines
+verification: test       # test | analysis | inspection | demonstration
+status: draft            # draft | approved | implemented | verified | retired
+owner:
+rationale: Why this requirement exists.

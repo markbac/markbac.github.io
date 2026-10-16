@@ -1,0 +1,41 @@
+#!/bin/sh
+# commit-msg hook: checks that the first line of a commit message follows
+# Conventional Commits (https://www.conventionalcommits.org/en/v1.0.0/).
+#
+#   <type>[(scope)][!]: <description>
+#
+# Install it for one repository:
+#   mkdir -p .githooks && cp commit-msg .githooks/ && chmod +x .githooks/commit-msg
+#   git config core.hooksPath .githooks
+#
+# Set COMMIT_TYPES to change the allowed types, and REQUIRE_REFS=1 to insist
+# on a "Refs:" trailer naming a ticket or requirement.
+
+types="${COMMIT_TYPES:-build chore ci docs feat fix perf refactor revert style test}"
+msg_file="$1"
+subject=$(sed -n '/^[^#]/{p;q;}' "$msg_file")
+
+# Git's own messages pass: merges, reverts, and fixup or squash commits.
+case "$subject" in
+    "Merge "* | "Revert \""* | "fixup! "* | "squash! "* | "amend! "*) exit 0 ;;
+esac
+
+alternatives=$(echo "$types" | tr ' ' '|')
+pattern="^($alternatives)(\([a-z0-9._/-]+\))?!?: [^ ].*"
+
+fail() {
+    echo "commit-msg: $1" >&2
+    echo "  got:      $subject" >&2
+    echo "  expected: <type>[(scope)][!]: <description>" >&2
+    echo "  types:    $types" >&2
+    echo "  example:  fix(modem): retry the AT handshake after wake-up" >&2
+    exit 1
+}
+
+echo "$subject" | grep -Eq "$pattern" || fail "the first line is not a Conventional Commits header"
+[ "${#subject}" -le 72 ] || fail "the first line is longer than 72 characters"
+
+if [ "${REQUIRE_REFS:-0}" = "1" ] && ! grep -Eq '^Refs: .+' "$msg_file"; then
+    fail "add a 'Refs:' trailer naming the ticket or requirement"
+fi
+exit 0

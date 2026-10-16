@@ -1,0 +1,14 @@
+# The components a product is built from, and who looks after each one.
+# Keep it in the product repository, for example as docs/components.yaml.
+components:
+  - name: component-name
+    owner: "Name or role"
+    deputy: "Name or role"          # ideally at another site
+    repository: "git@example.com:group/component.git"
+    version: 0.0.0
+    status: active                  # active | maintenance | deprecated | retired
+    consumers: [product-a]          # products that use it
+    interfaces: [IF-0000]           # interface specifications it provides
+    variation-points: []            # where products may configure or extend it
+    third-party: false              # true for bought-in or open-source components
+    licence:                        # SPDX identifier, for third-party components
