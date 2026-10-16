@@ -1,0 +1,9 @@
+# Built by py-doc build and py-doc site build
+/build/
+/site/build/
+/site/build-tarf/
+/site/py-doc-nav.yml
+/site/.py-doc-site.json
+/.py-doc/
+__pycache__/
+.venv/

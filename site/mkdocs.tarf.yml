@@ -1,0 +1,10 @@
+# https://tarf.co.uk/ : the same pages as mkdocs.yml, with tarf's name, address and home page.
+INHERIT: mkdocs.yml
+site_name: tarf.co.uk
+site_url: https://tarf.co.uk/
+site_description: A resource hub for software architecture, technology and engineering
+site_dir: build-tarf
+copyright: "&copy; tarf.co.uk"
+
+extra:
+  home: tarf          # overrides/home.html shows the tarf home page

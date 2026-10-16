@@ -1,0 +1,31 @@
+# The source of https://markbac.github.io/ and https://tarf.co.uk/.
+# Each section of the sites is a py-doc document under content/. `py-doc build` makes its Word and PDF
+# files, and `py-doc site build` publishes every section to both sites (site.targets).
+
+project:
+  name: tarf.co.uk
+
+outputs:
+  docx: {dir: build}
+  pdf: {dir: build}
+
+# Sections are added here as they move in from the old repositories, one PR each:
+# glossary, guidelines, standards, handbook, primers, reference, templates. The blog is not a
+# py-doc document: its posts live in site/docs/blog/ for MkDocs Material's blog plugin.
+documents: {}
+
+lint:
+  exclude: [build, site/build, site/build-tarf]
+  vale:
+    enabled: auto
+    spelling: en-GB
+
+site:
+  engine: mkdocs
+  dir: site
+  downloads: [pdf, docx]
+  targets:
+    github: mkdocs.yml        # https://markbac.github.io/, personal home page
+    tarf: mkdocs.tarf.yml     # https://tarf.co.uk/, the tarf home page
+  pages:                      # pages of our own, after the sections in the navigation
+    Blog: blog/index.md

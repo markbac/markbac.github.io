@@ -1,0 +1,23 @@
+{#- A card for each top-level section of the navigation, so the home page never links a section that is not there. -#}
+{%- set blurbs = {
+  "Blog": "Posts on software architecture, technical leadership and docs as code.",
+  "Guidelines": "Engineering guidelines: how to plan, design, build, review, release and run software.",
+  "Standards": "Coding and platform standards for C, Python, MISRA, LwM2M and constrained IoT devices.",
+  "Architecture Handbook": "Patterns, principles, API design and governance for software architecture.",
+  "Primers": "Short introductions to architecture, cloud, IoT, security and methods. The Tech 101s.",
+  "Reference": "Reference notes on architecture practice, C4, ADRs, RFCs and solution design.",
+  "Glossary": "Terms used across software, IoT and architecture, A to Z.",
+  "Templates & Checklists": "Checklists and templates: design, code review, definition of done and ready, defects.",
+  "Tech Radar": "The technologies, tools and methods I adopt, trial, assess or hold.",
+} -%}
+{%- macro first_url(item) -%}
+  {%- if item.url -%}{{ item.url | url }}{%- elif item.children -%}{{ first_url(item.children | first) }}{%- endif -%}
+{%- endmacro -%}
+<div class="home-cards">
+  {%- for item in nav if not item.is_homepage and item.title != "Home" %}
+  <a class="home-card" href="{{ first_url(item) }}">
+    <span class="home-card__title">{{ item.title }}</span>
+    {%- if item.title in blurbs %}<span class="home-card__text">{{ blurbs[item.title] }}</span>{% endif %}
+  </a>
+  {%- endfor %}
+</div>

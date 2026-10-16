@@ -1,0 +1,33 @@
+{#- The personal home page of https://markbac.github.io/ -#}
+<section class="home-hero">
+  <h1>Mark Bacon</h1>
+  <p>Architect working on IoT, telecoms and connected embedded systems. These pages hold the guidelines, reference
+     notes, primers and blog posts I write along the way, and the open-source tools I build for docs as code and
+     device engineering.</p>
+  <div class="home-links">
+    <a class="md-button md-button--primary" href="{{ 'blog/' | url }}">Read the blog</a>
+    <a class="md-button" href="https://github.com/markbac">GitHub</a>
+    <a class="md-button" href="https://www.linkedin.com/in/mdbacon/">LinkedIn</a>
+  </div>
+</section>
+
+<section class="home-section">
+  <h2>Sections</h2>
+  {% include "partials/cards.html" %}
+</section>
+
+<section class="home-section">
+  <h2>Projects</h2>
+  <div class="home-cards">
+    <a class="home-card" href="https://github.com/markbac/py-doc"><span class="home-card__title">py-doc</span>
+      <span class="home-card__text">Markdown technical documentation to Word, PowerPoint, PDF, HTML and web sites. It builds this site.</span></a>
+    <a class="home-card" href="https://github.com/markbac/py-logkit"><span class="home-card__title">ctxlogkit</span>
+      <span class="home-card__text">One-call Python logging with context on every line, in text and JSON.</span></a>
+    <a class="home-card" href="https://markbac.github.io/omni-uart/"><span class="home-card__title">OmniUART</span>
+      <span class="home-card__text">Schema-driven UART protocol tool with a CLI, a script runner and a web UI.</span></a>
+    <a class="home-card" href="https://github.com/markbac/quectel-bc660k-dashboard"><span class="home-card__title">BC660K dashboard</span>
+      <span class="home-card__text">Real-time signal and cell dashboard for a Quectel BC660K NB-IoT modem.</span></a>
+    <a class="home-card" href="https://markbac.github.io/reqtool/"><span class="home-card__title">reqtool</span>
+      <span class="home-card__text">Git-backed YAML requirements management with traceability.</span></a>
+  </div>
+</section>

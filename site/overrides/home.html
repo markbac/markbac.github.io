@@ -1,0 +1,6 @@
+{#- The home page. mkdocs.tarf.yml sets extra.home: tarf; mkdocs.yml shows the personal one. -#}
+{% extends "main.html" %}
+{% block extrahead %}{{ super() }}{% include "partials/home-style.html" %}{% endblock %}
+{% block content %}
+{% if config.extra.home == "tarf" %}{% include "partials/home-tarf.html" %}{% else %}{% include "partials/home-personal.html" %}{% endif %}
+{% endblock %}
