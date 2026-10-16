@@ -1,0 +1,1140 @@
+# Old glossary URLs and where they now point. redirect_from and redirect_to are in the form
+# mkdocs-redirects takes for redirect_maps (pages relative to docs/), for the tarf.co.uk rows.
+old_url	redirect_from	redirect_to	note
+https://tarf.co.uk/Glossary/	Glossary/index.md	glossary/index.md	
+https://tarf.co.uk/Glossary/1/1/	Glossary/1/1.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/1/100%20Mbps---Fast%20Ethernet/	Glossary/1/100 Mbps---Fast Ethernet.md	glossary/s-z.md#100-mbps-fast-ethernet	renamed to "100 Mbps (Fast Ethernet)"
+https://tarf.co.uk/Glossary/5/5/	Glossary/5/5.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/5/5ESS/	Glossary/5/5ESS.md	glossary/s-z.md#5ess	
+https://tarf.co.uk/Glossary/5/5G/	Glossary/5/5G.md	glossary/s-z.md#5g	
+https://tarf.co.uk/Glossary/8/8/	Glossary/8/8.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/8/802.11/	Glossary/8/802.11.md	glossary/s-z.md#80211	
+https://tarf.co.uk/Glossary/8/802.3%20Physical%20Layer/	Glossary/8/802.3 Physical Layer.md	glossary/s-z.md#8023-physical-layer	
+https://tarf.co.uk/Glossary/a/A-law/	Glossary/a/A-law.md	glossary/a-c.md#a-law	
+https://tarf.co.uk/Glossary/a/a/	Glossary/a/a.md	glossary/a-c.md	letter index
+https://tarf.co.uk/Glossary/a/AA/	Glossary/a/AA.md	glossary/a-c.md#aa	
+https://tarf.co.uk/Glossary/a/AAC/	Glossary/a/AAC.md	glossary/a-c.md#aac	
+https://tarf.co.uk/Glossary/a/AAL1/	Glossary/a/AAL1.md	glossary/a-c.md#aal1	
+https://tarf.co.uk/Glossary/a/AAL2/	Glossary/a/AAL2.md	glossary/a-c.md#aal2	
+https://tarf.co.uk/Glossary/a/AAL5/	Glossary/a/AAL5.md	glossary/a-c.md#aal5	
+https://tarf.co.uk/Glossary/a/Acceptance%20Test/	Glossary/a/Acceptance Test.md	glossary/a-c.md#acceptance-test	
+https://tarf.co.uk/Glossary/a/Acceptance%20Testing/	Glossary/a/Acceptance Testing.md	glossary/a-c.md#acceptance-testing	
+https://tarf.co.uk/Glossary/a/Activity%20Model/	Glossary/a/Activity Model.md	glossary/a-c.md#activity-model	
+https://tarf.co.uk/Glossary/a/Activity/	Glossary/a/Activity.md	glossary/a-c.md#activity	
+https://tarf.co.uk/Glossary/a/Ad%20Hoc%20Testing/	Glossary/a/Ad Hoc Testing.md	glossary/a-c.md#ad-hoc-testing	
+https://tarf.co.uk/Glossary/a/AD/	Glossary/a/AD.md	glossary/a-c.md#ad	
+https://tarf.co.uk/Glossary/a/Ada/	Glossary/a/Ada.md	glossary/a-c.md#ada	
+https://tarf.co.uk/Glossary/a/ADSL/	Glossary/a/ADSL.md	glossary/a-c.md#adsl	
+https://tarf.co.uk/Glossary/a/AES/	Glossary/a/AES.md	glossary/a-c.md#aes	
+https://tarf.co.uk/Glossary/a/Agent/	Glossary/a/Agent.md	glossary/a-c.md#agent	
+https://tarf.co.uk/Glossary/a/Agile%20development/	Glossary/a/Agile development.md	glossary/a-c.md#agile-development	
+https://tarf.co.uk/Glossary/a/Agile%20Manifesto/	Glossary/a/Agile Manifesto.md	glossary/a-c.md#agile-manifesto	
+https://tarf.co.uk/Glossary/a/Agile/	Glossary/a/Agile.md	glossary/a-c.md#agile	
+https://tarf.co.uk/Glossary/a/AIS/	Glossary/a/AIS.md	glossary/a-c.md#ais	
+https://tarf.co.uk/Glossary/a/ALCAP/	Glossary/a/ALCAP.md	glossary/a-c.md#alcap	
+https://tarf.co.uk/Glossary/a/Amazon%20EC2/	Glossary/a/Amazon EC2.md	glossary/a-c.md#amazon-ec2	
+https://tarf.co.uk/Glossary/a/AMP/	Glossary/a/AMP.md	glossary/a-c.md#amp	
+https://tarf.co.uk/Glossary/a/AMR-NB/	Glossary/a/AMR-NB.md	glossary/a-c.md#amr-nb	
+https://tarf.co.uk/Glossary/a/AMR-WB/	Glossary/a/AMR-WB.md	glossary/a-c.md#amr-wb	
+https://tarf.co.uk/Glossary/a/Analogy%20Estimation/	Glossary/a/Analogy Estimation.md	glossary/a-c.md#analogy-estimation	
+https://tarf.co.uk/Glossary/a/Android/	Glossary/a/Android.md	glossary/a-c.md#android	
+https://tarf.co.uk/Glossary/a/ANDSF/	Glossary/a/ANDSF.md	glossary/a-c.md#andsf	
+https://tarf.co.uk/Glossary/a/ANSI/	Glossary/a/ANSI.md	glossary/a-c.md#ansi	
+https://tarf.co.uk/Glossary/a/Antipattern/	Glossary/a/Antipattern.md	glossary/a-c.md#antipattern	
+https://tarf.co.uk/Glossary/a/Anycast/	Glossary/a/Anycast.md	glossary/a-c.md#anycast	
+https://tarf.co.uk/Glossary/a/AOP/	Glossary/a/AOP.md	glossary/a-c.md#aop	
+https://tarf.co.uk/Glossary/a/API/	Glossary/a/API.md	glossary/a-c.md#api	
+https://tarf.co.uk/Glossary/a/APN/	Glossary/a/APN.md	glossary/a-c.md#apn	
+https://tarf.co.uk/Glossary/a/Architecture/	Glossary/a/Architecture.md	glossary/a-c.md#architecture	
+https://tarf.co.uk/Glossary/a/ARP%20spoofing/	Glossary/a/ARP spoofing.md	glossary/a-c.md#arp-spoofing	
+https://tarf.co.uk/Glossary/a/Artifact/	Glossary/a/Artifact.md	glossary/a-c.md#artefact	renamed to "Artefact"
+https://tarf.co.uk/Glossary/a/ASCII/	Glossary/a/ASCII.md	glossary/a-c.md#ascii	
+https://tarf.co.uk/Glossary/a/ASN.1/	Glossary/a/ASN.1.md	glossary/a-c.md#asn1	
+https://tarf.co.uk/Glossary/a/Assessment/	Glossary/a/Assessment.md	glossary/a-c.md#assessment	
+https://tarf.co.uk/Glossary/a/ATDD/	Glossary/a/ATDD.md	glossary/a-c.md#atdd	
+https://tarf.co.uk/Glossary/a/ATM/	Glossary/a/ATM.md	glossary/a-c.md#atm	
+https://tarf.co.uk/Glossary/a/Audio%20Codecs/	Glossary/a/Audio Codecs.md	glossary/a-c.md#audio-codecs	
+https://tarf.co.uk/Glossary/a/Audit/	Glossary/a/Audit.md	glossary/a-c.md#audit	
+https://tarf.co.uk/Glossary/a/Author/	Glossary/a/Author.md	glossary/a-c.md#author	
+https://tarf.co.uk/Glossary/a/Authority/	Glossary/a/Authority.md	glossary/a-c.md#authority	
+https://tarf.co.uk/Glossary/a/authorriative%20Answer/	Glossary/a/authorriative Answer.md	glossary/a-c.md#authoritative-answer	renamed to "Authoritative Answer"
+https://tarf.co.uk/Glossary/a/Automated%20Build/	Glossary/a/Automated Build.md	glossary/a-c.md#automated-build	
+https://tarf.co.uk/Glossary/a/Automated%20Testing/	Glossary/a/Automated Testing.md	glossary/a-c.md#automated-testing	
+https://tarf.co.uk/Glossary/a/Awk/	Glossary/a/Awk.md	glossary/a-c.md#awk	
+https://tarf.co.uk/Glossary/a/AWS/	Glossary/a/AWS.md	glossary/a-c.md#aws	
+https://tarf.co.uk/Glossary/a/Azure/	Glossary/a/Azure.md	glossary/a-c.md#azure	
+https://tarf.co.uk/Glossary/b/b/	Glossary/b/b.md	glossary/a-c.md	letter index
+https://tarf.co.uk/Glossary/b/B2B/	Glossary/b/B2B.md	glossary/a-c.md#b2b	
+https://tarf.co.uk/Glossary/b/B2C/	Glossary/b/B2C.md	glossary/a-c.md#b2c	
+https://tarf.co.uk/Glossary/b/Backhaul/	Glossary/b/Backhaul.md	glossary/a-c.md#backhaul	
+https://tarf.co.uk/Glossary/b/Backlog%20Grooming/	Glossary/b/Backlog Grooming.md	glossary/a-c.md#backlog-grooming	
+https://tarf.co.uk/Glossary/b/Backlog/	Glossary/b/Backlog.md	glossary/a-c.md#backlog	
+https://tarf.co.uk/Glossary/b/Bandwidth/	Glossary/b/Bandwidth.md	glossary/a-c.md#bandwidth	
+https://tarf.co.uk/Glossary/b/Baseline/	Glossary/b/Baseline.md	glossary/a-c.md#baseline	
+https://tarf.co.uk/Glossary/b/Bash/	Glossary/b/Bash.md	glossary/a-c.md#bash	
+https://tarf.co.uk/Glossary/b/BASIC/	Glossary/b/BASIC.md	glossary/a-c.md#basic	
+https://tarf.co.uk/Glossary/b/BAU/	Glossary/b/BAU.md	glossary/a-c.md#bau	
+https://tarf.co.uk/Glossary/b/BDD/	Glossary/b/BDD.md	glossary/a-c.md#bdd	
+https://tarf.co.uk/Glossary/b/Bench%20Test/	Glossary/b/Bench Test.md	glossary/a-c.md#bench-test	
+https://tarf.co.uk/Glossary/b/BER/	Glossary/b/BER.md	glossary/a-c.md#ber	
+https://tarf.co.uk/Glossary/b/Best%20Practice%20Description/	Glossary/b/Best Practice Description.md	glossary/a-c.md#best-practice	renamed to "Best Practice"
+https://tarf.co.uk/Glossary/b/Best%20Practice/	Glossary/b/Best Practice.md	glossary/a-c.md#best-practice	
+https://tarf.co.uk/Glossary/b/BGCF/	Glossary/b/BGCF.md	glossary/a-c.md#bgcf	
+https://tarf.co.uk/Glossary/b/BGP/	Glossary/b/BGP.md	glossary/a-c.md#bgp	
+https://tarf.co.uk/Glossary/b/Bjarne%20Stroustrup/	Glossary/b/Bjarne Stroustrup.md	glossary/a-c.md#bjarne-stroustrup	
+https://tarf.co.uk/Glossary/b/Black-Box%20Testing/	Glossary/b/Black-Box Testing.md	glossary/a-c.md#black-box-testing	
+https://tarf.co.uk/Glossary/b/Bluetooth/	Glossary/b/Bluetooth.md	glossary/a-c.md#bluetooth	
+https://tarf.co.uk/Glossary/b/BNF/	Glossary/b/BNF.md	glossary/a-c.md#bnf	
+https://tarf.co.uk/Glossary/b/BNG/	Glossary/b/BNG.md	glossary/a-c.md#bng	
+https://tarf.co.uk/Glossary/b/BOOTP/	Glossary/b/BOOTP.md	glossary/a-c.md#bootp	
+https://tarf.co.uk/Glossary/b/Boston%20Matrix/	Glossary/b/Boston Matrix.md	glossary/a-c.md#boston-matrix	
+https://tarf.co.uk/Glossary/b/Bottom-Up%20Estimation/	Glossary/b/Bottom-Up Estimation.md	glossary/a-c.md#bottom-up-estimation	
+https://tarf.co.uk/Glossary/b/BPEL/	Glossary/b/BPEL.md	glossary/a-c.md#bpel	
+https://tarf.co.uk/Glossary/b/BPMN/	Glossary/b/BPMN.md	glossary/a-c.md#bpmn	
+https://tarf.co.uk/Glossary/b/BRAS/	Glossary/b/BRAS.md	glossary/a-c.md#bras	
+https://tarf.co.uk/Glossary/b/Broadcast/	Glossary/b/Broadcast.md	glossary/a-c.md#broadcast	
+https://tarf.co.uk/Glossary/b/BSC/	Glossary/b/BSC.md	glossary/a-c.md#bsc	
+https://tarf.co.uk/Glossary/b/BSS/	Glossary/b/BSS.md	glossary/a-c.md#bss	
+https://tarf.co.uk/Glossary/b/BT%2021CN/	Glossary/b/BT 21CN.md	glossary/a-c.md#bt-21cn	
+https://tarf.co.uk/Glossary/b/BTNUP/	Glossary/b/BTNUP.md	glossary/a-c.md#btnup	
+https://tarf.co.uk/Glossary/b/BTS/	Glossary/b/BTS.md	glossary/a-c.md#bts	
+https://tarf.co.uk/Glossary/b/bug/	Glossary/b/bug.md	glossary/a-c.md#bug	
+https://tarf.co.uk/Glossary/b/Build%20Environment/	Glossary/b/Build Environment.md	glossary/a-c.md#build-environment	
+https://tarf.co.uk/Glossary/b/Build%20Machine/	Glossary/b/Build Machine.md	glossary/a-c.md#build-machine	
+https://tarf.co.uk/Glossary/b/build%20tool/	Glossary/b/build tool.md	glossary/a-c.md#build-tool	
+https://tarf.co.uk/Glossary/b/Build/	Glossary/b/Build.md	glossary/a-c.md#build	
+https://tarf.co.uk/Glossary/b/Burndown%20Chart/	Glossary/b/Burndown Chart.md	glossary/a-c.md#burndown-chart	
+https://tarf.co.uk/Glossary/b/Burst/	Glossary/b/Burst.md	glossary/a-c.md#burst	
+https://tarf.co.uk/Glossary/b/Business%20Agility%20Ownership/	Glossary/b/Business Agility Ownership.md	glossary/a-c.md#business-agility-ownership	
+https://tarf.co.uk/Glossary/b/Business%20Requirement/	Glossary/b/Business Requirement.md	glossary/a-c.md#business-requirement	
+https://tarf.co.uk/Glossary/b/Business%20Schedule/	Glossary/b/Business Schedule.md	glossary/a-c.md#business-schedule	
+https://tarf.co.uk/Glossary/b/BYOD/	Glossary/b/BYOD.md	glossary/a-c.md#byod	
+https://tarf.co.uk/Glossary/c/C%20Language/	Glossary/c/C Language.md	glossary/a-c.md#c-language	
+https://tarf.co.uk/Glossary/c/C%23/	Glossary/c/C#.md	glossary/a-c.md#c_2	
+https://tarf.co.uk/Glossary/c/C%2B%2B/	Glossary/c/C++.md	glossary/a-c.md#c_1	
+https://tarf.co.uk/Glossary/c/C-Tag/	Glossary/c/C-Tag.md	glossary/a-c.md#c-tag	
+https://tarf.co.uk/Glossary/c/c/	Glossary/c/c.md	glossary/a-c.md	letter index
+https://tarf.co.uk/Glossary/c/CA/	Glossary/c/CA.md	glossary/a-c.md#ca	
+https://tarf.co.uk/Glossary/c/Cacti/	Glossary/c/Cacti.md	glossary/a-c.md#cacti	
+https://tarf.co.uk/Glossary/c/Cadence/	Glossary/c/Cadence.md	glossary/a-c.md#cadence	
+https://tarf.co.uk/Glossary/c/Calendar%20Days/	Glossary/c/Calendar Days.md	glossary/a-c.md#calendar-days	
+https://tarf.co.uk/Glossary/c/CAM%20Item/	Glossary/c/CAM Item.md	glossary/g-k.md#item	renamed to "Item"
+https://tarf.co.uk/Glossary/c/Camel%20Case/	Glossary/c/Camel Case.md	glossary/a-c.md#camel-case	
+https://tarf.co.uk/Glossary/c/CAMEL/	Glossary/c/CAMEL.md	glossary/a-c.md#camel	
+https://tarf.co.uk/Glossary/c/CAP/	Glossary/c/CAP.md	glossary/a-c.md#cap	
+https://tarf.co.uk/Glossary/c/Capability%20Maturity%20Model/	Glossary/c/Capability Maturity Model.md	glossary/a-c.md#capability-maturity-model	
+https://tarf.co.uk/Glossary/c/Cat%205/	Glossary/c/Cat 5.md	glossary/a-c.md#cat-5	
+https://tarf.co.uk/Glossary/c/Cat%205e/	Glossary/c/Cat 5e.md	glossary/a-c.md#cat-5e	
+https://tarf.co.uk/Glossary/c/Cat%206/	Glossary/c/Cat 6.md	glossary/a-c.md#cat-6	
+https://tarf.co.uk/Glossary/c/CCITT/	Glossary/c/CCITT.md	glossary/a-c.md#ccitt	
+https://tarf.co.uk/Glossary/c/CCS/	Glossary/c/CCS.md	glossary/a-c.md#ccs	
+https://tarf.co.uk/Glossary/c/CCTA/	Glossary/c/CCTA.md	glossary/a-c.md#ccta	
+https://tarf.co.uk/Glossary/c/CDMA/	Glossary/c/CDMA.md	glossary/a-c.md#cdma	
+https://tarf.co.uk/Glossary/c/CDMA2000/	Glossary/c/CDMA2000.md	glossary/a-c.md#cdma2000	
+https://tarf.co.uk/Glossary/c/CDR/	Glossary/c/CDR.md	glossary/a-c.md#cdr	
+https://tarf.co.uk/Glossary/c/CE/	Glossary/c/CE.md	glossary/a-c.md#ce	
+https://tarf.co.uk/Glossary/c/CER/	Glossary/c/CER.md	glossary/a-c.md#cer	
+https://tarf.co.uk/Glossary/c/Ceremonies/	Glossary/c/Ceremonies.md	glossary/a-c.md#ceremonies	
+https://tarf.co.uk/Glossary/c/CESG/	Glossary/c/CESG.md	glossary/a-c.md#cesg	
+https://tarf.co.uk/Glossary/c/CFi/	Glossary/c/CFi.md	glossary/a-c.md#cfi	
+https://tarf.co.uk/Glossary/c/CGI/	Glossary/c/CGI.md	glossary/a-c.md#cgi	
+https://tarf.co.uk/Glossary/c/Change%20Control%20Board/	Glossary/c/Change Control Board.md	glossary/a-c.md#change-control-board	
+https://tarf.co.uk/Glossary/c/Change%20Control%20Plan/	Glossary/c/Change Control Plan.md	glossary/a-c.md#change-control-plan	
+https://tarf.co.uk/Glossary/c/Change%20Control/	Glossary/c/Change Control.md	glossary/a-c.md#change-control	
+https://tarf.co.uk/Glossary/c/Change%20Management/	Glossary/c/Change Management.md	glossary/a-c.md#change-management	
+https://tarf.co.uk/Glossary/c/Change%20Request/	Glossary/c/Change Request.md	glossary/a-c.md#change-request	
+https://tarf.co.uk/Glossary/c/CHAP/	Glossary/c/CHAP.md	glossary/a-c.md#chap	
+https://tarf.co.uk/Glossary/c/Chrome%20OS/	Glossary/c/Chrome OS.md	glossary/a-c.md#chrome-os	
+https://tarf.co.uk/Glossary/c/Circuit%20Switched/	Glossary/c/Circuit Switched.md	glossary/a-c.md#circuit-switched	
+https://tarf.co.uk/Glossary/c/Class%204%20Softswitch/	Glossary/c/Class 4 Softswitch.md	glossary/a-c.md#class-4-softswitch	
+https://tarf.co.uk/Glossary/c/Class%205%20Softswitch/	Glossary/c/Class 5 Softswitch.md	glossary/a-c.md#class-5-softswitch	
+https://tarf.co.uk/Glossary/c/Class%20Model/	Glossary/c/Class Model.md	glossary/a-c.md#class-model	
+https://tarf.co.uk/Glossary/c/CLF/	Glossary/c/CLF.md	glossary/a-c.md#clf	
+https://tarf.co.uk/Glossary/c/CMDB/	Glossary/c/CMDB.md	glossary/a-c.md#cmdb	
+https://tarf.co.uk/Glossary/c/CNG/	Glossary/c/CNG.md	glossary/a-c.md#cng	
+https://tarf.co.uk/Glossary/c/Cobol/	Glossary/c/Cobol.md	glossary/a-c.md#cobol	
+https://tarf.co.uk/Glossary/c/Code%20and%20Fix%20Lifecycle/	Glossary/c/Code and Fix Lifecycle.md	glossary/a-c.md#code-and-fix-lifecycle	
+https://tarf.co.uk/Glossary/c/Codecs/	Glossary/c/Codecs.md	glossary/a-c.md#codecs	
+https://tarf.co.uk/Glossary/c/Coding%20Standard/	Glossary/c/Coding Standard.md	glossary/a-c.md#coding-standard	
+https://tarf.co.uk/Glossary/c/Coding/	Glossary/c/Coding.md	glossary/a-c.md#coding	
+https://tarf.co.uk/Glossary/c/CoE/	Glossary/c/CoE.md	glossary/a-c.md#coe	
+https://tarf.co.uk/Glossary/c/COFDM/	Glossary/c/COFDM.md	glossary/a-c.md#cofdm	
+https://tarf.co.uk/Glossary/c/Collaboration%20Model/	Glossary/c/Collaboration Model.md	glossary/a-c.md#collaboration-model	
+https://tarf.co.uk/Glossary/c/Collaborative%20Construction/	Glossary/c/Collaborative Construction.md	glossary/a-c.md#collaborative-construction	
+https://tarf.co.uk/Glossary/c/Collective%20code%20ownership/	Glossary/c/Collective code ownership.md	glossary/a-c.md#collective-code-ownership	
+https://tarf.co.uk/Glossary/c/COLO/	Glossary/c/COLO.md	glossary/a-c.md#colo	
+https://tarf.co.uk/Glossary/c/Compatibility%20Test/	Glossary/c/Compatibility Test.md	glossary/a-c.md#compatibility-test	
+https://tarf.co.uk/Glossary/c/Compiled%20Language/	Glossary/c/Compiled Language.md	glossary/a-c.md#compiled-language	
+https://tarf.co.uk/Glossary/c/Compiler%20Back%20end/	Glossary/c/Compiler Back end.md	glossary/a-c.md#compiler-back-end	
+https://tarf.co.uk/Glossary/c/Compiler%20Front%20end/	Glossary/c/Compiler Front end.md	glossary/a-c.md#compiler-front-end	
+https://tarf.co.uk/Glossary/c/Compiler%20Middle%20end/	Glossary/c/Compiler Middle end.md	glossary/a-c.md#compiler-middle-end	
+https://tarf.co.uk/Glossary/c/Compiler%20preprocessor/	Glossary/c/Compiler preprocessor.md	glossary/a-c.md#compiler-preprocessor	
+https://tarf.co.uk/Glossary/c/Complier/	Glossary/c/Complier.md	glossary/a-c.md#compiler	renamed to "Compiler"
+https://tarf.co.uk/Glossary/c/Component%20Test/	Glossary/c/Component Test.md	glossary/a-c.md#component-test	
+https://tarf.co.uk/Glossary/c/Component/	Glossary/c/Component.md	glossary/a-c.md#component	
+https://tarf.co.uk/Glossary/c/Cone%20of%20Uncertainty/	Glossary/c/Cone of Uncertainty.md	glossary/a-c.md#cone-of-uncertainty	
+https://tarf.co.uk/Glossary/c/Configuration%20Item/	Glossary/c/Configuration Item.md	glossary/a-c.md#configuration-item	
+https://tarf.co.uk/Glossary/c/Configuration%20Management/	Glossary/c/Configuration Management.md	glossary/a-c.md#configuration-management	
+https://tarf.co.uk/Glossary/c/Configuration%20Test/	Glossary/c/Configuration Test.md	glossary/a-c.md#configuration-test	
+https://tarf.co.uk/Glossary/c/Construction%20Environment/	Glossary/c/Construction Environment.md	glossary/a-c.md#construction-environment	
+https://tarf.co.uk/Glossary/c/Construction%20Lead/	Glossary/c/Construction Lead.md	glossary/a-c.md#construction-lead	
+https://tarf.co.uk/Glossary/c/Construction%20Standard/	Glossary/c/Construction Standard.md	glossary/a-c.md#construction-standard	
+https://tarf.co.uk/Glossary/c/Construction%20Test%20Environment/	Glossary/c/Construction Test Environment.md	glossary/a-c.md#construction-test-environment	
+https://tarf.co.uk/Glossary/c/Construction%20Testing/	Glossary/c/Construction Testing.md	glossary/a-c.md#construction-testing	
+https://tarf.co.uk/Glossary/c/Construction/	Glossary/c/Construction.md	glossary/a-c.md#construction	
+https://tarf.co.uk/Glossary/c/Construx%20Knowledge%20Area/	Glossary/c/Construx Knowledge Area.md	glossary/s-z.md#software-engineering-body-of-knowledge	renamed to "Software Engineering Body of Knowledge"
+https://tarf.co.uk/Glossary/c/Continuous%20Deployment/	Glossary/c/Continuous Deployment.md	glossary/a-c.md#continuous-deployment	
+https://tarf.co.uk/Glossary/c/continuous%20integration/	Glossary/c/continuous integration.md	glossary/a-c.md#continuous-integration	
+https://tarf.co.uk/Glossary/c/Control%20Plane/	Glossary/c/Control Plane.md	glossary/a-c.md#control-plane	
+https://tarf.co.uk/Glossary/c/Copyleft/	Glossary/c/Copyleft.md	glossary/a-c.md#copyleft	
+https://tarf.co.uk/Glossary/c/Corrective%20Activity%20Management/	Glossary/c/Corrective Activity Management.md	glossary/a-c.md	dropped
+https://tarf.co.uk/Glossary/c/CoS/	Glossary/c/CoS.md	glossary/a-c.md#cos	
+https://tarf.co.uk/Glossary/c/COTS/	Glossary/c/COTS.md	glossary/a-c.md#cots	
+https://tarf.co.uk/Glossary/c/CPE/	Glossary/c/CPE.md	glossary/a-c.md#cpe	
+https://tarf.co.uk/Glossary/c/CPM/	Glossary/c/CPM.md	glossary/a-c.md#cpm	
+https://tarf.co.uk/Glossary/c/CPS/	Glossary/c/CPS.md	glossary/a-c.md#cps	
+https://tarf.co.uk/Glossary/c/CRC%20Cards/	Glossary/c/CRC Cards.md	glossary/a-c.md#crc-cards	
+https://tarf.co.uk/Glossary/c/CRC/	Glossary/c/CRC.md	glossary/a-c.md#crc	
+https://tarf.co.uk/Glossary/c/CSCF/	Glossary/c/CSCF.md	glossary/a-c.md#cscf	
+https://tarf.co.uk/Glossary/c/csh/	Glossary/c/csh.md	glossary/a-c.md#csh	
+https://tarf.co.uk/Glossary/c/Csharp/	Glossary/c/Csharp.md	glossary/a-c.md#c_2	renamed to "C#"
+https://tarf.co.uk/Glossary/c/CSI/	Glossary/c/CSI.md	glossary/a-c.md#csi	
+https://tarf.co.uk/Glossary/c/CSMA/	Glossary/c/CSMA.md	glossary/a-c.md#csma	
+https://tarf.co.uk/Glossary/c/CSS/	Glossary/c/CSS.md	glossary/a-c.md#css	
+https://tarf.co.uk/Glossary/c/CUE%20/	Glossary/c/CUE .md	glossary/a-c.md#cue	
+https://tarf.co.uk/Glossary/c/Customer%20Development/	Glossary/c/Customer Development.md	glossary/a-c.md#customer-development	
+https://tarf.co.uk/Glossary/c/CVSD/	Glossary/c/CVSD.md	glossary/a-c.md#cvsd	
+https://tarf.co.uk/Glossary/d/d/	Glossary/d/d.md	glossary/d-f.md	letter index
+https://tarf.co.uk/Glossary/d/DAD/	Glossary/d/DAD.md	glossary/d-f.md#dad	
+https://tarf.co.uk/Glossary/d/Daily%20Meeting/	Glossary/d/Daily Meeting.md	glossary/d-f.md#daily-meeting	
+https://tarf.co.uk/Glossary/d/Daily%20Scrum/	Glossary/d/Daily Scrum.md	glossary/d-f.md#daily-scrum	
+https://tarf.co.uk/Glossary/d/Dark%20Fibre/	Glossary/d/Dark Fibre.md	glossary/d-f.md#dark-fibre	
+https://tarf.co.uk/Glossary/d/DASS1/	Glossary/d/DASS1.md	glossary/d-f.md#dass1	
+https://tarf.co.uk/Glossary/d/DASS2/	Glossary/d/DASS2.md	glossary/d-f.md#dass2	
+https://tarf.co.uk/Glossary/d/data%20modeling/	Glossary/d/data modeling.md	glossary/d-f.md#data-modelling	renamed to "Data modelling"
+https://tarf.co.uk/Glossary/d/Data%20Plane/	Glossary/d/Data Plane.md	glossary/d-f.md#data-plane	
+https://tarf.co.uk/Glossary/d/Database%20Lead/	Glossary/d/Database Lead.md	glossary/d-f.md#database-lead	
+https://tarf.co.uk/Glossary/d/Date%20Warehouse/	Glossary/d/Date Warehouse.md	glossary/d-f.md#data-warehouse	renamed to "Data Warehouse"
+https://tarf.co.uk/Glossary/d/DCE/	Glossary/d/DCE.md	glossary/d-f.md#dce	
+https://tarf.co.uk/Glossary/d/DDK/	Glossary/d/DDK.md	glossary/d-f.md#ddk	
+https://tarf.co.uk/Glossary/d/DDOS/	Glossary/d/DDOS.md	glossary/d-f.md#ddos	
+https://tarf.co.uk/Glossary/d/Decomposition%20Estimation/	Glossary/d/Decomposition Estimation.md	glossary/d-f.md#decomposition-estimation	
+https://tarf.co.uk/Glossary/d/Defect%20Management/	Glossary/d/Defect Management.md	glossary/d-f.md#defect-management	
+https://tarf.co.uk/Glossary/d/Defect%20Report/	Glossary/d/Defect Report.md	glossary/d-f.md#defect-report	
+https://tarf.co.uk/Glossary/d/Defect/	Glossary/d/Defect.md	glossary/d-f.md#defect	
+https://tarf.co.uk/Glossary/d/Definition%20of%20Done/	Glossary/d/Definition of Done.md	glossary/d-f.md#definition-of-done	
+https://tarf.co.uk/Glossary/d/Definition%20of%20Ready/	Glossary/d/Definition of Ready.md	glossary/d-f.md#definition-of-ready	
+https://tarf.co.uk/Glossary/d/Deliverable/	Glossary/d/Deliverable.md	glossary/d-f.md#deliverable	
+https://tarf.co.uk/Glossary/d/Deplhi/	Glossary/d/Deplhi.md	glossary/d-f.md#delphi	renamed to "Delphi"
+https://tarf.co.uk/Glossary/d/Deployment%20Lead/	Glossary/d/Deployment Lead.md	glossary/d-f.md#deployment-lead	
+https://tarf.co.uk/Glossary/d/Deployment%20Plan/	Glossary/d/Deployment Plan.md	glossary/d-f.md#deployment-plan	
+https://tarf.co.uk/Glossary/d/Deployment/	Glossary/d/Deployment.md	glossary/d-f.md#deployment	
+https://tarf.co.uk/Glossary/d/DER/	Glossary/d/DER.md	glossary/d-f.md#der	
+https://tarf.co.uk/Glossary/d/DES/	Glossary/d/DES.md	glossary/d-f.md#des	
+https://tarf.co.uk/Glossary/d/Design%20Lead/	Glossary/d/Design Lead.md	glossary/d-f.md#design-lead	
+https://tarf.co.uk/Glossary/d/Design%20Pattern/	Glossary/d/Design Pattern.md	glossary/d-f.md#design-pattern	
+https://tarf.co.uk/Glossary/d/Design%20to%20Tools/	Glossary/d/Design to Tools.md	glossary/d-f.md#design-to-tools	
+https://tarf.co.uk/Glossary/d/Design/	Glossary/d/Design.md	glossary/d-f.md#design	
+https://tarf.co.uk/Glossary/d/Desk%20Check/	Glossary/d/Desk Check.md	glossary/d-f.md#desk-check	
+https://tarf.co.uk/Glossary/d/Detailed%20Design/	Glossary/d/Detailed Design.md	glossary/d-f.md#detailed-design	
+https://tarf.co.uk/Glossary/d/Detailed%20Schedule/	Glossary/d/Detailed Schedule.md	glossary/d-f.md#detailed-schedule	
+https://tarf.co.uk/Glossary/d/Developer%20Integration%20Test/	Glossary/d/Developer Integration Test.md	glossary/d-f.md#developer-integration-test	
+https://tarf.co.uk/Glossary/d/Developer/	Glossary/d/Developer.md	glossary/d-f.md#developer	
+https://tarf.co.uk/Glossary/d/development%20environment/	Glossary/d/development environment.md	glossary/d-f.md#development-environment	
+https://tarf.co.uk/Glossary/d/development%20process/	Glossary/d/development process.md	glossary/d-f.md#development-process	
+https://tarf.co.uk/Glossary/d/DevOps/	Glossary/d/DevOps.md	glossary/d-f.md#devops	
+https://tarf.co.uk/Glossary/d/DHCP/	Glossary/d/DHCP.md	glossary/d-f.md#dhcp	
+https://tarf.co.uk/Glossary/d/Diagram/	Glossary/d/Diagram.md	glossary/d-f.md#diagram	
+https://tarf.co.uk/Glossary/d/DLE/	Glossary/d/DLE.md	glossary/d-f.md#dle	
+https://tarf.co.uk/Glossary/d/DLP/	Glossary/d/DLP.md	glossary/d-f.md#dlp	
+https://tarf.co.uk/Glossary/d/DMZ/	Glossary/d/DMZ.md	glossary/d-f.md#dmz	
+https://tarf.co.uk/Glossary/d/DN/	Glossary/d/DN.md	glossary/d-f.md#dn	
+https://tarf.co.uk/Glossary/d/DNB/	Glossary/d/DNB.md	glossary/d-f.md#dnb	
+https://tarf.co.uk/Glossary/d/DNS%20-%20A/	Glossary/d/DNS - A.md	glossary/d-f.md#dns-a	
+https://tarf.co.uk/Glossary/d/DNS%20-%20AAAA/	Glossary/d/DNS - AAAA.md	glossary/d-f.md#dns-aaaa	
+https://tarf.co.uk/Glossary/d/DNS%20-%20CNAME/	Glossary/d/DNS - CNAME.md	glossary/d-f.md#dns-cname	
+https://tarf.co.uk/Glossary/d/DNS%20-%20DNAME/	Glossary/d/DNS - DNAME.md	glossary/d-f.md#dns-dname	
+https://tarf.co.uk/Glossary/d/DNS%20-%20SRV/	Glossary/d/DNS - SRV.md	glossary/d-f.md#dns-srv	
+https://tarf.co.uk/Glossary/d/DNS%20-%20TXT/	Glossary/d/DNS - TXT.md	glossary/d-f.md#dns-txt	
+https://tarf.co.uk/Glossary/d/DNS%20Spoofing/	Glossary/d/DNS Spoofing.md	glossary/d-f.md#dns-spoofing	
+https://tarf.co.uk/Glossary/d/DNS/	Glossary/d/DNS.md	glossary/d-f.md#dns	
+https://tarf.co.uk/Glossary/d/Docker/	Glossary/d/Docker.md	glossary/d-f.md#docker	
+https://tarf.co.uk/Glossary/d/Document%20Collaboration/	Glossary/d/Document Collaboration.md	glossary/d-f.md#document-collaboration	
+https://tarf.co.uk/Glossary/d/Domain%20Name/	Glossary/d/Domain Name.md	glossary/d-f.md#domain-name	
+https://tarf.co.uk/Glossary/d/Dot1Q%20trunking/	Glossary/d/Dot1Q trunking.md	glossary/d-f.md#dot1q-trunking	
+https://tarf.co.uk/Glossary/d/Dot1Q/	Glossary/d/Dot1Q.md	glossary/d-f.md#dot1q	
+https://tarf.co.uk/Glossary/d/dotNET/	Glossary/d/dotNET.md	glossary/s-z.md#net	renamed to ".NET"
+https://tarf.co.uk/Glossary/d/Downstream/	Glossary/d/Downstream.md	glossary/d-f.md#downstream	
+https://tarf.co.uk/Glossary/d/DP/	Glossary/d/DP.md	glossary/d-f.md#dp	
+https://tarf.co.uk/Glossary/d/DPI/	Glossary/d/DPI.md	glossary/d-f.md#dpi	
+https://tarf.co.uk/Glossary/d/DPNSS/	Glossary/d/DPNSS.md	glossary/d-f.md#dpnss	
+https://tarf.co.uk/Glossary/d/DQ/	Glossary/d/DQ.md	glossary/d-f.md#dq	
+https://tarf.co.uk/Glossary/d/Draft/	Glossary/d/Draft.md	glossary/d-f.md#draft	
+https://tarf.co.uk/Glossary/d/driver/	Glossary/d/driver.md	glossary/d-f.md#driver	
+https://tarf.co.uk/Glossary/d/DSCP/	Glossary/d/DSCP.md	glossary/d-f.md#dscp	
+https://tarf.co.uk/Glossary/d/DSDM/	Glossary/d/DSDM.md	glossary/d-f.md#dsdm	
+https://tarf.co.uk/Glossary/d/DSL/	Glossary/d/DSL.md	glossary/d-f.md#dsl	
+https://tarf.co.uk/Glossary/d/DSLAM/	Glossary/d/DSLAM.md	glossary/d-f.md#dslam	
+https://tarf.co.uk/Glossary/d/DTE/	Glossary/d/DTE.md	glossary/d-f.md#dte	
+https://tarf.co.uk/Glossary/d/DTMF/	Glossary/d/DTMF.md	glossary/d-f.md#dtmf	
+https://tarf.co.uk/Glossary/d/DTT/	Glossary/d/DTT.md	glossary/d-f.md#dtt	
+https://tarf.co.uk/Glossary/d/DTV/	Glossary/d/DTV.md	glossary/d-f.md#dtv	
+https://tarf.co.uk/Glossary/d/Duplex/	Glossary/d/Duplex.md	glossary/d-f.md#duplex	
+https://tarf.co.uk/Glossary/d/DVSR/	Glossary/d/DVSR.md	glossary/d-f.md#dvsr	
+https://tarf.co.uk/Glossary/e/E%20NodeB/	Glossary/e/E NodeB.md	glossary/d-f.md#e-nodeb	
+https://tarf.co.uk/Glossary/e/E-UTRAN/	Glossary/e/E-UTRAN.md	glossary/d-f.md#e-utran	
+https://tarf.co.uk/Glossary/e/E.164/	Glossary/e/E.164.md	glossary/d-f.md#e164	
+https://tarf.co.uk/Glossary/e/e/	Glossary/e/e.md	glossary/d-f.md	letter index
+https://tarf.co.uk/Glossary/e/EAD/	Glossary/e/EAD.md	glossary/d-f.md#ead	
+https://tarf.co.uk/Glossary/e/EAP/	Glossary/e/EAP.md	glossary/d-f.md#eap	
+https://tarf.co.uk/Glossary/e/Earned%20Value%20Management/	Glossary/e/Earned Value Management.md	glossary/d-f.md#earned-value-management	
+https://tarf.co.uk/Glossary/e/Earned%20Value/	Glossary/e/Earned Value.md	glossary/d-f.md#earned-value	
+https://tarf.co.uk/Glossary/e/Echo%20Cancellation%20-%20G.168/	Glossary/e/Echo Cancellation - G.168.md	glossary/d-f.md#echo-cancellation-g168	
+https://tarf.co.uk/Glossary/e/Echo%20cancellation/	Glossary/e/Echo cancellation.md	glossary/d-f.md#echo-cancellation	
+https://tarf.co.uk/Glossary/e/Echo/	Glossary/e/Echo.md	glossary/d-f.md#echo	
+https://tarf.co.uk/Glossary/e/EDB/	Glossary/e/EDB.md	glossary/d-f.md#edb	
+https://tarf.co.uk/Glossary/e/EDGE/	Glossary/e/EDGE.md	glossary/d-f.md#edge	
+https://tarf.co.uk/Glossary/e/Editor/	Glossary/e/Editor.md	glossary/d-f.md#editor	
+https://tarf.co.uk/Glossary/e/EEE%20802.1Qay/	Glossary/e/EEE 802.1Qay.md	glossary/g-k.md#ieee-8021qay	renamed to "IEEE 802.1Qay"
+https://tarf.co.uk/Glossary/e/EFM/	Glossary/e/EFM.md	glossary/d-f.md#efm	
+https://tarf.co.uk/Glossary/e/Egress/	Glossary/e/Egress.md	glossary/d-f.md#egress	
+https://tarf.co.uk/Glossary/e/EIA/	Glossary/e/EIA.md	glossary/d-f.md#eia	
+https://tarf.co.uk/Glossary/e/EIGRP/	Glossary/e/EIGRP.md	glossary/d-f.md#eigrp	
+https://tarf.co.uk/Glossary/e/embedded%20systems%20programming/	Glossary/e/embedded systems programming.md	glossary/d-f.md#embedded-systems-programming	
+https://tarf.co.uk/Glossary/e/Engineering%20Discussion/	Glossary/e/Engineering Discussion.md	glossary/d-f.md#engineering-discussion	
+https://tarf.co.uk/Glossary/e/Engineering%20Management/	Glossary/e/Engineering Management.md	glossary/d-f.md#engineering-management	
+https://tarf.co.uk/Glossary/e/Engineering%20Process/	Glossary/e/Engineering Process.md	glossary/d-f.md#engineering-process	
+https://tarf.co.uk/Glossary/e/EoFTTC/	Glossary/e/EoFTTC.md	glossary/d-f.md#eofttc	
+https://tarf.co.uk/Glossary/e/EoS/	Glossary/e/EoS.md	glossary/d-f.md#eos	
+https://tarf.co.uk/Glossary/e/ePDG/	Glossary/e/ePDG.md	glossary/d-f.md#epdg	
+https://tarf.co.uk/Glossary/e/Epic/	Glossary/e/Epic.md	glossary/d-f.md#epic	
+https://tarf.co.uk/Glossary/e/EPWS/	Glossary/e/EPWS.md	glossary/d-f.md#epws	
+https://tarf.co.uk/Glossary/e/ESB/	Glossary/e/ESB.md	glossary/d-f.md#esb	
+https://tarf.co.uk/Glossary/e/Estimate/	Glossary/e/Estimate.md	glossary/d-f.md#estimate	
+https://tarf.co.uk/Glossary/e/Estimation/	Glossary/e/Estimation.md	glossary/d-f.md#estimation	
+https://tarf.co.uk/Glossary/e/Ethernet%20over%20twisted%20pair/	Glossary/e/Ethernet over twisted pair.md	glossary/d-f.md#ethernet-over-twisted-pair	
+https://tarf.co.uk/Glossary/e/Ethical%20Hacking/	Glossary/e/Ethical Hacking.md	glossary/d-f.md#ethical-hacking	
+https://tarf.co.uk/Glossary/e/ETL/	Glossary/e/ETL.md	glossary/d-f.md#etl	
+https://tarf.co.uk/Glossary/e/ETSI/	Glossary/e/ETSI.md	glossary/d-f.md#etsi	
+https://tarf.co.uk/Glossary/e/Evaluation/	Glossary/e/Evaluation.md	glossary/d-f.md	dropped
+https://tarf.co.uk/Glossary/e/EVC/	Glossary/e/EVC.md	glossary/d-f.md#evc	
+https://tarf.co.uk/Glossary/e/Evolutionary%20Delivery%20Lifecycle/	Glossary/e/Evolutionary Delivery Lifecycle.md	glossary/d-f.md#evolutionary-delivery-lifecycle	
+https://tarf.co.uk/Glossary/e/Evolutionary%20Prototyping%20Lifecycle/	Glossary/e/Evolutionary Prototyping Lifecycle.md	glossary/d-f.md#evolutionary-prototyping-lifecycle	
+https://tarf.co.uk/Glossary/e/EVPL/	Glossary/e/EVPL.md	glossary/d-f.md#evpl	
+https://tarf.co.uk/Glossary/e/Expert%20Judgment/	Glossary/e/Expert Judgment.md	glossary/d-f.md#expert-judgement	renamed to "Expert Judgement"
+https://tarf.co.uk/Glossary/e/Explicit%20Change%20Control/	Glossary/e/Explicit Change Control.md	glossary/d-f.md#explicit-change-control	
+https://tarf.co.uk/Glossary/e/Explicit%20Risk%20Management/	Glossary/e/Explicit Risk Management.md	glossary/d-f.md#explicit-risk-management	
+https://tarf.co.uk/Glossary/e/Exploratory%20Testing/	Glossary/e/Exploratory Testing.md	glossary/d-f.md#exploratory-testing	
+https://tarf.co.uk/Glossary/e/Extrinsic%20Risk%20Management/	Glossary/e/Extrinsic Risk Management.md	glossary/d-f.md#extrinsic-risk-management	
+https://tarf.co.uk/Glossary/f/f/	Glossary/f/f.md	glossary/d-f.md	letter index
+https://tarf.co.uk/Glossary/f/Facilitation/	Glossary/f/Facilitation.md	glossary/d-f.md#facilitation	
+https://tarf.co.uk/Glossary/f/FCS/	Glossary/f/FCS.md	glossary/d-f.md#fcs	
+https://tarf.co.uk/Glossary/f/FDDI/	Glossary/f/FDDI.md	glossary/d-f.md#fddi	
+https://tarf.co.uk/Glossary/f/feature%20creep/	Glossary/f/feature creep.md	glossary/d-f.md#feature-creep	
+https://tarf.co.uk/Glossary/f/Feature%20Test/	Glossary/f/Feature Test.md	glossary/d-f.md#feature-test	
+https://tarf.co.uk/Glossary/f/Feature/	Glossary/f/Feature.md	glossary/d-f.md#feature	
+https://tarf.co.uk/Glossary/f/FemtoCell/	Glossary/f/FemtoCell.md	glossary/d-f.md#femtocell	
+https://tarf.co.uk/Glossary/f/FIPS%20140-2/	Glossary/f/FIPS 140-2.md	glossary/d-f.md#fips-140-2	
+https://tarf.co.uk/Glossary/f/FIPS/	Glossary/f/FIPS.md	glossary/d-f.md#fips	
+https://tarf.co.uk/Glossary/f/Firewall/	Glossary/f/Firewall.md	glossary/d-f.md#firewall	
+https://tarf.co.uk/Glossary/f/FNA/	Glossary/f/FNA.md	glossary/d-f.md#fna	
+https://tarf.co.uk/Glossary/f/Formal%20Testing/	Glossary/f/Formal Testing.md	glossary/d-f.md#formal-testing	
+https://tarf.co.uk/Glossary/f/Fortran/	Glossary/f/Fortran.md	glossary/d-f.md#fortran	
+https://tarf.co.uk/Glossary/f/Forwarding%20plane/	Glossary/f/Forwarding plane.md	glossary/d-f.md#forwarding-plane	
+https://tarf.co.uk/Glossary/f/FQDN/	Glossary/f/FQDN.md	glossary/d-f.md#fqdn	
+https://tarf.co.uk/Glossary/f/Frame%20Relay/	Glossary/f/Frame Relay.md	glossary/d-f.md#frame-relay	
+https://tarf.co.uk/Glossary/f/Frequent%20Releases/	Glossary/f/Frequent Releases.md	glossary/d-f.md#frequent-releases	
+https://tarf.co.uk/Glossary/f/Frequently%20Asked%20Question/	Glossary/f/Frequently Asked Question.md	glossary/d-f.md#frequently-asked-question	
+https://tarf.co.uk/Glossary/f/FSK/	Glossary/f/FSK.md	glossary/d-f.md#fsk	
+https://tarf.co.uk/Glossary/f/FTP/	Glossary/f/FTP.md	glossary/d-f.md#ftp	
+https://tarf.co.uk/Glossary/f/FTPS/	Glossary/f/FTPS.md	glossary/d-f.md#ftps	
+https://tarf.co.uk/Glossary/f/Full%20duplex/	Glossary/f/Full duplex.md	glossary/d-f.md#full-duplex	
+https://tarf.co.uk/Glossary/f/Function%20Point/	Glossary/f/Function Point.md	glossary/d-f.md#function-point	
+https://tarf.co.uk/Glossary/f/Functional%20Requirement/	Glossary/f/Functional Requirement.md	glossary/d-f.md#functional-requirement	
+https://tarf.co.uk/Glossary/f/Functional%20Testing/	Glossary/f/Functional Testing.md	glossary/d-f.md#functional-testing	
+https://tarf.co.uk/Glossary/f/Fuzzy%20Front%20End/	Glossary/f/Fuzzy Front End.md	glossary/d-f.md#fuzzy-front-end	
+https://tarf.co.uk/Glossary/f/Fuzzy%20Logic/	Glossary/f/Fuzzy Logic.md	glossary/d-f.md#fuzzy-logic	
+https://tarf.co.uk/Glossary/f/FXO/	Glossary/f/FXO.md	glossary/d-f.md#fxo	
+https://tarf.co.uk/Glossary/f/FXS/	Glossary/f/FXS.md	glossary/d-f.md#fxs	
+https://tarf.co.uk/Glossary/g/G.711.1/	Glossary/g/G.711.1.md	glossary/g-k.md#g7111	
+https://tarf.co.uk/Glossary/g/G.711/	Glossary/g/G.711.md	glossary/g-k.md#g711	
+https://tarf.co.uk/Glossary/g/G.719/	Glossary/g/G.719.md	glossary/g-k.md#g719	
+https://tarf.co.uk/Glossary/g/G.722/	Glossary/g/G.722.md	glossary/g-k.md#g722	
+https://tarf.co.uk/Glossary/g/G.723.1/	Glossary/g/G.723.1.md	glossary/g-k.md#g7231	
+https://tarf.co.uk/Glossary/g/G.726/	Glossary/g/G.726.md	glossary/g-k.md#g726	
+https://tarf.co.uk/Glossary/g/G.729/	Glossary/g/G.729.md	glossary/a-c.md#audio-codecs	renamed to "Audio Codecs"
+https://tarf.co.uk/Glossary/g/G.Fast/	Glossary/g/G.Fast.md	glossary/g-k.md#gfast	
+https://tarf.co.uk/Glossary/g/g/	Glossary/g/g.md	glossary/g-k.md	letter index
+https://tarf.co.uk/Glossary/g/Gantt%20chart/	Glossary/g/Gantt chart.md	glossary/g-k.md#gantt-chart	
+https://tarf.co.uk/Glossary/g/gap%20analysis/	Glossary/g/gap analysis.md	glossary/g-k.md#gap-analysis	
+https://tarf.co.uk/Glossary/g/Gate%20Checklist/	Glossary/g/Gate Checklist.md	glossary/g-k.md#gate-checklist	
+https://tarf.co.uk/Glossary/g/Gate/	Glossary/g/Gate.md	glossary/g-k.md#gate	
+https://tarf.co.uk/Glossary/g/GBE%20-%20GE/	Glossary/g/GBE - GE.md	glossary/g-k.md#gbe-ge	renamed to "GBE / GE"
+https://tarf.co.uk/Glossary/g/GCHQ/	Glossary/g/GCHQ.md	glossary/g-k.md#gchq	
+https://tarf.co.uk/Glossary/g/Geocast/	Glossary/g/Geocast.md	glossary/g-k.md#geocast	
+https://tarf.co.uk/Glossary/g/GERAN/	Glossary/g/GERAN.md	glossary/g-k.md#geran	
+https://tarf.co.uk/Glossary/g/GGSN/	Glossary/g/GGSN.md	glossary/g-k.md#ggsn	
+https://tarf.co.uk/Glossary/g/Gherkin/	Glossary/g/Gherkin.md	glossary/g-k.md#gherkin	
+https://tarf.co.uk/Glossary/g/Gigabit%20Ethernet/	Glossary/g/Gigabit Ethernet.md	glossary/g-k.md#gigabit-ethernet	
+https://tarf.co.uk/Glossary/g/Git/	Glossary/g/Git.md	glossary/g-k.md#git	
+https://tarf.co.uk/Glossary/g/Given%20When%20Then/	Glossary/g/Given When Then.md	glossary/g-k.md#given-when-then	
+https://tarf.co.uk/Glossary/g/GMSC/	Glossary/g/GMSC.md	glossary/g-k.md#gmsc	
+https://tarf.co.uk/Glossary/g/GNU/	Glossary/g/GNU.md	glossary/g-k.md#gnu	
+https://tarf.co.uk/Glossary/g/Go/	Glossary/g/Go.md	glossary/g-k.md#go	
+https://tarf.co.uk/Glossary/g/Goals/	Glossary/g/Goals.md	glossary/g-k.md#goals	
+https://tarf.co.uk/Glossary/g/GoF/	Glossary/g/GoF.md	glossary/g-k.md#gof	
+https://tarf.co.uk/Glossary/g/Google%20Cloud%20Platform/	Glossary/g/Google Cloud Platform.md	glossary/g-k.md#google-cloud-platform	
+https://tarf.co.uk/Glossary/g/GPL/	Glossary/g/GPL.md	glossary/g-k.md#gpl	
+https://tarf.co.uk/Glossary/g/GPRS/	Glossary/g/GPRS.md	glossary/g-k.md#gprs	
+https://tarf.co.uk/Glossary/g/GSM%20AMR/	Glossary/g/GSM AMR.md	glossary/g-k.md#gsm-amr	
+https://tarf.co.uk/Glossary/g/GSM-FR/	Glossary/g/GSM-FR.md	glossary/g-k.md#gsm-fr	
+https://tarf.co.uk/Glossary/g/GSM-R/	Glossary/g/GSM-R.md	glossary/g-k.md#gsm-r	
+https://tarf.co.uk/Glossary/g/GSM/	Glossary/g/GSM.md	glossary/g-k.md#gsm	
+https://tarf.co.uk/Glossary/g/GSN/	Glossary/g/GSN.md	glossary/g-k.md#gsn	
+https://tarf.co.uk/Glossary/g/The%20first%20example%20has%20two%20steps/	Glossary/g/The first example has two steps.md	glossary/g-k.md#gherkin	renamed to "Gherkin"
+https://tarf.co.uk/Glossary/g/The%20second%20example%20has%20three%20steps/	Glossary/g/The second example has three steps.md	glossary/g-k.md#gherkin	renamed to "Gherkin"
+https://tarf.co.uk/Glossary/h/H.248/	Glossary/h/H.248.md	glossary/g-k.md#h248	
+https://tarf.co.uk/Glossary/h/H.323/	Glossary/h/H.323.md	glossary/g-k.md#h323	
+https://tarf.co.uk/Glossary/h/h/	Glossary/h/h.md	glossary/g-k.md	letter index
+https://tarf.co.uk/Glossary/h/Half%20Duplex/	Glossary/h/Half Duplex.md	glossary/g-k.md#half-duplex	
+https://tarf.co.uk/Glossary/h/Happy%20Path/	Glossary/h/Happy Path.md	glossary/g-k.md#happy-path	
+https://tarf.co.uk/Glossary/h/Hash%20Function/	Glossary/h/Hash Function.md	glossary/g-k.md#hash-function	
+https://tarf.co.uk/Glossary/h/HDF/	Glossary/h/HDF.md	glossary/g-k.md#hdf	
+https://tarf.co.uk/Glossary/h/HDLC/	Glossary/h/HDLC.md	glossary/g-k.md#hdlc	
+https://tarf.co.uk/Glossary/h/HDSL/	Glossary/h/HDSL.md	glossary/g-k.md#hdsl	
+https://tarf.co.uk/Glossary/h/Heartbeat%20Retrospective/	Glossary/h/Heartbeat Retrospective.md	glossary/g-k.md#heartbeat-retrospective	
+https://tarf.co.uk/Glossary/h/HiFi%20Prototype/	Glossary/h/HiFi Prototype.md	glossary/g-k.md#hifi-prototype	
+https://tarf.co.uk/Glossary/h/High%20Fidelity%20Prototype/	Glossary/h/High Fidelity Prototype.md	glossary/g-k.md#high-fidelity-prototype	
+https://tarf.co.uk/Glossary/h/High%20Level%20Design/	Glossary/h/High Level Design.md	glossary/g-k.md#high-level-design	
+https://tarf.co.uk/Glossary/h/HLR/	Glossary/h/HLR.md	glossary/g-k.md#hlr	
+https://tarf.co.uk/Glossary/h/Hotfix/	Glossary/h/Hotfix.md	glossary/g-k.md#hotfix	
+https://tarf.co.uk/Glossary/h/How%20Requirement/	Glossary/h/How Requirement.md	glossary/g-k.md#how-requirement	
+https://tarf.co.uk/Glossary/h/How%20Well%20Requirement/	Glossary/h/How Well Requirement.md	glossary/g-k.md#how-well-requirement	
+https://tarf.co.uk/Glossary/h/HSRP/	Glossary/h/HSRP.md	glossary/g-k.md#hsrp	
+https://tarf.co.uk/Glossary/h/HSS/	Glossary/h/HSS.md	glossary/g-k.md#hss	
+https://tarf.co.uk/Glossary/h/HTTP/	Glossary/h/HTTP.md	glossary/g-k.md#http	
+https://tarf.co.uk/Glossary/h/HTTPS/	Glossary/h/HTTPS.md	glossary/g-k.md#https	
+https://tarf.co.uk/Glossary/h/Hub/	Glossary/h/Hub.md	glossary/g-k.md#hub	
+https://tarf.co.uk/Glossary/h/human%20factors/	Glossary/h/human factors.md	glossary/g-k.md#human-factors	
+https://tarf.co.uk/Glossary/h/Hungarian%20notation/	Glossary/h/Hungarian notation.md	glossary/g-k.md#hungarian-notation	
+https://tarf.co.uk/Glossary/i/BRI/	Glossary/i/BRI.md	glossary/a-c.md#bri	
+https://tarf.co.uk/Glossary/i/i/	Glossary/i/i.md	glossary/g-k.md	letter index
+https://tarf.co.uk/Glossary/i/IA/	Glossary/i/IA.md	glossary/g-k.md#ia	
+https://tarf.co.uk/Glossary/i/IaaS/	Glossary/i/IaaS.md	glossary/g-k.md#iaas	
+https://tarf.co.uk/Glossary/i/ICE/	Glossary/i/ICE.md	glossary/g-k.md#ice	
+https://tarf.co.uk/Glossary/i/ICMP/	Glossary/i/ICMP.md	glossary/g-k.md#icmp	
+https://tarf.co.uk/Glossary/i/ICMPv6/	Glossary/i/ICMPv6.md	glossary/g-k.md#icmpv6	
+https://tarf.co.uk/Glossary/i/IDE/	Glossary/i/IDE.md	glossary/g-k.md#ide	
+https://tarf.co.uk/Glossary/i/IDQ/	Glossary/i/IDQ.md	glossary/g-k.md#idq	
+https://tarf.co.uk/Glossary/i/IEC/	Glossary/i/IEC.md	glossary/g-k.md#iec	
+https://tarf.co.uk/Glossary/i/IEEE%20802.1ah/	Glossary/i/IEEE 802.1ah.md	glossary/g-k.md#ieee-8021ah	
+https://tarf.co.uk/Glossary/i/IEEE/	Glossary/i/IEEE.md	glossary/g-k.md#ieee	
+https://tarf.co.uk/Glossary/i/IETF/	Glossary/i/IETF.md	glossary/g-k.md#ietf	
+https://tarf.co.uk/Glossary/i/IGMP/	Glossary/i/IGMP.md	glossary/g-k.md#igmp	
+https://tarf.co.uk/Glossary/i/IGP/	Glossary/i/IGP.md	glossary/g-k.md#igp	
+https://tarf.co.uk/Glossary/i/IGRP/	Glossary/i/IGRP.md	glossary/g-k.md#igrp	
+https://tarf.co.uk/Glossary/i/IIS/	Glossary/i/IIS.md	glossary/g-k.md#iis	
+https://tarf.co.uk/Glossary/i/IKE/	Glossary/i/IKE.md	glossary/g-k.md#ike	
+https://tarf.co.uk/Glossary/i/iLBC/	Glossary/i/iLBC.md	glossary/g-k.md#ilbc	
+https://tarf.co.uk/Glossary/i/iManager/	Glossary/i/iManager.md	glossary/g-k.md#imanager	
+https://tarf.co.uk/Glossary/i/IMAP/	Glossary/i/IMAP.md	glossary/g-k.md#imap	
+https://tarf.co.uk/Glossary/i/Implementation%20Lead/	Glossary/i/Implementation Lead.md	glossary/g-k.md#implementation-lead	
+https://tarf.co.uk/Glossary/i/Implementation/	Glossary/i/Implementation.md	glossary/g-k.md#implementation	
+https://tarf.co.uk/Glossary/i/Implicit%20Change%20Control/	Glossary/i/Implicit Change Control.md	glossary/g-k.md#implicit-change-control	
+https://tarf.co.uk/Glossary/i/Implicit%20Risk%20Management/	Glossary/i/Implicit Risk Management.md	glossary/g-k.md#implicit-risk-management	
+https://tarf.co.uk/Glossary/i/IMS/	Glossary/i/IMS.md	glossary/g-k.md#ims	
+https://tarf.co.uk/Glossary/i/IMSI/	Glossary/i/IMSI.md	glossary/g-k.md#imsi	
+https://tarf.co.uk/Glossary/i/IN/	Glossary/i/IN.md	glossary/g-k.md#in	
+https://tarf.co.uk/Glossary/i/INAP/	Glossary/i/INAP.md	glossary/g-k.md#inap	
+https://tarf.co.uk/Glossary/i/Inch-Pebble/	Glossary/i/Inch-Pebble.md	glossary/g-k.md#inch-pebble	
+https://tarf.co.uk/Glossary/i/Incremental%20Development/	Glossary/i/Incremental Development.md	glossary/g-k.md#incremental-development	
+https://tarf.co.uk/Glossary/i/Informal%20Review/	Glossary/i/Informal Review.md	glossary/g-k.md#informal-review	
+https://tarf.co.uk/Glossary/i/Informal%20Testing/	Glossary/i/Informal Testing.md	glossary/g-k.md#informal-testing	
+https://tarf.co.uk/Glossary/i/information%20architecture/	Glossary/i/information architecture.md	glossary/g-k.md#information-architecture	
+https://tarf.co.uk/Glossary/i/information%20design/	Glossary/i/information design.md	glossary/g-k.md#information-design	
+https://tarf.co.uk/Glossary/i/Information%20Radiators/	Glossary/i/Information Radiators.md	glossary/g-k.md#information-radiators	
+https://tarf.co.uk/Glossary/i/Ingress/	Glossary/i/Ingress.md	glossary/g-k.md#ingress	
+https://tarf.co.uk/Glossary/i/Inspection/	Glossary/i/Inspection.md	glossary/g-k.md#inspection	
+https://tarf.co.uk/Glossary/i/Inspector/	Glossary/i/Inspector.md	glossary/g-k.md#inspector	
+https://tarf.co.uk/Glossary/i/Institute%20of%20Electrical%20and%20Electronics%20Engineers/	Glossary/i/Institute of Electrical and Electronics Engineers.md	glossary/g-k.md#institute-of-electrical-and-electronics-engineers	
+https://tarf.co.uk/Glossary/i/Integrated%20Development%20Environment/	Glossary/i/Integrated Development Environment.md	glossary/g-k.md#integrated-development-environment	
+https://tarf.co.uk/Glossary/i/Integration%20Test/	Glossary/i/Integration Test.md	glossary/g-k.md#integration-test	
+https://tarf.co.uk/Glossary/i/Integration/	Glossary/i/Integration.md	glossary/g-k.md#integration	
+https://tarf.co.uk/Glossary/i/International%20Organization%20for%20Standardization/	Glossary/i/International Organization for Standardization.md	glossary/g-k.md#iso	renamed to "ISO"
+https://tarf.co.uk/Glossary/i/Internet%20Protocol%20Suite/	Glossary/i/Internet Protocol Suite.md	glossary/g-k.md#internet-protocol-suite	
+https://tarf.co.uk/Glossary/i/Interpreted%20Language/	Glossary/i/Interpreted Language.md	glossary/g-k.md#interpreted-language	
+https://tarf.co.uk/Glossary/i/Intrinsic%20Risk%20Management/	Glossary/i/Intrinsic Risk Management.md	glossary/g-k.md#intrinsic-risk-management	
+https://tarf.co.uk/Glossary/i/INVEST/	Glossary/i/INVEST.md	glossary/g-k.md#invest	
+https://tarf.co.uk/Glossary/i/IOS%20cisco%20OS/	Glossary/i/IOS cisco OS.md	glossary/g-k.md#ios	renamed to "IOS"
+https://tarf.co.uk/Glossary/i/IPS/	Glossary/i/IPS.md	glossary/g-k.md#ips	
+https://tarf.co.uk/Glossary/i/IPSC/	Glossary/i/IPSC.md	glossary/g-k.md#ipsc	
+https://tarf.co.uk/Glossary/i/IPSec/	Glossary/i/IPSec.md	glossary/g-k.md#ipsec	
+https://tarf.co.uk/Glossary/i/IPTV/	Glossary/i/IPTV.md	glossary/g-k.md#iptv	
+https://tarf.co.uk/Glossary/i/IPv4/	Glossary/i/IPv4.md	glossary/g-k.md#ipv4	
+https://tarf.co.uk/Glossary/i/IPv6/	Glossary/i/IPv6.md	glossary/g-k.md#ipv6	
+https://tarf.co.uk/Glossary/i/ISDN/	Glossary/i/ISDN.md	glossary/g-k.md#isdn	
+https://tarf.co.uk/Glossary/i/ISDN2/	Glossary/i/ISDN2.md	glossary/g-k.md#isdn2	
+https://tarf.co.uk/Glossary/i/ISDN30/	Glossary/i/ISDN30.md	glossary/g-k.md#isdn30	
+https://tarf.co.uk/Glossary/i/ISO/	Glossary/i/ISO.md	glossary/g-k.md#iso	
+https://tarf.co.uk/Glossary/i/ISP/	Glossary/i/ISP.md	glossary/g-k.md#isp	
+https://tarf.co.uk/Glossary/i/Issue%20Management/	Glossary/i/Issue Management.md	glossary/g-k.md#issue-management	
+https://tarf.co.uk/Glossary/i/Issue%20tracker/	Glossary/i/Issue tracker.md	glossary/g-k.md#issue-tracker	
+https://tarf.co.uk/Glossary/i/Issue/	Glossary/i/Issue.md	glossary/g-k.md#issue	
+https://tarf.co.uk/Glossary/i/ISUP/	Glossary/i/ISUP.md	glossary/g-k.md#isup	
+https://tarf.co.uk/Glossary/i/Item/	Glossary/i/Item.md	glossary/g-k.md#item	
+https://tarf.co.uk/Glossary/i/Iteration/	Glossary/i/Iteration.md	glossary/g-k.md#iteration	
+https://tarf.co.uk/Glossary/i/Iterative%20Development/	Glossary/i/Iterative Development.md	glossary/g-k.md#iterative-development	
+https://tarf.co.uk/Glossary/i/ITIL/	Glossary/i/ITIL.md	glossary/g-k.md#itil	
+https://tarf.co.uk/Glossary/i/ITU-T/	Glossary/i/ITU-T.md	glossary/g-k.md#itu-t	
+https://tarf.co.uk/Glossary/i/ITU/	Glossary/i/ITU.md	glossary/g-k.md#itu	
+https://tarf.co.uk/Glossary/i/IUP/	Glossary/i/IUP.md	glossary/g-k.md#iup	
+https://tarf.co.uk/Glossary/i/IVR/	Glossary/i/IVR.md	glossary/g-k.md#ivr	
+https://tarf.co.uk/Glossary/i/PRI/	Glossary/i/PRI.md	glossary/o-r.md#pri	
+https://tarf.co.uk/Glossary/j/j/	Glossary/j/j.md	glossary/g-k.md	letter index
+https://tarf.co.uk/Glossary/j/Java/	Glossary/j/Java.md	glossary/g-k.md#java	
+https://tarf.co.uk/Glossary/j/Javascript/	Glossary/j/Javascript.md	glossary/g-k.md#javascript	
+https://tarf.co.uk/Glossary/j/Jitter%20buffer/	Glossary/j/Jitter buffer.md	glossary/g-k.md#jitter-buffer	
+https://tarf.co.uk/Glossary/j/Jitter/	Glossary/j/Jitter.md	glossary/g-k.md#jitter	
+https://tarf.co.uk/Glossary/j/Joint%20Application%20Development/	Glossary/j/Joint Application Development.md	glossary/g-k.md#joint-application-development	
+https://tarf.co.uk/Glossary/j/JSON-RPC/	Glossary/j/JSON-RPC.md	glossary/g-k.md#json-rpc	
+https://tarf.co.uk/Glossary/j/JSON/	Glossary/j/JSON.md	glossary/g-k.md#json	
+https://tarf.co.uk/Glossary/k/K%20%26%20R%20C/	Glossary/k/K & R C.md	glossary/g-k.md#k-r-c	
+https://tarf.co.uk/Glossary/k/K%20%26%20R%20indent%20style/	Glossary/k/K & R indent style.md	glossary/g-k.md#k-r-indent-style	
+https://tarf.co.uk/Glossary/k/K%20%26%20R/	Glossary/k/K & R.md	glossary/g-k.md#k-r	
+https://tarf.co.uk/Glossary/k/k/	Glossary/k/k.md	glossary/g-k.md	letter index
+https://tarf.co.uk/Glossary/k/Kanban%20Board/	Glossary/k/Kanban Board.md	glossary/g-k.md#kanban-board	
+https://tarf.co.uk/Glossary/k/Kanban/	Glossary/k/Kanban.md	glossary/g-k.md#kanban	
+https://tarf.co.uk/Glossary/k/KDL/	Glossary/k/KDL.md	glossary/g-k.md#kdl	
+https://tarf.co.uk/Glossary/k/Kerberos/	Glossary/k/Kerberos.md	glossary/g-k.md#kerberos	
+https://tarf.co.uk/Glossary/k/Kernel/	Glossary/k/Kernel.md	glossary/g-k.md#kernel	
+https://tarf.co.uk/Glossary/k/KISS%20Principle/	Glossary/k/KISS Principle.md	glossary/g-k.md#kiss-principle	
+https://tarf.co.uk/Glossary/k/Knowledge%20Management/	Glossary/k/Knowledge Management.md	glossary/g-k.md#knowledge-management	
+https://tarf.co.uk/Glossary/k/KPI/	Glossary/k/KPI.md	glossary/g-k.md#kpi	
+https://tarf.co.uk/Glossary/k/ksh/	Glossary/k/ksh.md	glossary/g-k.md#ksh	
+https://tarf.co.uk/Glossary/l/l/	Glossary/l/l.md	glossary/l-n.md	letter index
+https://tarf.co.uk/Glossary/l/L1/	Glossary/l/L1.md	glossary/l-n.md#l1	
+https://tarf.co.uk/Glossary/l/L2/	Glossary/l/L2.md	glossary/l-n.md#l2	
+https://tarf.co.uk/Glossary/l/L2F/	Glossary/l/L2F.md	glossary/l-n.md#l2f	
+https://tarf.co.uk/Glossary/l/L2S/	Glossary/l/L2S.md	glossary/l-n.md	dropped
+https://tarf.co.uk/Glossary/l/L2TP/	Glossary/l/L2TP.md	glossary/l-n.md#l2tp	
+https://tarf.co.uk/Glossary/l/L2VPN/	Glossary/l/L2VPN.md	glossary/l-n.md#l2vpn	
+https://tarf.co.uk/Glossary/l/L3VPN/	Glossary/l/L3VPN.md	glossary/l-n.md#l3vpn	
+https://tarf.co.uk/Glossary/l/LAC/	Glossary/l/LAC.md	glossary/l-n.md#lac	
+https://tarf.co.uk/Glossary/l/LACP/	Glossary/l/LACP.md	glossary/l-n.md#lacp	
+https://tarf.co.uk/Glossary/l/LAG/	Glossary/l/LAG.md	glossary/l-n.md#lag	
+https://tarf.co.uk/Glossary/l/LAN/	Glossary/l/LAN.md	glossary/l-n.md#lan	
+https://tarf.co.uk/Glossary/l/LANE/	Glossary/l/LANE.md	glossary/l-n.md#lane	
+https://tarf.co.uk/Glossary/l/LAS/	Glossary/l/LAS.md	glossary/l-n.md	dropped
+https://tarf.co.uk/Glossary/l/Latency/	Glossary/l/Latency.md	glossary/l-n.md#latency	
+https://tarf.co.uk/Glossary/l/Lawful%20intercept/	Glossary/l/Lawful intercept.md	glossary/l-n.md#lawful-intercept	
+https://tarf.co.uk/Glossary/l/LCR/	Glossary/l/LCR.md	glossary/l-n.md#lcr	
+https://tarf.co.uk/Glossary/l/LDAP/	Glossary/l/LDAP.md	glossary/l-n.md#ldap	
+https://tarf.co.uk/Glossary/l/Lead%20Time/	Glossary/l/Lead Time.md	glossary/l-n.md#lead-time	
+https://tarf.co.uk/Glossary/l/lean%20programming/	Glossary/l/lean programming.md	glossary/l-n.md#lean-programming	
+https://tarf.co.uk/Glossary/l/Lean/	Glossary/l/Lean.md	glossary/l-n.md#lean	
+https://tarf.co.uk/Glossary/l/Leased%20Line/	Glossary/l/Leased Line.md	glossary/l-n.md#leased-line	
+https://tarf.co.uk/Glossary/l/LeSS/	Glossary/l/LeSS.md	glossary/l-n.md#less	
+https://tarf.co.uk/Glossary/l/Lifecycle/	Glossary/l/Lifecycle.md	glossary/l-n.md#lifecycle	
+https://tarf.co.uk/Glossary/l/Lines%20of%20Code/	Glossary/l/Lines of Code.md	glossary/l-n.md#lines-of-code	
+https://tarf.co.uk/Glossary/l/Link/	Glossary/l/Link.md	glossary/l-n.md	dropped
+https://tarf.co.uk/Glossary/l/Linux/	Glossary/l/Linux.md	glossary/l-n.md#linux	
+https://tarf.co.uk/Glossary/l/lisp/	Glossary/l/lisp.md	glossary/l-n.md#lisp	
+https://tarf.co.uk/Glossary/l/Lite/	Glossary/l/Lite.md	glossary/l-n.md	dropped
+https://tarf.co.uk/Glossary/l/LL/	Glossary/l/LL.md	glossary/l-n.md#ll	
+https://tarf.co.uk/Glossary/l/LNS/	Glossary/l/LNS.md	glossary/l-n.md#lns	
+https://tarf.co.uk/Glossary/l/Local%20Build/	Glossary/l/Local Build.md	glossary/l-n.md#local-build	
+https://tarf.co.uk/Glossary/l/Local%20Development%20Environment/	Glossary/l/Local Development Environment.md	glossary/l-n.md#local-development-environment	
+https://tarf.co.uk/Glossary/l/Local%20Loop/	Glossary/l/Local Loop.md	glossary/l-n.md#local-loop	
+https://tarf.co.uk/Glossary/l/Local%20Test%20Environment/	Glossary/l/Local Test Environment.md	glossary/l-n.md#local-test-environment	
+https://tarf.co.uk/Glossary/l/LoFi%20Prototype/	Glossary/l/LoFi Prototype.md	glossary/l-n.md#lofi-prototype	
+https://tarf.co.uk/Glossary/l/Low%20Fidelity%20Prototype/	Glossary/l/Low Fidelity Prototype.md	glossary/l-n.md#low-fidelity-prototype	
+https://tarf.co.uk/Glossary/l/Low%20Level%20Design/	Glossary/l/Low Level Design.md	glossary/l-n.md#low-level-design	
+https://tarf.co.uk/Glossary/l/LPS/	Glossary/l/LPS.md	glossary/l-n.md	dropped
+https://tarf.co.uk/Glossary/l/LSP/	Glossary/l/LSP.md	glossary/l-n.md#lsp	
+https://tarf.co.uk/Glossary/l/LSR/	Glossary/l/LSR.md	glossary/l-n.md#lsr	
+https://tarf.co.uk/Glossary/l/LTE%20%284G%29/	Glossary/l/LTE (4G).md	glossary/l-n.md#lte-4g	
+https://tarf.co.uk/Glossary/l/LTE%20and%20Mobile%20Internet/	Glossary/l/LTE and Mobile Internet.md	glossary/l-n.md#lte-4g	renamed to "LTE (4G)"
+https://tarf.co.uk/Glossary/l/LTS/	Glossary/l/LTS.md	glossary/l-n.md#lts	
+https://tarf.co.uk/Glossary/l/Lua/	Glossary/l/Lua.md	glossary/l-n.md#lua	
+https://tarf.co.uk/Glossary/m/m/	Glossary/m/m.md	glossary/l-n.md	letter index
+https://tarf.co.uk/Glossary/m/M2M/	Glossary/m/M2M.md	glossary/l-n.md#m2m	
+https://tarf.co.uk/Glossary/m/MAC%20Address/	Glossary/m/MAC Address.md	glossary/l-n.md#mac-address	
+https://tarf.co.uk/Glossary/m/MAC%20Flooding/	Glossary/m/MAC Flooding.md	glossary/l-n.md#mac-flooding	
+https://tarf.co.uk/Glossary/m/MAC%20Spoofing/	Glossary/m/MAC Spoofing.md	glossary/l-n.md#mac-spoofing	
+https://tarf.co.uk/Glossary/m/MAC/	Glossary/m/MAC.md	glossary/l-n.md#mac	
+https://tarf.co.uk/Glossary/m/Machine%20code/	Glossary/m/Machine code.md	glossary/l-n.md#machine-code	
+https://tarf.co.uk/Glossary/m/Macro%20Estimation/	Glossary/m/Macro Estimation.md	glossary/l-n.md#macro-estimation	
+https://tarf.co.uk/Glossary/m/MAG/	Glossary/m/MAG.md	glossary/l-n.md	dropped
+https://tarf.co.uk/Glossary/m/Maintenance%20Plan/	Glossary/m/Maintenance Plan.md	glossary/l-n.md#maintenance-plan	
+https://tarf.co.uk/Glossary/m/Maintenance/	Glossary/m/Maintenance.md	glossary/l-n.md#maintenance	
+https://tarf.co.uk/Glossary/m/MAN/	Glossary/m/MAN.md	glossary/l-n.md#man	
+https://tarf.co.uk/Glossary/m/Management%20by%20Walking%20Around/	Glossary/m/Management by Walking Around.md	glossary/l-n.md#management-by-walking-around	
+https://tarf.co.uk/Glossary/m/Management%20Plane/	Glossary/m/Management Plane.md	glossary/l-n.md#management-plane	
+https://tarf.co.uk/Glossary/m/MANET/	Glossary/m/MANET.md	glossary/l-n.md#manet	
+https://tarf.co.uk/Glossary/m/Manual%20Testing/	Glossary/m/Manual Testing.md	glossary/l-n.md#manual-testing	
+https://tarf.co.uk/Glossary/m/MAP/	Glossary/m/MAP.md	glossary/l-n.md#map	
+https://tarf.co.uk/Glossary/m/MAS/	Glossary/m/MAS.md	glossary/l-n.md	dropped
+https://tarf.co.uk/Glossary/m/Material/	Glossary/m/Material.md	glossary/l-n.md	dropped
+https://tarf.co.uk/Glossary/m/MBMS/	Glossary/m/MBMS.md	glossary/l-n.md#mbms	
+https://tarf.co.uk/Glossary/m/MBORC/	Glossary/m/MBORC.md	glossary/l-n.md#mborc	
+https://tarf.co.uk/Glossary/m/MD5/	Glossary/m/MD5.md	glossary/l-n.md#md5	
+https://tarf.co.uk/Glossary/m/MDF/	Glossary/m/MDF.md	glossary/l-n.md#mdf	
+https://tarf.co.uk/Glossary/m/Mediation/	Glossary/m/Mediation.md	glossary/l-n.md#mediation	
+https://tarf.co.uk/Glossary/m/MELP/	Glossary/m/MELP.md	glossary/l-n.md#melp	
+https://tarf.co.uk/Glossary/m/Metric/	Glossary/m/Metric.md	glossary/l-n.md#metric	
+https://tarf.co.uk/Glossary/m/MGCF/	Glossary/m/MGCF.md	glossary/l-n.md#mgcf	
+https://tarf.co.uk/Glossary/m/MGCP/	Glossary/m/MGCP.md	glossary/l-n.md#mgcp	
+https://tarf.co.uk/Glossary/m/MGW/	Glossary/m/MGW.md	glossary/l-n.md#mgw	
+https://tarf.co.uk/Glossary/m/MIB/	Glossary/m/MIB.md	glossary/l-n.md#mib	
+https://tarf.co.uk/Glossary/m/Micro%20Estimation/	Glossary/m/Micro Estimation.md	glossary/l-n.md#micro-estimation	
+https://tarf.co.uk/Glossary/m/Microservice/	Glossary/m/Microservice.md	glossary/l-n.md#microservice	
+https://tarf.co.uk/Glossary/m/Microstone/	Glossary/m/Microstone.md	glossary/l-n.md#microstone	
+https://tarf.co.uk/Glossary/m/Mil-COTS/	Glossary/m/Mil-COTS.md	glossary/l-n.md#mil-cots	
+https://tarf.co.uk/Glossary/m/Milestone%20Release/	Glossary/m/Milestone Release.md	glossary/l-n.md#milestone-release	
+https://tarf.co.uk/Glossary/m/Milestone%20Retrospective/	Glossary/m/Milestone Retrospective.md	glossary/l-n.md#milestone-retrospective	
+https://tarf.co.uk/Glossary/m/Milestone%20Schedule/	Glossary/m/Milestone Schedule.md	glossary/l-n.md#milestone-schedule	
+https://tarf.co.uk/Glossary/m/Milestone/	Glossary/m/Milestone.md	glossary/l-n.md#milestone	
+https://tarf.co.uk/Glossary/m/MIMO/	Glossary/m/MIMO.md	glossary/l-n.md#mimo	
+https://tarf.co.uk/Glossary/m/Miniature%20Milestone/	Glossary/m/Miniature Milestone.md	glossary/l-n.md#miniature-milestone	
+https://tarf.co.uk/Glossary/m/MME/	Glossary/m/MME.md	glossary/l-n.md#mme	
+https://tarf.co.uk/Glossary/m/MMF/	Glossary/m/MMF.md	glossary/l-n.md#mmf	
+https://tarf.co.uk/Glossary/m/MNC/	Glossary/m/MNC.md	glossary/l-n.md#mnc	
+https://tarf.co.uk/Glossary/m/Mob%20Programming/	Glossary/m/Mob Programming.md	glossary/l-n.md#mob-programming	
+https://tarf.co.uk/Glossary/m/Mobile%20Cell/	Glossary/m/Mobile Cell.md	glossary/l-n.md#mobile-cell	
+https://tarf.co.uk/Glossary/m/Mobile%20Networks%202G-3G/	Glossary/m/Mobile Networks 2G-3G.md	glossary/s-z.md#umts	renamed to "UMTS"
+https://tarf.co.uk/Glossary/m/Mock%20Objects/	Glossary/m/Mock Objects.md	glossary/l-n.md#mock-objects	
+https://tarf.co.uk/Glossary/m/Model/	Glossary/m/Model.md	glossary/l-n.md#model	
+https://tarf.co.uk/Glossary/m/Modeling/	Glossary/m/Modeling.md	glossary/l-n.md#modelling	renamed to "Modelling"
+https://tarf.co.uk/Glossary/m/Moderator/	Glossary/m/Moderator.md	glossary/l-n.md#moderator	
+https://tarf.co.uk/Glossary/m/MOS/	Glossary/m/MOS.md	glossary/l-n.md#mos	
+https://tarf.co.uk/Glossary/m/MP3/	Glossary/m/MP3.md	glossary/l-n.md#mp3	
+https://tarf.co.uk/Glossary/m/MPEG/	Glossary/m/MPEG.md	glossary/l-n.md#mpeg	
+https://tarf.co.uk/Glossary/m/MPEG4/	Glossary/m/MPEG4.md	glossary/l-n.md#mpeg4	
+https://tarf.co.uk/Glossary/m/MPF/	Glossary/m/MPF.md	glossary/l-n.md#mpf	
+https://tarf.co.uk/Glossary/m/MPS/	Glossary/m/MPS.md	glossary/l-n.md	dropped
+https://tarf.co.uk/Glossary/m/MQTT/	Glossary/m/MQTT.md	glossary/l-n.md#mqtt	
+https://tarf.co.uk/Glossary/m/MRF/	Glossary/m/MRF.md	glossary/l-n.md#mrf	
+https://tarf.co.uk/Glossary/m/MRS/	Glossary/m/MRS.md	glossary/l-n.md#mrs	
+https://tarf.co.uk/Glossary/m/MRTIE/	Glossary/m/MRTIE.md	glossary/l-n.md#mrtie	
+https://tarf.co.uk/Glossary/m/MSAN/	Glossary/m/MSAN.md	glossary/l-n.md#msan	
+https://tarf.co.uk/Glossary/m/MSC/	Glossary/m/MSC.md	glossary/l-n.md#msc	
+https://tarf.co.uk/Glossary/m/MTP/	Glossary/m/MTP.md	glossary/l-n.md#mtp	
+https://tarf.co.uk/Glossary/m/MTR/	Glossary/m/MTR.md	glossary/l-n.md#mtr	
+https://tarf.co.uk/Glossary/m/MTU/	Glossary/m/MTU.md	glossary/l-n.md#mtu	
+https://tarf.co.uk/Glossary/m/Multicast/	Glossary/m/Multicast.md	glossary/l-n.md#multicast	
+https://tarf.co.uk/Glossary/m/Multiplex/	Glossary/m/Multiplex.md	glossary/l-n.md#multiplex	
+https://tarf.co.uk/Glossary/m/Mutex/	Glossary/m/Mutex.md	glossary/l-n.md#mutex	
+https://tarf.co.uk/Glossary/m/Mutual%20Exclusion/	Glossary/m/Mutual Exclusion.md	glossary/l-n.md#mutual-exclusion	
+https://tarf.co.uk/Glossary/m/MVNE/	Glossary/m/MVNE.md	glossary/l-n.md#mvne	
+https://tarf.co.uk/Glossary/m/MVNO/	Glossary/m/MVNO.md	glossary/l-n.md#mvno	
+https://tarf.co.uk/Glossary/m/MVP/	Glossary/m/MVP.md	glossary/l-n.md#mvp	
+https://tarf.co.uk/Glossary/n/n/	Glossary/n/n.md	glossary/l-n.md	letter index
+https://tarf.co.uk/Glossary/n/NaaS/	Glossary/n/NaaS.md	glossary/l-n.md#naas	
+https://tarf.co.uk/Glossary/n/NAPT/	Glossary/n/NAPT.md	glossary/l-n.md#napt	
+https://tarf.co.uk/Glossary/n/NAS/	Glossary/n/NAS.md	glossary/l-n.md#nas	
+https://tarf.co.uk/Glossary/n/NAT/	Glossary/n/NAT.md	glossary/l-n.md#nat	
+https://tarf.co.uk/Glossary/n/Native%20Risk%20Management/	Glossary/n/Native Risk Management.md	glossary/l-n.md#native-risk-management	
+https://tarf.co.uk/Glossary/n/NBAP/	Glossary/n/NBAP.md	glossary/l-n.md#nbap	
+https://tarf.co.uk/Glossary/n/NCSC/	Glossary/n/NCSC.md	glossary/l-n.md#ncsc	
+https://tarf.co.uk/Glossary/n/Network%20Topologies/	Glossary/n/Network Topologies.md	glossary/l-n.md#network-topologies	
+https://tarf.co.uk/Glossary/n/NFS/	Glossary/n/NFS.md	glossary/l-n.md#nfs	
+https://tarf.co.uk/Glossary/n/NGN/	Glossary/n/NGN.md	glossary/l-n.md#ngn	
+https://tarf.co.uk/Glossary/n/NGWFQ/	Glossary/n/NGWFQ.md	glossary/l-n.md#ngwfq	
+https://tarf.co.uk/Glossary/n/Niko-niko%20Calendar/	Glossary/n/Niko-niko Calendar.md	glossary/l-n.md#niko-niko-calendar	
+https://tarf.co.uk/Glossary/n/NIST/	Glossary/n/NIST.md	glossary/l-n.md#nist	
+https://tarf.co.uk/Glossary/n/NNI/	Glossary/n/NNI.md	glossary/l-n.md#nni	
+https://tarf.co.uk/Glossary/n/NNTP/	Glossary/n/NNTP.md	glossary/l-n.md#nntp	
+https://tarf.co.uk/Glossary/n/NOC/	Glossary/n/NOC.md	glossary/l-n.md#noc	
+https://tarf.co.uk/Glossary/n/Node%20B/	Glossary/n/Node B.md	glossary/l-n.md#node-b	
+https://tarf.co.uk/Glossary/n/Nominal%20Path/	Glossary/n/Nominal Path.md	glossary/l-n.md#nominal-path	
+https://tarf.co.uk/Glossary/n/Non-functional%20Requirement/	Glossary/n/Non-functional Requirement.md	glossary/l-n.md#non-functional-requirement	
+https://tarf.co.uk/Glossary/n/NoSQL/	Glossary/n/NoSQL.md	glossary/l-n.md#nosql	
+https://tarf.co.uk/Glossary/n/NPE/	Glossary/n/NPE.md	glossary/l-n.md#npe	
+https://tarf.co.uk/Glossary/n/NSS/	Glossary/n/NSS.md	glossary/l-n.md#nss	
+https://tarf.co.uk/Glossary/n/NTP/	Glossary/n/NTP.md	glossary/l-n.md#ntp	
+https://tarf.co.uk/Glossary/n/NTS/	Glossary/n/NTS.md	glossary/l-n.md#nts	
+https://tarf.co.uk/Glossary/n/NTU/	Glossary/n/NTU.md	glossary/l-n.md#ntu	
+https://tarf.co.uk/Glossary/n/NYB/	Glossary/n/NYB.md	glossary/l-n.md#nyb	
+https://tarf.co.uk/Glossary/o/o/	Glossary/o/o.md	glossary/o-r.md	letter index
+https://tarf.co.uk/Glossary/o/Objective%20C/	Glossary/o/Objective C.md	glossary/o-r.md#objective-c	
+https://tarf.co.uk/Glossary/o/Objectives/	Glossary/o/Objectives.md	glossary/o-r.md#objectives	
+https://tarf.co.uk/Glossary/o/ODF/	Glossary/o/ODF.md	glossary/o-r.md#odf	
+https://tarf.co.uk/Glossary/o/OFC/	Glossary/o/OFC.md	glossary/o-r.md#ofc	
+https://tarf.co.uk/Glossary/o/Ofcom/	Glossary/o/Ofcom.md	glossary/o-r.md#ofcom	
+https://tarf.co.uk/Glossary/o/OFDMA/	Glossary/o/OFDMA.md	glossary/o-r.md#ofdma	
+https://tarf.co.uk/Glossary/o/OO/	Glossary/o/OO.md	glossary/o-r.md#oo	
+https://tarf.co.uk/Glossary/o/Operations%20Plan/	Glossary/o/Operations Plan.md	glossary/o-r.md#operations-plan	
+https://tarf.co.uk/Glossary/o/OPUS/	Glossary/o/OPUS.md	glossary/o-r.md#opus	
+https://tarf.co.uk/Glossary/o/OS%20X/	Glossary/o/OS X.md	glossary/o-r.md#os-x	
+https://tarf.co.uk/Glossary/o/OSA-FC/	Glossary/o/OSA-FC.md	glossary/o-r.md#osa-fc	
+https://tarf.co.uk/Glossary/o/OSPF/	Glossary/o/OSPF.md	glossary/o-r.md#ospf	
+https://tarf.co.uk/Glossary/o/OSS/	Glossary/o/OSS.md	glossary/o-r.md#oss	
+https://tarf.co.uk/Glossary/o/OTN/	Glossary/o/OTN.md	glossary/o-r.md#otn	
+https://tarf.co.uk/Glossary/o/Out-of-order%20delivery/	Glossary/o/Out-of-order delivery.md	glossary/o-r.md#out-of-order-delivery	
+https://tarf.co.uk/Glossary/o/Overlap%20Dialling/	Glossary/o/Overlap Dialling.md	glossary/o-r.md#overlap-dialling	
+https://tarf.co.uk/Glossary/p/p/	Glossary/p/p.md	glossary/o-r.md	letter index
+https://tarf.co.uk/Glossary/p/PaaS/	Glossary/p/PaaS.md	glossary/o-r.md#paas	
+https://tarf.co.uk/Glossary/p/packet%20sniffing/	Glossary/p/packet sniffing.md	glossary/o-r.md#packet-sniffing	
+https://tarf.co.uk/Glossary/p/Packet%20Switched/	Glossary/p/Packet Switched.md	glossary/o-r.md#packet-switched	
+https://tarf.co.uk/Glossary/p/PAF/	Glossary/p/PAF.md	glossary/o-r.md#paf	
+https://tarf.co.uk/Glossary/p/Pair%20Programming/	Glossary/p/Pair Programming.md	glossary/o-r.md#pair-programming	
+https://tarf.co.uk/Glossary/p/PAP/	Glossary/p/PAP.md	glossary/o-r.md#pap	
+https://tarf.co.uk/Glossary/p/Parametric%20Estimation/	Glossary/p/Parametric Estimation.md	glossary/o-r.md#parametric-estimation	
+https://tarf.co.uk/Glossary/p/Pascal/	Glossary/p/Pascal.md	glossary/o-r.md#pascal	
+https://tarf.co.uk/Glossary/p/Pattern/	Glossary/p/Pattern.md	glossary/o-r.md#pattern	
+https://tarf.co.uk/Glossary/p/PCM/	Glossary/p/PCM.md	glossary/o-r.md#pcm	
+https://tarf.co.uk/Glossary/p/PCP/	Glossary/p/PCP.md	glossary/o-r.md#pcp	
+https://tarf.co.uk/Glossary/p/PCRF/	Glossary/p/PCRF.md	glossary/o-r.md#pcrf	
+https://tarf.co.uk/Glossary/p/PCS/	Glossary/p/PCS.md	glossary/o-r.md#pcs	
+https://tarf.co.uk/Glossary/p/PDCP/	Glossary/p/PDCP.md	glossary/o-r.md#pdcp	
+https://tarf.co.uk/Glossary/p/PDH/	Glossary/p/PDH.md	glossary/o-r.md#pdh	
+https://tarf.co.uk/Glossary/p/PDU/	Glossary/p/PDU.md	glossary/o-r.md#pdu	
+https://tarf.co.uk/Glossary/p/PEAP/	Glossary/p/PEAP.md	glossary/o-r.md#peap	
+https://tarf.co.uk/Glossary/p/peer%20review/	Glossary/p/peer review.md	glossary/o-r.md#peer-review	
+https://tarf.co.uk/Glossary/p/Pen%20testing/	Glossary/p/Pen testing.md	glossary/o-r.md#pen-testing	
+https://tarf.co.uk/Glossary/p/PER/	Glossary/p/PER.md	glossary/o-r.md#per	
+https://tarf.co.uk/Glossary/p/Performance/	Glossary/p/Performance.md	glossary/o-r.md#performance	
+https://tarf.co.uk/Glossary/p/Perl/	Glossary/p/Perl.md	glossary/o-r.md#perl	
+https://tarf.co.uk/Glossary/p/Personas/	Glossary/p/Personas.md	glossary/o-r.md#personas	
+https://tarf.co.uk/Glossary/p/Perspective/	Glossary/p/Perspective.md	glossary/o-r.md#perspective	
+https://tarf.co.uk/Glossary/p/PERT%20chart/	Glossary/p/PERT chart.md	glossary/o-r.md#pert-chart	
+https://tarf.co.uk/Glossary/p/PGP/	Glossary/p/PGP.md	glossary/o-r.md#pgp	
+https://tarf.co.uk/Glossary/p/PGW/	Glossary/p/PGW.md	glossary/o-r.md#pgw	
+https://tarf.co.uk/Glossary/p/Phase/	Glossary/p/Phase.md	glossary/o-r.md#phase	
+https://tarf.co.uk/Glossary/p/Phased%20Estimation/	Glossary/p/Phased Estimation.md	glossary/o-r.md#phased-estimation	
+https://tarf.co.uk/Glossary/p/PHP/	Glossary/p/PHP.md	glossary/o-r.md#php	
+https://tarf.co.uk/Glossary/p/Planning%20and%20Tracking%20Lead/	Glossary/p/Planning and Tracking Lead.md	glossary/o-r.md#planning-and-tracking-lead	
+https://tarf.co.uk/Glossary/p/Planning%20Poker/	Glossary/p/Planning Poker.md	glossary/o-r.md#planning-poker	
+https://tarf.co.uk/Glossary/p/PLL/	Glossary/p/PLL.md	glossary/o-r.md#pll	
+https://tarf.co.uk/Glossary/p/PNT/	Glossary/p/PNT.md	glossary/o-r.md#pnt	
+https://tarf.co.uk/Glossary/p/Points/	Glossary/p/Points.md	glossary/o-r.md#points	
+https://tarf.co.uk/Glossary/p/polymorphism/	Glossary/p/polymorphism.md	glossary/o-r.md#polymorphism	
+https://tarf.co.uk/Glossary/p/POP/	Glossary/p/POP.md	glossary/o-r.md#pop	
+https://tarf.co.uk/Glossary/p/portability/	Glossary/p/portability.md	glossary/o-r.md#portability	
+https://tarf.co.uk/Glossary/p/POSIX/	Glossary/p/POSIX.md	glossary/o-r.md#posix	
+https://tarf.co.uk/Glossary/p/Postmortem/	Glossary/p/Postmortem.md	glossary/o-r.md#postmortem	
+https://tarf.co.uk/Glossary/p/POTS/	Glossary/p/POTS.md	glossary/o-r.md#pots	
+https://tarf.co.uk/Glossary/p/PPP/	Glossary/p/PPP.md	glossary/o-r.md#ppp	
+https://tarf.co.uk/Glossary/p/PPPoE/	Glossary/p/PPPoE.md	glossary/o-r.md#pppoe	
+https://tarf.co.uk/Glossary/p/PPTP/	Glossary/p/PPTP.md	glossary/o-r.md#pptp	
+https://tarf.co.uk/Glossary/p/Preemption/	Glossary/p/Preemption.md	glossary/o-r.md#preemption	
+https://tarf.co.uk/Glossary/p/Preview/	Glossary/p/Preview.md	glossary/o-r.md#preview	
+https://tarf.co.uk/Glossary/p/PRINCE2/	Glossary/p/PRINCE2.md	glossary/o-r.md#prince2	
+https://tarf.co.uk/Glossary/p/Process%20Flow/	Glossary/p/Process Flow.md	glossary/o-r.md#process-flow	
+https://tarf.co.uk/Glossary/p/Process/	Glossary/p/Process.md	glossary/o-r.md#process	
+https://tarf.co.uk/Glossary/p/Product%20Owner/	Glossary/p/Product Owner.md	glossary/o-r.md#product-owner	
+https://tarf.co.uk/Glossary/p/Product%20Release/	Glossary/p/Product Release.md	glossary/o-r.md#product-release	
+https://tarf.co.uk/Glossary/p/programming%20language/	Glossary/p/programming language.md	glossary/o-r.md#programming-language	
+https://tarf.co.uk/Glossary/p/Programming%20paradigm/	Glossary/p/Programming paradigm.md	glossary/o-r.md#programming-paradigm	
+https://tarf.co.uk/Glossary/p/Progressive%20Elaboration/	Glossary/p/Progressive Elaboration.md	glossary/o-r.md#progressive-elaboration	
+https://tarf.co.uk/Glossary/p/Project%20Build/	Glossary/p/Project Build.md	glossary/o-r.md#project-build	
+https://tarf.co.uk/Glossary/p/Project%20Business%20Manager/	Glossary/p/Project Business Manager.md	glossary/o-r.md#project-business-manager	
+https://tarf.co.uk/Glossary/p/Project%20Charter/	Glossary/p/Project Charter.md	glossary/o-r.md#project-charter	
+https://tarf.co.uk/Glossary/p/Project%20Chartering/	Glossary/p/Project Chartering.md	glossary/o-r.md#project-chartering	
+https://tarf.co.uk/Glossary/p/Project%20Estimate/	Glossary/p/Project Estimate.md	glossary/o-r.md#project-estimate	
+https://tarf.co.uk/Glossary/p/Project%20Headlights/	Glossary/p/Project Headlights.md	glossary/o-r.md#project-headlights	
+https://tarf.co.uk/Glossary/p/Project%20History/	Glossary/p/Project History.md	glossary/o-r.md#project-history	
+https://tarf.co.uk/Glossary/p/Project%20Log/	Glossary/p/Project Log.md	glossary/o-r.md#project-log	
+https://tarf.co.uk/Glossary/p/Project%20Management%20Body%20of%20Knowledge/	Glossary/p/Project Management Body of Knowledge.md	glossary/o-r.md#project-management-body-of-knowledge	
+https://tarf.co.uk/Glossary/p/Project%20Management%20Institute/	Glossary/p/Project Management Institute.md	glossary/o-r.md#project-management-institute	
+https://tarf.co.uk/Glossary/p/Project%20Management/	Glossary/p/Project Management.md	glossary/o-r.md#project-management	
+https://tarf.co.uk/Glossary/p/Project%20Manager/	Glossary/p/Project Manager.md	glossary/o-r.md#project-manager	
+https://tarf.co.uk/Glossary/p/Project%20Plan/	Glossary/p/Project Plan.md	glossary/o-r.md#project-plan	
+https://tarf.co.uk/Glossary/p/Project%20Reviewer/	Glossary/p/Project Reviewer.md	glossary/o-r.md#project-reviewer	
+https://tarf.co.uk/Glossary/p/Project%20Sponsor/	Glossary/p/Project Sponsor.md	glossary/o-r.md#project-sponsor	
+https://tarf.co.uk/Glossary/p/Project/	Glossary/p/Project.md	glossary/o-r.md#project	
+https://tarf.co.uk/Glossary/p/pseudocode/	Glossary/p/pseudocode.md	glossary/o-r.md#pseudocode	
+https://tarf.co.uk/Glossary/p/PSTN/	Glossary/p/PSTN.md	glossary/o-r.md#pstn	
+https://tarf.co.uk/Glossary/p/PTP/	Glossary/p/PTP.md	glossary/o-r.md#ptp	
+https://tarf.co.uk/Glossary/p/PTT/	Glossary/p/PTT.md	glossary/o-r.md#ptt	
+https://tarf.co.uk/Glossary/p/PVC/	Glossary/p/PVC.md	glossary/o-r.md#pvc	
+https://tarf.co.uk/Glossary/p/PW/	Glossary/p/PW.md	glossary/o-r.md#pw	
+https://tarf.co.uk/Glossary/p/PWFQ/	Glossary/p/PWFQ.md	glossary/o-r.md#pwfq	
+https://tarf.co.uk/Glossary/p/Python%20%282.x%20%26%203.x%29/	Glossary/p/Python (2.x & 3.x).md	glossary/o-r.md#python	renamed to "Python"
+https://tarf.co.uk/Glossary/q/Q.931/	Glossary/q/Q.931.md	glossary/o-r.md#q931	
+https://tarf.co.uk/Glossary/q/q/	Glossary/q/q.md	glossary/o-r.md	letter index
+https://tarf.co.uk/Glossary/q/QA%20Lead/	Glossary/q/QA Lead.md	glossary/o-r.md#qa-lead	
+https://tarf.co.uk/Glossary/q/QAM/	Glossary/q/QAM.md	glossary/o-r.md#qam	
+https://tarf.co.uk/Glossary/q/QoS/	Glossary/q/QoS.md	glossary/o-r.md#qos	
+https://tarf.co.uk/Glossary/q/QSIG/	Glossary/q/QSIG.md	glossary/o-r.md#qsig	
+https://tarf.co.uk/Glossary/q/Quality%20Assurance%20Plan/	Glossary/q/Quality Assurance Plan.md	glossary/o-r.md#quality-assurance-plan	
+https://tarf.co.uk/Glossary/q/Quality%20Assurance/	Glossary/q/Quality Assurance.md	glossary/o-r.md#quality-assurance	
+https://tarf.co.uk/Glossary/q/Quality%20Control/	Glossary/q/Quality Control.md	glossary/o-r.md#quality-control	
+https://tarf.co.uk/Glossary/q/Quality%20Plan/	Glossary/q/Quality Plan.md	glossary/o-r.md#quality-plan	
+https://tarf.co.uk/Glossary/q/Quality/	Glossary/q/Quality.md	glossary/o-r.md#quality	
+https://tarf.co.uk/Glossary/q/Quick%20Design%20Session/	Glossary/q/Quick Design Session.md	glossary/o-r.md#quick-design-session	
+https://tarf.co.uk/Glossary/r/R%20Language/	Glossary/r/R Language.md	glossary/o-r.md#r-language	
+https://tarf.co.uk/Glossary/r/r/	Glossary/r/r.md	glossary/o-r.md	letter index
+https://tarf.co.uk/Glossary/r/RACI/	Glossary/r/RACI.md	glossary/o-r.md#raci	
+https://tarf.co.uk/Glossary/r/RAD%20Environment/	Glossary/r/RAD Environment.md	glossary/o-r.md#rad-environment	
+https://tarf.co.uk/Glossary/r/RAD/	Glossary/r/RAD.md	glossary/o-r.md#rad	
+https://tarf.co.uk/Glossary/r/Radius/	Glossary/r/Radius.md	glossary/o-r.md#radius	
+https://tarf.co.uk/Glossary/r/Rainbow/	Glossary/r/Rainbow.md	glossary/o-r.md	dropped
+https://tarf.co.uk/Glossary/r/RAN/	Glossary/r/RAN.md	glossary/o-r.md#ran	
+https://tarf.co.uk/Glossary/r/RANAP/	Glossary/r/RANAP.md	glossary/o-r.md#ranap	
+https://tarf.co.uk/Glossary/r/RANCID/	Glossary/r/RANCID.md	glossary/o-r.md#rancid	
+https://tarf.co.uk/Glossary/r/Rapid%20Application%20Development/	Glossary/r/Rapid Application Development.md	glossary/o-r.md#rapid-application-development	
+https://tarf.co.uk/Glossary/r/RARP/	Glossary/r/RARP.md	glossary/o-r.md#rarp	
+https://tarf.co.uk/Glossary/r/RAS/	Glossary/r/RAS.md	glossary/o-r.md#ras	
+https://tarf.co.uk/Glossary/r/RDBMS/	Glossary/r/RDBMS.md	glossary/o-r.md#rdbms	
+https://tarf.co.uk/Glossary/r/RDP/	Glossary/r/RDP.md	glossary/o-r.md#rdp	
+https://tarf.co.uk/Glossary/r/Reading%20Inspection/	Glossary/r/Reading Inspection.md	glossary/o-r.md#reading-inspection	
+https://tarf.co.uk/Glossary/r/refactoring/	Glossary/r/refactoring.md	glossary/o-r.md#refactoring	
+https://tarf.co.uk/Glossary/r/Reference/	Glossary/r/Reference.md	glossary/o-r.md	dropped
+https://tarf.co.uk/Glossary/r/regression%20testing/	Glossary/r/regression testing.md	glossary/o-r.md#regression-testing	
+https://tarf.co.uk/Glossary/r/Regular%20expression/	Glossary/r/Regular expression.md	glossary/o-r.md#regular-expression	
+https://tarf.co.uk/Glossary/r/Relative%20Estimation/	Glossary/r/Relative Estimation.md	glossary/o-r.md#relative-estimation	
+https://tarf.co.uk/Glossary/r/Release%20Management/	Glossary/r/Release Management.md	glossary/o-r.md#release-management	
+https://tarf.co.uk/Glossary/r/Release%20Test/	Glossary/r/Release Test.md	glossary/o-r.md#release-test	
+https://tarf.co.uk/Glossary/r/Release/	Glossary/r/Release.md	glossary/o-r.md#release	
+https://tarf.co.uk/Glossary/r/Requirement/	Glossary/r/Requirement.md	glossary/o-r.md#requirement	
+https://tarf.co.uk/Glossary/r/Requirements%20Lead/	Glossary/r/Requirements Lead.md	glossary/o-r.md#requirements-lead	
+https://tarf.co.uk/Glossary/r/Requirements/	Glossary/r/Requirements.md	glossary/o-r.md#requirements	
+https://tarf.co.uk/Glossary/r/REST/	Glossary/r/REST.md	glossary/o-r.md#rest	
+https://tarf.co.uk/Glossary/r/Review/	Glossary/r/Review.md	glossary/o-r.md#review	
+https://tarf.co.uk/Glossary/r/Reviewer/	Glossary/r/Reviewer.md	glossary/o-r.md#reviewer	
+https://tarf.co.uk/Glossary/r/Revision%20Control/	Glossary/r/Revision Control.md	glossary/o-r.md#revision-control	
+https://tarf.co.uk/Glossary/r/Revision/	Glossary/r/Revision.md	glossary/o-r.md#revision	
+https://tarf.co.uk/Glossary/r/Rework/	Glossary/r/Rework.md	glossary/o-r.md#rework	
+https://tarf.co.uk/Glossary/r/RFC/	Glossary/r/RFC.md	glossary/o-r.md#rfc	
+https://tarf.co.uk/Glossary/r/RIP/	Glossary/r/RIP.md	glossary/o-r.md#rip	
+https://tarf.co.uk/Glossary/r/Risk%20Analysis/	Glossary/r/Risk Analysis.md	glossary/o-r.md#risk-analysis	
+https://tarf.co.uk/Glossary/r/Risk%20Identification/	Glossary/r/Risk Identification.md	glossary/o-r.md#risk-identification	
+https://tarf.co.uk/Glossary/r/Risk%20List/	Glossary/r/Risk List.md	glossary/o-r.md#risk-list	
+https://tarf.co.uk/Glossary/r/Risk%20Management/	Glossary/r/Risk Management.md	glossary/o-r.md#risk-management	
+https://tarf.co.uk/Glossary/r/Risk%20Mitigation/	Glossary/r/Risk Mitigation.md	glossary/o-r.md#risk-mitigation	
+https://tarf.co.uk/Glossary/r/Risk%20Reward%20Matric/	Glossary/r/Risk Reward Matric.md	glossary/o-r.md#risk-reward-matrix	renamed to "Risk Reward Matrix"
+https://tarf.co.uk/Glossary/r/Risk/	Glossary/r/Risk.md	glossary/o-r.md#risk	
+https://tarf.co.uk/Glossary/r/RNC/	Glossary/r/RNC.md	glossary/o-r.md#rnc	
+https://tarf.co.uk/Glossary/r/RNSAP/	Glossary/r/RNSAP.md	glossary/o-r.md#rnsap	
+https://tarf.co.uk/Glossary/r/Role-feature-reason/	Glossary/r/Role-feature-reason.md	glossary/o-r.md#role-feature-reason	
+https://tarf.co.uk/Glossary/r/Rolling%20Wave%20Planning/	Glossary/r/Rolling Wave Planning.md	glossary/o-r.md#rolling-wave-planning	
+https://tarf.co.uk/Glossary/r/Round%20Robin/	Glossary/r/Round Robin.md	glossary/o-r.md#round-robin	
+https://tarf.co.uk/Glossary/r/Router/	Glossary/r/Router.md	glossary/o-r.md#router	
+https://tarf.co.uk/Glossary/r/RPC/	Glossary/r/RPC.md	glossary/o-r.md#rpc	
+https://tarf.co.uk/Glossary/r/RRC/	Glossary/r/RRC.md	glossary/o-r.md#rrc	
+https://tarf.co.uk/Glossary/r/RSTP/	Glossary/r/RSTP.md	glossary/o-r.md#rstp	
+https://tarf.co.uk/Glossary/r/RSVP/	Glossary/r/RSVP.md	glossary/o-r.md#rsvp	
+https://tarf.co.uk/Glossary/r/RTCP/	Glossary/r/RTCP.md	glossary/o-r.md#rtcp	
+https://tarf.co.uk/Glossary/r/RTOS/	Glossary/r/RTOS.md	glossary/o-r.md#rtos	
+https://tarf.co.uk/Glossary/r/RTP/	Glossary/r/RTP.md	glossary/o-r.md#rtp	
+https://tarf.co.uk/Glossary/r/RTSP/	Glossary/r/RTSP.md	glossary/o-r.md#rtsp	
+https://tarf.co.uk/Glossary/r/Ruby%20on%20rails/	Glossary/r/Ruby on rails.md	glossary/o-r.md#ruby-on-rails	
+https://tarf.co.uk/Glossary/r/Ruby/	Glossary/r/Ruby.md	glossary/o-r.md#ruby	
+https://tarf.co.uk/Glossary/r/Rule%20of%20Simplicity/	Glossary/r/Rule of Simplicity.md	glossary/o-r.md#rule-of-simplicity	
+https://tarf.co.uk/Glossary/r/RUP/	Glossary/r/RUP.md	glossary/o-r.md#rup	
+https://tarf.co.uk/Glossary/s/S-%20Tag/	Glossary/s/S- Tag.md	glossary/s-z.md#s-tag	renamed to "S-Tag"
+https://tarf.co.uk/Glossary/s/S-GW/	Glossary/s/S-GW.md	glossary/s-z.md#s-gw	
+https://tarf.co.uk/Glossary/s/s/	Glossary/s/s.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/s/SAAL/	Glossary/s/SAAL.md	glossary/s-z.md#saal	
+https://tarf.co.uk/Glossary/s/SaaS/	Glossary/s/SaaS.md	glossary/s-z.md#saas	
+https://tarf.co.uk/Glossary/s/SAE/	Glossary/s/SAE.md	glossary/s-z.md#sae	
+https://tarf.co.uk/Glossary/s/SAFe/	Glossary/s/SAFe.md	glossary/s-z.md#safe	
+https://tarf.co.uk/Glossary/s/SBC/	Glossary/s/SBC.md	glossary/s-z.md#sbc	
+https://tarf.co.uk/Glossary/s/SC-FDMA/	Glossary/s/SC-FDMA.md	glossary/s-z.md#sc-fdma	
+https://tarf.co.uk/Glossary/s/Scala/	Glossary/s/Scala.md	glossary/s-z.md#scala	
+https://tarf.co.uk/Glossary/s/Scaled%20Agile/	Glossary/s/Scaled Agile.md	glossary/s-z.md#scaled-agile	
+https://tarf.co.uk/Glossary/s/SCCP/	Glossary/s/SCCP.md	glossary/s-z.md#sccp	
+https://tarf.co.uk/Glossary/s/Scenario/	Glossary/s/Scenario.md	glossary/s-z.md#scenario	
+https://tarf.co.uk/Glossary/s/Schedule/	Glossary/s/Schedule.md	glossary/s-z.md#schedule	
+https://tarf.co.uk/Glossary/s/Scheduler/	Glossary/s/Scheduler.md	glossary/s-z.md#scheduler	
+https://tarf.co.uk/Glossary/s/SCM/	Glossary/s/SCM.md	glossary/s-z.md#scm	
+https://tarf.co.uk/Glossary/s/Scratch/	Glossary/s/Scratch.md	glossary/s-z.md#scratch	
+https://tarf.co.uk/Glossary/s/Scribe/	Glossary/s/Scribe.md	glossary/s-z.md#scribe	
+https://tarf.co.uk/Glossary/s/Scrum%20Master/	Glossary/s/Scrum Master.md	glossary/s-z.md#scrum-master	
+https://tarf.co.uk/Glossary/s/Scrum%20of%20Scrums/	Glossary/s/Scrum of Scrums.md	glossary/s-z.md#scrum-of-scrums	
+https://tarf.co.uk/Glossary/s/Scrum/	Glossary/s/Scrum.md	glossary/s-z.md#scrum	
+https://tarf.co.uk/Glossary/s/SCTP/	Glossary/s/SCTP.md	glossary/s-z.md#sctp	
+https://tarf.co.uk/Glossary/s/SDES/	Glossary/s/SDES.md	glossary/s-z.md#sdes	
+https://tarf.co.uk/Glossary/s/SDH/	Glossary/s/SDH.md	glossary/s-z.md#sdh	
+https://tarf.co.uk/Glossary/s/SDK/	Glossary/s/SDK.md	glossary/s-z.md#sdk	
+https://tarf.co.uk/Glossary/s/SDLC/	Glossary/s/SDLC.md	glossary/s-z.md#sdlc	
+https://tarf.co.uk/Glossary/s/SDMA/	Glossary/s/SDMA.md	glossary/s-z.md#sdma	
+https://tarf.co.uk/Glossary/s/SDN/	Glossary/s/SDN.md	glossary/s-z.md#sdn	
+https://tarf.co.uk/Glossary/s/SDP/	Glossary/s/SDP.md	glossary/s-z.md#sdp	
+https://tarf.co.uk/Glossary/s/SDSL/	Glossary/s/SDSL.md	glossary/s-z.md#sdsl	
+https://tarf.co.uk/Glossary/s/Sed/	Glossary/s/Sed.md	glossary/s-z.md#sed	
+https://tarf.co.uk/Glossary/s/Semaphore/	Glossary/s/Semaphore.md	glossary/s-z.md#semaphore	
+https://tarf.co.uk/Glossary/s/Sematic%20Versioning/	Glossary/s/Sematic Versioning.md	glossary/s-z.md#semantic-versioning	renamed to "Semantic Versioning"
+https://tarf.co.uk/Glossary/s/Sequence%20Model/	Glossary/s/Sequence Model.md	glossary/s-z.md#sequence-model	
+https://tarf.co.uk/Glossary/s/SF/	Glossary/s/SF.md	glossary/s-z.md#sf	
+https://tarf.co.uk/Glossary/s/SFTP/	Glossary/s/SFTP.md	glossary/s-z.md#sftp	
+https://tarf.co.uk/Glossary/s/SGML/	Glossary/s/SGML.md	glossary/s-z.md#sgml	
+https://tarf.co.uk/Glossary/s/SGSN/	Glossary/s/SGSN.md	glossary/s-z.md#sgsn	
+https://tarf.co.uk/Glossary/s/SGW/	Glossary/s/SGW.md	glossary/s-z.md#sgw	
+https://tarf.co.uk/Glossary/s/Sh/	Glossary/s/Sh.md	glossary/s-z.md#sh	
+https://tarf.co.uk/Glossary/s/SHA/	Glossary/s/SHA.md	glossary/s-z.md#sha	
+https://tarf.co.uk/Glossary/s/Shell%20Scripting/	Glossary/s/Shell Scripting.md	glossary/s-z.md#shell-scripting	
+https://tarf.co.uk/Glossary/s/Sidetone/	Glossary/s/Sidetone.md	glossary/s-z.md#sidetone	
+https://tarf.co.uk/Glossary/s/Sign%20Up/	Glossary/s/Sign Up.md	glossary/s-z.md#sign-up	
+https://tarf.co.uk/Glossary/s/SIM/	Glossary/s/SIM.md	glossary/s-z.md#sim	
+https://tarf.co.uk/Glossary/s/Simple%20Design/	Glossary/s/Simple Design.md	glossary/s-z.md#simple-design	
+https://tarf.co.uk/Glossary/s/SIMPLE/	Glossary/s/SIMPLE.md	glossary/s-z.md#simple	
+https://tarf.co.uk/Glossary/s/Simplex/	Glossary/s/Simplex.md	glossary/s-z.md#simplex	
+https://tarf.co.uk/Glossary/s/Single%20Step%20Test/	Glossary/s/Single Step Test.md	glossary/s-z.md#single-step-test	
+https://tarf.co.uk/Glossary/s/SIP%20Trunk/	Glossary/s/SIP Trunk.md	glossary/s-z.md#sip-trunk	
+https://tarf.co.uk/Glossary/s/SIP/	Glossary/s/SIP.md	glossary/s-z.md#sip	
+https://tarf.co.uk/Glossary/s/SISO/	Glossary/s/SISO.md	glossary/s-z.md#siso	
+https://tarf.co.uk/Glossary/s/Skew/	Glossary/s/Skew.md	glossary/s-z.md#skew	
+https://tarf.co.uk/Glossary/s/SLA/	Glossary/s/SLA.md	glossary/s-z.md#sla	
+https://tarf.co.uk/Glossary/s/SLIP/	Glossary/s/SLIP.md	glossary/s-z.md#slip	
+https://tarf.co.uk/Glossary/s/SME/	Glossary/s/SME.md	glossary/s-z.md#sme	
+https://tarf.co.uk/Glossary/s/Smoke%20Test/	Glossary/s/Smoke Test.md	glossary/s-z.md#smoke-test	
+https://tarf.co.uk/Glossary/s/smoke%20testing/	Glossary/s/smoke testing.md	glossary/s-z.md#smoke-testing	
+https://tarf.co.uk/Glossary/s/SMP/	Glossary/s/SMP.md	glossary/s-z.md#smp	
+https://tarf.co.uk/Glossary/s/SMPF/	Glossary/s/SMPF.md	glossary/s-z.md#smpf	
+https://tarf.co.uk/Glossary/s/SMSC/	Glossary/s/SMSC.md	glossary/s-z.md#smsc	
+https://tarf.co.uk/Glossary/s/Snake%20Case/	Glossary/s/Snake Case.md	glossary/s-z.md#snake-case	
+https://tarf.co.uk/Glossary/s/SNMP/	Glossary/s/SNMP.md	glossary/s-z.md#snmp	
+https://tarf.co.uk/Glossary/s/SNTP/	Glossary/s/SNTP.md	glossary/s-z.md#sntp	
+https://tarf.co.uk/Glossary/s/SOA/	Glossary/s/SOA.md	glossary/s-z.md#soa	
+https://tarf.co.uk/Glossary/s/SOAP/	Glossary/s/SOAP.md	glossary/s-z.md#soap	
+https://tarf.co.uk/Glossary/s/Softswitch/	Glossary/s/Softswitch.md	glossary/s-z.md#softswitch	
+https://tarf.co.uk/Glossary/s/Software%20Change%20Request/	Glossary/s/Software Change Request.md	glossary/s-z.md#software-change-request	
+https://tarf.co.uk/Glossary/s/Software%20Configuration%20Management/	Glossary/s/Software Configuration Management.md	glossary/s-z.md#software-configuration-management	
+https://tarf.co.uk/Glossary/s/Software%20Development%20Plan/	Glossary/s/Software Development Plan.md	glossary/s-z.md#software-development-plan	
+https://tarf.co.uk/Glossary/s/Software%20Engineering%20Body%20of%20Knowledge/	Glossary/s/Software Engineering Body of Knowledge.md	glossary/s-z.md#software-engineering-body-of-knowledge	
+https://tarf.co.uk/Glossary/s/Software%20Engineering%20Lab/	Glossary/s/Software Engineering Lab.md	glossary/s-z.md#software-engineering-lab	
+https://tarf.co.uk/Glossary/s/Software%20Engineering%20Process%20Group/	Glossary/s/Software Engineering Process Group.md	glossary/s-z.md#software-engineering-process-group	
+https://tarf.co.uk/Glossary/s/Software%20Requirements%20Specification/	Glossary/s/Software Requirements Specification.md	glossary/s-z.md#software-requirements-specification	
+https://tarf.co.uk/Glossary/s/SoGEA/	Glossary/s/SoGEA.md	glossary/s-z.md#sogea	
+https://tarf.co.uk/Glossary/s/SONET/	Glossary/s/SONET.md	glossary/s-z.md#sonet	
+https://tarf.co.uk/Glossary/s/Source%20Code/	Glossary/s/Source Code.md	glossary/s-z.md#source-code	
+https://tarf.co.uk/Glossary/s/SPEEX/	Glossary/s/SPEEX.md	glossary/s-z.md#speex	
+https://tarf.co.uk/Glossary/s/SPI/	Glossary/s/SPI.md	glossary/s-z.md#spi	
+https://tarf.co.uk/Glossary/s/Spiral%20Lifecycle/	Glossary/s/Spiral Lifecycle.md	glossary/s-z.md#spiral-lifecycle	
+https://tarf.co.uk/Glossary/s/Sponsor/	Glossary/s/Sponsor.md	glossary/s-z.md#sponsor	
+https://tarf.co.uk/Glossary/s/Sprial%20Model/	Glossary/s/Sprial Model.md	glossary/s-z.md#spiral-model	renamed to "Spiral Model"
+https://tarf.co.uk/Glossary/s/Sprint%20Planning/	Glossary/s/Sprint Planning.md	glossary/s-z.md#sprint-planning	
+https://tarf.co.uk/Glossary/s/Sprint%20retrospective/	Glossary/s/Sprint retrospective.md	glossary/s-z.md#sprint-retrospective	
+https://tarf.co.uk/Glossary/s/Sprints/	Glossary/s/Sprints.md	glossary/s-z.md#sprints	
+https://tarf.co.uk/Glossary/s/SQL/	Glossary/s/SQL.md	glossary/s-z.md#sql	
+https://tarf.co.uk/Glossary/s/SS7/	Glossary/s/SS7.md	glossary/s-z.md#ss7	
+https://tarf.co.uk/Glossary/s/SSADM/	Glossary/s/SSADM.md	glossary/s-z.md#ssadm	
+https://tarf.co.uk/Glossary/s/SSH/	Glossary/s/SSH.md	glossary/s-z.md#ssh	
+https://tarf.co.uk/Glossary/s/SSID/	Glossary/s/SSID.md	glossary/s-z.md#ssid	
+https://tarf.co.uk/Glossary/s/SSIS/	Glossary/s/SSIS.md	glossary/s-z.md#ssis	
+https://tarf.co.uk/Glossary/s/SSL/	Glossary/s/SSL.md	glossary/s-z.md#ssl	
+https://tarf.co.uk/Glossary/s/Stack/	Glossary/s/Stack.md	glossary/s-z.md#stack	
+https://tarf.co.uk/Glossary/s/Staff%20Days/	Glossary/s/Staff Days.md	glossary/s-z.md#staff-days	
+https://tarf.co.uk/Glossary/s/Stage/	Glossary/s/Stage.md	glossary/s-z.md#stage	
+https://tarf.co.uk/Glossary/s/Staged%20Delivery%20Lifecycle/	Glossary/s/Staged Delivery Lifecycle.md	glossary/s-z.md#staged-delivery-lifecycle	
+https://tarf.co.uk/Glossary/s/Stakeholder/	Glossary/s/Stakeholder.md	glossary/s-z.md#stakeholder	
+https://tarf.co.uk/Glossary/s/Standard/	Glossary/s/Standard.md	glossary/s-z.md#standard	
+https://tarf.co.uk/Glossary/s/Statistical%20Estimation/	Glossary/s/Statistical Estimation.md	glossary/s-z.md#statistical-estimation	
+https://tarf.co.uk/Glossary/s/STB/	Glossary/s/STB.md	glossary/s-z.md#stb	
+https://tarf.co.uk/Glossary/s/Story%20Mapping/	Glossary/s/Story Mapping.md	glossary/s-z.md#story-mapping	
+https://tarf.co.uk/Glossary/s/Story%20Splitting/	Glossary/s/Story Splitting.md	glossary/s-z.md#story-splitting	
+https://tarf.co.uk/Glossary/s/Storyboard/	Glossary/s/Storyboard.md	glossary/s-z.md#storyboard	
+https://tarf.co.uk/Glossary/s/STP/	Glossary/s/STP.md	glossary/s-z.md#stp	
+https://tarf.co.uk/Glossary/s/Strategy/	Glossary/s/Strategy.md	glossary/s-z.md#strategy	
+https://tarf.co.uk/Glossary/s/STUN/	Glossary/s/STUN.md	glossary/s-z.md#stun	
+https://tarf.co.uk/Glossary/s/Subversion/	Glossary/s/Subversion.md	glossary/s-z.md#subversion	
+https://tarf.co.uk/Glossary/s/Sustainable%20Pace/	Glossary/s/Sustainable Pace.md	glossary/s-z.md#sustainable-pace	
+https://tarf.co.uk/Glossary/s/SVC/	Glossary/s/SVC.md	glossary/s-z.md#svc	
+https://tarf.co.uk/Glossary/s/Swift/	Glossary/s/Swift.md	glossary/s-z.md#swift	
+https://tarf.co.uk/Glossary/s/Switch/	Glossary/s/Switch.md	glossary/s-z.md#switch	
+https://tarf.co.uk/Glossary/s/System%20Test%20Environment/	Glossary/s/System Test Environment.md	glossary/s-z.md#system-test-environment	
+https://tarf.co.uk/Glossary/s/System%20Test/	Glossary/s/System Test.md	glossary/s-z.md#system-test	
+https://tarf.co.uk/Glossary/s/System/	Glossary/s/System.md	glossary/s-z.md#system	
+https://tarf.co.uk/Glossary/s/SystemX/	Glossary/s/SystemX.md	glossary/s-z.md#systemx	
+https://tarf.co.uk/Glossary/t/T-Shirt%20Sizing/	Glossary/t/T-Shirt Sizing.md	glossary/s-z.md#t-shirt-sizing	
+https://tarf.co.uk/Glossary/t/t/	Glossary/t/t.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/t/Task%20Board/	Glossary/t/Task Board.md	glossary/s-z.md#task-board	
+https://tarf.co.uk/Glossary/t/Task%20Estimate/	Glossary/t/Task Estimate.md	glossary/s-z.md#task-estimate	
+https://tarf.co.uk/Glossary/t/Task/	Glossary/t/Task.md	glossary/s-z.md#task	
+https://tarf.co.uk/Glossary/t/TCAP/	Glossary/t/TCAP.md	glossary/s-z.md#tcap	
+https://tarf.co.uk/Glossary/t/Tcl-tk/	Glossary/t/Tcl-tk.md	glossary/s-z.md#tcltk	renamed to "Tcl/tk"
+https://tarf.co.uk/Glossary/t/TCP/	Glossary/t/TCP.md	glossary/s-z.md#tcp	
+https://tarf.co.uk/Glossary/t/Tcsh/	Glossary/t/Tcsh.md	glossary/s-z.md#tcsh	
+https://tarf.co.uk/Glossary/t/TDD/	Glossary/t/TDD.md	glossary/s-z.md#tdd	
+https://tarf.co.uk/Glossary/t/TDM/	Glossary/t/TDM.md	glossary/s-z.md#tdm	
+https://tarf.co.uk/Glossary/t/Team%20Room/	Glossary/t/Team Room.md	glossary/s-z.md#team-room	
+https://tarf.co.uk/Glossary/t/Team/	Glossary/t/Team.md	glossary/s-z.md#team	
+https://tarf.co.uk/Glossary/t/Technical%20Debt/	Glossary/t/Technical Debt.md	glossary/s-z.md#technical-debt	
+https://tarf.co.uk/Glossary/t/Template/	Glossary/t/Template.md	glossary/s-z.md#template	
+https://tarf.co.uk/Glossary/t/Test%20Activity/	Glossary/t/Test Activity.md	glossary/s-z.md#test-activity	
+https://tarf.co.uk/Glossary/t/Test%20Case%20Specification/	Glossary/t/Test Case Specification.md	glossary/s-z.md#test-case-specification	
+https://tarf.co.uk/Glossary/t/Test%20Case/	Glossary/t/Test Case.md	glossary/s-z.md#test-case	
+https://tarf.co.uk/Glossary/t/Test%20Design%20Specification/	Glossary/t/Test Design Specification.md	glossary/s-z.md#test-design-specification	
+https://tarf.co.uk/Glossary/t/Test%20Design/	Glossary/t/Test Design.md	glossary/s-z.md#test-design	
+https://tarf.co.uk/Glossary/t/Test%20Level/	Glossary/t/Test Level.md	glossary/s-z.md#test-level	
+https://tarf.co.uk/Glossary/t/Test%20Plan/	Glossary/t/Test Plan.md	glossary/s-z.md#test-plan	
+https://tarf.co.uk/Glossary/t/Test%20Technique/	Glossary/t/Test Technique.md	glossary/s-z.md#test-technique	
+https://tarf.co.uk/Glossary/t/Test%20Type/	Glossary/t/Test Type.md	glossary/s-z.md#test-type	
+https://tarf.co.uk/Glossary/t/Test/	Glossary/t/Test.md	glossary/s-z.md#test	
+https://tarf.co.uk/Glossary/t/Testing/	Glossary/t/Testing.md	glossary/s-z.md#testing	
+https://tarf.co.uk/Glossary/t/Three%20Amigos/	Glossary/t/Three Amigos.md	glossary/s-z.md#three-amigos	
+https://tarf.co.uk/Glossary/t/Three%20C%27s/	Glossary/t/Three C's.md	glossary/s-z.md#three-cs	
+https://tarf.co.uk/Glossary/t/Three%20Questions/	Glossary/t/Three Questions.md	glossary/s-z.md#three-questions	
+https://tarf.co.uk/Glossary/t/TIA/	Glossary/t/TIA.md	glossary/s-z.md#tia	
+https://tarf.co.uk/Glossary/t/Timebox/	Glossary/t/Timebox.md	glossary/s-z.md#timebox	
+https://tarf.co.uk/Glossary/t/TKIP/	Glossary/t/TKIP.md	glossary/s-z.md#tkip	
+https://tarf.co.uk/Glossary/t/TLS/	Glossary/t/TLS.md	glossary/s-z.md#tls	
+https://tarf.co.uk/Glossary/t/TLV/	Glossary/t/TLV.md	glossary/s-z.md#tlv	
+https://tarf.co.uk/Glossary/t/Token%20Ring/	Glossary/t/Token Ring.md	glossary/s-z.md#token-ring	
+https://tarf.co.uk/Glossary/t/TOML/	Glossary/t/TOML.md	glossary/s-z.md#toml	
+https://tarf.co.uk/Glossary/t/Top%20Level%20Schedule/	Glossary/t/Top Level Schedule.md	glossary/s-z.md#top-level-schedule	
+https://tarf.co.uk/Glossary/t/Top-Down%20Estimation/	Glossary/t/Top-Down Estimation.md	glossary/s-z.md#top-down-estimation	
+https://tarf.co.uk/Glossary/t/Triple%20DES/	Glossary/t/Triple DES.md	glossary/s-z.md#triple-des	
+https://tarf.co.uk/Glossary/t/TTY/	Glossary/t/TTY.md	glossary/s-z.md#tty	
+https://tarf.co.uk/Glossary/t/TUP/	Glossary/t/TUP.md	glossary/s-z.md#tup	
+https://tarf.co.uk/Glossary/t/Twisted%20pair/	Glossary/t/Twisted pair.md	glossary/s-z.md#twisted-pair	
+https://tarf.co.uk/Glossary/u/u/	Glossary/u/u.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/u/UA/	Glossary/u/UA.md	glossary/s-z.md#ua	
+https://tarf.co.uk/Glossary/u/Ubiquitous%20Language/	Glossary/u/Ubiquitous Language.md	glossary/s-z.md#ubiquitous-language	
+https://tarf.co.uk/Glossary/u/UDP/	Glossary/u/UDP.md	glossary/s-z.md#udp	
+https://tarf.co.uk/Glossary/u/UER/	Glossary/u/UER.md	glossary/s-z.md#uer	
+https://tarf.co.uk/Glossary/u/UML/	Glossary/u/UML.md	glossary/s-z.md#uml	
+https://tarf.co.uk/Glossary/u/UMTS/	Glossary/u/UMTS.md	glossary/s-z.md#umts	
+https://tarf.co.uk/Glossary/u/UNI/	Glossary/u/UNI.md	glossary/s-z.md#uni	
+https://tarf.co.uk/Glossary/u/unicast/	Glossary/u/unicast.md	glossary/s-z.md#unicast	
+https://tarf.co.uk/Glossary/u/Unicode/	Glossary/u/Unicode.md	glossary/s-z.md#unicode	
+https://tarf.co.uk/Glossary/u/Unified%20Communications/	Glossary/u/Unified Communications.md	glossary/s-z.md#unified-communications	
+https://tarf.co.uk/Glossary/u/Unified%20Modeling%20Language/	Glossary/u/Unified Modeling Language.md	glossary/s-z.md#uml	renamed to "UML"
+https://tarf.co.uk/Glossary/u/Unit%20Test/	Glossary/u/Unit Test.md	glossary/s-z.md#unit-test	
+https://tarf.co.uk/Glossary/u/Unit%20Testing/	Glossary/u/Unit Testing.md	glossary/s-z.md#unit-testing	
+https://tarf.co.uk/Glossary/u/Unix/	Glossary/u/Unix.md	glossary/s-z.md#unix	
+https://tarf.co.uk/Glossary/u/Update/	Glossary/u/Update.md	glossary/s-z.md#update	
+https://tarf.co.uk/Glossary/u/Upstream/	Glossary/u/Upstream.md	glossary/s-z.md#upstream	
+https://tarf.co.uk/Glossary/u/URI/	Glossary/u/URI.md	glossary/s-z.md#uri	
+https://tarf.co.uk/Glossary/u/URL/	Glossary/u/URL.md	glossary/s-z.md#url	
+https://tarf.co.uk/Glossary/u/URN/	Glossary/u/URN.md	glossary/s-z.md#urn	
+https://tarf.co.uk/Glossary/u/Usability%20Testing/	Glossary/u/Usability Testing.md	glossary/s-z.md#usability-testing	
+https://tarf.co.uk/Glossary/u/Use%20Case%20Model/	Glossary/u/Use Case Model.md	glossary/s-z.md#use-case-model	
+https://tarf.co.uk/Glossary/u/Use%20Case%20Specification/	Glossary/u/Use Case Specification.md	glossary/s-z.md#use-case-specification	
+https://tarf.co.uk/Glossary/u/Use%20Case/	Glossary/u/Use Case.md	glossary/s-z.md#use-case	
+https://tarf.co.uk/Glossary/u/User%20Experience/	Glossary/u/User Experience.md	glossary/s-z.md#user-experience	
+https://tarf.co.uk/Glossary/u/User%20Interface%20Design/	Glossary/u/User Interface Design.md	glossary/s-z.md#user-interface-design	
+https://tarf.co.uk/Glossary/u/User%20Interface%20Prototype/	Glossary/u/User Interface Prototype.md	glossary/s-z.md#user-interface-prototype	
+https://tarf.co.uk/Glossary/u/User%20Interface/	Glossary/u/User Interface.md	glossary/s-z.md#user-interface	
+https://tarf.co.uk/Glossary/u/User%20Plane/	Glossary/u/User Plane.md	glossary/s-z.md#user-plane	
+https://tarf.co.uk/Glossary/u/User%20Stories/	Glossary/u/User Stories.md	glossary/s-z.md#user-stories	
+https://tarf.co.uk/Glossary/u/UTC/	Glossary/u/UTC.md	glossary/s-z.md#utc	
+https://tarf.co.uk/Glossary/u/UTF-16/	Glossary/u/UTF-16.md	glossary/s-z.md#utf-16	
+https://tarf.co.uk/Glossary/u/UTF-8/	Glossary/u/UTF-8.md	glossary/s-z.md#utf-8	
+https://tarf.co.uk/Glossary/u/UTRAN/	Glossary/u/UTRAN.md	glossary/s-z.md#utran	
+https://tarf.co.uk/Glossary/v/V%20Model/	Glossary/v/V Model.md	glossary/s-z.md#v-model	
+https://tarf.co.uk/Glossary/v/V.90/	Glossary/v/V.90.md	glossary/s-z.md#v90	
+https://tarf.co.uk/Glossary/v/V.92/	Glossary/v/V.92.md	glossary/s-z.md#v92	
+https://tarf.co.uk/Glossary/v/v/	Glossary/v/v.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/v/VAD/	Glossary/v/VAD.md	glossary/s-z.md#vad	
+https://tarf.co.uk/Glossary/v/VB/	Glossary/v/VB.md	glossary/s-z.md#vb	
+https://tarf.co.uk/Glossary/v/VBS/	Glossary/v/VBS.md	glossary/s-z.md#vbs	
+https://tarf.co.uk/Glossary/v/VC/	Glossary/v/VC.md	glossary/s-z.md#vc	
+https://tarf.co.uk/Glossary/v/VCI/	Glossary/v/VCI.md	glossary/s-z.md#vci	
+https://tarf.co.uk/Glossary/v/VCID/	Glossary/v/VCID.md	glossary/s-z.md#vcid	
+https://tarf.co.uk/Glossary/v/VDSL/	Glossary/v/VDSL.md	glossary/s-z.md#vdsl	
+https://tarf.co.uk/Glossary/v/Velocity/	Glossary/v/Velocity.md	glossary/s-z.md#velocity	
+https://tarf.co.uk/Glossary/v/Verifier/	Glossary/v/Verifier.md	glossary/s-z.md#verifier	
+https://tarf.co.uk/Glossary/v/Version%20Control/	Glossary/v/Version Control.md	glossary/s-z.md#version-control	
+https://tarf.co.uk/Glossary/v/Version/	Glossary/v/Version.md	glossary/s-z.md#version	
+https://tarf.co.uk/Glossary/v/VHDL/	Glossary/v/VHDL.md	glossary/s-z.md#vhdl	
+https://tarf.co.uk/Glossary/v/VISP/	Glossary/v/VISP.md	glossary/s-z.md#visp	
+https://tarf.co.uk/Glossary/v/VLAN/	Glossary/v/VLAN.md	glossary/s-z.md#vlan	
+https://tarf.co.uk/Glossary/v/VLR/	Glossary/v/VLR.md	glossary/s-z.md#vlr	
+https://tarf.co.uk/Glossary/v/VM/	Glossary/v/VM.md	glossary/s-z.md#vm	
+https://tarf.co.uk/Glossary/v/VOD/	Glossary/v/VOD.md	glossary/s-z.md#vod	
+https://tarf.co.uk/Glossary/v/VoIP/	Glossary/v/VoIP.md	glossary/s-z.md#voip	
+https://tarf.co.uk/Glossary/v/VoLTE/	Glossary/v/VoLTE.md	glossary/s-z.md#volte	
+https://tarf.co.uk/Glossary/v/Vorbis/	Glossary/v/Vorbis.md	glossary/s-z.md#vorbis	
+https://tarf.co.uk/Glossary/v/VPI/	Glossary/v/VPI.md	glossary/s-z.md#vpi	
+https://tarf.co.uk/Glossary/v/VPLS/	Glossary/v/VPLS.md	glossary/s-z.md#vpls	
+https://tarf.co.uk/Glossary/v/VPN/	Glossary/v/VPN.md	glossary/s-z.md#vpn	
+https://tarf.co.uk/Glossary/v/VPWS/	Glossary/v/VPWS.md	glossary/s-z.md#vpws	
+https://tarf.co.uk/Glossary/v/VRF/	Glossary/v/VRF.md	glossary/s-z.md#vrf	
+https://tarf.co.uk/Glossary/w/W-CDMA/	Glossary/w/W-CDMA.md	glossary/s-z.md#w-cdma	
+https://tarf.co.uk/Glossary/w/w/	Glossary/w/w.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/w/W3C/	Glossary/w/W3C.md	glossary/s-z.md#w3c	
+https://tarf.co.uk/Glossary/w/Walkthrough/	Glossary/w/Walkthrough.md	glossary/s-z.md#walkthrough	
+https://tarf.co.uk/Glossary/w/WAN/	Glossary/w/WAN.md	glossary/s-z.md#wan	
+https://tarf.co.uk/Glossary/w/WANET/	Glossary/w/WANET.md	glossary/s-z.md#wanet	
+https://tarf.co.uk/Glossary/w/WAP/	Glossary/w/WAP.md	glossary/s-z.md#wap	
+https://tarf.co.uk/Glossary/w/Waterfall%20Lifecycle/	Glossary/w/Waterfall Lifecycle.md	glossary/s-z.md#waterfall-lifecycle	
+https://tarf.co.uk/Glossary/w/Waterfall/	Glossary/w/Waterfall.md	glossary/s-z.md#waterfall	
+https://tarf.co.uk/Glossary/w/WBC/	Glossary/w/WBC.md	glossary/s-z.md#wbc	
+https://tarf.co.uk/Glossary/w/WBCC/	Glossary/w/WBCC.md	glossary/s-z.md#wbcc	
+https://tarf.co.uk/Glossary/w/WBMC/	Glossary/w/WBMC.md	glossary/s-z.md#wbmc	
+https://tarf.co.uk/Glossary/w/Weekly%20Individual%20Plan/	Glossary/w/Weekly Individual Plan.md	glossary/s-z.md#weekly-individual-plan	
+https://tarf.co.uk/Glossary/w/WEP/	Glossary/w/WEP.md	glossary/s-z.md#wep	
+https://tarf.co.uk/Glossary/w/What%20Requirement/	Glossary/w/What Requirement.md	glossary/s-z.md#what-requirement	
+https://tarf.co.uk/Glossary/w/Why%20Requirement/	Glossary/w/Why Requirement.md	glossary/s-z.md#why-requirement	
+https://tarf.co.uk/Glossary/w/Wi-Fi/	Glossary/w/Wi-Fi.md	glossary/s-z.md#wi-fi	
+https://tarf.co.uk/Glossary/w/Wiki/	Glossary/w/Wiki.md	glossary/s-z.md#wiki	
+https://tarf.co.uk/Glossary/w/WiMAX/	Glossary/w/WiMAX.md	glossary/s-z.md#wimax	
+https://tarf.co.uk/Glossary/w/WIN-T/	Glossary/w/WIN-T.md	glossary/s-z.md#win-t	
+https://tarf.co.uk/Glossary/w/Wireless%20Mesh%20Network/	Glossary/w/Wireless Mesh Network.md	glossary/s-z.md#wireless-mesh-network	
+https://tarf.co.uk/Glossary/w/Wireless%20Repeater/	Glossary/w/Wireless Repeater.md	glossary/s-z.md#wireless-repeater	
+https://tarf.co.uk/Glossary/w/Wireshark/	Glossary/w/Wireshark.md	glossary/s-z.md#wireshark	
+https://tarf.co.uk/Glossary/w/WISP/	Glossary/w/WISP.md	glossary/s-z.md#wisp	
+https://tarf.co.uk/Glossary/w/WLR/	Glossary/w/WLR.md	glossary/s-z.md#wlr	
+https://tarf.co.uk/Glossary/w/WMA/	Glossary/w/WMA.md	glossary/s-z.md#wma	
+https://tarf.co.uk/Glossary/w/Work%20Breakdown%20Structure/	Glossary/w/Work Breakdown Structure.md	glossary/s-z.md#work-breakdown-structure	
+https://tarf.co.uk/Glossary/w/Work%20Item/	Glossary/w/Work Item.md	glossary/s-z.md#work-item	
+https://tarf.co.uk/Glossary/w/Work%20Package/	Glossary/w/Work Package.md	glossary/s-z.md#work-package	
+https://tarf.co.uk/Glossary/w/Work%20Plan/	Glossary/w/Work Plan.md	glossary/s-z.md#work-plan	
+https://tarf.co.uk/Glossary/w/Work%20Product/	Glossary/w/Work Product.md	glossary/s-z.md#work-product	
+https://tarf.co.uk/Glossary/w/WPA2/	Glossary/w/WPA2.md	glossary/s-z.md#wpa2	
+https://tarf.co.uk/Glossary/w/WPS/	Glossary/w/WPS.md	glossary/s-z.md#wps	
+https://tarf.co.uk/Glossary/w/write-only%20code/	Glossary/w/write-only code.md	glossary/s-z.md#write-only-code	
+https://tarf.co.uk/Glossary/w/WS-BPEL/	Glossary/w/WS-BPEL.md	glossary/s-z.md#ws-bpel	
+https://tarf.co.uk/Glossary/w/WSDL/	Glossary/w/WSDL.md	glossary/s-z.md#wsdl	
+https://tarf.co.uk/Glossary/x/X.25/	Glossary/x/X.25.md	glossary/s-z.md#x25	
+https://tarf.co.uk/Glossary/x/X.509/	Glossary/x/X.509.md	glossary/s-z.md#x509	
+https://tarf.co.uk/Glossary/x/x/	Glossary/x/x.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/x/XML%20Schema/	Glossary/x/XML Schema.md	glossary/s-z.md#xml-schema	
+https://tarf.co.uk/Glossary/x/XML-RPC/	Glossary/x/XML-RPC.md	glossary/s-z.md#xml-rpc	
+https://tarf.co.uk/Glossary/x/XML/	Glossary/x/XML.md	glossary/s-z.md#xml	
+https://tarf.co.uk/Glossary/x/XMPP/	Glossary/x/XMPP.md	glossary/s-z.md#xmpp	
+https://tarf.co.uk/Glossary/x/XP/	Glossary/x/XP.md	glossary/s-z.md#xp	
+https://tarf.co.uk/Glossary/x/xsd/	Glossary/x/xsd.md	glossary/s-z.md#xsd	
+https://tarf.co.uk/Glossary/x/XSS/	Glossary/x/XSS.md	glossary/s-z.md#xss	
+https://tarf.co.uk/Glossary/y/y/	Glossary/y/y.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/y/YAML/	Glossary/y/YAML.md	glossary/s-z.md#yaml	
+https://tarf.co.uk/Glossary/z/z/	Glossary/z/z.md	glossary/s-z.md	letter index
+https://tarf.co.uk/Glossary/z/ZigBee/	Glossary/z/ZigBee.md	glossary/s-z.md#zigbee	
+https://tarf.co.uk/Glossary/%CE%BC/%CE%BC-law/	Glossary/μ/μ-law.md	glossary/l-n.md#mu-law	renamed to "Mu-law"
+https://tarf.co.uk/Glossary/%CE%BC/%CE%BC/	Glossary/μ/μ.md	glossary/s-z.md	letter index
+https://markbac.github.io/technical-documentation/glossary/		glossary/index.md	technical-documentation site; redirect lives in that repository
+https://markbac.github.io/technical-documentation/glossary/a-c/		glossary/a-c.md	same anchors except the rows below
+https://markbac.github.io/technical-documentation/glossary/d-f/		glossary/d-f.md	same anchors except the rows below
+https://markbac.github.io/technical-documentation/glossary/g-k/		glossary/g-k.md	same anchors except the rows below
+https://markbac.github.io/technical-documentation/glossary/l-n/		glossary/l-n.md	same anchors except the rows below
+https://markbac.github.io/technical-documentation/glossary/o-r/		glossary/o-r.md	same anchors except the rows below
+https://markbac.github.io/technical-documentation/glossary/s-z/		glossary/s-z.md	same anchors except the rows below
+https://markbac.github.io/technical-documentation/glossary/a-c/#artifact		glossary/a-c.md#artefact	renamed to "Artefact"
+https://markbac.github.io/technical-documentation/glossary/a-c/#best-practice-description		glossary/a-c.md#best-practice	renamed to "Best Practice"
+https://markbac.github.io/technical-documentation/glossary/a-c/#cam-item		glossary/g-k.md#item	renamed to "Item"
+https://markbac.github.io/technical-documentation/glossary/a-c/#complier		glossary/a-c.md#compiler	renamed to "Compiler"
+https://markbac.github.io/technical-documentation/glossary/a-c/#construx-knowledge-area		glossary/s-z.md#software-engineering-body-of-knowledge	renamed to "Software Engineering Body of Knowledge"
+https://markbac.github.io/technical-documentation/glossary/a-c/#corrective-activity-management		glossary/a-c.md	dropped
+https://markbac.github.io/technical-documentation/glossary/d-f/#data-modeling		glossary/d-f.md#data-modelling	renamed to "Data modelling"
+https://markbac.github.io/technical-documentation/glossary/d-f/#date-warehouse		glossary/d-f.md#data-warehouse	renamed to "Data Warehouse"
+https://markbac.github.io/technical-documentation/glossary/d-f/#deplhi		glossary/d-f.md#delphi	renamed to "Delphi"
+https://markbac.github.io/technical-documentation/glossary/d-f/#eee-8021qay		glossary/g-k.md#ieee-8021qay	renamed to "IEEE 802.1Qay"
+https://markbac.github.io/technical-documentation/glossary/d-f/#evaluation		glossary/d-f.md	dropped
+https://markbac.github.io/technical-documentation/glossary/d-f/#expert-judgment		glossary/d-f.md#expert-judgement	renamed to "Expert Judgement"
+https://markbac.github.io/technical-documentation/glossary/g-k/#international-organization-for-standardization		glossary/g-k.md#iso	renamed to "ISO"
+https://markbac.github.io/technical-documentation/glossary/g-k/#ios-cisco-os		glossary/g-k.md#ios	renamed to "IOS"
+https://markbac.github.io/technical-documentation/glossary/l-n/#l2s		glossary/l-n.md	dropped
+https://markbac.github.io/technical-documentation/glossary/l-n/#las		glossary/l-n.md	dropped
+https://markbac.github.io/technical-documentation/glossary/l-n/#link		glossary/l-n.md	dropped
+https://markbac.github.io/technical-documentation/glossary/l-n/#lite		glossary/l-n.md	dropped
+https://markbac.github.io/technical-documentation/glossary/l-n/#lps		glossary/l-n.md	dropped
+https://markbac.github.io/technical-documentation/glossary/l-n/#lte-and-mobile-internet		glossary/l-n.md#lte-4g	renamed to "LTE (4G)"
+https://markbac.github.io/technical-documentation/glossary/l-n/#mag		glossary/l-n.md	dropped
+https://markbac.github.io/technical-documentation/glossary/l-n/#mas		glossary/l-n.md	dropped
+https://markbac.github.io/technical-documentation/glossary/l-n/#material		glossary/l-n.md	dropped
+https://markbac.github.io/technical-documentation/glossary/l-n/#mobile-networks-2g3g		glossary/s-z.md#umts	renamed to "UMTS"
+https://markbac.github.io/technical-documentation/glossary/l-n/#modeling		glossary/l-n.md#modelling	renamed to "Modelling"
+https://markbac.github.io/technical-documentation/glossary/l-n/#mps		glossary/l-n.md	dropped
+https://markbac.github.io/technical-documentation/glossary/o-r/#python-2x-3x		glossary/o-r.md#python	renamed to "Python"
+https://markbac.github.io/technical-documentation/glossary/o-r/#rainbow		glossary/o-r.md	dropped
+https://markbac.github.io/technical-documentation/glossary/o-r/#reference		glossary/o-r.md	dropped
+https://markbac.github.io/technical-documentation/glossary/o-r/#risk-reward-matric		glossary/o-r.md#risk-reward-matrix	renamed to "Risk Reward Matrix"
+https://markbac.github.io/technical-documentation/glossary/s-z/#sematic-versioning		glossary/s-z.md#semantic-versioning	renamed to "Semantic Versioning"
+https://markbac.github.io/technical-documentation/glossary/s-z/#sprial-model		glossary/s-z.md#spiral-model	renamed to "Spiral Model"
+https://markbac.github.io/technical-documentation/glossary/s-z/#the-first-example-has-two-steps		glossary/g-k.md#gherkin	renamed to "Gherkin"
+https://markbac.github.io/technical-documentation/glossary/s-z/#the-second-example-has-three-steps		glossary/g-k.md#gherkin	renamed to "Gherkin"
+https://markbac.github.io/technical-documentation/glossary/s-z/#unified-modeling-language		glossary/s-z.md#uml	renamed to "UML"
+https://markbac.github.io/technical-documentation/glossary/s-z/#-law		glossary/l-n.md#mu-law	renamed to "Mu-law"
