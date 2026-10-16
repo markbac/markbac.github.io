@@ -9,13 +9,75 @@ outputs:
   docx: {dir: build}
   pdf: {dir: build}
 
-# Sections are added here as they move in from the old repositories, one PR each:
-# glossary, guidelines, standards, handbook, primers, reference, templates. The blog is not a
-# py-doc document: its posts live in site/docs/blog/ for MkDocs Material's blog plugin.
-documents: {}
+# One document per section, in the order of the navigation. Each section's pull request fills in its
+# own sources and leaves the other sections alone. The blog is not a py-doc document: its posts live
+# in site/docs/blog/ for MkDocs Material's blog plugin.
+documents:
+  guidelines:
+    # Guidelines. The section's own pull request lists the rest of its files here.
+    sources:
+      - content/guidelines/index.md
+    outputs: {docx: {}, pdf: {}}
+
+  standards:
+    # Standards. The section's own pull request lists the rest of its files here.
+    sources:
+      - content/standards/index.md
+    outputs: {docx: {}, pdf: {}}
+
+  guides:
+    # Guides. The section's own pull request lists the rest of its files here.
+    sources:
+      - content/guides/index.md
+    outputs: {docx: {}, pdf: {}}
+
+  handbook:
+    # Architecture Handbook. The section's own pull request lists the rest of its files here.
+    sources:
+      - content/handbook/index.md
+    outputs: {docx: {}, pdf: {}}
+
+  primers:
+    # Primers. The section's own pull request lists the rest of its files here.
+    sources:
+      - content/primers/index.md
+    outputs: {docx: {}, pdf: {}}
+
+  reference:
+    # Reference. The section's own pull request lists the rest of its files here.
+    sources:
+      - content/reference/index.md
+    outputs: {docx: {}, pdf: {}}
+
+  glossary:
+    # Glossary. The section's own pull request lists the rest of its files here.
+    sources:
+      - content/glossary/index.md
+    outputs: {docx: {}, pdf: {}}
+
+  templates:
+    # Templates & Checklists. The section's own pull request lists the rest of its files here.
+    sources:
+      - content/templates/index.md
+    outputs: {docx: {}, pdf: {}}
+
+  radar:
+    # Tech Radar. The section's own pull request lists the rest of its files here.
+    sources:
+      - content/radar/index.md
+    outputs: {docx: {}, pdf: {}}
+
+  firmitas:
+    # Firmitas. The section's own pull request lists the rest of its files here.
+    sources:
+      - content/firmitas/index.md
+    outputs: {docx: {}, pdf: {}}
+
 
 lint:
   exclude: [build, site/build, site/build-tarf]
+  acronyms:
+    allowed: [MISRA, LwM2M, IoT, API, CBOR, ADR, RFC, HLD, ARB]   # well known in this field; sections add theirs
   vale:
     enabled: auto
     spelling: en-GB
