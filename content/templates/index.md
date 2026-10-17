@@ -61,4 +61,4 @@ The templates that tools read are also available as files.
 | [Architecture Communication Canvas, draw.io](https://github.com/markbac/markbac.github.io/raw/main/content/templates/files/architecture-communication-canvas.drawio) | The communication canvas, to edit in draw.io |
 | [Architecture Communication Canvas, PowerPoint](https://github.com/markbac/markbac.github.io/raw/main/content/templates/files/architecture-communication-canvas.pptx) | The communication canvas, as slides |
 
-The canvases are by Gernot Starke, Patrick Roos, Ben Wolf and the arc42 contributors, under a Creative Commons Attribution-ShareAlike licence (see [Architecture canvases](architecture-canvases.md)). Everything else in this section is under the site's MIT licence.
+The canvases are by Gernot Starke, Patrick Roos, Ben Wolf and the arc42 contributors, under a Creative Commons Attribution-ShareAlike licence (see [Architecture canvases](architecture-canvases.md)).
