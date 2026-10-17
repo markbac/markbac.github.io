@@ -50,16 +50,37 @@ documents:
     outputs: {docx: {}, pdf: {}}
 
   glossary:
-    # Glossary: the index, then one file per letter group. Each term is a ### heading, so it has
-    # its own anchor (content/glossary/redirects.tsv maps the old one-page-per-term URLs to them).
+    # Glossary: the index, one file per letter, then numbers and symbols. Each term is a ## heading,
+    # so it has its own anchor (content/glossary/redirects.tsv maps the old URLs to them).
     sources:
       - content/glossary/index.md
-      - content/glossary/a-c.md
-      - content/glossary/d-f.md
-      - content/glossary/g-k.md
-      - content/glossary/l-n.md
-      - content/glossary/o-r.md
-      - content/glossary/s-z.md
+      - content/glossary/a.md
+      - content/glossary/b.md
+      - content/glossary/c.md
+      - content/glossary/d.md
+      - content/glossary/e.md
+      - content/glossary/f.md
+      - content/glossary/g.md
+      - content/glossary/h.md
+      - content/glossary/i.md
+      - content/glossary/j.md
+      - content/glossary/k.md
+      - content/glossary/l.md
+      - content/glossary/m.md
+      - content/glossary/n.md
+      - content/glossary/o.md
+      - content/glossary/p.md
+      - content/glossary/q.md
+      - content/glossary/r.md
+      - content/glossary/s.md
+      - content/glossary/t.md
+      - content/glossary/u.md
+      - content/glossary/v.md
+      - content/glossary/w.md
+      - content/glossary/x.md
+      - content/glossary/y.md
+      - content/glossary/z.md
+      - content/glossary/numbers.md
     outputs: {docx: {}, pdf: {}}
 
   templates:
