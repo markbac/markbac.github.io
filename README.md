@@ -38,6 +38,7 @@ markbac.github.io with GitHub Pages, and pushes the tarf.co.uk build to
 webhook. The tarf push is off until the repository variable `TARF_DEPLOY` is `true`, and it needs a
 `WEB_CONTENT_TOKEN` secret.
 
-## Licence
+## Copyright
 
-MIT, unless a section's own folder says otherwise.
+© Mark Bacon. Third-party material, such as the arc42 canvases in `content/templates/files/`, keeps
+its own licence, given beside it.

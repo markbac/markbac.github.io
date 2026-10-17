@@ -6,7 +6,7 @@ site_url: https://markbac.github.io/
 site_author: Mark Bacon
 site_description: Software and IoT architecture notes, guidelines, reference and blog
 repo_url: https://github.com/markbac/markbac.github.io
-copyright: "&copy; Mark Bacon. Content under the MIT licence unless a section says otherwise"
+copyright: "&copy; Mark Bacon"
 docs_dir: docs
 site_dir: build
 # MkDocs always leaves out a top-level templates/ folder (as well as dot files), and that folder is
