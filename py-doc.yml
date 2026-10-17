@@ -38,9 +38,80 @@ documents:
     outputs: {docx: {}, pdf: {}}
 
   primers:
-    # Primers. The section's own pull request lists the rest of its files here.
+    # Primers (the old Tech 101s): the overview, then one page per area, each followed by its
+    # primers. The primers sit one heading level below their area in the Word and PDF files.
     sources:
       - content/primers/index.md
+      - {file: content/primers/architecture.md, page_break: true}
+      - {file: content/primers/architecture-decision-records.md, heading_offset: 1}
+      - {file: content/primers/c4-model.md, heading_offset: 1}
+      - {file: content/primers/design-principles.md, heading_offset: 1}
+      - {file: content/primers/design-patterns.md, heading_offset: 1}
+      - {file: content/primers/anti-patterns.md, heading_offset: 1}
+      - {file: content/primers/hexagonal-architecture.md, heading_offset: 1}
+      - {file: content/primers/domain-driven-design.md, heading_offset: 1}
+      - {file: content/primers/event-driven-architecture.md, heading_offset: 1}
+      - {file: content/primers/modular-monolith-vs-microservices.md, heading_offset: 1}
+      - {file: content/primers/digital-twins-and-device-shadows.md, heading_offset: 1}
+      - {file: content/primers/distributed-systems.md, page_break: true}
+      - {file: content/primers/cap-and-pacelc.md, heading_offset: 1}
+      - {file: content/primers/consistency-models.md, heading_offset: 1}
+      - {file: content/primers/idempotency.md, heading_offset: 1}
+      - {file: content/primers/saga-pattern.md, heading_offset: 1}
+      - {file: content/primers/apis-and-data.md, page_break: true}
+      - {file: content/primers/rest-apis.md, heading_offset: 1}
+      - {file: content/primers/openapi-and-asyncapi.md, heading_offset: 1}
+      - {file: content/primers/data-formats.md, heading_offset: 1}
+      - {file: content/primers/cbor.md, heading_offset: 1}
+      - {file: content/primers/cloud.md, page_break: true}
+      - {file: content/primers/cicd-pipelines.md, heading_offset: 1}
+      - {file: content/primers/infrastructure-as-code.md, heading_offset: 1}
+      - {file: content/primers/serverless-computing.md, heading_offset: 1}
+      - {file: content/primers/kafka-event-streaming.md, heading_offset: 1}
+      - {file: content/primers/iot-on-google-cloud.md, heading_offset: 1}
+      - {file: content/primers/iot-and-embedded.md, page_break: true}
+      - {file: content/primers/embedded-systems-design.md, heading_offset: 1}
+      - {file: content/primers/rtos-and-freertos.md, heading_offset: 1}
+      - {file: content/primers/finite-state-machines.md, heading_offset: 1}
+      - {file: content/primers/interrupts-and-dma.md, heading_offset: 1}
+      - {file: content/primers/watchdog-timers.md, heading_offset: 1}
+      - {file: content/primers/bootloaders.md, heading_offset: 1}
+      - {file: content/primers/mqtt.md, heading_offset: 1}
+      - {file: content/primers/coap.md, heading_offset: 1}
+      - {file: content/primers/lwm2m.md, heading_offset: 1}
+      - {file: content/primers/cellular-lpwan.md, heading_offset: 1}
+      - {file: content/primers/firmware-over-the-air.md, heading_offset: 1}
+      - {file: content/primers/edge-computing-for-iot.md, heading_offset: 1}
+      - {file: content/primers/hardware-in-the-loop-testing.md, heading_offset: 1}
+      - {file: content/primers/security.md, page_break: true}
+      - {file: content/primers/cryptography-basics.md, heading_offset: 1}
+      - {file: content/primers/pki-and-certificates.md, heading_offset: 1}
+      - {file: content/primers/tls-and-dtls.md, heading_offset: 1}
+      - {file: content/primers/post-quantum-cryptography.md, heading_offset: 1}
+      - {file: content/primers/secure-coding-practices.md, heading_offset: 1}
+      - {file: content/primers/owasp-top-10.md, heading_offset: 1}
+      - {file: content/primers/oauth-and-oidc.md, heading_offset: 1}
+      - {file: content/primers/zero-trust-architecture.md, heading_offset: 1}
+      - {file: content/primers/etsi-en-303-645.md, heading_offset: 1}
+      - {file: content/primers/iso-30141.md, heading_offset: 1}
+      - {file: content/primers/methods-and-delivery.md, page_break: true}
+      - {file: content/primers/sdlc-models.md, heading_offset: 1}
+      - {file: content/primers/agile-development.md, heading_offset: 1}
+      - {file: content/primers/scrum-vs-kanban.md, heading_offset: 1}
+      - {file: content/primers/event-storming.md, heading_offset: 1}
+      - {file: content/primers/lightweight-architecture-evaluations.md, heading_offset: 1}
+      - {file: content/primers/testing-strategies.md, heading_offset: 1}
+      - {file: content/primers/code-review.md, heading_offset: 1}
+      - {file: content/primers/technical-debt.md, heading_offset: 1}
+      - {file: content/primers/docs-as-code.md, heading_offset: 1}
+      - {file: content/primers/root-cause-analysis.md, heading_offset: 1}
+      - {file: content/primers/programming-and-tools.md, page_break: true}
+      - {file: content/primers/git-best-practices.md, heading_offset: 1}
+      - {file: content/primers/static-code-analysis.md, heading_offset: 1}
+      - {file: content/primers/plantuml-and-mermaid.md, heading_offset: 1}
+      - {file: content/primers/python-for-automation.md, heading_offset: 1}
+      - {file: content/primers/rust-for-systems.md, heading_offset: 1}
+      - {file: content/primers/terminal-modernisation.md, heading_offset: 1}
     outputs: {docx: {}, pdf: {}}
 
   reference:
