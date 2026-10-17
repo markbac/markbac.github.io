@@ -44,7 +44,7 @@ Implementing AAC involves a few key steps, which I'll outline below. But first, 
     
 2. **PlantUML**: A widely used tool for creating diagrams from code. PlantUML can be integrated into build processes, enabling automatic updates of architectural diagrams whenever your system’s structure changes.
     
-3. **Model-Driven Development Tools**: Tools like **Sparx Systems Enterprise Architect** or **Archi** help in the model-driven approach, but many of them now offer ways to integrate with codebases or work alongside version control systems.
+3. **Model-Driven Development Tools**: Tools like **Sparx Systems Enterprise Architect** or **Archi** help in the model-driven approach. Many of them now integrate with codebases or work alongside version control systems.
     
 4. **Graph Databases**: Graph databases like **Neo4j** can help map the relationships between your components. These tools provide visualisation options to explore dependencies in the system architecture, giving you insight into how everything fits together.
     

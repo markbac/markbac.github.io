@@ -61,7 +61,7 @@ The answer isn’t just "because software is complex"—it’s because **softwar
 
 ***
 
-## Why *Why Does Software Cost So Much?* Still Matters
+## Why the book still matters
 
 Software development isn’t just about writing code—it’s about managing people, expectations, and uncertainty. Companies that fail to understand this end up with **bloated budgets, missed deadlines, and frustrated teams.**
 

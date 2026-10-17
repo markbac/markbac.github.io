@@ -47,7 +47,7 @@ There are several ways to bring "Architecture as Code" into your workflow. Here 
     One of the most popular practices for documenting architectural decisions as code is the use of Architecture Decision Records (ADR). ADRs are markdown files that document architectural decisions, why they were made, and what alternatives were considered. By storing ADRs in version control, you create a clear history of architectural choices that are easy to review and maintain.
     
 3. **Automated Checks and Validation**  
-    Automate the validation of your architecture using tools like ArchUnit, which checks that your Java code adheres to architectural rules, or C4-model-based validation for microservices. These tools can automatically detect when parts of your system diverge from the agreed-upon architecture and flag potential issues before they become problems.
+    Automate the validation of your architecture. ArchUnit checks that your Java code adheres to architectural rules, and C4-model-based validation does the same for microservices. These tools can automatically detect when parts of your system diverge from the agreed-upon architecture and flag potential issues before they become problems.
     
 4. **Infrastructure as Code (IaC)**  
     Architecture as code can be extended into your infrastructure with Infrastructure as Code (IaC) practices. Tools like Terraform and CloudFormation allow you to define infrastructure components (e.g., servers, databases, networks) as code. This allows the infrastructure and architecture to evolve in tandem, making it easier to deploy and manage the system’s underlying infrastructure in a repeatable, scalable way.

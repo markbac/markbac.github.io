@@ -25,7 +25,7 @@ A good architect tailors their message depending on who they’re speaking to. T
 
 -   **Developers** care about how things work. They want details on APIs, data flows, and why a certain approach is the best from an engineering perspective. They respond to clear documentation, diagrams, and well-thought-out trade-offs.
 -   **Product managers and business stakeholders** care about value, timelines, and risk. They need to understand how architectural choices affect deliverables, customer experience, and business goals.
--   **The C-suite** cares about strategy, cost, and long-term impact. They don’t need to know _how_ an event-driven architecture works, but they do need to know that it will enable faster time-to-market, improve resilience, and reduce operational costs.
+-   **The C-suite** cares about strategy, cost, and long-term impact. They don’t need to know _how_ an event-driven architecture works. They do need to know that it will enable faster time-to-market, improve resilience, and reduce operational costs.
 
 The key is **adapting your level of detail without compromising accuracy**. Avoid overwhelming non-technical stakeholders with jargon, but don’t oversimplify to the point where the essence of your decisions is lost.
 
