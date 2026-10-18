@@ -27,7 +27,7 @@ jobs:
           fetch-depth: 0 # version: git and the "last updated" dates need the history
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: "3.12"
+          python-version: "3.14"
       - name: Install py-doc
         run: python -m pip install "py-doc @ git+https://github.com/markbac/py-doc"
       - name: Install Vale (py-doc lint runs it as well as its own rules)
@@ -52,6 +52,7 @@ jobs:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       pages: write
       id-token: write
@@ -68,6 +69,7 @@ jobs:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && vars.TARF_DEPLOY == 'true'
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/download-artifact@v4
         with:
