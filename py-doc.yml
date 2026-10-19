@@ -54,9 +54,22 @@ documents:
     outputs: {docx: {}, pdf: {}}
 
   standards:
-    # Standards. The section's own pull request lists the rest of its files here.
+    # Standards (from technical-documentation's specialised GU- documents): coding, design and interfaces,
+    # then connected devices.
     sources:
       - content/standards/index.md
+      - content/standards/c-coding-standard.md
+      - content/standards/misra-c.md
+      - content/standards/python.md
+      - content/standards/software-architecture-principles.md
+      - content/standards/api-design.md
+      - content/standards/unique-identifiers.md
+      - content/standards/lwm2m-objects.md
+      - content/standards/iot-device-architecture-principles.md
+      - content/standards/iot-battery-budgeting.md
+      - content/standards/constrained-binary-payloads.md
+      - content/standards/iot-edge-offline-storage.md
+      - content/standards/device-serialisation-and-factory-test.md
     outputs: {docx: {}, pdf: {}}
 
   guides:
@@ -236,7 +249,7 @@ site:
   dir: site
   # Only the sections that have moved in are published. Add each section here when its pull request
   # merges; until then its placeholder page stays off both sites.
-  documents: [guidelines, primers, glossary, templates]
+  documents: [guidelines, standards, primers, glossary, templates]
   downloads: [pdf, docx]
   targets:
     github: mkdocs.yml        # https://markbac.github.io/, personal home page
