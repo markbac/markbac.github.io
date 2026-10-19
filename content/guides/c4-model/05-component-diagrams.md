@@ -37,9 +37,9 @@ flowchart TB
     end
 
     %% External interfaces
-    SensorIC["(#quot;Environmental Sensor IC#quot;)"]
-    NORFlash["(#quot;SPI NOR Flash#quot;)"]
-    CloudBroker["(#quot;Cloud MQTT Broker#quot;)"]
+    SensorIC[("Environmental Sensor IC")]
+    NORFlash[("SPI NOR Flash")]
+    CloudBroker[("Cloud MQTT Broker")]
 
     SensorDriver -- "I2C register transfers" --> SensorIC
     ConfigStore -- "Block read/write" --> NORFlash
@@ -120,9 +120,9 @@ flowchart TB
         ShadowSyncer["Device Shadow Syncer<br/><i>[Component: gRPC Client]</i><br/>Updates device connectivity status, last-seen timestamps, and battery levels."]
     end
 
-    BrokerQueue["(#quot;Cloud MQTT Broker / Message Queue#quot;)"]
-    TimescaleDB["(#quot;TimescaleDB Telemetry Store#quot;)"]
-    RegistrySvc["(#quot;Device Registry Service#quot;)"]
+    BrokerQueue[("Cloud MQTT Broker / Message Queue")]
+    TimescaleDB[("TimescaleDB Telemetry Store")]
+    RegistrySvc[("Device Registry Service")]
 
     BrokerQueue -->|"Delivers raw telemetry stream<br/><b>[Kafka / AMQP Protocol]</b>"| Consumer
     Consumer -->|"Passes unvalidated frame<br/><b>[Go Channel]</b>"| Validator

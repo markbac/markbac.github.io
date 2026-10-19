@@ -257,7 +257,7 @@ Modem re-initialisation routine assumed valid UART response within 100 ms. In lo
 | :--- | :--- | :--- | :--- | :--- |
 | **ACT-1** | Add RF attenuation sweep (-60 to -115 dBm) to automated HIL test matrix. | [Name] | 2026-10-15 | HW-402 |
 | **ACT-2** | Implement asynchronous timeout protection and watchdog kick in modem driver. | [Name] | 2026-09-30 | FW-891 |
-| **ACT-3** | Update GU-021 defect review checklist to mandate latency injection in mocks. | [Name] | 2026-10-05 | DOC-112 |
+| **ACT-3** | Update the defect review checklist to mandate latency injection in mocks. | [Name] | 2026-10-05 | DOC-112 |
 ```
 [[CAPTION:Figure]] Blameless post-mortem report template.
 

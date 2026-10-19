@@ -34,7 +34,7 @@ flowchart TD
 A frequent misunderstanding is equating the Advice Process with seeking consensus or unanimous committee agreement.
 
 - **Consensus** is slow, stifling, and political; it waters down bold architectural ideas to the lowest common denominator and allows single obstinate voices to veto innovation.
-- **The Advice Process** places complete decision-making authority and accountability on the individual or squad taking the call. The decision-taker is under no obligation to agree with the feedback received. However, they must listen actively, consider implications, and formally record the advice in the Architecture Decision Record ([GU-005](../decision-records.md)).
+- **The Advice Process** places complete decision-making authority and accountability on the individual or squad taking the call. The decision-taker is under no obligation to agree with the feedback received. However, they must listen actively, consider implications, and formally record the advice in the Architecture Decision Record ([Writing ADRs and RFCs](../decision-records.md)).
 
 ## 2. Who to Consult: Mapping the Advice Scope
 

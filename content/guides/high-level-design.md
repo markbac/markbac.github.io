@@ -4,7 +4,7 @@ title: Writing a high-level design
 
 # Writing a high-level design
 
-This guideline defines the engineering standard, narrative structure, and quantitative capacity estimation framework for authoring High-Level Design (HLD) documents. It bridges the gap between Product Requirements Documents (PRDs) or Business Architecture and low-level Software Design Specifications ([GU-007](software-design-specification.md)).
+This guideline defines the engineering standard, narrative structure, and quantitative capacity estimation framework for authoring High-Level Design (HLD) documents. It bridges the gap between Product Requirements Documents (PRDs) or Business Architecture and low-level Software Design Specifications ([Writing a software design specification](software-design-specification.md)).
 
 ## 1. Purpose and Architecture Context
 
@@ -12,9 +12,9 @@ A High-Level Design document establishes a shared architectural vision for a pro
 
 ```mermaid
 flowchart LR
-    A["Business Requirements / PRD"] --> B["High-Level Design (HLD, GU-022)"]
-    B --> C["Software Design Specification (SDS, GU-007)"]
-    B --> D["Architecture Decision Records (ADR, GU-005)"]
+    A["Business Requirements / PRD"] --> B["High-Level Design (HLD)"]
+    B --> C["Software Design Specification (SDS)"]
+    B --> D["Architecture Decision Records (ADR)"]
     C --> E["Implementation and Testing"]
 ```
 
@@ -22,7 +22,7 @@ flowchart LR
 
 ### 1.1 When an HLD is Required
 
-An HLD must be drafted, reviewed, and approved via the Architecture Review Board ([GU-017](architecture-review-board.md)) under any of the following conditions:
+An HLD must be drafted, reviewed, and approved via the Architecture Review Board ([Running an architecture review board](architecture-review-board.md)) under any of the following conditions:
 
 - A new software service, container, embedded device platform, or cloud subsystem is being introduced.
 - A cross-cutting change impacts two or more bounded contexts, teams, or external API contracts.
@@ -131,14 +131,14 @@ The following template outlines the required sections for all formal HLD submiss
 
 ## 2. High-Level Architecture Overview
 - **System Context Diagram**: C4 Level 1 diagram illustrating users, external systems, and boundaries.
-- **Key Architectural Decisions**: Core technology choices (languages, frameworks, datastores) linking to ADRs ([GU-005](decision-records.md)).
+- **Key Architectural Decisions**: Core technology choices (languages, frameworks, datastores) linking to ADRs ([Writing ADRs and RFCs](decision-records.md)).
 - **Subsystem Decomposition**: High-level responsibilities of containers or microservices.
 
 ## 3. Detailed Architecture and Component Interactions
 - **Container / Component Diagram**: C4 Level 2 / Level 3 diagram showcasing communication protocols.
 - **Data Flow and Sequence**: Key runtime sequence diagrams illustrating happy-path and edge-case execution.
 - **Data Model and Persistence**: Logical schema, datastore selection rationale, indexing strategy, and partition keys.
-- **API and Interface Contracts**: Protobuf, OpenAPI, or AsyncAPI references complying with [GU-020](../standards/api-design.md).
+- **API and Interface Contracts**: Protobuf, OpenAPI, or AsyncAPI references complying with [API design and error handling](../standards/api-design.md).
 
 ## 4. Capacity and Sizing Analysis
 - **Traffic Model**: Daily Active Users / Devices, QPS average and peak calculations.
@@ -168,10 +168,10 @@ The following template outlines the required sections for all formal HLD submiss
 
 ## 4. Architectural Review and Gate Criteria
 
-All HLD documents must undergo formal evaluation prior to implementation sign-off. Reviewers assess documents against the McConnell-style Architecture Review Checklist defined in [GU-018](../templates/architecture-review-checklist.md):
+All HLD documents must undergo formal evaluation prior to implementation sign-off. Reviewers assess documents against the McConnell-style Architecture Review Checklist defined in [Architecture review checklist](../templates/architecture-review-checklist.md):
 
 - **ARC-1 to ARC-6 (General Quality)**: Are goals clear, boundaries well-defined, and assumptions documented?
 - **ARC-7 to ARC-14 (Design Considerations)**: Are loose coupling, high cohesion, and standard patterns utilised?
 - **ARC-15 to ARC-23 (Operational & Quality Requirements)**: Are capacity estimates mathematically verified, failure modes mitigated, and security controls explicit?
 
-Upon successful review, the HLD is registered in the Architecture Registry and referenced by subsequent Software Design Specifications ([GU-007](software-design-specification.md)).
+Upon successful review, the HLD is registered in the Architecture Registry and referenced by subsequent Software Design Specifications ([Writing a software design specification](software-design-specification.md)).

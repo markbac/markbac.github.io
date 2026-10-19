@@ -203,8 +203,8 @@ flowchart TB
         HAL["Sensor HAL & Driver<br/><i>[Component: I2C Driver]</i>"]
     end
 
-    SensorChip["(#quot;BME688 Sensor IC#quot;)"]
-    CloudGW["(#quot;Cloud Ingestion Broker#quot;)"]
+    SensorChip[("BME688 Sensor IC")]
+    CloudGW[("Cloud Ingestion Broker")]
 
     Power -->|"Wakes on timer tick<br/><b>[RTOS Event Flag]</b>"| Acq
     Acq -->|"Reads measurement registers<br/><b>[C Function API]</b>"| HAL

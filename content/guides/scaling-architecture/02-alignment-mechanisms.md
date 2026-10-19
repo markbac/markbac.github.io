@@ -10,11 +10,11 @@ To prevent decentralized decision-making from fracturing into architectural frag
 flowchart TD
     AP[The Advice Process]
     subgraph Mechanisms["The Four Alignment & Learning Mechanisms"]
-        ADR["1. Lightweight ADRs (GU-005)
+        ADR["1. Lightweight ADRs
         Transparent Decision History"]
-        AAF["2. Architecture Advisory Forum (GU-017)
+        AAF["2. Architecture Advisory Forum
         Open Weekly Conversational Clinic"]
-        PRIN["3. Team-Sourced Principles (GU-019)
+        PRIN["3. Team-Sourced Principles
         Living Cultural Guardrails"]
         RADAR["4. Technology Radar
         Lifecycle Tracking: Adopt / Trial / Assess / Hold"]
@@ -28,7 +28,7 @@ flowchart TD
 
 ## 1. Lightweight Architecture Decision Records (ADRs)
 
-Architecture Decision Records ([GU-005](../decision-records.md)) capture significant technical choices directly inside the version-controlled codebase.
+Architecture Decision Records ([Writing ADRs and RFCs](../decision-records.md)) capture significant technical choices directly inside the version-controlled codebase.
 
 ### Why ADRs are Critical for Autonomous Teams
 
@@ -38,7 +38,7 @@ Architecture Decision Records ([GU-005](../decision-records.md)) capture signifi
 
 ## 2. The Architecture Advisory Forum (ARB)
 
-The Architecture Advisory Forum transforms the traditional, dreaded Architecture Review Board into an open, collaborative clinic ([GU-017](../architecture-review-board.md)).
+The Architecture Advisory Forum transforms the traditional, dreaded Architecture Review Board into an open, collaborative clinic ([Running an architecture review board](../architecture-review-board.md)).
 
 | Traditional Review Board | Architecture Advisory Forum |
 | :--- | :--- |
@@ -49,7 +49,7 @@ The Architecture Advisory Forum transforms the traditional, dreaded Architecture
 
 [[CAPTION:Table]] Evolution from traditional gatekeeper board to open Advisory Forum.
 
-Teams use the 23-point Architecture Review Checklist ([GU-018](../../templates/architecture-review-checklist.md)) not as an administrative barrier, but as a diagnostic checklist to prepare for the session.
+Teams use the 23-point Architecture Review Checklist ([Architecture review checklist](../../templates/architecture-review-checklist.md)) not as an administrative barrier, but as a diagnostic checklist to prepare for the session.
 
 ## 3. Team-Sourced Architecture Principles
 

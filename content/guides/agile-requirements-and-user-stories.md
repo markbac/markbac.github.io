@@ -15,17 +15,17 @@ flowchart LR
     A["Product Strategy / Epics"] --> B["Sprint Goals (Outcome)"]
     B --> C["User Stories (INVEST)"]
     C --> D["Acceptance Criteria (Gherkin / BDD)"]
-    D --> E["Definition of Ready (GU-004)"]
+    D --> E["Definition of Ready"]
     E --> F["Implementation & TDD"]
-    F --> G["Definition of Done (GU-003)"]
+    F --> G["Definition of Done"]
 ```
 
 [[CAPTION:Figure]] Requirements traceability flow from epic outcomes down to automated acceptance tests.
 
 This guideline aligns directly with:
-- **[GU-004](../templates/definition-of-ready.md)**: Defines the criteria a user story must satisfy before being committed into a sprint backlog.
-- **[GU-003](../templates/definition-of-done.md)**: Defines the engineering checklist required before a completed story can be accepted into a releasable increment.
-- **[GU-007](software-design-specification.md)**: Provides the technical design specification for complex stories requiring architectural elaboration.
+- **[Definition of Ready](../templates/definition-of-ready.md)**: Defines the criteria a user story must satisfy before being committed into a sprint backlog.
+- **[Definition of Done](../templates/definition-of-done.md)**: Defines the engineering checklist required before a completed story can be accepted into a releasable increment.
+- **[Writing a software design specification](software-design-specification.md)**: Provides the technical design specification for complex stories requiring architectural elaboration.
 
 ## 2. User Story Authoring Standard
 
@@ -60,7 +60,7 @@ Every user story committed to a sprint must satisfy the six INVEST criteria:
 | **I: Independent** | The story can be developed, tested, and released in any sequence without hard dependencies on other in-flight stories. | Are blocking dependencies resolved or decomposed into standalone deliverables? |
 | **N: Negotiable** | The story captures the goal, leaving implementation mechanics open to engineering refinement. | Does the story avoid dictating rigid implementation details that prevent technical trade-offs? |
 | **V: Valuable** | Delivers discernible value to a customer, stakeholder, or downstream system upon completion. | Can the product owner or customer articulate the benefit of this increment alone? |
-| **E: Estimable** | The team understands the scope and technical complexity sufficiently to assign relative effort. | Has ambiguity been clarified through spikes or technical designs ([GU-007](software-design-specification.md))? |
+| **E: Estimable** | The team understands the scope and technical complexity sufficiently to assign relative effort. | Has ambiguity been clarified through spikes or technical designs ([Writing a software design specification](software-design-specification.md))? |
 | **S: Small** | Sized to fit comfortably within a single sprint, ideally taking 2 to 4 engineering days. | Can the story be completed, tested, and code-reviewed well before the sprint boundary? |
 | **T: Testable** | Accompanied by unambiguous acceptance criteria that can be validated objectively. | Can QA or automated test harnesses verify whether the criteria pass or fail? |
 
@@ -130,9 +130,9 @@ Feature: API Gateway Ingestion Rate Limiting
 
 Non-scenario requirements (for example, static code metrics, accessibility, or security standards) may be expressed as explicit checklists:
 
-- [ ] Code changes must satisfy MISRA C:2012 guidelines ([GU-012](../standards/misra-c.md)) with zero mandatory rule violations.
+- [ ] Code changes must satisfy MISRA C:2012 guidelines ([MISRA C](../standards/misra-c.md)) with zero mandatory rule violations.
 - [ ] Ingestion endpoint p99 latency must remain under 150 ms under a synthetic load of 2,000 requests/sec.
-- [ ] All public API parameters must be documented with OpenAPI 3.1 schemas ([GU-020](../standards/api-design.md)).
+- [ ] All public API parameters must be documented with OpenAPI 3.1 schemas ([API design and error handling](../standards/api-design.md)).
 
 ## 4. Sprint Goal Alignment Standard
 

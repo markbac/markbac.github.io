@@ -795,7 +795,7 @@ A worktree is a second working directory backed by the same `.git` database. It 
 
 ```mermaid
 flowchart LR
-    G["(#quot;.git#quot; database)"]
+    G[(".git" database)]
     W1["Working directory: main"]
     W2["Working directory: hotfix/urgent"]
     G --- W1

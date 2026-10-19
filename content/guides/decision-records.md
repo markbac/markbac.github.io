@@ -36,7 +36,7 @@ You don't need an ADR for:
 
 ### ADR vs RFC
 
-An RFC drives debate on potential solutions; an ADR records the chosen outcome. See companion standard [GU-006: RFC Authoring Guide](decision-records.md).
+An RFC drives debate on potential solutions; an ADR records the chosen outcome. See companion standard [Writing ADRs and RFCs](decision-records.md).
 
 | Dimension | RFC (Request for Comments) | ADR (Architecture Decision Record) |
 | :--- | :--- | :--- |

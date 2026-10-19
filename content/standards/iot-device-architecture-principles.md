@@ -7,7 +7,7 @@ title: IoT device architecture principles
 **Target Product Domains:** Field-deployed IoT devices operating autonomously in uncontrolled physical environments over multi-year lifecycles
 **Author:** Solution Architecture
 **Status:** Approved / Baseline
-**Document Reference:** GU-025
+**Document Reference:** [IoT device architecture principles](iot-device-architecture-principles.md)
 
 ## Version History
 
@@ -27,8 +27,8 @@ title: IoT device architecture principles
 
 ## Executive Summary
 
-> [!NOTE] Relationship to Software Architecture Principles (GU-019)
-> While GU-025 addresses physical, firmware, and whole-device architecture for constrained and safety-critical edge hardware, all firmware and edge software implementations MUST simultaneously adhere to the foundational software engineering principles documented in [GU-019: Fundamental Software Architecture Principles](software-architecture-principles.md) (such as SOLID, Dependency Inversion, Modular Cohesion, and Defensive Programming).
+> [!NOTE] Relationship to Software Architecture Principles ([Software architecture principles](software-architecture-principles.md))
+> While [IoT device architecture principles](iot-device-architecture-principles.md) addresses physical, firmware, and whole-device architecture for constrained and safety-critical edge hardware, all firmware and edge software implementations MUST simultaneously adhere to the foundational software engineering principles documented in [Software architecture principles](software-architecture-principles.md) (such as SOLID, Dependency Inversion, Modular Cohesion, and Defensive Programming).
 
 Field-grade IoT devices are a distinct engineering challenge. Many must run continuously for years or decades in hostile, uncontrolled environments, with little or no local maintenance. Battery-powered devices must account for every milliamp-second against a fixed, non-rechargeable, or hard-to-replace power source. Mains- or vehicle-powered devices must withstand electrical transients and continuous environmental stress. Many devices in this category handle regulated functions, financial transactions, or safety-critical control. Their unattended field deployment makes them high-value targets for local tampering and remote cyber exploitation.
 

@@ -7,7 +7,7 @@ title: Reviewing code
 **How to think about code, how to read it, and how to give feedback that makes the code and the team better**
 
 > [!NOTE] Companion Checklist
-> This document teaches the **Philosophy, Mindset, and Reading Technique** for peer review. For the concrete, itemised checklist to verify pull requests against (Functionality, Style, Architecture, Concurrency, Safety), see the companion [GU-002: Code Review Checklist](../templates/code-review-checklist.md).
+> This document teaches the **Philosophy, Mindset, and Reading Technique** for peer review. For the concrete, itemised checklist to verify pull requests against (Functionality, Style, Architecture, Concurrency, Safety), see the companion [Code review checklist](../templates/code-review-checklist.md).
 
 ## Roles and responsibilities
 
@@ -369,7 +369,7 @@ Example:\
 But the **insight** comes from the reviewer’s **mental model**.
 
 Checklist is the **seatbelt**, not the **driver**.\
-GU-002-code\_review\_checklist
+[Code review checklist](../templates/code-review-checklist.md)-code\_review\_checklist
 
 ## Adopt a Review Routine
 

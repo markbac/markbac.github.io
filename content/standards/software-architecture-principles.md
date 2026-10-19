@@ -8,8 +8,8 @@ This guideline defines the 23 foundational software architecture principles that
 
 ## Overview and Categorisation
 
-> [!NOTE] Relationship to IoT Device Architecture Principles (GU-025)
-> GU-019 defines foundational, domain-agnostic software architecture principles (SOLID, package coupling, dependency inversion, defensiveness) applicable to all software components. When designing firmware or physical hardware devices operating in constrained, hostile, or regulated environments, these software principles are specialised and extended by [GU-025: IoT Device Architecture Principles](iot-device-architecture-principles.md), which governs whole-device concerns including functional safety, hardware isolation, power budgets, secure boot, and cryptographic roots of trust.
+> [!NOTE] Relationship to IoT Device Architecture Principles ([IoT device architecture principles](iot-device-architecture-principles.md))
+> [Software architecture principles](software-architecture-principles.md) defines foundational, domain-agnostic software architecture principles (SOLID, package coupling, dependency inversion, defensiveness) applicable to all software components. When designing firmware or physical hardware devices operating in constrained, hostile, or regulated environments, these software principles are specialised and extended by [IoT device architecture principles](iot-device-architecture-principles.md), which governs whole-device concerns including functional safety, hardware isolation, power budgets, secure boot, and cryptographic roots of trust.
 
 Architectural principles operate at a higher level of abstraction than individual coding idioms. They establish governing boundaries for subsystem decomposition, dependency management, package cohesion, and run-time failure handling.
 
