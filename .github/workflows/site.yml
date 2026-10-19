@@ -81,10 +81,11 @@ jobs:
           token: ${{ secrets.WEB_CONTENT_TOKEN }}
           path: web-content
       - name: Replace the site, keeping the files tarf.co.uk serves that are not built here
+        # Reference/ is site-web-content-src's Reference section, which has not moved here: keep serving it.
         run: |
           rsync -a --delete \
-            --exclude .git --exclude '.htaccess' --exclude ' htaccess' --exclude 'robots.txt' \
-            --exclude 'logo/' --exclude 'ali/' --exclude 'arlo/' --exclude 'mark/' --exclude 'rowan/' \
+            --exclude .git --exclude '.htaccess' --exclude 'robots.txt' \
+            --exclude 'Reference/' --exclude 'logo/' --exclude 'ali/' --exclude 'arlo/' --exclude 'mark/' --exclude 'rowan/' \
             --exclude LICENSE --exclude README.md \
             tarf/ web-content/
           cd web-content
