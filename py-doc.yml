@@ -145,15 +145,32 @@ documents:
       - content/templates/code-review-checklist.md
       - content/templates/debugging-checklist.md
       - content/templates/defect-report-checklist.md
+      - content/templates/project-vision.md
+      - content/templates/architecture-vision.md
+      - content/templates/architecture-principles.md
+      - content/templates/architecture-document.md
+      - content/templates/architecture-canvases.md
+      - content/templates/crosscutting-concerns.md
       - content/templates/adr.md
       - content/templates/rfc.md
       - content/templates/requirements.md
+      - content/templates/nfr-scenario.md
+      - content/templates/requirements-traceability-matrix.md
       - content/templates/interface-specification.md
-      - content/templates/architecture-document.md
-      - content/templates/architecture-canvases.md
+      - content/templates/software-design-specification.md
       - content/templates/experiment-record.md
-      - content/templates/postmortem.md
+      - content/templates/test-plan.md
+      - content/templates/systems-engineering-management-plan.md
+      - content/templates/team-working-agreement.md
+      - content/templates/meeting-minutes.md
+      - content/templates/decision-log.md
+      - content/templates/risk-register.md
+      - content/templates/technical-debt-register.md
+      - content/templates/release-plan.md
+      - content/templates/sbom.md
       - content/templates/pull-request-and-commits.md
+      - content/templates/postmortem.md
+      - content/templates/lessons-learned.md
       - content/templates/agent-task-brief.md
       - content/templates/product-conformance-profile.md
     outputs: {docx: {}, pdf: {}}

@@ -28,19 +28,48 @@ Each checklist is a task list, so it can go straight into a pull request, an iss
 
 ## Templates
 
-[[CAPTION:Table]] The templates.
+Grouped by when in a project you are likely to need them.
+
+[[CAPTION:Table]] Templates for vision and architecture.
 
 | Template | Use it for |
 |----------|------------|
-| [Architecture decision record](adr.md) | Recording one significant decision |
-| [Request for comments](rfc.md) | Proposing a change and gathering views before deciding |
-| [Requirements and quality scenarios](requirements.md) | Writing requirements that can be traced and tested |
-| [Interface specification](interface-specification.md) | Describing an interface between components or systems |
+| [Project vision](project-vision.md) | Agreeing why a project exists, who it is for and what success looks like |
+| [Architecture vision](architecture-vision.md) | Describing where a system's architecture is heading, and why |
+| [Architecture principles](architecture-principles.md) | Recording the principles a product or team has agreed |
 | [Architecture document](architecture-document.md) | Describing a system's architecture, with C4 diagram starters |
 | [Architecture canvases](architecture-canvases.md) | Starting or explaining an architecture on one page |
+| [Crosscutting concerns](crosscutting-concerns.md) | Security, logging, errors and configuration across a whole system |
+| [Architecture decision record](adr.md) | Recording one significant decision |
+| [Request for comments](rfc.md) | Proposing a change and gathering views before deciding |
+
+[[CAPTION:Table]] Templates for requirements, design and testing.
+
+| Template | Use it for |
+|----------|------------|
+| [Requirements and quality scenarios](requirements.md) | Writing requirements that can be traced and tested |
+| [NFR scenario](nfr-scenario.md) | Writing one non-functional requirement as a testable scenario |
+| [Requirements traceability matrix](requirements-traceability-matrix.md) | Tracing requirements to design, code and tests |
+| [Interface specification](interface-specification.md) | Describing an interface between components or systems |
+| [Software design specification](software-design-specification.md) | The detailed design of a system or module |
 | [Experiment record](experiment-record.md) | Running a spike, prototype or piece of research |
-| [Postmortem](postmortem.md) | Learning from an incident or a defect found in the field |
+| [Test plan](test-plan.md) | Planning how a product, system or component is tested |
+
+[[CAPTION:Table]] Templates for delivery and operations.
+
+| Template | Use it for |
+|----------|------------|
+| [Systems engineering management plan](systems-engineering-management-plan.md) | Running the engineering of a larger multi-discipline project |
+| [Team working agreement](team-working-agreement.md) | Agreeing how a team works together |
+| [Meeting minutes](meeting-minutes.md) | Recording a meeting's decisions and actions |
+| [Decision log](decision-log.md) | A running list of a project's decisions |
+| [Risk register](risk-register.md) | Tracking risks, their owners and what is being done about them |
+| [Technical debt register](technical-debt-register.md) | Recording technical debt and the plan to pay it down |
+| [Release plan](release-plan.md) | Planning a release or deployment, including the rollback |
+| [Software bill of materials](sbom.md) | Summarising the components a product is built from |
 | [Pull requests and commits](pull-request-and-commits.md) | Pull request descriptions, commit messages and a commit message hook |
+| [Postmortem](postmortem.md) | Learning from an incident or a defect found in the field |
+| [Lessons learned](lessons-learned.md) | Looking back at the end of a project or phase |
 | [Task brief for an AI agent](agent-task-brief.md) | Handing a coding task to an AI agent |
 | [Conformance profile and component register](product-conformance-profile.md) | Tailoring guidelines to a product, and listing its components |
 
