@@ -300,9 +300,55 @@ documents:
     outputs: {docx: {}, pdf: {}}
 
   firmitas:
-    # Firmitas. The section's own pull request lists the rest of its files here.
+    # Firmitas (Firmitas 2 from docs-WoW): front matter, the three parts with their chapters, and the
+    # appendices, which come from the first edition. Chapters sit one level below their part.
     sources:
       - content/firmitas/index.md
+      - {file: content/firmitas/01-preface.md, page_break: true}
+      - {file: content/firmitas/02-acknowledgements.md, page_break: true}
+      - {file: content/firmitas/03-introduction.md, page_break: true}
+      - {file: content/firmitas/part-1-why-programmes-fail/index.md, page_break: true}
+      - {file: content/firmitas/part-1-why-programmes-fail/01-the-programme-that-failed-predictably.md, heading_offset: 1}
+      - {file: content/firmitas/part-1-why-programmes-fail/02-estimation-why-it-fails-and-what-honest-looks-like.md, heading_offset: 1}
+      - {file: content/firmitas/part-1-why-programmes-fail/03-the-commitment-that-wasnt-theirs.md, heading_offset: 1}
+      - {file: content/firmitas/part-1-why-programmes-fail/04-what-the-system-did-with-the-information.md, heading_offset: 1}
+      - {file: content/firmitas/part-1-why-programmes-fail/05-the-learning-that-doesnt-happen.md, heading_offset: 1}
+      - {file: content/firmitas/part-1-why-programmes-fail/06-engineering-is-a-systems-discipline.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/index.md, page_break: true}
+      - {file: content/firmitas/part-2-the-framework/07-leadership-owns-the-system.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/08-delivery-knowledge-lives-closest-to-the-work.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/09-commitments-estimates-and-honest-plans.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/10-risk-issues-and-the-register-that-actually-works.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/11-requirements-from-customer-need-to-testable-specification.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/12-slack-flow-and-why-efficiency-thinking-fails.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/13-architecture-as-delivery-infrastructure.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/14-the-delivery-model.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/15-quality-as-a-system-property.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/16-governance-guardrails-and-decision-authority.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/17-teams-cognitive-load-and-organisation-for-flow.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/18-communication-information-flow-and-documentation.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/19-technical-debt-and-change-management.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/20-capability-people-and-building-for-the-long-term.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/21-portfolio-flow-and-prioritisation.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/22-business-alignment-economics-and-the-customer.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/23-ai-automation-and-human-accountability.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/index.md, page_break: true}
+      - {file: content/firmitas/part-3-making-it-stick/24-the-leader-who-has-to-change.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/25-assessing-readiness-and-adopting-progressively.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/26-common-failure-modes-and-anti-patterns.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/27-measuring-what-actually-matters.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/28-what-firmitas-cannot-fix.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/29-the-long-view.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/index.md, page_break: true}
+      - {file: content/firmitas/appendices/a-glossary-of-terms.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/b-firmitas-templates.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/c-architectural-principles-for-firmitas.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/d-minimal-balanced-and-regulated-firmitas-profiles.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/e-end-to-end-worked-example.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/f-leadership-and-delivery-anti-patterns-firmitas-is-designed-to-prevent.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/g-bibliography-and-further-reading.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/h-engineering-practice-across-disciplines.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/i-quality-regulation-and-assurance.md, heading_offset: 1}
     outputs: {docx: {}, pdf: {}}
 
 
@@ -319,7 +365,7 @@ site:
   dir: site
   # Only the sections that have moved in are published. Add each section here when its pull request
   # merges; until then its placeholder page stays off both sites.
-  documents: [guidelines, standards, guides, handbook, primers, radar, glossary, templates]
+  documents: [guidelines, standards, guides, handbook, primers, radar, glossary, templates, firmitas]
   downloads: [pdf, docx]
   targets:
     github: mkdocs.yml        # https://markbac.github.io/, personal home page
