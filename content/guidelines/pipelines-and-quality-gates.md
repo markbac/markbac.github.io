@@ -94,6 +94,28 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Pipeline duration, queue time and failure reasons are monitored (PIP-15)
 - [ ] Credentials are least-privilege and short-lived, and release signing uses the two-person rule (PIP-16)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] The pipeline is defined as code, with logic in scripts that run locally by the same command (PIP-01)
+- [ ] Toolchains are pinned in versioned container images and builds are hermetic (PIP-02)
+- [ ] Reproducibility is verified periodically (PIP-03)
+- [ ] Stages are ordered for fast feedback and stages 1 to 4 finish within ten minutes (PIP-04)
+- [ ] Artefacts are built once, promoted and stored immutably with metadata (PIP-05)
+- [ ] Gates are defined by branch type (PIP-06)
+- [ ] Mandatory gate content is present: warnings, analysis, budgets, coverage, docs, trace, licence and SBOM, secrets (PIP-07)
+- [ ] Gates cannot be bypassed without a recorded exception (PIP-08)
+- [ ] Flaky tests are quarantined within one working day (PIP-09)
+- [ ] The policy is revert first, and `main` is restored within one working day (PIP-10)
+- [ ] The pipeline has an owner, a rotation and service levels (PIP-11)
+- [ ] SBOM, signed artefacts and provenance are produced per release (PIP-12)
+- [ ] Repository settings and required checks are held as code (PIP-13)
+- [ ] Shared HIL rigs are accessed through the pipeline (PIP-14)
+- [ ] Pipeline duration, queue time and failure reasons are monitored (PIP-15)
+- [ ] Credentials are least-privilege and short-lived, and release signing uses the two-person rule (PIP-16)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

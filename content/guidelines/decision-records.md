@@ -141,6 +141,28 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] An architecture forum meets on a fixed cadence and every RFC is decided, or deferred with a reason, by its decision date (RFC-11)
 - [ ] Architecture review is limited to architecturally significant changes, and other decisions belong to component owners (RFC-12)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] ADRs live in `docs/adr/`, are numbered and use the template (ADR-01, ADR-02)
+- [ ] ADRs are proposed by PR and merged as `accepted` (ADR-03)
+- [ ] Accepted ADRs are immutable apart from status and links, and superseding ADRs point back (ADR-04)
+- [ ] At least two options and the reasons for rejection are recorded (ADR-05)
+- [ ] Consequences and verification are stated (ADR-06)
+- [ ] ADRs link to requirements, principles, RFCs and PRs, and commits use the `ADR:` footer (ADR-07)
+- [ ] ADRs are written before or during implementation, and retrospective ones are marked (ADR-08)
+- [ ] A decision log index is generated (ADR-09)
+- [ ] RFCs are used for guideline changes, cross-team interfaces, major tools and release changes (RFC-01)
+- [ ] RFCs are stored in `docs/rfc/`, proposed by PR, short, and discussed in writing by default (RFC-02, RFC-09, RFC-10)
+- [ ] Each RFC names an author, sponsor, affected teams, comment period and decision date (RFC-03, RFC-04)
+- [ ] Affected teams are notified explicitly (RFC-05)
+- [ ] Each RFC covers problem, goals, proposal, alternatives, impact, risks and open questions (RFC-06)
+- [ ] Outcome and rationale are recorded and ADRs created (RFC-07, RFC-08)
+- [ ] An architecture forum meets on a fixed cadence and every RFC is decided, or deferred with a reason, by its decision date (RFC-11)
+- [ ] Architecture review is limited to architecturally significant changes, and other decisions belong to component owners (RFC-12)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

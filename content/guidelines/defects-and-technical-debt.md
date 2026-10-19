@@ -75,6 +75,25 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Suppressions and deviations are tracked as debt (DEF-12)
 - [ ] Metrics are used for improvement and not for ranking individuals (DEF-13)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] All defects are in the tracker with the required fields (DEF-01)
+- [ ] Severity uses the agreed definitions, with priority set separately (DEF-02)
+- [ ] New defects are triaged within two working days (DEF-03)
+- [ ] The lifecycle is followed, verification is by someone else and closure needs a regression test (DEF-04)
+- [ ] Root cause analysis is done for severity 1 and 2 defects and escapes (DEF-05)
+- [ ] Each escape asks which gate should have caught it (DEF-06)
+- [ ] Commits reference defects and release notes list fixes and known issues (DEF-07)
+- [ ] A field defect route exists, with reproduction and release manager notification (DEF-08)
+- [ ] Technical debt is recorded with label, impact, estimate and owner (DEF-09)
+- [ ] Capacity is reserved for debt and old debt is reviewed (DEF-10)
+- [ ] Deliberate debt has a repayment plan and expiry (DEF-11)
+- [ ] Suppressions and deviations are tracked as debt (DEF-12)
+- [ ] Metrics are used for improvement and not for ranking individuals (DEF-13)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

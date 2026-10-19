@@ -97,6 +97,26 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Friction with a guideline is raised as an issue or RFC (PLN-13)
 - [ ] Status is derived from tracker and pipeline data (PLN-14)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Work is planned in time-boxed iterations or flow with a visible backlog, and every item is traceable (PLN-01)
+- [ ] A Definition of Ready exists per work item type (PLN-02)
+- [ ] A Definition of Done exists per type and the PR template reflects it (PLN-03)
+- [ ] Estimates are ranges and forecasts state confidence (PLN-04)
+- [ ] A risk register is maintained and reviewed fortnightly (PLN-05)
+- [ ] Dependencies are recorded with an owner and need-by date (PLN-06)
+- [ ] Escalation thresholds are defined (PLN-07)
+- [ ] Capacity is reserved for support, debt and improvement (PLN-08)
+- [ ] A small metric set is tracked and not used to rank individuals (PLN-09)
+- [ ] Retrospectives are held and actions are tracked (PLN-10)
+- [ ] Blameless postmortems follow severity 1 and 2 escapes, failed releases, outages and security incidents (PLN-11)
+- [ ] Improvements are first-class backlog items (PLN-12)
+- [ ] Friction with a guideline is raised as an issue or RFC (PLN-13)
+- [ ] Status is derived from tracker and pipeline data (PLN-14)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

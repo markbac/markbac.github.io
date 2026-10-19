@@ -113,6 +113,26 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] `AGENTS.md` names CP-02, CP-16 and CP-20 (AGT-14)
 - [ ] Agent-written documentation is checked by a human against the code or design (AGT-15)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] `AGENTS.md` exists at the repository root with commands, conventions, boundaries and definition of done (AGT-01, AGT-02)
+- [ ] Agent changes follow the same commit, PR, review and CI rules as human changes (AGT-03)
+- [ ] A human approves every agent-authored change, and agents never approve or merge their own work (AGT-04)
+- [ ] Agent boundaries are protected by CODEOWNERS or branch protection (AGT-05)
+- [ ] AI-assisted commits carry an `Assisted-by:` trailer (AGT-06)
+- [ ] The submitter understands and can explain every line submitted (AGT-07)
+- [ ] An approved-tools register lists each tool and the data classes it may receive (AGT-08)
+- [ ] Agents run local checks first and the PR includes the evidence (AGT-09)
+- [ ] Large agent diffs are split or accompanied by a summary of intent and risk (AGT-10)
+- [ ] Agent-generated tests are reviewed for whether they verify requirements (AGT-11)
+- [ ] Shared prompts, agent configuration and skills are versioned and reviewed (AGT-12)
+- [ ] Licence and provenance of generated code is handled under the technology guideline (AGT-13)
+- [ ] `AGENTS.md` names CP-02, CP-16 and CP-20 (AGT-14)
+- [ ] Agent-written documentation is checked by a human against the code or design (AGT-15)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

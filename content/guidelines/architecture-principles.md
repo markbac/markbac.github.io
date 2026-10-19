@@ -70,3 +70,13 @@ Automated Pipeline Enforcement (CI Check / Architecture Review / ADR)
 - [ ] ADRs and RFCs cite business principle IDs (PRN-01)
 - [ ] Deviations from business principles are recorded in ADRs with trade-off rationale (PRN-02)
 - [ ] Automated architecture rules (budgets, dependency direction) run in CI pipeline (PRN-04)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Active business principles are selected from [Business Principles](business-principles.md) for the product (PRN-05)
+- [ ] ADRs and RFCs cite business principle IDs (PRN-01)
+- [ ] Deviations from business principles are recorded in ADRs with trade-off rationale (PRN-02)
+- [ ] Automated architecture rules (budgets, dependency direction) run in CI pipeline (PRN-04)
+```
+

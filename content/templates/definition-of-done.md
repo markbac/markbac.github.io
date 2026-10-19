@@ -29,6 +29,28 @@ Add these when your product, domain or regulator needs them:
 - [ ] The customer or user has accepted the change.
 - [ ] New behaviour sits behind a feature flag, with a plan to remove the flag.
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+````markdown
+## Checklist
+- [ ] **DoD-1 The code builds without warnings** on every target, with warnings enabled.
+- [ ] **DoD-2 The developer has tested it.** Unit tests cover the change, including edge cases and error paths, and it has been run locally or on target.
+- [ ] **DoD-3 It meets the acceptance criteria.** Someone other than the author has checked it against them and against the test scenarios.
+- [ ] **DoD-4 It has been reviewed.** A peer has reviewed the change against the [code review checklist](code-review-checklist.md), and the comments are resolved.
+- [ ] **DoD-5 It follows the coding standards** for formatting, naming and structure.
+- [ ] **DoD-6 The CI pipeline passed.** The build, static analysis and automated tests all pass in CI, not just on a laptop.
+- [ ] **DoD-7 The documentation is updated.** Design notes, interface specifications, user help and release notes match the change.
+- [ ] **DoD-8 Technical debt is recorded.** Any shortcut or known problem has a ticket, or a note on the story that points to one.
+
+## Extra items to consider
+- [ ] A security review is complete.
+- [ ] Performance, memory or power measurements are within budget.
+- [ ] Code coverage meets the agreed threshold.
+- [ ] The customer or user has accepted the change.
+- [ ] New behaviour sits behind a feature flag, with a plan to remove the flag.
+````
+
+
 ## Where to use it
 
 - In the pull request template, as the checklist the author ticks (see the [pull request template](pull-request-and-commits.md)).

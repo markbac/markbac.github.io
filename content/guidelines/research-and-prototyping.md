@@ -84,6 +84,24 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Findings are shared with the team (RSH-11)
 - [ ] Agent use in prototypes follows the same boundaries (RSH-12)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Work is classified as exploratory or production, with a question and a time-box (RSH-01)
+- [ ] Exploratory code lives in designated locations and is excluded from release builds (RSH-02)
+- [ ] Exemptions are understood and the non-negotiables are kept: no secrets, licences, data rules, version control, a working build (RSH-03)
+- [ ] Prototype code is never copied into the product and the graduation checklist is used (RSH-04)
+- [ ] An experiment record captures question, method, setup, results, conclusion and next step (RSH-05)
+- [ ] Experiments are reproducible (RSH-06)
+- [ ] Each exploration ends with a decision to stop, extend or graduate (RSH-07)
+- [ ] The maturity level is stated (RSH-08)
+- [ ] Prototypes are reviewed at the end of the time-box and unowned ones archived after 90 days (RSH-09)
+- [ ] Lab equipment and boards are recorded with an owner (RSH-10)
+- [ ] Findings are shared with the team (RSH-11)
+- [ ] Agent use in prototypes follows the same boundaries (RSH-12)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

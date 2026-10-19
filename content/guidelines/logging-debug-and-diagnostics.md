@@ -95,6 +95,31 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] A procedure turns a field dump into a local reproduction, which becomes a test (DBG-10)
 - [ ] Trace and timing tools are approved and the cost of instrumentation is documented (DBG-11)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Logging purposes are separated, each with its own levels and retention (LOG-01)
+- [ ] Log levels are defined and DEBUG and TRACE are off in production (LOG-02)
+- [ ] There is one logging facility, no ad-hoc printf, and every record has a module ID and severity (LOG-03)
+- [ ] The format is compact, structured and machine-parseable, with an off-target decoder if needed (LOG-04)
+- [ ] A versioned event and fault code registry has an owner (LOG-05)
+- [ ] Logging cost is budgeted, non-blocking and rate-limited (LOG-06)
+- [ ] Persistent logs are wear-aware (LOG-07)
+- [ ] Logs contain no secrets or personal data (LOG-08)
+- [ ] Messages say what happened with context, and there is no logging in tight loops (LOG-09)
+- [ ] Log decoding tools are versioned with the firmware (LOG-10)
+- [ ] A standard debug setup is documented per platform and starts with one command (DBG-01)
+- [ ] Debug and production builds are defined, debug builds are never released, and production interfaces are locked (DBG-02)
+- [ ] Every fault path has defined behaviour, recorded in an ADR (DBG-03)
+- [ ] Assertions guard invariants, have defined production behaviour and no side effects (DBG-04)
+- [ ] The reset reason is captured at every boot (DBG-05)
+- [ ] The crash dump format is defined, a build ID is embedded and symbols are archived per release (DBG-06, DBG-07)
+- [ ] Runtime diagnostics exist and the watchdog design is reviewed (DBG-08, DBG-09)
+- [ ] A procedure turns a field dump into a local reproduction, which becomes a test (DBG-10)
+- [ ] Trace and timing tools are approved and the cost of instrumentation is documented (DBG-11)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

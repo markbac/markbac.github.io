@@ -81,6 +81,25 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] The team is trained in safe and effective use of AI agents (CMP-12)
 - [ ] New tools are introduced with training and a radar update (CMP-13)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] A competence matrix covers languages, RTOS, platforms, protocols, tools, domains, security and test (CMP-01)
+- [ ] Single-person areas are tracked as risks (CMP-02)
+- [ ] Expected depth per tool is defined and used in training (CMP-03)
+- [ ] Each tool and domain area has a champion and a how-to page (CMP-04)
+- [ ] Domain experts and deputies are named and primers written (CMP-05)
+- [ ] An onboarding path is documented and the environment is set up in under one day (CMP-06)
+- [ ] Environment setup is tested in CI (CMP-07)
+- [ ] An annual training plan has protected learning time (CMP-08)
+- [ ] Knowledge sharing is regular and sessions are recorded (CMP-09)
+- [ ] Rationale is captured in ADRs and docs, and a handover checklist exists for leavers (CMP-10)
+- [ ] Key areas are known at two or more sites (CMP-11)
+- [ ] The team is trained in safe and effective use of AI agents (CMP-12)
+- [ ] New tools are introduced with training and a radar update (CMP-13)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

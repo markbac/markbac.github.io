@@ -96,6 +96,26 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Core rules are marked and applied identically across products, and all other rules are tailored only through the product profile (GOV-15)
 - [ ] Each product has a conformance profile recording applicability, thresholds, exceptions, components and toolchain (GOV-16)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Guidelines live in `docs/guidelines/`, one file per guideline, named `eg-nnn-short-title.md` (GOV-13)
+- [ ] Every guideline has front matter with id, title, status, owner, version and review-by (GOV-01)
+- [ ] Every guideline follows the standard template and states how compliance is checked (GOV-02, GOV-04)
+- [ ] Rules have stable IDs and RFC 2119 keywords, with a rationale where it is not obvious (GOV-03)
+- [ ] Each guideline is short enough to read in one sitting, with examples where they help (GOV-05, GOV-11)
+- [ ] Changes are made by PR with owner and practitioner approval, and by RFC when material (GOV-06, GOV-07)
+- [ ] Review-by dates are checked by CI and no guideline is overdue (GOV-08)
+- [ ] Exceptions are recorded with owner, scope, reason and expiry (GOV-09)
+- [ ] Deprecated guidelines are kept with a pointer to their replacement (GOV-10)
+- [ ] Guideline versions follow semantic versioning (GOV-12)
+- [ ] The index is generated from front matter (GOV-13)
+- [ ] Each guideline has an accountable owner who handles questions and exception requests (GOV-14)
+- [ ] Core rules are marked and applied identically across products, and all other rules are tailored only through the product profile (GOV-15)
+- [ ] Each product has a conformance profile recording applicability, thresholds, exceptions, components and toolchain (GOV-16)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

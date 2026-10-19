@@ -18,6 +18,19 @@ The Definition of Ready is a gate, not a form to fill in. If the team keeps wavi
 - [ ] **DoR-6 Dependencies are resolved or planned.** Nothing outside the team blocks the item, or the blocker has an owner and a date.
 - [ ] **DoR-7 The story is Independent, Negotiable, Valuable, Estimable, Small and Testable (INVEST).** The table below explains each letter.
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] **DoR-1 The story is clear.** It says who wants what and why, in a sentence or two. "As a ... I want ... so that ..." is a good default.
+- [ ] **DoR-2 Acceptance criteria are written and agreed.** Each one is a concrete pass or fail check, agreed by the product owner and the people who will build and test it.
+- [ ] **DoR-3 The design is understood.** Where the item needs design work, the approach has been discussed and either written down or understood well enough to start.
+- [ ] **DoR-4 The architecture is understood.** The services, interfaces, environments and decisions the item depends on are known, and it fits the system as it stands.
+- [ ] **DoR-5 Non-functional requirements are stated.** Performance, security, reliability, power and compliance needs are written down where they apply.
+- [ ] **DoR-6 Dependencies are resolved or planned.** Nothing outside the team blocks the item, or the blocker has an owner and a date.
+- [ ] **DoR-7 The story is Independent, Negotiable, Valuable, Estimable, Small and Testable (INVEST).** The table below explains each letter.
+```
+
+
 ## The INVEST test
 
 INVEST is a quick test of whether a user story is well formed.

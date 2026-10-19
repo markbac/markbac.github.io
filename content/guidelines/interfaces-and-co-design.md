@@ -78,6 +78,22 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Cross-site interface changes are announced with lead time (INT-10)
 - [ ] Vendor documents are version-controlled or cited by exact version (INT-11)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Every interface has an owner and a specification in the repository (INT-01, INT-02)
+- [ ] Machine-readable definitions generate code and docs, with no hand-maintained copies (INT-03)
+- [ ] Interfaces are versioned, a compatibility matrix is kept, and breaking changes go through RFC (INT-04)
+- [ ] Contract tests run on both sides in CI (INT-05)
+- [ ] The hardware interface agreement is versioned and firmware headers are generated where possible (INT-06)
+- [ ] Hardware changes are reviewed for firmware impact and recorded in the bill of materials (INT-07)
+- [ ] An errata register is maintained (INT-08)
+- [ ] A bring-up plan and emulation exist for new hardware (INT-09)
+- [ ] Cross-site interface changes are announced with lead time (INT-10)
+- [ ] Vendor documents are version-controlled or cited by exact version (INT-11)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

@@ -92,6 +92,25 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Transfer, deprecation and retirement are recorded and communicated (COM-12)
 - [ ] Consumers report through the owner's tracker and severity 1 and 2 defects are visible to all consumers (COM-13)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] A component register lists every component with owner, repository, version, status and consumers (COM-01)
+- [ ] Every component has a named owner and deputy (COM-02)
+- [ ] Consumers depend on released, pinned versions and never on branches or unreleased commits (COM-03)
+- [ ] Interfaces follow the interface guideline and versions follow semantic versioning (COM-04)
+- [ ] The register is checked before building or copying, and forks are recorded in an ADR (COM-05)
+- [ ] Consumers do not patch components locally, and contribute changes through the owner (COM-06)
+- [ ] Changes affecting several consumers are assessed for impact, with migration guidance and deprecation notice (COM-07)
+- [ ] Each component builds and tests on its own and publishes versioned artefacts (COM-08)
+- [ ] Variation is expressed through documented variation points, and supported variants are recorded (COM-09)
+- [ ] Each product's bill of materials lists component versions (COM-10)
+- [ ] Supported combinations are tested and recorded in the compatibility matrix, and kept few (COM-11)
+- [ ] Transfer, deprecation and retirement are recorded and communicated (COM-12)
+- [ ] Consumers report through the owner's tracker and severity 1 and 2 defects are visible to all consumers (COM-13)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

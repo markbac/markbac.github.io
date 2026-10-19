@@ -100,6 +100,27 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Exploratory testing is planned and time-boxed, with findings recorded (TST-14)
 - [ ] No failing test is skipped or deleted to pass a gate (TST-15)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] A test strategy exists per product with levels, entry and exit criteria, tools and environments (TST-01)
+- [ ] Testing is weighted towards host-level tests (TST-02)
+- [ ] Test names or metadata carry requirement IDs (TST-03)
+- [ ] Coverage is measured with thresholds and a ratchet, and requirement coverage is reported (TST-04)
+- [ ] Simulators and test doubles are maintained and validated against hardware (TST-05)
+- [ ] Negative tests and fault injection cover parsers, comms, update, storage and security (TST-06)
+- [ ] Every fixed defect has a regression test and the suite runs on every merge to `main` (TST-07)
+- [ ] Test data and fixtures are versioned (TST-08)
+- [ ] Rigs are managed as products (TST-09)
+- [ ] Results are archived per release and linked to requirements (TST-10)
+- [ ] Non-functional tests run nightly or continuously (TST-11)
+- [ ] Verification of high-risk requirements is independent of the author (TST-12)
+- [ ] Upgrade and rollback are tested from all supported versions (TST-13)
+- [ ] Exploratory testing is planned and time-boxed, with findings recorded (TST-14)
+- [ ] No failing test is skipped or deleted to pass a gate (TST-15)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects

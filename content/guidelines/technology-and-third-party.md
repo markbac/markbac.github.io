@@ -74,6 +74,23 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Toolchain versions are pinned in containers and listed in the radar (TEC-10)
 - [ ] End-of-life dates are monitored (TEC-11)
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] A technology radar exists with adopt, trial, assess and hold (TEC-01)
+- [ ] New dependencies and tools have an evaluation recorded in an ADR (TEC-02)
+- [ ] A licence policy lists approved and prohibited licences (TEC-03)
+- [ ] A manifest of third-party components exists and an SBOM is produced per release (TEC-04)
+- [ ] Versions are pinned and checksums verified (TEC-05)
+- [ ] Vendor SDKs are wrapped behind our interfaces and patches are tracked (TEC-06)
+- [ ] Dependency updates are proposed automatically, with security patch times (TEC-07)
+- [ ] Each dependency has an owner, and critical ones have an exit strategy (TEC-08)
+- [ ] AI-generated code is checked for licence and provenance (TEC-09)
+- [ ] Toolchain versions are pinned in containers and listed in the radar (TEC-10)
+- [ ] End-of-life dates are monitored (TEC-11)
+```
+
+
 ## Applying to personal projects and AI agents
 
 ### Personal projects
