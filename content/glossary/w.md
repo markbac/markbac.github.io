@@ -22,6 +22,10 @@ See also: [Review](r.md#review), [Desk Check](d.md#desk-check).
 ## WAN
 **Wide Area Network.** A network that spans a large area, linking sites in different cities or countries, usually over carriers' circuits. The internet is the largest WAN.
 
+![WAN](images/15009199.png)
+
+[[CAPTION:Figure]] WAN.
+
 See also: [LAN](l.md#lan), [MAN](m.md#man).
 
 ## WANET
@@ -37,6 +41,10 @@ See also: [Wi-Fi](#wi-fi), [Wireless Repeater](#wireless-repeater).
 ## Waterfall
 A sequential development model in which work flows through requirements, design, construction, testing and deployment, each finished before the next starts. Winston Royce's 1970 paper, often cited as its origin, described it as risky.
 
+![Waterfall](images/15009207.png)
+
+[[CAPTION:Figure]] Waterfall.
+
 See also: [Waterfall Lifecycle](#waterfall-lifecycle), [V Model](v.md#v-model), [Spiral Model](s.md#spiral-model).
 
 ## Waterfall Lifecycle
@@ -46,6 +54,10 @@ See also: [Waterfall](#waterfall).
 
 ## WBC
 **Wholesale Broadband Connect.** BT Wholesale's broadband access product on the 21CN network. ISPs connect at regional aggregation points to collect their customers' traffic.
+
+![WBC](images/15009213.png)
+
+[[CAPTION:Figure]] WBC.
 
 See also: [WBMC](#wbmc), [BT 21CN](b.md#bt-21cn).
 
@@ -93,10 +105,18 @@ See also: [LTE (4G)](l.md#lte-4g).
 ## WIN-T
 **Warfighter Information Network-Tactical.** The US Army's mobile tactical communications network, giving units secure voice, data and video on the move without fixed infrastructure.
 
+![WIN-T](images/15009219.png)
+
+[[CAPTION:Figure]] WIN-T.
+
 See also: [MANET](m.md#manet).
 
 ## Wireless Mesh Network
 A wireless network in which nodes connect in a mesh and relay traffic for each other, with some nodes acting as gateways to a wired network. The nodes rarely move, so routes stay stable.
+
+![Wireless Mesh Network](images/15009225.png)
+
+[[CAPTION:Figure]] Wireless Mesh Network.
 
 See also: [WANET](#wanet), [MANET](m.md#manet), [Network Topologies](n.md#network-topologies).
 
@@ -108,10 +128,18 @@ See also: [WAP](#wap).
 ## Wireshark
 A free, open-source packet analyser, formerly called Ethereal, used for troubleshooting networks and developing protocols.
 
+![Wireshark](images/15009231.png)
+
+[[CAPTION:Figure]] Wireshark.
+
 See also: [Packet sniffing](p.md#packet-sniffing).
 
 ## WISP
 **Wireless ISP.** An internet service provider whose access network is wireless, such as fixed wireless or Wi-Fi.
+
+![WISP](images/15009237.png)
+
+[[CAPTION:Figure]] WISP.
 
 See also: [ISP](i.md#isp).
 
@@ -168,5 +196,9 @@ See also: [Construction Standard](c.md#construction-standard).
 
 ## WSDL
 **Web Services Description Language.** An XML language for describing a web service's interface: its operations, messages, data types and endpoints. It is mostly used with SOAP.
+
+![WSDL](images/15009243.png)
+
+[[CAPTION:Figure]] WSDL.
 
 See also: [SOAP](s.md#soap), [XML Schema](x.md#xml-schema).

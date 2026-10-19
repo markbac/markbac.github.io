@@ -78,6 +78,10 @@ See also: [Microservice](m.md#microservice), [API](a.md#api).
 ## BGCF
 **Breakout Gateway Control Function.** In IMS, the SIP server that decides where a call leaves the IMS network for the circuit-switched telephone network, based on the dialled number.
 
+![BGCF](images/15007813.png)
+
+[[CAPTION:Figure]] BGCF.
+
 See also: [IMS](i.md#ims), [MGCF](m.md#mgcf), [CSCF](c.md#cscf).
 
 ## BGP
@@ -127,10 +131,22 @@ See also: [BPMN](#bpmn), [SOA](s.md#soa), [WS-BPEL](w.md#ws-bpel).
 ## BPMN
 **Business Process Model and Notation.** A graphical notation, maintained by the Object Management Group, for drawing business processes. Version 2.0 also defines how the diagrams execute.
 
+![BPMN](images/15007821.png)
+
+[[CAPTION:Figure]] BPMN.
+
 See also: [BPEL](#bpel), [UML](u.md#uml).
 
 ## BRAS
 **Broadband Remote Access Server.** The router that aggregates broadband sessions from DSLAMs and routes them on to the internet service provider's network. Newer designs call it a BNG.
+
+![BRAS](images/15007827.png)
+
+[[CAPTION:Figure]] BRAS.
+
+![BRAS](images/15007833.png)
+
+[[CAPTION:Figure]] BRAS.
 
 See also: [BNG](#bng), [DSLAM](d.md#dslam), [PPPoE](p.md#pppoe).
 
@@ -142,20 +158,40 @@ See also: [ISDN](i.md#isdn), [PRI](p.md#pri).
 ## Broadcast
 Sending a message to every receiver on a network segment at once, such as an Ethernet broadcast to all hosts on a LAN.
 
+![Broadcast](images/15007839.png)
+
+[[CAPTION:Figure]] Broadcast.
+
 See also: [Unicast](u.md#unicast), [Multicast](m.md#multicast), [Anycast](a.md#anycast).
 
 ## BSC
 **Base Station Controller.** In GSM, the node that controls a group of base transceiver stations: it allocates radio channels, manages handovers between them, and concentrates their traffic towards the MSC.
+
+![BSC](images/15007845.png)
+
+[[CAPTION:Figure]] BSC.
 
 See also: [BTS](#bts), [MSC](m.md#msc), [GSM](g.md#gsm), [RNC](r.md#rnc).
 
 ## BSS
 **Business Support Systems.** The systems a telecoms operator uses to run its business with customers, such as ordering, billing and customer management. They sit beside the operations support systems (OSS). In mobile networks, BSS also stands for base station subsystem: the BTSs and BSCs.
 
+![BSS](images/15007851.png)
+
+[[CAPTION:Figure]] BSS.
+
 See also: [OSS](o.md#oss).
 
 ## BT 21CN
 **BT 21st Century Network.** BT's programme, from the mid-2000s, to replace its separate legacy networks with one IP and MPLS network, using multi-service access nodes (MSANs) in exchanges. The plan to move voice onto it was shelved at the time; the later switch-off of the PSTN finishes that job.
+
+![BT 21CN](images/15007857.png)
+
+[[CAPTION:Figure]] BT 21CN.
+
+![BT 21CN](images/15007863.png)
+
+[[CAPTION:Figure]] BT 21CN.
 
 See also: [MSAN](m.md#msan), [NGN](n.md#ngn), [PSTN](p.md#pstn).
 
@@ -194,6 +230,10 @@ See also: [Build](#build).
 
 ## Burndown Chart
 A chart that shows the work remaining in an iteration or project against time. A burnup chart shows the work completed instead.
+
+![Burndown Chart](images/15007869.png)
+
+[[CAPTION:Figure]] Burndown Chart.
 
 See also: [Velocity](v.md#velocity), [Sprints](s.md#sprints).
 

@@ -7,10 +7,18 @@ title: E
 ## E NodeB
 **Evolved Node B (eNodeB, eNB).** The LTE base station. Unlike a UMTS Node B, it has no separate controller: it handles radio resource management and handover itself, and connects directly to the core.
 
+![E NodeB](images/14614584.png)
+
+[[CAPTION:Figure]] E NodeB.
+
 See also: [E-UTRAN](#e-utran), [Node B](n.md#node-b), [MME](m.md#mme), [LTE (4G)](l.md#lte-4g).
 
 ## E-UTRAN
 **Evolved UMTS Terrestrial Radio Access Network.** The LTE radio access network: eNodeBs and the E-UTRA air interface, which uses OFDMA downstream and SC-FDMA upstream.
+
+![E-UTRAN](images/15008132.png)
+
+[[CAPTION:Figure]] E-UTRAN.
 
 See also: [E NodeB](#e-nodeb), [UTRAN](u.md#utran), [LTE (4G)](l.md#lte-4g).
 
@@ -22,10 +30,18 @@ See also: [DN](d.md#dn).
 ## EAD
 **Ethernet Access Direct.** Openreach's point-to-point fibre Ethernet circuit, used to connect business sites and for backhaul, at speeds up to 10 Gbit/s.
 
+![EAD](images/15008088.png)
+
+[[CAPTION:Figure]] EAD.
+
 See also: [EoFTTC](#eofttc), [Leased Line](l.md#leased-line), [Backhaul](b.md#backhaul).
 
 ## EAP
 **Extensible Authentication Protocol.** An authentication framework, defined in RFC 3748, that carries many authentication methods, such as EAP-TLS and PEAP. IEEE 802.1X uses it for network access control on Wi-Fi and wired networks.
+
+![EAP](images/15008096.png)
+
+[[CAPTION:Figure]] EAP.
 
 See also: [PEAP](p.md#peap), [WPA2](w.md#wpa2), [Radius](r.md#radius).
 
@@ -75,6 +91,10 @@ See also: [Ethernet over twisted pair](#ethernet-over-twisted-pair), [EoFTTC](#e
 ## Egress
 Traffic leaving a network or a device, as opposed to ingress traffic coming in.
 
+![Egress](images/15008102.png)
+
+[[CAPTION:Figure]] Egress.
+
 See also: [Ingress](i.md#ingress).
 
 ## EIA
@@ -108,6 +128,10 @@ See also: [Process](p.md#process).
 ## EoFTTC
 **Ethernet over FTTC.** A business Ethernet service over fibre to the cabinet: copper runs from the premises to the street cabinet, and fibre from there to the exchange. It gives symmetrical speeds of tens of megabits per second at lower cost than a fibre leased line.
 
+![EoFTTC](images/15008108.png)
+
+[[CAPTION:Figure]] EoFTTC.
+
 See also: [EAD](#ead), [VDSL](v.md#vdsl), [EFM](#efm).
 
 ## EoS
@@ -133,6 +157,10 @@ See also: [EVPL](#evpl), [VPWS](v.md#vpws).
 ## ESB
 **Enterprise Service Bus.** Middleware in a service-oriented architecture that connects applications through a shared bus. It routes, transforms and mediates messages between them, so that each application integrates with the bus rather than with every other application.
 
+![ESB](images/15008114.png)
+
+[[CAPTION:Figure]] ESB.
+
 See also: [SOA](s.md#soa), [Microservice](m.md#microservice).
 
 ## Estimate
@@ -148,6 +176,18 @@ See also: [Estimate](#estimate), [Cone of Uncertainty](c.md#cone-of-uncertainty)
 ## Ethernet over twisted pair
 Ethernet physical layers that use twisted-pair copper cable. 10BASE-T, 100BASE-TX, 1000BASE-T and 10GBASE-T are the main ones. Single-pair variants, such as 10BASE-T1L, serve industrial and automotive uses.
 
+![Ethernet over twisted pair](images/15138870.png)
+
+[[CAPTION:Figure]] Ethernet over twisted pair.
+
+![Ethernet over twisted pair](images/14614590.png)
+
+[[CAPTION:Figure]] Ethernet over twisted pair.
+
+![Ethernet over twisted pair](images/15008120.png)
+
+[[CAPTION:Figure]] Ethernet over twisted pair.
+
 See also: [Cat 5](c.md#cat-5), [Cat 6](c.md#cat-6), [Twisted pair](t.md#twisted-pair).
 
 ## Ethical Hacking
@@ -157,6 +197,10 @@ See also: [Pen testing](p.md#pen-testing).
 
 ## ETL
 **Extract, Transform, Load.** The three steps for moving data into a data warehouse: read data from source systems, convert and clean it into the target form, and write it into the target.
+
+![ETL](images/15008126.png)
+
+[[CAPTION:Figure]] ETL.
 
 See also: [Data Warehouse](d.md#data-warehouse).
 

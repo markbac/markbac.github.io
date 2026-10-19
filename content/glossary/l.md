@@ -7,10 +7,18 @@ title: L
 ## L1
 **Layer 1, the physical layer.** The lowest layer of the OSI model, which sends raw bits over a medium such as copper, fibre or radio. It defines the connectors, signals, timing and encoding.
 
+![L1](images/15008464.png)
+
+[[CAPTION:Figure]] L1.
+
 See also: [L2](#l2), [Hub](h.md#hub).
 
 ## L2
 **Layer 2, the data link layer.** The OSI layer that moves frames between devices on the same link or LAN segment, with local (MAC) addressing and error detection. Ethernet and Wi-Fi work here; switches forward traffic at this layer.
+
+![L2](images/15008464.png)
+
+[[CAPTION:Figure]] L2.
 
 See also: [L1](#l1), [MAC](m.md#mac), [Switch](s.md#switch), [DLP](d.md#dlp).
 
@@ -37,6 +45,10 @@ See also: [VRF](v.md#vrf), [CE](c.md#ce), [L2VPN](#l2vpn), [LSP](#lsp).
 ## LAC
 **L2TP Access Concentrator.** The device at one end of an L2TP tunnel that receives a user's PPP session and forwards it through the tunnel to the LNS.
 
+![LAC](images/15008478.png)
+
+[[CAPTION:Figure]] LAC.
+
 See also: [L2TP](#l2tp), [LNS](#lns).
 
 ## LACP
@@ -47,10 +59,18 @@ See also: [LAG](#lag).
 ## LAG
 **Link Aggregation Group.** Several physical links bundled into one logical link, to add capacity and survive the failure of a member. LACP usually manages it.
 
+![LAG](images/15008484.png)
+
+[[CAPTION:Figure]] LAG.
+
 See also: [LACP](#lacp).
 
 ## LAN
 **Local Area Network.** A network that connects devices within a limited area, such as a home, office or campus, usually with Ethernet and Wi-Fi.
+
+![LAN](images/15008490.png)
+
+[[CAPTION:Figure]] LAN.
 
 See also: [WAN](w.md#wan), [MAN](m.md#man).
 
@@ -61,6 +81,10 @@ See also: [ATM](a.md#atm).
 
 ## Latency
 The delay between something being sent and it arriving. For telephone calls it is the mouth-to-ear delay, made up of codec, network and playout delays. ITU-T G.114 advises keeping one-way delay under about 150 ms for good conversation.
+
+![Latency](images/15008496.png)
+
+[[CAPTION:Figure]] Latency.
 
 See also: [Jitter](j.md#jitter), [Jitter buffer](j.md#jitter-buffer), [Bandwidth](b.md#bandwidth).
 
@@ -115,6 +139,18 @@ See also: [Function Point](f.md#function-point).
 ## Linux
 A family of free, open-source operating systems built on the Linux kernel, first released by Linus Torvalds in 1991. It is packaged in distributions, such as Debian, Ubuntu, Fedora and Red Hat Enterprise Linux. It runs most servers and embedded devices, and underlies Android.
 
+![Linux](images/15008502.png)
+
+[[CAPTION:Figure]] Linux.
+
+![Linux](images/14647331.svg)
+
+[[CAPTION:Figure]] Linux.
+
+![Linux](images/15008508.png)
+
+[[CAPTION:Figure]] Linux.
+
 See also: [GNU](g.md#gnu), [Unix](u.md#unix), [Kernel](k.md#kernel), [Android](a.md#android).
 
 ## Lisp
@@ -123,8 +159,16 @@ A family of languages, first specified in 1958, with a fully bracketed prefix sy
 ## LL
 See [Local Loop](#local-loop).
 
+![LL](images/15008514.png)
+
+[[CAPTION:Figure]] LL.
+
 ## LNS
 **L2TP Network Server.** The device at the far end of an L2TP tunnel from the LAC, which terminates the users' PPP sessions, typically at the ISP.
+
+![LNS](images/15008478.png)
+
+[[CAPTION:Figure]] LNS.
 
 See also: [L2TP](#l2tp), [LAC](#lac), [LTS](#lts).
 
@@ -174,10 +218,18 @@ See also: [LSP](#lsp).
 ## LTE (4G)
 **Long-Term Evolution.** The 3GPP mobile standard (Release 8 onwards) that followed UMTS, with an OFDMA radio interface and an all-IP core, the Evolved Packet Core. LTE-Advanced meets the ITU's 4G requirements. Voice runs over IP as VoLTE.
 
+![LTE (4G)](images/15008520.png)
+
+[[CAPTION:Figure]] LTE (4G).
+
 See also: [E-UTRAN](e.md#e-utran), [E NodeB](e.md#e-nodeb), [MME](m.md#mme), [S-GW](s.md#s-gw), [PGW](p.md#pgw), [VoLTE](v.md#volte).
 
 ## LTS
 **L2TP Tunnel Switch.** A router between a LAC and an LNS that acts as both. It ends incoming L2TP tunnels and forwards the sessions through new tunnels to other LNSs, for example to different ISPs.
+
+![LTS](images/15008526.png)
+
+[[CAPTION:Figure]] LTS.
 
 See also: [L2TP](#l2tp), [LAC](#lac), [LNS](#lns).
 

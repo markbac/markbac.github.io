@@ -33,6 +33,10 @@ A test of one area of system functionality once its construction is finished.
 ## FemtoCell
 A small, low-power mobile base station for a home or small office, connected to the operator over the customer's broadband. It improves indoor coverage for a handful of phones.
 
+![FemtoCell](images/15008172.png)
+
+[[CAPTION:Figure]] FemtoCell.
+
 See also: [Mobile Cell](m.md#mobile-cell), [E NodeB](e.md#e-nodeb).
 
 ## FIPS
@@ -47,6 +51,14 @@ See also: [FIPS](#fips), [NIST](n.md#nist).
 
 ## Firewall
 A network security device or software that allows or blocks traffic by rules, usually between a trusted internal network and an untrusted one. Network firewalls protect whole networks; host-based firewalls protect one machine.
+
+![Firewall](images/15008180.png)
+
+[[CAPTION:Figure]] Firewall.
+
+![Firewall](images/15008186.png)
+
+[[CAPTION:Figure]] Firewall.
 
 See also: [DMZ](d.md#dmz), [IPS](i.md#ips), [DPI](d.md#dpi).
 
@@ -76,10 +88,18 @@ See also: [Root of Trust](r.md#root-of-trust), [LwM2M](l.md#lwm2m).
 ## FQDN
 **Fully Qualified Domain Name.** A domain name that names every level of the DNS hierarchy down from the root, such as `www.example.com.`, so it can mean only one thing.
 
+![FQDN](images/15008192.png)
+
+[[CAPTION:Figure]] FQDN.
+
 See also: [Domain Name](d.md#domain-name), [DNS](d.md#dns).
 
 ## Frame Relay
 A packet-switched WAN technology, widely sold by carriers in the 1990s, that connects sites through virtual circuits over a shared network. It was cheaper than leased lines; MPLS VPNs have since replaced it.
+
+![Frame Relay](images/15008198.png)
+
+[[CAPTION:Figure]] Frame Relay.
 
 See also: [X.25](x.md#x25), [PVC](p.md#pvc), [L3VPN](l.md#l3vpn).
 
@@ -93,6 +113,10 @@ See also: [Continuous Deployment](c.md#continuous-deployment), [Release](r.md#re
 
 ## FSK
 **Frequency-Shift Keying.** Modulation that sends digital data by switching the carrier between frequencies; in binary FSK, one frequency for 1 and another for 0. Caller ID and early modems use it.
+
+![FSK](images/15008204.png)
+
+[[CAPTION:Figure]] FSK.
 
 See also: [QAM](q.md#qam).
 
@@ -139,9 +163,17 @@ See also: [T-Shirt Sizing](t.md#t-shirt-sizing), [Analogy Estimation](a.md#analo
 ## FXO
 **Foreign Exchange Office.** The port on a device, such as a phone, fax or VoIP gateway, that plugs into an analogue telephone line and receives dial tone and ringing from it.
 
+![FXO](images/15008210.png)
+
+[[CAPTION:Figure]] FXO.
+
 See also: [FXS](#fxs).
 
 ## FXS
 **Foreign Exchange Station.** The port that provides an analogue telephone line: it supplies power, dial tone and ringing to the phone connected to it. An exchange line or an analogue adapter has FXS ports.
+
+![FXS](images/15008210.png)
+
+[[CAPTION:Figure]] FXS.
 
 See also: [FXO](#fxo).

@@ -73,10 +73,18 @@ See also: [Pascal](p.md#pascal).
 ## ADSL
 **Asymmetric Digital Subscriber Line.** A form of DSL that carries broadband over an ordinary copper telephone line, with more bandwidth downstream to the customer than upstream.
 
+![ADSL](images/15007760.png)
+
+[[CAPTION:Figure]] ADSL.
+
 See also: [DSL](d.md#dsl), [SDSL](s.md#sdsl), [VDSL](v.md#vdsl), [DSLAM](d.md#dslam).
 
 ## AES
 **Advanced Encryption Standard.** A symmetric block cipher, chosen by NIST in 2001 from the Rijndael family. It has a 128-bit block and keys of 128, 192 or 256 bits, and replaced DES as the default cipher for bulk encryption.
+
+![AES](images/15007768.png)
+
+[[CAPTION:Figure]] AES.
 
 See also: [DES](d.md#des), [Triple DES](t.md#triple-des), [NIST](n.md#nist).
 
@@ -116,6 +124,10 @@ See also: [AWS](#aws), [IaaS](i.md#iaas).
 ## AMP
 **Asymmetric Multiprocessing.** A multiprocessor design in which the processors have different roles, for example one running the operating system and the others running dedicated tasks. It is common in embedded systems that pair a general-purpose core with a real-time one.
 
+![AMP](images/15007774.png)
+
+[[CAPTION:Figure]] AMP.
+
 See also: [SMP](s.md#smp), [RTOS](r.md#rtos).
 
 ## AMR-NB
@@ -141,6 +153,10 @@ See also: [Linux](l.md#linux).
 ## ANDSF
 **Access Network Discovery and Selection Function.** A 3GPP function that tells a mobile device which non-3GPP access networks, such as Wi-Fi, are nearby. It also gives the device policies for choosing between them and the mobile network.
 
+![ANDSF](images/15007780.png)
+
+[[CAPTION:Figure]] ANDSF.
+
 See also: [E-UTRAN](e.md#e-utran), [Wi-Fi](w.md#wi-fi).
 
 ## ANSI
@@ -155,6 +171,10 @@ See also: [Pattern](p.md#pattern), [Design Pattern](d.md#design-pattern).
 
 ## Anycast
 An addressing and routing method in which one address is announced from several places, and the network delivers each packet to the nearest one by its routing metrics. DNS root servers and content delivery networks use it.
+
+![Anycast](images/15007786.png)
+
+[[CAPTION:Figure]] Anycast.
 
 See also: [Unicast](u.md#unicast), [Multicast](m.md#multicast), [Broadcast](b.md#broadcast), [Geocast](g.md#geocast).
 
@@ -180,6 +200,10 @@ See also: [ADR](#adr), [High Level Design](h.md#high-level-design), [TOGAF](t.md
 
 ## ARP spoofing
 An attack on a local network in which the attacker sends forged ARP replies. Other hosts then link the attacker's MAC address to someone else's IP address, often the default gateway's. Traffic then flows through the attacker, who can read, change or drop it. It is also called ARP cache poisoning.
+
+![ARP spoofing](images/15007792.png)
+
+[[CAPTION:Figure]] ARP spoofing.
 
 See also: [RARP](r.md#rarp), [MAC Spoofing](m.md#mac-spoofing), [DNS Spoofing](d.md#dns-spoofing).
 
@@ -211,10 +235,18 @@ See also: [TDD](t.md#tdd), [BDD](b.md#bdd), [Three Amigos](t.md#three-amigos).
 ## ATM
 **Asynchronous Transfer Mode.** A connection-oriented switching technology that carries voice, video and data in fixed 53-byte cells. It was the basis of broadband ISDN and was widely used in carrier backbones and DSL access networks before IP and Ethernet replaced it.
 
+![ATM](images/15007798.png)
+
+[[CAPTION:Figure]] ATM.
+
 See also: [AAL1](#aal1), [AAL2](#aal2), [AAL5](#aal5), [VPI](v.md#vpi), [VCI](v.md#vci).
 
 ## Audio Codecs
 Software or hardware that encodes and decodes digital audio in a given coding format, usually compressing it. Speech codecs such as G.711, AMR and Opus are tuned for voice calls; music codecs such as MP3, AAC and Vorbis for general audio.
+
+![Audio Codecs](images/15007804.png)
+
+[[CAPTION:Figure]] Audio Codecs.
 
 See also: [Codecs](c.md#codecs), [G.711](g.md#g711), [OPUS](o.md#opus), [AAC](#aac).
 

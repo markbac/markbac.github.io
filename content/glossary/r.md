@@ -12,6 +12,10 @@ See also: [Python](p.md#python).
 ## RACI
 **Responsible, Accountable, Consulted, Informed.** A responsibility matrix that sets out, for each task or deliverable, who does the work, who is accountable for it, who is consulted and who is kept informed.
 
+![RACI](images/15008851.png)
+
+[[CAPTION:Figure]] RACI.
+
 ## RAD
 **Rapid Application Development.** An approach that develops software quickly through prototypes, workshops, early user testing and component reuse, with less formal documentation.
 
@@ -25,10 +29,18 @@ See also: [IDE](i.md#ide), [RAD](#rad).
 ## Radius
 **RADIUS: Remote Authentication Dial-In User Service.** The protocol (RFC 2865) that network access servers use to authenticate users, authorise their access and record their usage against a central server. It is widely used for broadband, Wi-Fi and VPN access.
 
+![Radius](images/15008859.png)
+
+[[CAPTION:Figure]] Radius.
+
 See also: [NAS](n.md#nas), [EAP](e.md#eap), [FNA](f.md#fna).
 
 ## RAN
 **Radio Access Network.** The part of a mobile network between devices and the core: the base stations and their controllers. GERAN, UTRAN and E-UTRAN are the 2G, 3G and 4G versions.
+
+![RAN](images/15008865.png)
+
+[[CAPTION:Figure]] RAN.
 
 See also: [GERAN](g.md#geran), [UTRAN](u.md#utran), [E-UTRAN](e.md#e-utran), [Backhaul](b.md#backhaul).
 
@@ -55,6 +67,10 @@ See also: [H.323](h.md#h323).
 
 ## RDBMS
 **Relational Database Management System.** A database system based on Edgar Codd's relational model, which stores data in tables with rows and columns and is queried with SQL.
+
+![RDBMS](images/15008871.png)
+
+[[CAPTION:Figure]] RDBMS.
 
 See also: [SQL](s.md#sql), [NoSQL](n.md#nosql).
 
@@ -114,6 +130,10 @@ The person responsible for defining, maintaining and tracing a product's require
 
 ## REST
 **Representational State Transfer.** An architecture style for web services in which resources are identified by URLs and handled through a uniform set of stateless operations, usually the HTTP methods. `GET` reads, `POST` creates, `PUT` replaces and `DELETE` removes.
+
+![REST](images/15008877.png)
+
+[[CAPTION:Figure]] REST.
 
 See also: [HTTP](h.md#http), [SOAP](s.md#soap), [API](a.md#api).
 
@@ -183,8 +203,24 @@ See also: [Risk Management](#risk-management).
 ## Risk Reward Matrix
 A two-by-two grid for comparing options, with risk on one axis and reward on the other. High-reward, low-risk options are the best candidates; high-risk, low-reward ones are to be avoided. The size of each marker can show the resources each option needs.
 
+![Risk Reward Matrix](images/15008883.png)
+
+[[CAPTION:Figure]] Risk Reward Matrix.
+
+![Risk Reward Matrix](images/15008889.png)
+
+[[CAPTION:Figure]] Risk Reward Matrix.
+
+![Risk Reward Matrix](images/15008895.png)
+
+[[CAPTION:Figure]] Risk Reward Matrix.
+
 ## RNC
 **Radio Network Controller.** The UMTS node that controls a group of Node Bs. It manages radio resources and handovers, and ciphers user data. It connects to the circuit-switched core through the Iu-CS interface and to the packet core through Iu-PS.
+
+![RNC](images/15008901.png)
+
+[[CAPTION:Figure]] RNC.
 
 See also: [Node B](n.md#node-b), [UTRAN](u.md#utran), [RANAP](#ranap), [BSC](b.md#bsc).
 
@@ -214,6 +250,10 @@ See [Root of Trust](#root-of-trust).
 ## Round Robin
 A scheduling method that gives each task or queue a turn in a fixed circular order, with equal time slices and no priorities. It is simple and no task is starved.
 
+![Round Robin](images/15008907.png)
+
+[[CAPTION:Figure]] Round Robin.
+
 See also: [Scheduler](s.md#scheduler), [Preemption](p.md#preemption).
 
 ## Router
@@ -228,6 +268,14 @@ See also: [JSON-RPC](j.md#json-rpc), [XML-RPC](x.md#xml-rpc), [SOAP](s.md#soap).
 
 ## RRC
 **Radio Resource Control.** The 3GPP control protocol between a device and the radio network in UMTS, LTE and 5G. It sets up and releases connections and radio bearers, broadcasts system information and manages mobility. A state machine, with idle and connected states, governs the device.
+
+![RRC](images/15008913.png)
+
+[[CAPTION:Figure]] RRC.
+
+![RRC](images/15008919.png)
+
+[[CAPTION:Figure]] RRC.
 
 See also: [PDCP](p.md#pdcp), [E-UTRAN](e.md#e-utran).
 

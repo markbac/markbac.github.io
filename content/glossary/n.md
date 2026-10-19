@@ -17,10 +17,18 @@ See also: [NAT](#nat).
 ## NAS
 **Network Access Server.** A device that gives users access to a network, such as a dial-up or broadband access server. It usually authenticates them through RADIUS. In LTE, NAS also stands for the non-access stratum: the signalling between the device and the core.
 
+![NAS](images/15008661.png)
+
+[[CAPTION:Figure]] NAS.
+
 See also: [Radius](r.md#radius), [BRAS](b.md#bras).
 
 ## NAT
 **Network Address Translation.** Rewriting IP addresses in packets as they pass through a router, usually so that a private network can share public addresses. It has kept IPv4 going despite address exhaustion, but it complicates peer-to-peer protocols.
+
+![NAT](images/15008669.png)
+
+[[CAPTION:Figure]] NAT.
 
 See also: [NAPT](#napt), [STUN](s.md#stun), [ICE](i.md#ice), [IPv4](i.md#ipv4).
 
@@ -44,6 +52,10 @@ See also: [GCHQ](g.md#gchq), [CESG](c.md#cesg).
 
 ## Network Topologies
 The arrangement of a network's nodes and links, such as bus, star, ring, mesh or tree. The physical topology is how it is cabled; the logical topology is how data flows.
+
+![Network Topologies](images/15008675.png)
+
+[[CAPTION:Figure]] Network Topologies.
 
 ```mermaid
 flowchart LR
@@ -75,10 +87,18 @@ See also: [IMS](i.md#ims), [BT 21CN](b.md#bt-21cn), [Softswitch](s.md#softswitch
 ## NGWFQ
 A form of weighted fair queuing. Weighted fair queuing shares a link's capacity between flows or classes in proportion to weights set for each.
 
+![NGWFQ](images/15008681.png)
+
+[[CAPTION:Figure]] NGWFQ.
+
 See also: [PWFQ](p.md#pwfq), [QoS](q.md#qos).
 
 ## Niko-niko Calendar
 A calendar on which each team member records their mood each day, often with a smiley face, to show patterns in how the team feels.
+
+![Niko-niko Calendar](images/15008687.png)
+
+[[CAPTION:Figure]] Niko-niko Calendar.
 
 See also: [Information Radiators](i.md#information-radiators).
 
@@ -89,6 +109,10 @@ See also: [FIPS](f.md#fips), [AES](a.md#aes).
 
 ## NNI
 **Network-to-Network Interface.** The interface between two networks, or two parts of one network, with its signalling and management. It differs from the user-network interface (UNI), between a network and its customer.
+
+![NNI](images/15008693.png)
+
+[[CAPTION:Figure]] NNI.
 
 See also: [UNI](u.md#uni).
 
@@ -121,10 +145,18 @@ See also: [RDBMS](r.md#rdbms), [SQL](s.md#sql).
 ## NPE
 **Network Provider Edge.** A provider edge (PE) router, which connects customer networks or other providers' networks to a provider's core.
 
+![NPE](images/15008699.png)
+
+[[CAPTION:Figure]] NPE.
+
 See also: [CE](c.md#ce), [L3VPN](l.md#l3vpn).
 
 ## NSS
 **Network Switching Subsystem.** The GSM core network: the MSCs, HLR, VLR and related nodes that switch calls and manage mobility. GPRS added a packet core alongside it.
+
+![NSS](images/15008705.png)
+
+[[CAPTION:Figure]] NSS.
 
 See also: [MSC](m.md#msc), [HLR](h.md#hlr), [GSM](g.md#gsm).
 
@@ -140,6 +172,10 @@ See also: [IN](i.md#in).
 
 ## NTU
 **Network Terminating Unit.** The device that marks the boundary between the operator's line and the customer's equipment, and gives a point for testing the line.
+
+![NTU](images/15008711.png)
+
+[[CAPTION:Figure]] NTU.
 
 See also: [CPE](c.md#cpe).
 

@@ -50,10 +50,22 @@ On projects with large or critical databases, the person responsible for the des
 ## Data Warehouse
 A central store of current and historical data, integrated from several operational systems and organised for reporting and analysis rather than for transactions.
 
+![Data Warehouse](images/15007957.png)
+
+[[CAPTION:Figure]] Data Warehouse.
+
+![Data Warehouse](images/15007965.png)
+
+[[CAPTION:Figure]] Data Warehouse.
+
 See also: [ETL](e.md#etl), [RDBMS](r.md#rdbms).
 
 ## DCE
 **Data Circuit-terminating Equipment.** The device that connects a terminal or computer (the DTE) to a transmission line, such as a modem.
+
+![DCE](images/15007971.png)
+
+[[CAPTION:Figure]] DCE.
 
 See also: [DTE](#dte).
 
@@ -64,6 +76,10 @@ See also: [Driver](#driver), [SDK](s.md#sdk).
 
 ## DDOS
 **Distributed Denial of Service.** An attack that floods a target with traffic from many sources at once, often a botnet, to make it unavailable to legitimate users. Because the traffic comes from everywhere, blocking one source does not stop it.
+
+![DDOS](images/15007977.png)
+
+[[CAPTION:Figure]] DDOS.
 
 See also: [Firewall](f.md#firewall), [IPS](i.md#ips).
 
@@ -125,6 +141,10 @@ See also: [BER](b.md#ber), [CER](c.md#cer), [ASN.1](a.md#asn1), [X.509](x.md#x50
 
 ## DES
 **Data Encryption Standard.** A symmetric block cipher from IBM, published as a US federal standard in 1977, with a 64-bit block and a 56-bit key. The short key made it breakable by brute force by the late 1990s, and AES replaced it.
+
+![DES](images/15007983.png)
+
+[[CAPTION:Figure]] DES.
 
 See also: [Triple DES](t.md#triple-des), [AES](a.md#aes).
 
@@ -193,6 +213,14 @@ A graphical representation of a system, process or other information.
 ## DLE
 **Digital Local Exchange.** A digital telephone exchange that connects subscribers' lines, either directly or through remote concentrators. In the UK these were System X and AXE 10 exchanges.
 
+![DLE](images/15007989.png)
+
+[[CAPTION:Figure]] DLE.
+
+![DLE](images/15007995.png)
+
+[[CAPTION:Figure]] DLE.
+
 See also: [SystemX](s.md#systemx), [MDF](m.md#mdf), [Local Loop](l.md#local-loop).
 
 ## DLP
@@ -202,6 +230,10 @@ See also: [L2](l.md#l2).
 
 ## DMZ
 **Demilitarised Zone.** A network segment that sits between the internet and an organisation's internal network, holding the services that outsiders need to reach, such as web and mail servers. Firewalls on both sides limit what each zone can reach.
+
+![DMZ](images/15008001.png)
+
+[[CAPTION:Figure]] DMZ.
 
 See also: [Firewall](f.md#firewall).
 
@@ -270,6 +302,14 @@ See also: [Wiki](w.md#wiki).
 ## Domain Name
 A name registered in the DNS, such as `example.co.uk`, that identifies an area of administrative control on the internet. Names form a hierarchy under the unnamed root: top-level domains, then second-level domains, then subdomains.
 
+![Domain Name](images/15008007.png)
+
+[[CAPTION:Figure]] Domain Name.
+
+![Domain Name](images/15008013.png)
+
+[[CAPTION:Figure]] Domain Name.
+
 See also: [DNS](#dns), [FQDN](f.md#fqdn).
 
 ## Dot1Q
@@ -279,6 +319,18 @@ See also: [VLAN](v.md#vlan), [Dot1Q trunking](#dot1q-trunking), [PCP](p.md#pcp).
 
 ## Dot1Q trunking
 Carrying several VLANs over one link between switches. Each frame is tagged with its VLAN ID as it enters the trunk. The switch at the other end uses the tag to deliver it to ports in the same VLAN.
+
+![Dot1Q trunking](images/15008019.png)
+
+[[CAPTION:Figure]] Dot1Q trunking.
+
+![Dot1Q trunking](images/15008025.png)
+
+[[CAPTION:Figure]] Dot1Q trunking.
+
+![Dot1Q trunking](images/15008031.png)
+
+[[CAPTION:Figure]] Dot1Q trunking.
 
 ```mermaid
 flowchart LR
@@ -300,6 +352,10 @@ See also: [Upstream](u.md#upstream).
 
 ## DP
 **Distribution Point.** In a UK access network, the point near the customer, often on a telegraph pole, where the drop wire to the premises joins the cable from the exchange. In fibre networks, the point where a fibre splits towards several premises.
+
+![DP](images/15008037.png)
+
+[[CAPTION:Figure]] DP.
 
 See also: [Local Loop](l.md#local-loop), [PCP](p.md#pcp).
 
@@ -339,15 +395,27 @@ See also: [Agile development](a.md#agile-development), [RAD](r.md#rad).
 ## DSL
 **Digital Subscriber Line.** A family of technologies that carry digital data over copper telephone lines, using frequencies above voice. ADSL and VDSL are the most common.
 
+![DSL](images/15008043.png)
+
+[[CAPTION:Figure]] DSL.
+
 See also: [ADSL](a.md#adsl), [SDSL](s.md#sdsl), [VDSL](v.md#vdsl), [DSLAM](#dslam).
 
 ## DSLAM
 **Digital Subscriber Line Access Multiplexer.** The equipment in an exchange or street cabinet that terminates many customers' DSL lines and combines their traffic onto one high-speed link.
 
+![DSLAM](images/15008049.png)
+
+[[CAPTION:Figure]] DSLAM.
+
 See also: [DSL](#dsl), [MSAN](m.md#msan), [BRAS](b.md#bras).
 
 ## DTE
 **Data Terminal Equipment.** The device at the end of a data link that is the source or destination of data, such as a computer or terminal. It connects to the line through a DCE.
+
+![DTE](images/15007971.png)
+
+[[CAPTION:Figure]] DTE.
 
 ```mermaid
 flowchart LR
@@ -366,6 +434,10 @@ See also: [TLS](t.md#tls), [UDP](u.md#udp), [LwM2M](l.md#lwm2m).
 ## DTMF
 **Dual-Tone Multi-Frequency.** Telephone signalling in which each key sends two tones at once, one from a low group and one from a high group. It is standardised as ITU-T Q.23, and BT calls it MF4.
 
+![DTMF](images/15008055.png)
+
+[[CAPTION:Figure]] DTMF.
+
 See also: [IVR](i.md#ivr), [PSTN](p.md#pstn).
 
 ## DTT
@@ -380,6 +452,22 @@ See also: [DTT](#dtt), [IPTV](i.md#iptv).
 
 ## Duplex
 A link that can carry communication in both directions. In full duplex both sides can send at once; in half duplex they take turns. A simplex link carries one direction only.
+
+![Duplex](images/15008061.png)
+
+[[CAPTION:Figure]] Duplex.
+
+![Duplex](images/15008067.png)
+
+[[CAPTION:Figure]] Duplex.
+
+![Duplex](images/15008073.png)
+
+[[CAPTION:Figure]] Duplex.
+
+![Duplex](images/15008079.png)
+
+[[CAPTION:Figure]] Duplex.
 
 ```mermaid
 flowchart LR

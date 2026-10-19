@@ -7,6 +7,10 @@ title: V
 ## V Model
 A development model that extends waterfall by pairing each specification and design stage with the test stage that checks it. Requirements pair with acceptance testing, and so on down to unit tests. Drawn out, the stages form a V.
 
+![V Model](images/15009151.png)
+
+[[CAPTION:Figure]] V Model.
+
 ```mermaid
 flowchart LR
   R[Requirements] --> SD[System design] --> AD[Architecture] --> MD[Module design] --> C[Coding]
@@ -59,6 +63,10 @@ See also: [VPI](#vpi), [ATM](a.md#atm).
 ## VCID
 **Virtual Circuit Identifier.** The identifier that both ends of a pseudowire use to match up the same circuit, for example in an MPLS VPWS.
 
+![VCID](images/15009159.png)
+
+[[CAPTION:Figure]] VCID.
+
 See also: [PW](p.md#pw), [VPWS](#vpws).
 
 ## VDSL
@@ -97,6 +105,10 @@ See also: [ISP](i.md#isp), [MVNO](m.md#mvno).
 ## VLAN
 **Virtual LAN.** A separate broadcast domain created on shared switches, usually by tagging frames with an 802.1Q VLAN ID, so that one physical network carries several isolated LANs.
 
+![VLAN](images/15009165.png)
+
+[[CAPTION:Figure]] VLAN.
+
 See also: [Dot1Q](d.md#dot1q), [Dot1Q trunking](d.md#dot1q-trunking), [Switch](s.md#switch).
 
 ## VLR
@@ -117,6 +129,10 @@ See also: [IPTV](i.md#iptv), [STB](s.md#stb).
 ## VoIP
 **Voice over IP.** Carrying voice calls over IP networks, with signalling protocols such as SIP to set up calls and RTP to carry the media.
 
+![VoIP](images/15009171.png)
+
+[[CAPTION:Figure]] VoIP.
+
 See also: [SIP](s.md#sip), [RTP](r.md#rtp), [SBC](s.md#sbc), [VoLTE](#volte).
 
 ## VoLTE
@@ -135,10 +151,18 @@ See also: [OPUS](o.md#opus), [MP3](m.md#mp3).
 ## VPLS
 **Virtual Private LAN Service.** A provider service that joins several customer sites into one Ethernet broadcast domain over an MPLS network, using a mesh of pseudowires. It is defined in RFCs 4761 and 4762.
 
+![VPLS](images/15009177.png)
+
+[[CAPTION:Figure]] VPLS.
+
 See also: [L2VPN](l.md#l2vpn), [PW](p.md#pw), [VPWS](#vpws).
 
 ## VPN
 **Virtual Private Network.** A private network built over a shared or public one, such as the internet or a provider's MPLS core. It uses tunnelling and often encryption, so that remote sites or users act as if directly connected.
+
+![VPN](images/15009183.png)
+
+[[CAPTION:Figure]] VPN.
 
 See also: [IPSec](i.md#ipsec), [L3VPN](l.md#l3vpn), [L2VPN](l.md#l2vpn).
 
@@ -149,5 +173,9 @@ See also: [PW](p.md#pw), [VPLS](#vpls), [EPWS](e.md#epws).
 
 ## VRF
 **Virtual Routing and Forwarding.** Several separate routing tables in one router, so that different customers or networks, even with overlapping addresses, stay apart. It is the building block of MPLS layer-3 VPNs.
+
+![VRF](images/15009189.png)
+
+[[CAPTION:Figure]] VRF.
 
 See also: [L3VPN](l.md#l3vpn), [CE](c.md#ce).

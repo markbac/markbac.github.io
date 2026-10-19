@@ -17,10 +17,22 @@ See also: [JSON](#json), [Java](#java).
 ## Jitter
 Variation in the timing of a signal or in the delay of packets. In packet networks it is also called packet delay variation, and it affects real-time traffic such as voice and video.
 
+![Jitter](images/15008430.png)
+
+[[CAPTION:Figure]] Jitter.
+
+![Jitter](images/15008438.png)
+
+[[CAPTION:Figure]] Jitter.
+
 See also: [Jitter buffer](#jitter-buffer), [Latency](l.md#latency).
 
 ## Jitter buffer
 A buffer at a receiver that holds arriving voice or video packets for a short time, so they can be played out at an even rate despite jitter. Adaptive buffers change their size to match conditions, trading delay against loss.
+
+![Jitter buffer](images/15008430.png)
+
+[[CAPTION:Figure]] Jitter buffer.
 
 See also: [Jitter](#jitter), [RTP](r.md#rtp).
 

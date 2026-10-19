@@ -7,10 +7,18 @@ title: H
 ## H.248 {#h248}
 **Gateway Control Protocol (Megaco).** The ITU-T and IETF protocol with which a media gateway controller or softswitch controls media gateways, which convert between telephone circuits and IP media streams. It does the same job as MGCP.
 
+![H.248](images/15008304.png)
+
+[[CAPTION:Figure]] H.248.
+
 See also: [MGCP](m.md#mgcp), [MGW](m.md#mgw), [Softswitch](s.md#softswitch).
 
 ## H.323 {#h323}
 An ITU-T family of protocols for voice and video calls over packet networks, covering signalling, media and bandwidth control. It was the main VoIP standard before SIP replaced it.
+
+![H.323](images/15008312.png)
+
+[[CAPTION:Figure]] H.323.
 
 See also: [SIP](s.md#sip), [Q.931](q.md#q931), [RAS](r.md#ras).
 
@@ -25,15 +33,27 @@ See [Nominal Path](n.md#nominal-path).
 ## Hash Function
 A function that maps data of any size to a fixed-size value. A cryptographic hash, such as SHA-256, is also one-way and collision-resistant. That makes it useful for integrity checks, digital signatures and storing passwords.
 
+![Hash Function](images/15008318.png)
+
+[[CAPTION:Figure]] Hash Function.
+
 See also: [SHA](s.md#sha), [MD5](m.md#md5), [CRC](c.md#crc).
 
 ## HDF
 **Handover Distribution Frame.** In UK local loop unbundling, the frame in the exchange where the copper pairs are handed over from the main distribution frame to another operator's equipment.
 
+![HDF](images/15008324.png)
+
+[[CAPTION:Figure]] HDF.
+
 See also: [MDF](m.md#mdf), [Local Loop](l.md#local-loop).
 
 ## HDLC
 **High-Level Data Link Control.** An ISO bit-oriented, synchronous data link protocol. Many other link protocols, including PPP framing, LAPB in X.25 and LAPD in ISDN, are based on it.
+
+![HDLC](images/15008330.png)
+
+[[CAPTION:Figure]] HDLC.
 
 See also: [PPP](p.md#ppp), [X.25](x.md#x25), [Frame Relay](f.md#frame-relay).
 
@@ -82,6 +102,10 @@ See [Non-functional Requirement](n.md#non-functional-requirement).
 ## HSRP
 **Hot Standby Router Protocol.** Cisco's protocol for a fault-tolerant default gateway. Two or more routers share a virtual IP address; one is active and the others take over if it fails. VRRP is the open-standard equivalent.
 
+![HSRP](images/15008336.png)
+
+[[CAPTION:Figure]] HSRP.
+
 See also: [Router](r.md#router).
 
 ## HSS
@@ -101,6 +125,10 @@ See also: [HTTP](#http), [TLS](t.md#tls), [CA](c.md#ca).
 
 ## Hub
 A network device that repeats every frame it receives to all its other ports, so all connected devices share one collision domain. It works at layer 1, and switches have replaced it.
+
+![Hub](images/15008342.png)
+
+[[CAPTION:Figure]] Hub.
 
 See also: [Switch](s.md#switch), [L1](l.md#l1).
 

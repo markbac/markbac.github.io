@@ -15,6 +15,10 @@ In domain-driven design, a shared vocabulary drawn from the business domain, use
 ## UDP
 **User Datagram Protocol.** A simple, connectionless transport protocol (RFC 768) that sends datagrams with port numbers and a checksum, but no guarantee of delivery or order. DNS, VoIP media and streaming use it, along with protocols that add their own reliability.
 
+![UDP](images/15009084.png)
+
+[[CAPTION:Figure]] UDP.
+
 [[CAPTION:Table]] The UDP header: four 16-bit fields, then the data.
 
 | Bits 0 to 15 | Bits 16 to 31 |
@@ -36,10 +40,26 @@ See also: [BRAS](b.md#bras), [BNG](b.md#bng).
 <!-- vale PyDoc.Spelling = YES -->
 The standard graphical language for modelling software systems, maintained by the Object Management Group. It was created by Grady Booch, Ivar Jacobson and James Rumbaugh in the mid-1990s. Its diagrams include class, sequence, activity, state and use case diagrams.
 
+![UML](images/15009092.png)
+
+[[CAPTION:Figure]] UML.
+
+![UML](images/15009098.png)
+
+[[CAPTION:Figure]] UML.
+
+![UML](images/15009104.png)
+
+[[CAPTION:Figure]] UML.
+
 See also: [Class Model](c.md#class-model), [Sequence Model](s.md#sequence-model), [Use Case](#use-case).
 
 ## UMTS
 **Universal Mobile Telecommunications System.** The 3GPP third-generation (3G) mobile system, which evolved from GSM. It uses wideband CDMA radio, and HSPA later speeded up its data.
+
+![UMTS](images/15008611.png)
+
+[[CAPTION:Figure]] UMTS.
 
 See also: [W-CDMA](w.md#w-cdma), [UTRAN](#utran), [GSM](g.md#gsm), [LTE (4G)](l.md#lte-4g).
 
@@ -50,6 +70,10 @@ See also: [NNI](n.md#nni), [EVC](e.md#evc).
 
 ## Unicast
 Sending data from one sender to one receiver, each identified by its own address. Most internet traffic is unicast.
+
+![Unicast](images/15009110.png)
+
+[[CAPTION:Figure]] Unicast.
 
 See also: [Multicast](m.md#multicast), [Broadcast](b.md#broadcast), [Anycast](a.md#anycast).
 
@@ -76,6 +100,10 @@ See also: [Unit Test](#unit-test), [TDD](t.md#tdd), [Mock Objects](m.md#mock-obj
 ## Unix
 A family of multi-user, multitasking operating systems descended from the original developed at Bell Labs by Ken Thompson, Dennis Ritchie and others from 1969. BSD, Solaris, AIX and macOS are Unix systems; Linux is Unix-like.
 
+![Unix](images/15009116.png)
+
+[[CAPTION:Figure]] Unix.
+
 See also: [Linux](l.md#linux), [POSIX](p.md#posix), [Sh](s.md#sh).
 
 ## Update
@@ -90,6 +118,10 @@ See also: [Downstream](d.md#downstream).
 
 ## URI
 **Uniform Resource Identifier.** A string that identifies a resource (RFC 3986). URLs, which say where to find it, and URNs, which name it, are both kinds of URI.
+
+![URI](images/15009122.png)
+
+[[CAPTION:Figure]] URI.
 
 See also: [URL](#url), [URN](#urn).
 
@@ -170,5 +202,13 @@ See also: [Unicode](#unicode), [UTF-16](#utf-16), [ASCII](a.md#ascii).
 
 ## UTRAN
 **UMTS Terrestrial Radio Access Network.** The 3G radio access network: the Node Bs and the RNCs that control them.
+
+![UTRAN](images/15009128.png)
+
+[[CAPTION:Figure]] UTRAN.
+
+![UTRAN](images/15009134.png)
+
+[[CAPTION:Figure]] UTRAN.
 
 See also: [Node B](n.md#node-b), [RNC](r.md#rnc), [UMTS](#umts), [E-UTRAN](e.md#e-utran).

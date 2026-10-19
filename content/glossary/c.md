@@ -17,6 +17,14 @@ See also: [C Language](#c-language), [Bjarne Stroustrup](b.md#bjarne-stroustrup)
 ## C-Tag
 **Customer VLAN tag.** In IEEE 802.1ad double tagging (Q-in-Q), the inner VLAN tag, set by the customer. The service provider adds an outer S-Tag.
 
+![C-Tag](images/15007942.png)
+
+[[CAPTION:Figure]] C-Tag.
+
+![C-Tag](images/15007948.png)
+
+[[CAPTION:Figure]] C-Tag.
+
 See also: [S-Tag](s.md#s-tag), [VLAN](v.md#vlan), [Dot1Q](d.md#dot1q).
 
 ## C# {#c_2}
@@ -26,6 +34,10 @@ See also: [.NET](symbols.md#net), [Java](j.md#java).
 
 ## CA
 **Certificate Authority.** A trusted organisation that issues digital certificates, signing each to bind a public key to the named subject. Browsers trust HTTPS sites because a CA they trust signed the site's certificate.
+
+![CA](images/15007880.png)
+
+[[CAPTION:Figure]] CA.
 
 See also: [X.509](x.md#x509), [TLS](t.md#tls), [HTTPS](h.md#https).
 
@@ -113,6 +125,10 @@ See also: [Mediation](m.md#mediation).
 ## CE
 **Customer Edge.** The customer's router that connects to the service provider's provider edge (PE) router in an MPLS VPN. It exchanges routes with the PE, statically or with a routing protocol.
 
+![CE](images/15007888.png)
+
+[[CAPTION:Figure]] CE.
+
 See also: [VRF](v.md#vrf), [L3VPN](l.md#l3vpn), [NPE](n.md#npe).
 
 ## CER
@@ -178,6 +194,10 @@ See also: [Linux](l.md#linux), [Android](a.md#android).
 ## Circuit Switched
 A network in which a dedicated path is set up between the two ends before they communicate, and held for the whole call, as in the traditional telephone network.
 
+![Circuit Switched](images/15007894.png)
+
+[[CAPTION:Figure]] Circuit Switched.
+
 See also: [Packet Switched](p.md#packet-switched), [PSTN](p.md#pstn), [TDM](t.md#tdm).
 
 ## Class 4 Softswitch
@@ -222,6 +242,10 @@ See also: [Lifecycle](l.md#lifecycle), [Waterfall](w.md#waterfall).
 
 ## Codecs
 A codec (coder-decoder) is a device or piece of software that encodes a signal or data stream for transmission or storage, usually compressing it. It also decodes it again for use.
+
+![Codecs](images/15007900.png)
+
+[[CAPTION:Figure]] Codecs.
 
 See also: [Audio Codecs](a.md#audio-codecs), [MPEG](m.md#mpeg).
 
@@ -270,6 +294,10 @@ See also: [Compiler](#compiler), [Interpreted Language](i.md#interpreted-languag
 ## Compiler
 Software that translates code from one language, usually a high-level language, into another, usually machine code or bytecode. A typical compiler has a front end, a middle end and a back end. A cross-compiler produces code for a different machine from the one it runs on.
 
+![Compiler](images/15007906.png)
+
+[[CAPTION:Figure]] Compiler.
+
 See also: [Compiler Front end](#compiler-front-end), [Compiler Middle end](#compiler-middle-end), [Compiler Back end](#compiler-back-end), [Compiler preprocessor](#compiler-preprocessor), [Machine code](m.md#machine-code).
 
 ## Compiler Back end
@@ -304,6 +332,10 @@ See also: [Unit Testing](u.md#unit-testing), [Integration Test](i.md#integration
 
 ## Cone of Uncertainty
 The observation that estimates made early in a project can be wrong by a large factor either way. The range narrows as the project goes on and decisions are made.
+
+![Cone of Uncertainty](images/15007912.png)
+
+[[CAPTION:Figure]] Cone of Uncertainty.
 
 See also: [Estimation](e.md#estimation), [Progressive Elaboration](p.md#progressive-elaboration).
 
@@ -357,10 +389,18 @@ See also: [Automated Build](a.md#automated-build), [Continuous Deployment](#cont
 ## Control Plane
 The part of a network device or network that decides where traffic goes: running routing protocols and building the tables that the data plane uses to forward packets.
 
+![Control Plane](images/15007918.png)
+
+[[CAPTION:Figure]] Control Plane.
+
 See also: [Data Plane](d.md#data-plane), [Management Plane](m.md#management-plane), [User Plane](u.md#user-plane), [SDN](s.md#sdn).
 
 ## Copyleft
 Licensing that lets anyone copy, change and share a work on condition that copies and derived works are shared under the same terms. The GPL is the best-known copyleft licence.
+
+![Copyleft](images/15007924.png)
+
+[[CAPTION:Figure]] Copyleft.
 
 See also: [GPL](g.md#gpl), [GNU](g.md#gnu).
 
@@ -376,6 +416,10 @@ See also: [Mil-COTS](m.md#mil-cots).
 
 ## CPE
 **Customer Premises Equipment.** Equipment at the customer's site that connects to the operator's network at the demarcation point, such as a router, modem or phone.
+
+![CPE](images/15007930.png)
+
+[[CAPTION:Figure]] CPE.
 
 See also: [NTU](n.md#ntu).
 
@@ -411,6 +455,10 @@ See also: [Tcsh](t.md#tcsh), [Bash](b.md#bash), [Sh](s.md#sh).
 
 ## CSI
 **Customer Site Interconnect.** A physical link between an operator's network and a customer's site or another operator's equipment.
+
+![CSI](images/15007936.png)
+
+[[CAPTION:Figure]] CSI.
 
 See also: [Leased Line](l.md#leased-line).
 

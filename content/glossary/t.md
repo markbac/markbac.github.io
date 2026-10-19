@@ -17,6 +17,10 @@ See also: [Activity](a.md#activity), [Work Item](w.md#work-item).
 ## Task Board
 A board with columns such as "To do", "In progress" and "Done", on which cards for tasks move as work progresses.
 
+![Task Board](images/15009042.png)
+
+[[CAPTION:Figure]] Task Board.
+
 See also: [Kanban Board](k.md#kanban-board), [Information Radiators](i.md#information-radiators).
 
 ## Task Estimate
@@ -35,6 +39,10 @@ Tcl is a dynamic scripting language, and Tk is the cross-platform GUI toolkit th
 ## TCP
 **Transmission Control Protocol.** The internet's main transport protocol (RFC 9293). It gives applications a reliable, ordered, error-checked byte stream over IP, with flow and congestion control. The web, email and file transfer use it.
 
+![TCP](images/15009050.png)
+
+[[CAPTION:Figure]] TCP.
+
 See also: [UDP](u.md#udp), [Internet Protocol Suite](i.md#internet-protocol-suite), [Out-of-order delivery](o.md#out-of-order-delivery).
 
 ## Tcsh
@@ -49,6 +57,10 @@ See also: [Unit Testing](u.md#unit-testing), [Refactoring](r.md#refactoring), [B
 
 ## TDM
 **Time-Division Multiplexing.** Sharing a channel by giving each signal its own repeating time slot. Digital telephony carries each call in a 64 kbit/s slot, for example 30 calls on an E1.
+
+![TDM](images/15009056.png)
+
+[[CAPTION:Figure]] TDM.
 
 See also: [Multiplex](m.md#multiplex), [PDH](p.md#pdh), [SDH](s.md#sdh).
 
@@ -148,6 +160,10 @@ See also: [WEP](w.md#wep), [WPA2](w.md#wpa2).
 ## TLS
 **Transport Layer Security.** The protocol that encrypts and authenticates connections between applications, such as HTTPS. A handshake authenticates the server, usually with an X.509 certificate, and agrees keys. Symmetric encryption then protects the data. TLS 1.3 (RFC 8446) is current, and it replaced SSL.
 
+![TLS](images/15009062.png)
+
+[[CAPTION:Figure]] TLS.
+
 ```mermaid
 sequenceDiagram
   participant C as Client
@@ -165,6 +181,10 @@ See also: [HTTPS](h.md#https), [DTLS](d.md#dtls), [X.509](x.md#x509), [SSL](s.md
 ## TLV
 **Type-Length-Value.** An encoding in which each element has a type code, a length and then the value. Receivers can skip elements they do not understand, so formats can grow. BER, IS-IS and many other protocols use it.
 
+![TLV](images/15009068.png)
+
+[[CAPTION:Figure]] TLV.
+
 See also: [BER](b.md#ber).
 
 ## TOGAF
@@ -174,6 +194,10 @@ See also: [Architecture](a.md#architecture), [ADR](a.md#adr).
 
 ## Token Ring
 A LAN technology from IBM, standardised as IEEE 802.5. A token passes round a ring of stations, and only the station holding it may transmit. There are therefore no collisions. Ethernet replaced it.
+
+![Token Ring](images/15009074.png)
+
+[[CAPTION:Figure]] Token Ring.
 
 See also: [FDDI](f.md#fddi).
 

@@ -12,6 +12,10 @@ See also: [CESG](c.md#cesg), [NCSC](n.md#ncsc).
 ## IaaS
 **Infrastructure as a Service.** Cloud computing that rents virtual machines, storage and networks, which the customer manages from the operating system up.
 
+![IaaS](images/15008352.png)
+
+[[CAPTION:Figure]] IaaS.
+
 See also: [PaaS](p.md#paas), [SaaS](s.md#saas), [NaaS](n.md#naas).
 
 ## ICE
@@ -67,6 +71,10 @@ See also: [RFC](r.md#rfc).
 ## IGMP
 **Internet Group Management Protocol.** The IPv4 protocol with which hosts tell their local routers which multicast groups they want to receive. IPTV uses it to join channels.
 
+![IGMP](images/15008360.png)
+
+[[CAPTION:Figure]] IGMP.
+
 See also: [Multicast](m.md#multicast), [IPTV](#iptv).
 
 ## IGP
@@ -84,6 +92,10 @@ See also: [EIGRP](e.md#eigrp), [RIP](r.md#rip).
 
 ## IKE
 **Internet Key Exchange.** The protocol that sets up security associations for IPsec. The peers authenticate each other and agree keys using Diffie-Hellman. IKEv2 is the current version.
+
+![IKE](images/15008366.png)
+
+[[CAPTION:Figure]] IKE.
 
 See also: [IPSec](#ipsec), [VPN](v.md#vpn).
 
@@ -118,6 +130,10 @@ See [Intrinsic Risk Management](#intrinsic-risk-management).
 
 ## IMS
 **IP Multimedia Subsystem.** The 3GPP architecture for delivering voice, video and messaging over IP using SIP. It is the core behind VoLTE, Wi-Fi calling and many fixed-line VoIP networks.
+
+![IMS](images/15204369.png)
+
+[[CAPTION:Figure]] IMS.
 
 See also: [CSCF](c.md#cscf), [HSS](h.md#hss), [SIP](s.md#sip), [VoLTE](v.md#volte).
 
@@ -167,10 +183,18 @@ See also: [Information architecture](#information-architecture).
 ## Information Radiators
 Large, visible displays, such as task boards or burndown charts, placed where the whole team can see the current state of work at a glance.
 
+![Information Radiators](images/15008372.png)
+
+[[CAPTION:Figure]] Information Radiators.
+
 See also: [Task Board](t.md#task-board), [Kanban Board](k.md#kanban-board), [Burndown Chart](b.md#burndown-chart).
 
 ## Ingress
 Traffic entering a network or a device, as opposed to egress traffic leaving it.
+
+![Ingress](images/15302712.png)
+
+[[CAPTION:Figure]] Ingress.
 
 See also: [Egress](e.md#egress).
 
@@ -203,6 +227,10 @@ See also: [Unit Testing](u.md#unit-testing), [System Test](s.md#system-test).
 ## Internet Protocol Suite
 The protocols of the internet, often called TCP/IP after its two main protocols. It has four layers: link, internet (IP), transport (TCP, UDP) and application (such as HTTP or DNS).
 
+![Internet Protocol Suite](images/15008378.png)
+
+[[CAPTION:Figure]] Internet Protocol Suite.
+
 See also: [TCP](t.md#tcp), [UDP](u.md#udp), [IPv4](#ipv4), [IPv6](#ipv6).
 
 ## Interpreted Language
@@ -231,6 +259,10 @@ See also: [Firewall](f.md#firewall), [DPI](d.md#dpi).
 ## IPSC
 **IP Stream Connect.** A BT Wholesale product that handed over broadband customers' traffic to an internet service provider at a central point.
 
+![IPSC](images/15008384.png)
+
+[[CAPTION:Figure]] IPSC.
+
 See also: [ISP](#isp), [L2TP](l.md#l2tp).
 
 ## IPSec
@@ -246,15 +278,31 @@ See also: [IGMP](#igmp), [STB](s.md#stb), [VOD](v.md#vod).
 ## IPv4
 **Internet Protocol version 4.** The original version of IP, from 1981 (RFC 791), with 32-bit addresses. It still carries much of the internet's traffic, stretched by NAT because its address space is too small.
 
+![IPv4](images/15008390.png)
+
+[[CAPTION:Figure]] IPv4.
+
 See also: [IPv6](#ipv6), [NAT](n.md#nat).
 
 ## IPv6
 **Internet Protocol version 6.** The successor to IPv4, with 128-bit addresses, a simpler header and built-in autoconfiguration. It became an internet standard in 2017 (RFC 8200).
 
+![IPv6](images/15008396.png)
+
+[[CAPTION:Figure]] IPv6.
+
+![IPv6](images/15008402.png)
+
+[[CAPTION:Figure]] IPv6.
+
 See also: [IPv4](#ipv4), [ICMPv6](#icmpv6), [DNS - AAAA](d.md#dns-aaaa).
 
 ## ISDN
 **Integrated Services Digital Network.** A set of standards for digital voice and data over the telephone network, using 64 kbit/s channels with separate signalling. It was sold as basic rate (BRI) and primary rate (PRI) access.
+
+![ISDN](images/15008408.png)
+
+[[CAPTION:Figure]] ISDN.
 
 See also: [BRI](b.md#bri), [PRI](p.md#pri), [Q.931](q.md#q931), [ISDN2](#isdn2), [ISDN30](#isdn30).
 
@@ -275,6 +323,10 @@ See also: [IEC](#iec), [ANSI](a.md#ansi).
 ## ISP
 **Internet Service Provider.** A company that provides internet access, and often related services such as email, hosting and domain registration.
 
+![ISP](images/15008414.png)
+
+[[CAPTION:Figure]] ISP.
+
 ## Issue
 Something that needs resolving and could affect the project if left. In this sense it is not already covered by the plan, a change request, a defect or a risk.
 
@@ -292,6 +344,10 @@ See also: [Defect Management](d.md#defect-management).
 
 ## ISUP
 **ISDN User Part.** The SS7 protocol that sets up and clears telephone calls between exchanges, carrying details such as the called number. It is defined in the ITU-T Q.76x series.
+
+![ISUP](images/15008420.png)
+
+[[CAPTION:Figure]] ISUP.
 
 See also: [SS7](s.md#ss7), [IUP](#iup), [TUP](t.md#tup).
 

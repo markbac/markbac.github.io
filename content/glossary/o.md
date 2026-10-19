@@ -20,6 +20,10 @@ See also: [MDF](m.md#mdf), [OFC](#ofc).
 ## OFC
 **Optical Fibre Connector.** A connector that joins optical fibres, aligning their cores so light passes with little loss. It is quicker to connect and disconnect than a splice. Common types include LC, SC and ST.
 
+![OFC](images/15008720.png)
+
+[[CAPTION:Figure]] OFC.
+
 See also: [ODF](#odf).
 
 ## Ofcom
@@ -53,6 +57,10 @@ See also: [Unix](u.md#unix).
 ## OSA-FC
 **Optical Spectrum Access Filter Connect.** An Openreach service that gives a provider a managed fibre connection on which it runs its own optical equipment. It works like dark fibre, but Openreach monitors and repairs the link.
 
+![OSA-FC](images/15008728.png)
+
+[[CAPTION:Figure]] OSA-FC.
+
 See also: [Dark Fibre](d.md#dark-fibre), [EAD](e.md#ead).
 
 ## OSPF
@@ -63,6 +71,10 @@ See also: [IGP](i.md#igp), [RIP](r.md#rip), [BGP](b.md#bgp).
 ## OSS
 **Operations Support Systems.** The systems a telecoms operator uses to run its network, such as inventory, provisioning, configuration, fault and performance management. They work with the business support systems (BSS).
 
+![OSS](images/15008734.png)
+
+[[CAPTION:Figure]] OSS.
+
 See also: [BSS](b.md#bss), [Mediation](m.md#mediation).
 
 ## OTN
@@ -72,6 +84,10 @@ See also: [SDH](s.md#sdh).
 
 ## Out-of-order delivery
 Packets arriving in a different order from the one in which they were sent, for example because they took different paths. TCP puts the data back in order; real-time protocols must cope with it.
+
+![Out-of-order delivery](images/15008740.png)
+
+[[CAPTION:Figure]] Out-of-order delivery.
 
 See also: [TCP](t.md#tcp), [Jitter buffer](j.md#jitter-buffer).
 

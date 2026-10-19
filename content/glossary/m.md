@@ -17,6 +17,10 @@ See also: [MAC Address](#mac-address), [L2](l.md#l2), [CSMA](c.md#csma).
 ## MAC Address
 **Media Access Control address.** The 48-bit hardware address of a network interface on Ethernet, Wi-Fi and other IEEE 802 networks. It is written as six hex pairs, such as `00:1A:2B:3C:4D:5E`. The first half normally identifies the manufacturer.
 
+![MAC Address](images/15008537.png)
+
+[[CAPTION:Figure]] MAC Address.
+
 See also: [MAC](#mac), [MAC Spoofing](#mac-spoofing), [ARP spoofing](a.md#arp-spoofing).
 
 ## MAC Flooding
@@ -48,6 +52,10 @@ A plan for maintaining a system after its first release.
 ## MAN
 **Metropolitan Area Network.** A network that covers a city or region: larger than a LAN, smaller than a WAN, and often linking several LANs.
 
+![MAN](images/15008545.png)
+
+[[CAPTION:Figure]] MAN.
+
 See also: [LAN](l.md#lan), [WAN](w.md#wan).
 
 ## Management by Walking Around
@@ -56,10 +64,22 @@ See also: [LAN](l.md#lan), [WAN](w.md#wan).
 ## Management Plane
 The part of a network device or network that configures, monitors and manages it, through interfaces such as the CLI, SNMP or NETCONF.
 
+![Management Plane](images/15138919.png)
+
+[[CAPTION:Figure]] Management Plane.
+
 See also: [Control Plane](c.md#control-plane), [Data Plane](d.md#data-plane), [SNMP](s.md#snmp).
 
 ## MANET
 **Mobile Ad hoc Network.** A self-configuring wireless network of mobile devices with no fixed infrastructure, in which every device also routes traffic for the others.
+
+![MANET](images/15008551.png)
+
+[[CAPTION:Figure]] MANET.
+
+![MANET](images/15008557.png)
+
+[[CAPTION:Figure]] MANET.
 
 See also: [WANET](w.md#wanet), [Wireless Mesh Network](w.md#wireless-mesh-network), [Geocast](g.md#geocast).
 
@@ -94,15 +114,31 @@ See also: [SHA](s.md#sha), [Hash Function](h.md#hash-function).
 ## MDF
 **Main Distribution Frame.** The frame in a telephone exchange where the external cables to customers are connected to the exchange's equipment by jumpers.
 
+![MDF](images/15237176.png)
+
+[[CAPTION:Figure]] MDF.
+
 See also: [HDF](h.md#hdf), [Local Loop](l.md#local-loop), [MPF](#mpf).
 
 ## Mediation
 In telecoms, the systems that collect usage records, such as CDRs, from network elements, then clean, combine and convert them into the formats that billing, fraud and other systems need.
 
+![Mediation](images/15008563.png)
+
+[[CAPTION:Figure]] Mediation.
+
+![Mediation](images/15008569.png)
+
+[[CAPTION:Figure]] Mediation.
+
 See also: [CDR](c.md#cdr), [OSS](o.md#oss).
 
 ## MELP
 **Mixed-Excitation Linear Prediction.** A US military speech codec standard. Its enhanced version, MELPe, works at 2,400, 1,200 or 600 bit/s for secure and narrow-band radio links.
+
+![MELP](images/14909510.png)
+
+[[CAPTION:Figure]] MELP.
 
 See also: [CVSD](c.md#cvsd), [Audio Codecs](a.md#audio-codecs).
 
@@ -114,20 +150,36 @@ See also: [KPI](k.md#kpi).
 ## MGCF
 **Media Gateway Control Function.** In IMS, the function that converts call signalling between SIP and the circuit-switched network's ISUP or BICC, and controls the media gateway through H.248.
 
+![MGCF](images/14123073.png)
+
+[[CAPTION:Figure]] MGCF.
+
 See also: [MGW](#mgw), [IMS](i.md#ims), [BGCF](b.md#bgcf).
 
 ## MGCP
 **Media Gateway Control Protocol.** A VoIP protocol in which a central call agent controls simple media gateways and endpoints. It is an IETF informational RFC; H.248 is the formal standard for the same role.
+
+![MGCP](images/15008575.png)
+
+[[CAPTION:Figure]] MGCP.
 
 See also: [H.248](h.md#h248), [Softswitch](s.md#softswitch).
 
 ## MGW
 **Media Gateway.** A device that converts media between networks, typically between PCM on telephone circuits and RTP streams on IP. It also transcodes when the two sides use different codecs.
 
+![MGW](images/15302756.png)
+
+[[CAPTION:Figure]] MGW.
+
 See also: [MGCF](#mgcf), [H.248](h.md#h248), [RTP](r.md#rtp).
 
 ## MIB
 **Management Information Base.** The tree-structured set of objects that a device exposes for management, mostly through SNMP. Each object is identified by an object identifier (OID).
+
+![MIB](images/15008581.png)
+
+[[CAPTION:Figure]] MIB.
 
 See also: [SNMP](s.md#snmp).
 
@@ -136,6 +188,14 @@ Estimating the details of something. See [Bottom-Up Estimation](b.md#bottom-up-e
 
 ## Microservice
 An architecture style in which an application is a set of small services, each built around a business capability. Each can be deployed independently and communicates through lightweight APIs. It suits large systems with many teams, at the cost of operational complexity.
+
+![Microservice](images/15008587.png)
+
+[[CAPTION:Figure]] Microservice.
+
+![Microservice](images/15008593.png)
+
+[[CAPTION:Figure]] Microservice.
 
 See also: [SOA](s.md#soa), [BFF](b.md#bff), [Docker](d.md#docker).
 
@@ -165,6 +225,10 @@ See also: [Business Schedule](b.md#business-schedule).
 
 ## MIMO
 **Multiple-Input, Multiple-Output.** Using several antennas at both ends of a radio link to send several data streams at once over the same channel, exploiting multipath propagation. Wi-Fi, LTE and 5G all rely on it.
+
+![MIMO](images/15008599.png)
+
+[[CAPTION:Figure]] MIMO.
 
 See also: [SISO](s.md#siso), [SDMA](s.md#sdma), [Wi-Fi](w.md#wi-fi).
 
@@ -196,6 +260,10 @@ See also: [Pair Programming](p.md#pair-programming).
 ## Mobile Cell
 The area served by one base station in a cellular network. Splitting coverage into cells lets the same frequencies be reused in cells further apart. Cell sizes range from a few metres to tens of kilometres.
 
+![Mobile Cell](images/15008605.png)
+
+[[CAPTION:Figure]] Mobile Cell.
+
 See also: [BTS](b.md#bts), [FemtoCell](f.md#femtocell).
 
 ## Mock Objects
@@ -220,6 +288,14 @@ See also: [Inspection](i.md#inspection).
 
 ## MOS
 **Mean Opinion Score.** A rating of perceived quality, especially of voice calls, on a scale from 1 (bad) to 5 (excellent). It is either the average of listeners' scores or estimated by an algorithm. ITU-T P.800 defines it.
+
+![MOS](images/15008617.png)
+
+[[CAPTION:Figure]] MOS.
+
+![MOS](images/15237186.png)
+
+[[CAPTION:Figure]] MOS.
 
 | MOS | Quality | Impairment |
 | --- | --- | --- |
@@ -251,6 +327,10 @@ See also: [MPEG](#mpeg), [AAC](a.md#aac).
 ## MPF
 **Metallic Path Facility.** An Openreach product that gives another operator a whole copper line from the exchange to the customer, so the operator provides both voice and broadband.
 
+![MPF](images/15008623.png)
+
+[[CAPTION:Figure]] MPF.
+
 See also: [SMPF](s.md#smpf), [Local Loop](l.md#local-loop), [MDF](#mdf).
 
 ## MPU
@@ -266,6 +346,10 @@ See also: [M2M](#m2m), [LwM2M](l.md#lwm2m).
 ## MRF
 **Media Resource Function.** In IMS, the function that plays announcements and tones, mixes conference audio and does other media processing.
 
+![MRF](images/14123067.png)
+
+[[CAPTION:Figure]] MRF.
+
 See also: [IMS](i.md#ims).
 
 ## MRS
@@ -279,15 +363,27 @@ See also: [PTP](p.md#ptp), [Jitter](j.md#jitter).
 ## MSAN
 **Multi-Service Access Node.** Equipment in an exchange or cabinet that connects customers' lines to the core network and provides voice, ISDN and broadband from one platform. It replaces separate exchange line cards and DSLAMs.
 
+![MSAN](images/15008635.png)
+
+[[CAPTION:Figure]] MSAN.
+
 See also: [DSLAM](d.md#dslam), [BT 21CN](b.md#bt-21cn), [NGN](n.md#ngn).
 
 ## MSC
 **Mobile Switching Centre.** The switch in a GSM or UMTS core network that sets up and routes voice calls and SMS, handles handovers between areas and produces charging records.
 
+![MSC](images/15138931.png)
+
+[[CAPTION:Figure]] MSC.
+
 See also: [GMSC](g.md#gmsc), [HLR](h.md#hlr), [VLR](v.md#vlr), [BSC](b.md#bsc).
 
 ## MTP
 **Message Transfer Part.** The lower levels (1 to 3) of SS7, which carry signalling messages reliably and in order between signalling points.
+
+![MTP](images/15008641.png)
+
+[[CAPTION:Figure]] MTP.
 
 See also: [SS7](s.md#ss7), [SCCP](s.md#sccp).
 
@@ -306,6 +402,10 @@ See also: [A-law](a.md#a-law), [G.711](g.md#g711).
 
 ## Multicast
 Sending data to a group of receivers at once, with the network copying packets only where the paths divide. IPTV uses it, with receivers joining groups through IGMP.
+
+![Multicast](images/15008647.png)
+
+[[CAPTION:Figure]] Multicast.
 
 ```mermaid
 flowchart LR

@@ -7,6 +7,10 @@ title: P
 ## PaaS
 **Platform as a Service.** Cloud computing that provides a managed platform for building and running applications, so the customer does not manage servers or operating systems.
 
+![PaaS](images/14909529.png)
+
+[[CAPTION:Figure]] PaaS.
+
 See also: [IaaS](i.md#iaas), [SaaS](s.md#saas).
 
 ## Packet sniffing
@@ -16,6 +20,10 @@ See also: [Wireshark](w.md#wireshark), [DPI](d.md#dpi).
 
 ## Packet Switched
 A network that splits data into packets, each with a header that routers use to forward it independently, sharing links with other traffic. The internet works this way.
+
+![Packet Switched](images/15008750.png)
+
+[[CAPTION:Figure]] Packet Switched.
 
 See also: [Circuit Switched](c.md#circuit-switched).
 
@@ -29,6 +37,10 @@ See also: [Mob Programming](m.md#mob-programming), [XP](x.md#xp).
 
 ## PAP
 **Password Authentication Protocol.** A simple PPP authentication method that sends the username and password in clear text. It should be used only when nothing stronger, such as CHAP or EAP, is available.
+
+![PAP](images/15008758.png)
+
+[[CAPTION:Figure]] PAP.
 
 See also: [CHAP](c.md#chap), [PPP](#ppp).
 
@@ -54,6 +66,10 @@ See also: [G.711](g.md#g711), [A-law](a.md#a-law), [Mu-law](m.md#mu-law).
 
 ## PCP
 **Primary Connection Point.** The green roadside cabinet in the UK access network where the main cables from the exchange connect to the cables to local distribution points. Fibre-to-the-cabinet equipment sits next to it.
+
+![PCP](images/15008764.png)
+
+[[CAPTION:Figure]] PCP.
 
 In Ethernet, PCP also means the **Priority Code Point**: the 3-bit priority field in an 802.1Q tag.
 
@@ -82,10 +98,18 @@ See also: [SDH](s.md#sdh), [TDM](t.md#tdm).
 ## PDU
 **Protocol Data Unit.** The unit of data a protocol layer exchanges with its peer. It is a frame at layer 2, a packet at layer 3, and a segment (TCP) or datagram (UDP) at layer 4.
 
+![PDU](images/15008770.png)
+
+[[CAPTION:Figure]] PDU.
+
 See also: [MTU](m.md#mtu).
 
 ## PEAP
 **Protected EAP.** An EAP method that sets up a TLS tunnel first and then runs a simpler authentication, often a password, inside it. It is common for Wi-Fi in organisations.
+
+![PEAP](images/15008776.png)
+
+[[CAPTION:Figure]] PEAP.
 
 See also: [EAP](e.md#eap), [TLS](t.md#tls).
 
@@ -130,13 +154,25 @@ See also: [Inspection](i.md#inspection).
 <!-- vale PyDoc.Spelling = YES -->
 A project planning technique, developed by the US Navy in the 1950s, that shows tasks as a network of dependencies. It estimates each task's duration from optimistic, likely and pessimistic values.
 
+![PERT chart](images/15008782.png)
+
+[[CAPTION:Figure]] PERT chart.
+
 See also: [CPM](c.md#cpm), [Gantt chart](g.md#gantt-chart).
 
 ## PGP
 **Pretty Good Privacy.** Encryption software, created by Phil Zimmermann in 1991, for signing and encrypting email and files. The OpenPGP standard (RFC 4880) describes its format.
 
+![PGP](images/15008788.png)
+
+[[CAPTION:Figure]] PGP.
+
 ## PGW
 **Packet Data Network Gateway.** The LTE core gateway that connects devices to external packet networks, such as the internet. It allocates IP addresses, enforces policy and charging, and anchors mobility.
+
+![PGW](images/14876769.png)
+
+[[CAPTION:Figure]] PGW.
 
 See also: [S-GW](s.md#s-gw), [PCRF](#pcrf), [GGSN](g.md#ggsn), [APN](a.md#apn).
 
@@ -184,6 +220,10 @@ See also: [OO](o.md#oo).
 ## POP
 **Point of Presence.** A location, such as a building or data centre, where a network provider has equipment and where others can connect to its network.
 
+![POP](images/15008794.png)
+
+[[CAPTION:Figure]] POP.
+
 See also: [ISP](i.md#isp).
 
 ## Portability
@@ -204,6 +244,10 @@ See also: [Milestone Retrospective](m.md#milestone-retrospective).
 ## POTS
 **Plain Old Telephone Service.** Basic analogue voice telephony over a copper line.
 
+![POTS](images/15008800.png)
+
+[[CAPTION:Figure]] POTS.
+
 See also: [PSTN](#pstn), [FXS](f.md#fxs).
 
 ## PPP
@@ -218,6 +262,10 @@ See also: [PPP](#ppp), [BNG](b.md#bng).
 
 ## PPTP
 **Point-to-Point Tunnelling Protocol.** An old VPN protocol that tunnels PPP over GRE with a TCP control channel. Its security is broken, so it should not be used.
+
+![PPTP](images/15008806.png)
+
+[[CAPTION:Figure]] PPTP.
 
 See also: [L2TP](l.md#l2tp), [IPSec](i.md#ipsec).
 
@@ -264,10 +312,22 @@ See also: [Release](r.md#release).
 ## Programming language
 A formal language for writing instructions that a computer can carry out, after compilation or interpretation.
 
+![Programming language](images/15008812.png)
+
+[[CAPTION:Figure]] Programming language.
+
+![Programming language](images/15008818.png)
+
+[[CAPTION:Figure]] Programming language.
+
 See also: [Programming paradigm](#programming-paradigm), [Compiled Language](c.md#compiled-language), [Interpreted Language](i.md#interpreted-language).
 
 ## Programming paradigm
 A style of programming, and a way of classifying languages by the features that support it. Examples are imperative, procedural, object-oriented, functional, declarative and logic programming. Most modern languages support several.
+
+![Programming paradigm](images/15008824.png)
+
+[[CAPTION:Figure]] Programming paradigm.
 
 See also: [OO](o.md#oo), [AOP](a.md#aop).
 
@@ -362,6 +422,10 @@ An informal, readable description of an algorithm, written in structured natural
 ## PSTN
 **Public Switched Telephone Network.** The world's interconnected circuit-switched telephone networks, fixed and mobile. Its core is now digital, and many countries are moving its services to IP.
 
+![PSTN](images/15008830.png)
+
+[[CAPTION:Figure]] PSTN.
+
 See also: [POTS](#pots), [Circuit Switched](c.md#circuit-switched), [SS7](s.md#ss7).
 
 ## PTP
@@ -381,6 +445,10 @@ See also: [SVC](s.md#svc), [Frame Relay](f.md#frame-relay), [ATM](a.md#atm).
 
 ## PW
 **Pseudowire.** The emulation of a point-to-point circuit, such as Ethernet, TDM or ATM, over a packet network, typically MPLS.
+
+![PW](images/15008836.png)
+
+[[CAPTION:Figure]] PW.
 
 See also: [VPWS](v.md#vpws), [L2VPN](l.md#l2vpn).
 

@@ -7,6 +7,10 @@ title: G
 ## G.711 {#g711}
 The ITU-T standard, from 1972, for coding telephone speech as 64 kbit/s PCM: 8,000 samples a second, each companded to 8 bits. It has two variants, A-law and µ-law. It is the baseline codec that every VoIP system supports.
 
+![G.711](images/15008219.png)
+
+[[CAPTION:Figure]] G.711.
+
 See also: [A-law](a.md#a-law), [Mu-law](m.md#mu-law), [PCM](p.md#pcm), [G.711.1](#g7111).
 
 ## G.711.1 {#g7111}
@@ -21,6 +25,10 @@ See also: [G.722](#g722), [Audio Codecs](a.md#audio-codecs).
 
 ## G.722 {#g722}
 An ITU-T wideband speech codec from 1988, covering 50 to 7,000 Hz at 48 to 64 kbit/s using sub-band ADPCM. It is widely used for HD voice on desk phones. G.722.1 and G.722.2 (AMR-WB) are different codecs despite the names.
+
+![G.722](images/15008219.png)
+
+[[CAPTION:Figure]] G.722.
 
 See also: [G.711](#g711), [AMR-WB](a.md#amr-wb).
 
@@ -37,10 +45,26 @@ See also: [G.711](#g711), [PCM](p.md#pcm).
 ## G.Fast {#gfast}
 An ITU-T DSL standard (G.9700 and G.9701) for very short copper lines, up to a few hundred metres, giving several hundred megabits per second. It is used from a distribution point or cabinet fed by fibre.
 
+![G.Fast](images/15008227.png)
+
+[[CAPTION:Figure]] G.Fast.
+
+![G.Fast](images/15008233.png)
+
+[[CAPTION:Figure]] G.Fast.
+
+![G.Fast](images/15008239.png)
+
+[[CAPTION:Figure]] G.Fast.
+
 See also: [VDSL](v.md#vdsl), [DSL](d.md#dsl), [DP](d.md#dp).
 
 ## Gantt chart
 A bar chart of a project schedule, with tasks down the side and time along the top. It shows when each task starts and ends, and how the tasks depend on each other.
+
+![Gantt chart](images/15008245.png)
+
+[[CAPTION:Figure]] Gantt chart.
 
 See also: [PERT chart](p.md#pert-chart), [CPM](c.md#cpm).
 
@@ -68,10 +92,18 @@ See also: [NCSC](n.md#ncsc), [CESG](c.md#cesg).
 ## Geocast
 Delivering a message to all the nodes in a geographical area, rather than to a list of addresses. It is a form of multicast used in some mobile ad hoc and vehicle networks.
 
+![Geocast](images/15008251.png)
+
+[[CAPTION:Figure]] Geocast.
+
 See also: [Multicast](m.md#multicast), [MANET](m.md#manet).
 
 ## GERAN
 **GSM EDGE Radio Access Network.** The radio access network of GSM and EDGE: the base stations, their controllers and the interfaces between them. 3GPP maintains its standards.
+
+![GERAN](images/15008257.png)
+
+[[CAPTION:Figure]] GERAN.
 
 See also: [BTS](b.md#bts), [BSC](b.md#bsc), [EDGE](e.md#edge), [UTRAN](u.md#utran).
 
@@ -138,6 +170,10 @@ See also: [Copyleft](c.md#copyleft), [GNU](#gnu).
 
 ## GPRS
 **General Packet Radio Service.** The packet data service added to GSM, giving always-on connections charged by data volume rather than by time. It is best-effort, with speeds of tens of kilobits per second.
+
+![GPRS](images/15008263.png)
+
+[[CAPTION:Figure]] GPRS.
 
 See also: [GSM](#gsm), [EDGE](e.md#edge), [SGSN](s.md#sgsn), [GGSN](#ggsn).
 

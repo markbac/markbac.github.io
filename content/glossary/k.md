@@ -27,6 +27,10 @@ See also: [Kanban Board](#kanban-board), [Lean](l.md#lean).
 ## Kanban Board
 A board with a column for each stage of a workflow, on which cards representing work items move from left to right.
 
+![Kanban Board](images/15008447.png)
+
+[[CAPTION:Figure]] Kanban Board.
+
 See also: [Kanban](#kanban), [Task Board](t.md#task-board).
 
 ## KDL
@@ -41,6 +45,10 @@ See also: [AD](a.md#ad), [LDAP](l.md#ldap).
 
 ## Kernel
 The core of an operating system, which runs with full control of the hardware. It manages processes, memory, devices and system calls, and keeps applications apart from each other.
+
+![Kernel](images/15008455.png)
+
+[[CAPTION:Figure]] Kernel.
 
 See also: [Linux](l.md#linux), [Driver](d.md#driver).
 

@@ -7,6 +7,10 @@ title: X
 ## X.25 {#x25}
 An ITU-T packet-switching protocol suite for WANs, from 1976, using virtual circuits with error correction at every hop. It was widely used in the 1980s, for example for cash machines, and IP has replaced it.
 
+![X.25](images/15009253.png)
+
+[[CAPTION:Figure]] X.25.
+
 See also: [Frame Relay](f.md#frame-relay), [HDLC](h.md#hdlc).
 
 ## X.509 {#x509}

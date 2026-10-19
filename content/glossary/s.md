@@ -7,10 +7,22 @@ title: S
 ## S-Tag
 **Service VLAN tag.** In IEEE 802.1ad double tagging (Q-in-Q), the outer VLAN tag added by the service provider, with TPID 0x88A8. It sits outside the customer's own C-Tag.
 
+![S-Tag](images/15008934.png)
+
+[[CAPTION:Figure]] S-Tag.
+
+![S-Tag](images/14123086.png)
+
+[[CAPTION:Figure]] S-Tag.
+
 See also: [C-Tag](c.md#c-tag), [VLAN](v.md#vlan), [Dot1Q](d.md#dot1q).
 
 ## S-GW
 **Serving Gateway.** The LTE core gateway that forwards users' packets between the eNodeBs and the PGW. It anchors the user plane during handovers and buffers data for idle devices while the MME pages them.
+
+![S-GW](images/15237222.png)
+
+[[CAPTION:Figure]] S-GW.
 
 See also: [PGW](p.md#pgw), [MME](m.md#mme), [LTE (4G)](l.md#lte-4g).
 
@@ -21,6 +33,14 @@ See also: [ATM](a.md#atm), [AAL5](a.md#aal5).
 
 ## SaaS
 **Software as a Service.** Software that a provider hosts and runs, and customers use over the internet, usually in a browser, on a subscription.
+
+![SaaS](images/15008942.png)
+
+[[CAPTION:Figure]] SaaS.
+
+![SaaS](images/15008948.png)
+
+[[CAPTION:Figure]] SaaS.
 
 See also: [PaaS](p.md#paas), [IaaS](i.md#iaas).
 
@@ -36,6 +56,10 @@ See also: [Scaled Agile](#scaled-agile), [LeSS](l.md#less), [DAD](d.md#dad).
 
 ## SBC
 **Session Border Controller.** A device at the edge of a VoIP network that controls the signalling, and usually the media, of calls crossing it. It provides security, NAT traversal, interworking and policing.
+
+![SBC](images/15008954.png)
+
+[[CAPTION:Figure]] SBC.
 
 See also: [SIP](#sip), [SIP Trunk](#sip-trunk), [NAT](n.md#nat).
 
@@ -173,6 +197,10 @@ See also: [Mutex](m.md#mutex), [Mutual Exclusion](m.md#mutual-exclusion).
 ## Semantic Versioning
 **SemVer.** A version numbering scheme, `MAJOR.MINOR.PATCH`. Increase the major number for incompatible API changes, the minor number for compatible new features and the patch number for compatible bug fixes. Pre-release and build labels can follow, as in `2.1.0-rc.1+build.5`.
 
+![Semantic Versioning](images/56033307.png)
+
+[[CAPTION:Figure]] Semantic Versioning.
+
 See also: [Release Management](r.md#release-management), [Version](v.md#version).
 
 ## Sequence Model
@@ -198,10 +226,18 @@ See also: [XML](x.md#xml).
 ## SGSN
 **Serving GPRS Support Node.** The GPRS and UMTS core node that serves devices in its area. It tracks their location, authenticates them and routes their packets to and from the GGSN.
 
+![SGSN](images/15302771.png)
+
+[[CAPTION:Figure]] SGSN.
+
 See also: [GGSN](g.md#ggsn), [GPRS](g.md#gprs), [MME](m.md#mme).
 
 ## SGW
 **Signalling Gateway.** A gateway that carries SS7 signalling between circuit-switched networks and IP networks, for example passing ISUP from an MGCF over SCTP (SIGTRAN) to the SS7 network over MTP.
+
+![SGW](images/15138956.png)
+
+[[CAPTION:Figure]] SGW.
 
 See also: [MGCF](m.md#mgcf), [SCTP](#sctp), [SS7](#ss7).
 
@@ -233,6 +269,14 @@ See also: [Task Board](t.md#task-board).
 ## SIM
 **Subscriber Identity Module.** The smart card, or embedded chip (eSIM), that holds a mobile subscriber's IMSI and secret key. The network uses them to identify and authenticate the subscriber.
 
+![SIM](images/15008960.png)
+
+[[CAPTION:Figure]] SIM.
+
+![SIM](images/15008966.png)
+
+[[CAPTION:Figure]] SIM.
+
 See also: [IMSI](i.md#imsi), [Secure Element](#secure-element), [HLR](h.md#hlr).
 
 ## SIMPLE
@@ -248,6 +292,10 @@ See also: [Rule of Simplicity](r.md#rule-of-simplicity), [KISS Principle](k.md#k
 ## Simplex
 Communication in one direction only, such as broadcast radio. ITU usage also applies the term to links that work one way at a time, which most people call half duplex.
 
+![Simplex](images/15008972.png)
+
+[[CAPTION:Figure]] Simplex.
+
 See also: [Duplex](d.md#duplex), [Half Duplex](h.md#half-duplex).
 
 ## Single Step Test
@@ -255,6 +303,14 @@ A test in a debugger, stepping through the source code line by line as it runs.
 
 ## SIP
 **Session Initiation Protocol.** The IETF's text-based signalling protocol (RFC 3261) for setting up, changing and ending voice, video and messaging sessions. It is modelled on HTTP and carries SDP to agree the media. SIP is the basis of most VoIP and of IMS.
+
+![SIP](images/15008978.png)
+
+[[CAPTION:Figure]] SIP.
+
+![SIP](images/15008984.png)
+
+[[CAPTION:Figure]] SIP.
 
 See also: [SDP](#sdp), [RTP](r.md#rtp), [IMS](i.md#ims), [SIP Trunk](#sip-trunk).
 
@@ -299,6 +355,10 @@ See also: [Smoke Test](#smoke-test), [Regression testing](r.md#regression-testin
 ## SMP
 **Symmetric Multiprocessing.** A design in which two or more identical processors, or cores, share one memory and are run by one operating system that treats them all equally. Most multi-core computers work this way.
 
+![SMP](images/15008990.png)
+
+[[CAPTION:Figure]] SMP.
+
 See also: [AMP](a.md#amp).
 
 ## SMPF
@@ -319,6 +379,10 @@ See also: [Camel Case](c.md#camel-case).
 ## SNMP
 **Simple Network Management Protocol.** The IETF protocol for monitoring and managing network devices. Managers read and set variables in each device's MIB, and devices send traps when events happen. SNMPv3 adds proper security.
 
+![SNMP](images/15008996.png)
+
+[[CAPTION:Figure]] SNMP.
+
 See also: [MIB](m.md#mib), [Management Plane](m.md#management-plane), [Cacti](c.md#cacti).
 
 ## SNTP
@@ -333,6 +397,10 @@ See also: [ESB](e.md#esb), [Microservice](m.md#microservice), [SOAP](#soap).
 
 ## SOAP
 An XML-based messaging protocol for web services, usually over HTTP. A SOAP envelope holds a header and a body, and WSDL describes the services. REST has largely replaced it for new APIs.
+
+![SOAP](images/15009002.png)
+
+[[CAPTION:Figure]] SOAP.
 
 See also: [WSDL](w.md#wsdl), [REST](r.md#rest), [XML](x.md#xml).
 
@@ -376,6 +444,14 @@ See also: [OO](o.md#oo), [Design Pattern](d.md#design-pattern).
 ## SoGEA
 **Single Order Generic Ethernet Access.** An Openreach broadband product over fibre to the cabinet with no phone service on the line, ordered as one product. It is the standalone broadband line used as the copper phone network closes.
 
+![SoGEA](images/15009008.png)
+
+[[CAPTION:Figure]] SoGEA.
+
+![SoGEA](images/15009014.png)
+
+[[CAPTION:Figure]] SoGEA.
+
 See also: [VDSL](v.md#vdsl), [EoFTTC](e.md#eofttc), [PSTN](p.md#pstn).
 
 ## SONET
@@ -409,6 +485,10 @@ See [Project Sponsor](p.md#project-sponsor).
 ## Spiral Model
 Barry Boehm's risk-driven process model. Each loop of the spiral sets objectives, identifies and resolves risks, develops and tests, and plans the next loop. It can borrow from other models, such as waterfall or prototyping, as the risks suggest.
 
+![Spiral Model](images/15009020.png)
+
+[[CAPTION:Figure]] Spiral Model.
+
 See also: [Spiral Lifecycle](#spiral-lifecycle), [Waterfall](w.md#waterfall).
 
 ## Sprint Planning
@@ -433,6 +513,10 @@ See also: [RDBMS](r.md#rdbms), [NoSQL](n.md#nosql).
 
 ## SS7
 **Signalling System No. 7.** The ITU-T set of protocols that telephone networks use to set up and clear calls and to provide services such as number translation, number portability, prepaid and SMS. In the UK it is also called C7. Its layers include MTP, SCCP, TCAP, ISUP and MAP.
+
+![SS7](images/15009026.png)
+
+[[CAPTION:Figure]] SS7.
 
 See also: [MTP](m.md#mtp), [SCCP](#sccp), [ISUP](i.md#isup), [TCAP](t.md#tcap), [MAP](m.md#map), [CCS](c.md#ccs).
 
@@ -461,6 +545,10 @@ See also: [ETL](e.md#etl).
 
 ## Stack
 A protocol stack: the layered set of protocols that together provide communication, such as Ethernet, IP, TCP and HTTP, or the software that implements them.
+
+![Stack](images/15009032.png)
+
+[[CAPTION:Figure]] Stack.
 
 ```mermaid
 flowchart TB
