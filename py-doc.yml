@@ -184,7 +184,7 @@ site:
   dir: site
   # Only the sections that have moved in are published. Add each section here when its pull request
   # merges; until then its placeholder page stays off both sites.
-  documents: [glossary, templates]
+  documents: [primers, glossary, templates]
   downloads: [pdf, docx]
   targets:
     github: mkdocs.yml        # https://markbac.github.io/, personal home page
