@@ -1,8 +1,8 @@
 ---
-title: "QEMU & Virtual Hardware Simulation"
+title: QEMU and virtual hardware simulation
 ---
 
-# QEMU & Virtual Hardware Simulation
+# QEMU and virtual hardware simulation
 
 Host-based unit tests check pure algorithms and state machines. But they cannot run the real ARM Cortex-M binary, test real FreeRTOS context switches, or check how the code handles peripheral interrupts. Conversely, relying exclusively on physical hardware test benches for system integration creates severe bottlenecks in automated continuous integration (CI) pipelines.
 

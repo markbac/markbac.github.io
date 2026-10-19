@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-022: Security and data protection
+# Security and data protection
 
 - **Owner:** Security lead
 - **Applies to:** All products, tooling, pipelines, data and AI tool use
@@ -89,6 +89,26 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Access is least-privilege with multi-factor authentication and quarterly review (SEC-12)
 - [ ] Debug and manufacturing interfaces are protected in production (SEC-13)
 - [ ] A security incident procedure is defined (SEC-14)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Security requirements and a threat model exist and are updated on architecture change (SEC-01)
+- [ ] The security architecture covers trust boundaries, secure boot, encrypted comms, secure update, protected storage and debug protection (SEC-02)
+- [ ] Only approved cryptography and vetted libraries are used (SEC-03)
+- [ ] Key hierarchy, protected signing, provisioning, rotation and revocation are documented (SEC-04)
+- [ ] No secrets are in source, and scanning runs pre-commit and in CI (SEC-05)
+- [ ] Secure coding rules and security-focused review apply, and parsers are fuzzed (SEC-06)
+- [ ] Security testing is performed and findings are tracked (SEC-07)
+- [ ] Vulnerability intake, disclosure policy, patch times and SBOM monitoring exist (SEC-08)
+- [ ] Supply chain controls are in place (SEC-09)
+- [ ] A data classification scheme has handling rules, including for AI tools (SEC-10)
+- [ ] Privacy by design, retention and impact assessment are applied where needed (SEC-11)
+- [ ] Access is least-privilege with multi-factor authentication and quarterly review (SEC-12)
+- [ ] Debug and manufacturing interfaces are protected in production (SEC-13)
+- [ ] A security incident procedure is defined (SEC-14)
+```
+
 
 ## Applying to personal projects and AI agents
 

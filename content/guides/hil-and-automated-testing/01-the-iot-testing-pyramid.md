@@ -1,8 +1,8 @@
 ---
-title: The IoT Testing Pyramid
+title: The IoT testing pyramid
 ---
 
-# The IoT Testing Pyramid
+# The IoT testing pyramid
 
 In traditional web development, testing takes place within standardized, homogeneous virtual machines or container environments. In embedded systems and IoT engineering, software execution is inextricably linked to analog electronics, peripheral bus timing, radio link instability, battery degradation, and environmental extremes.
 

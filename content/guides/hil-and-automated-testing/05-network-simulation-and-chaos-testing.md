@@ -1,8 +1,8 @@
 ---
-title: "Network Simulation & Chaos Testing"
+title: Network simulation and chaos testing
 ---
 
-# Network Simulation & Chaos Testing
+# Network simulation and chaos testing
 
 Connected devices in the field face hostile physical and network conditions. Cellular towers drop connections without TCP FIN packets, and deep basements weaken radio signals to the noise floor. Ageing batteries produce large voltage dips during radio bursts. Testing firmware only under clean laboratory conditions guarantees catastrophic failures when deployed across thousands of customer sites.
 

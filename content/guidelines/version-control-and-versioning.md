@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-014: Version control, commits and versioning
+# Version control, commits and versioning
 
 - **Owner:** Build and tooling lead
 - **Applies to:** All repositories, branches, commits, tags and versioned artefacts
@@ -117,6 +117,27 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Back-ports use `cherry-pick -x` onto supported release branches (VCS-13)
 - [ ] The team understands git well enough to use it safely (VCS-14)
 - [ ] Commit subjects are imperative and short, and bodies say why (VCS-15)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Git is the single source of truth, the structure is documented, and no secrets or build outputs are committed (VCS-01)
+- [ ] Branching is trunk-based with short-lived, correctly named branches (VCS-02)
+- [ ] Commits follow Conventional Commits with scopes mapped to components (VCS-03)
+- [ ] Breaking changes use `!` and a `BREAKING CHANGE:` footer (VCS-04)
+- [ ] Footers carry `Refs:`, `ADR:` and `Assisted-by:` where relevant (VCS-05)
+- [ ] Commits are atomic and buildable (VCS-06)
+- [ ] A commit-msg hook and a CI lint enforce the format (VCS-07)
+- [ ] `main` has linear history and shared branches are never force-pushed (VCS-08)
+- [ ] Semantic versioning is defined for the product (VCS-09)
+- [ ] The version comes from the tag, is injected by the build and is never hand-edited (VCS-10)
+- [ ] Release tags are annotated, signed and immutable (VCS-11)
+- [ ] Version bump, changelog and release notes are generated from commits (VCS-12)
+- [ ] Back-ports use `cherry-pick -x` onto supported release branches (VCS-13)
+- [ ] The team understands git well enough to use it safely (VCS-14)
+- [ ] Commit subjects are imperative and short, and bodies say why (VCS-15)
+```
+
 
 ## Applying to personal projects and AI agents
 

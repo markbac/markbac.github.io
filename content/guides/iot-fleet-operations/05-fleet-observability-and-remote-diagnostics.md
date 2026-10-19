@@ -1,8 +1,8 @@
 ---
-title: "Fleet Observability & Remote Diagnostics"
+title: Fleet observability and remote diagnostics
 ---
 
-# Fleet Observability & Remote Diagnostics
+# Fleet observability and remote diagnostics
 
 Maintaining high reliability across a geographically dispersed fleet of connected devices requires proactive observability. When a field device silently drops connections, exhausts its battery prematurely, or encounters memory corruption, operations teams must detect the failure pattern before end users experience outages.
 

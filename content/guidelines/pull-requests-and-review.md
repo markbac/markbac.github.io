@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-015: Pull requests and code review
+# Pull requests and code review
 
 - **Owner:** Firmware lead
 - **Applies to:** All changes to protected branches, by people and agents
@@ -76,6 +76,16 @@ Ensure that no change reaches a protected branch without independent review and 
 - [ ] Certified or regulated area touched (EG-023)
 ```
 
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Documentation updated
+- [ ] Breaking change flagged
+- [ ] AI assistance disclosed (Assisted-by)
+- [ ] Certified or regulated area touched (EG-023)
+```
+
+
 ## Compliance
 
 | Rule | Checked by |
@@ -105,6 +115,27 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] PRs merge by squash and branches are deleted (PRR-13)
 - [ ] PR links are kept as review evidence (PRR-14)
 - [ ] Architecture review is not a routine PR requirement, and other PRs are reviewed by component owners (PRR-15)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] All changes to protected branches go through PR with no direct pushes (PRR-01)
+- [ ] PR titles follow Conventional Commits (PRR-02)
+- [ ] PR descriptions follow the template (PRR-03)
+- [ ] PRs have one purpose and stay around 400 changed lines or fewer, excluding generated files (PRR-04)
+- [ ] CODEOWNERS define required reviewers, with two for safety, security and certified areas (PRR-05)
+- [ ] Reviewers are not the author and understand the area, and agents do not approve (PRR-06)
+- [ ] Required checks pass before human review (PRR-07)
+- [ ] Reviewers use the review focus for the change type (PRR-08)
+- [ ] First response is within one working day and stale PRs are escalated (PRR-09)
+- [ ] Comments are labelled and cite rule IDs (PRR-10)
+- [ ] Blocking comments are resolved and stale approvals dismissed (PRR-11)
+- [ ] Draft and stacked PRs are used where helpful, with documented order (PRR-12)
+- [ ] PRs merge by squash and branches are deleted (PRR-13)
+- [ ] PR links are kept as review evidence (PRR-14)
+- [ ] Architecture review is not a routine PR requirement, and other PRs are reviewed by component owners (PRR-15)
+```
+
 
 ## Applying to personal projects and AI agents
 

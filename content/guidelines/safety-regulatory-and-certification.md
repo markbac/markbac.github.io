@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-023: Safety, regulatory and certification
+# Safety, regulatory and certification
 
 - **Owner:** Regulatory lead
 - **Applies to:** All products and changes subject to safety, legal or certification requirements
@@ -73,6 +73,25 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Regulatory changes are reviewed quarterly (REG-11)
 - [ ] Technical files are maintained as docs as code (REG-12)
 - [ ] Compliance training is recorded (REG-13)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Applicable standards and regulations are identified in a compliance register (REG-01)
+- [ ] The register maps obligations to requirements, evidence, owner and status (REG-02)
+- [ ] Regulatory obligations are captured as requirements and traced (REG-03)
+- [ ] Evidence is produced by the pipeline into the evidence pack (REG-04)
+- [ ] Changes to certified items have a change impact assessment (REG-05)
+- [ ] The certified baseline is recorded and regulated software is separated where applicable (REG-06)
+- [ ] The safety lifecycle is followed where an integrity level applies (REG-07)
+- [ ] Tools for certified builds are qualified or validated and frozen (REG-08)
+- [ ] Records are retained, audits held annually and findings tracked (REG-09)
+- [ ] Test house and notified body contact is owned by a named person (REG-10)
+- [ ] Regulatory changes are reviewed quarterly (REG-11)
+- [ ] Technical files are maintained as docs as code (REG-12)
+- [ ] Compliance training is recorded (REG-13)
+```
+
 
 ## Applying to personal projects and AI agents
 

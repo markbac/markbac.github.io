@@ -14,124 +14,137 @@ outputs:
 # in site/docs/blog/ for MkDocs Material's blog plugin.
 documents:
   guidelines:
-    # Guidelines (from EngineeringProcess): the overview and core rules, the 26 guidelines in number order,
-    # then the principles, adoption, personal-project, agent and checklist pages.
+    # Guidelines (from EngineeringProcess): how to use them, then the guidelines in their seven parts. Each group's
+    # landing page is a chapter, and its pages are sections of it (heading_offset 1); on the site each is a group.
     sources:
       - content/guidelines/index.md
-      - content/guidelines/core-rules.md
-      - content/guidelines/guidelines-governance.md
-      - content/guidelines/values-and-ways-of-working.md
-      - content/guidelines/quality-policy-and-attributes.md
-      - content/guidelines/documentation-as-code.md
-      - content/guidelines/ai-agent-usage.md
-      - content/guidelines/requirements-and-traceability.md
-      - content/guidelines/architecture-principles.md
-      - content/guidelines/decision-records.md
-      - content/guidelines/interfaces-and-co-design.md
-      - content/guidelines/components-reuse-and-variants.md
-      - content/guidelines/technology-and-third-party.md
-      - content/guidelines/coding-principles.md
-      - content/guidelines/coding-standard.md
-      - content/guidelines/version-control-and-versioning.md
-      - content/guidelines/pull-requests-and-review.md
-      - content/guidelines/pipelines-and-quality-gates.md
-      - content/guidelines/testing-principles-and-strategy.md
-      - content/guidelines/defects-and-technical-debt.md
-      - content/guidelines/logging-debug-and-diagnostics.md
-      - content/guidelines/observability-and-telemetry.md
-      - content/guidelines/release-update-and-production.md
-      - content/guidelines/security-and-data-protection.md
-      - content/guidelines/safety-regulatory-and-certification.md
-      - content/guidelines/planning-delivery-and-improvement.md
-      - content/guidelines/research-and-prototyping.md
-      - content/guidelines/competence-tooling-and-onboarding.md
-      - content/guidelines/principles-catalogue.md
-      - content/guidelines/business-principles.md
-      - content/guidelines/organisation-adoption.md
-      - content/guidelines/personal-projects.md
-      - content/guidelines/agent-rules.md
-      - content/guidelines/checklists.md
+      - {file: content/guidelines/using-the-guidelines.md, site_path: using-the-guidelines/index, page_break: true}
+      - {file: content/guidelines/core-rules.md, site_path: using-the-guidelines/core-rules, heading_offset: 1}
+      - {file: content/guidelines/organisation-adoption.md, site_path: using-the-guidelines/organisation-adoption, heading_offset: 1}
+      - {file: content/guidelines/personal-projects.md, site_path: using-the-guidelines/personal-projects, heading_offset: 1}
+      - {file: content/guidelines/principles-catalogue.md, site_path: using-the-guidelines/principles-catalogue, heading_offset: 1}
+      - {file: content/guidelines/business-principles.md, site_path: using-the-guidelines/business-principles, heading_offset: 1}
+      - {file: content/guidelines/agent-rules.md, site_path: using-the-guidelines/agent-rules, heading_offset: 1}
+      - {file: content/guidelines/checklists.md, site_path: using-the-guidelines/checklists, heading_offset: 1}
+      - {file: content/guidelines/part-foundations.md, site_path: foundations/index, page_break: true}
+      - {file: content/guidelines/guidelines-governance.md, site_path: foundations/guidelines-governance, heading_offset: 1}
+      - {file: content/guidelines/values-and-ways-of-working.md, site_path: foundations/values-and-ways-of-working, heading_offset: 1}
+      - {file: content/guidelines/quality-policy-and-attributes.md, site_path: foundations/quality-policy-and-attributes, heading_offset: 1}
+      - {file: content/guidelines/documentation-as-code.md, site_path: foundations/documentation-as-code, heading_offset: 1}
+      - {file: content/guidelines/ai-agent-usage.md, site_path: foundations/ai-agent-usage, heading_offset: 1}
+      - {file: content/guidelines/part-requirements-architecture-and-design.md, site_path: requirements-architecture-and-design/index, page_break: true}
+      - {file: content/guidelines/requirements-and-traceability.md, site_path: requirements-architecture-and-design/requirements-and-traceability, heading_offset: 1}
+      - {file: content/guidelines/architecture-principles.md, site_path: requirements-architecture-and-design/architecture-principles, heading_offset: 1}
+      - {file: content/guidelines/decision-records.md, site_path: requirements-architecture-and-design/decision-records, heading_offset: 1}
+      - {file: content/guidelines/interfaces-and-co-design.md, site_path: requirements-architecture-and-design/interfaces-and-co-design, heading_offset: 1}
+      - {file: content/guidelines/components-reuse-and-variants.md, site_path: requirements-architecture-and-design/components-reuse-and-variants, heading_offset: 1}
+      - {file: content/guidelines/technology-and-third-party.md, site_path: requirements-architecture-and-design/technology-and-third-party, heading_offset: 1}
+      - {file: content/guidelines/part-code-and-build.md, site_path: code-and-build/index, page_break: true}
+      - {file: content/guidelines/coding-principles.md, site_path: code-and-build/coding-principles, heading_offset: 1}
+      - {file: content/guidelines/coding-standard.md, site_path: code-and-build/coding-standard, heading_offset: 1}
+      - {file: content/guidelines/version-control-and-versioning.md, site_path: code-and-build/version-control-and-versioning, heading_offset: 1}
+      - {file: content/guidelines/pull-requests-and-review.md, site_path: code-and-build/pull-requests-and-review, heading_offset: 1}
+      - {file: content/guidelines/pipelines-and-quality-gates.md, site_path: code-and-build/pipelines-and-quality-gates, heading_offset: 1}
+      - {file: content/guidelines/part-verification.md, site_path: verification/index, page_break: true}
+      - {file: content/guidelines/testing-principles-and-strategy.md, site_path: verification/testing-principles-and-strategy, heading_offset: 1}
+      - {file: content/guidelines/defects-and-technical-debt.md, site_path: verification/defects-and-technical-debt, heading_offset: 1}
+      - {file: content/guidelines/part-diagnostics-and-field-insight.md, site_path: diagnostics-and-field-insight/index, page_break: true}
+      - {file: content/guidelines/logging-debug-and-diagnostics.md, site_path: diagnostics-and-field-insight/logging-debug-and-diagnostics, heading_offset: 1}
+      - {file: content/guidelines/observability-and-telemetry.md, site_path: diagnostics-and-field-insight/observability-and-telemetry, heading_offset: 1}
+      - {file: content/guidelines/part-release-risk-and-compliance.md, site_path: release-risk-and-compliance/index, page_break: true}
+      - {file: content/guidelines/release-update-and-production.md, site_path: release-risk-and-compliance/release-update-and-production, heading_offset: 1}
+      - {file: content/guidelines/security-and-data-protection.md, site_path: release-risk-and-compliance/security-and-data-protection, heading_offset: 1}
+      - {file: content/guidelines/safety-regulatory-and-certification.md, site_path: release-risk-and-compliance/safety-regulatory-and-certification, heading_offset: 1}
+      - {file: content/guidelines/part-delivery-research-and-people.md, site_path: delivery-research-and-people/index, page_break: true}
+      - {file: content/guidelines/planning-delivery-and-improvement.md, site_path: delivery-research-and-people/planning-delivery-and-improvement, heading_offset: 1}
+      - {file: content/guidelines/research-and-prototyping.md, site_path: delivery-research-and-people/research-and-prototyping, heading_offset: 1}
+      - {file: content/guidelines/competence-tooling-and-onboarding.md, site_path: delivery-research-and-people/competence-tooling-and-onboarding, heading_offset: 1}
     outputs: {docx: {}, pdf: {}}
 
   standards:
-    # Standards (from technical-documentation's specialised GU- documents): coding, design and interfaces,
-    # then connected devices.
+    # Standards: coding, design and interfaces, then connected devices, each a group with its own landing page.
     sources:
       - content/standards/index.md
-      - content/standards/c-coding-standard.md
-      - content/standards/misra-c.md
-      - content/standards/python.md
-      - content/standards/software-architecture-principles.md
-      - content/standards/api-design.md
-      - content/standards/unique-identifiers.md
-      - content/standards/lwm2m-objects.md
-      - content/standards/iot-device-architecture-principles.md
-      - content/standards/iot-battery-budgeting.md
-      - content/standards/constrained-binary-payloads.md
-      - content/standards/iot-edge-offline-storage.md
-      - content/standards/device-serialisation-and-factory-test.md
+      - {file: content/standards/group-coding.md, site_path: coding/index, page_break: true}
+      - {file: content/standards/c-coding-standard.md, site_path: coding/c-coding-standard, heading_offset: 1}
+      - {file: content/standards/misra-c.md, site_path: coding/misra-c, heading_offset: 1}
+      - {file: content/standards/python.md, site_path: coding/python, heading_offset: 1}
+      - {file: content/standards/group-design-and-interfaces.md, site_path: design-and-interfaces/index, page_break: true}
+      - {file: content/standards/software-architecture-principles.md, site_path: design-and-interfaces/software-architecture-principles, heading_offset: 1}
+      - {file: content/standards/api-design.md, site_path: design-and-interfaces/api-design, heading_offset: 1}
+      - {file: content/standards/unique-identifiers.md, site_path: design-and-interfaces/unique-identifiers, heading_offset: 1}
+      - {file: content/standards/lwm2m-objects.md, site_path: design-and-interfaces/lwm2m-objects, heading_offset: 1}
+      - {file: content/standards/group-connected-devices.md, site_path: connected-devices/index, page_break: true}
+      - {file: content/standards/iot-device-architecture-principles.md, site_path: connected-devices/iot-device-architecture-principles, heading_offset: 1}
+      - {file: content/standards/iot-battery-budgeting.md, site_path: connected-devices/iot-battery-budgeting, heading_offset: 1}
+      - {file: content/standards/constrained-binary-payloads.md, site_path: connected-devices/constrained-binary-payloads, heading_offset: 1}
+      - {file: content/standards/iot-edge-offline-storage.md, site_path: connected-devices/iot-edge-offline-storage, heading_offset: 1}
+      - {file: content/standards/device-serialisation-and-factory-test.md, site_path: connected-devices/device-serialisation-and-factory-test, heading_offset: 1}
     outputs: {docx: {}, pdf: {}}
 
   guides:
-    # Guides: each guide is a chapter, and a guide's numbered files are its sections (heading_offset 1).
-    # On the site each guide keeps its folder.
+    # Guides: architecture and design, connected devices, engineering practice, then the deep dives. A guide with
+    # chapters nests inside its group (its chapters at heading_offset 2).
     sources:
       - content/guides/index.md
-      - {file: content/guides/c4-model/index.md, page_break: true}
-      - {file: content/guides/c4-model/01-c4-model-foundations.md, heading_offset: 1}
-      - {file: content/guides/c4-model/02-diagrams-as-code-tooling.md, heading_offset: 1}
-      - {file: content/guides/c4-model/03-system-context.md, heading_offset: 1}
-      - {file: content/guides/c4-model/04-container-diagrams.md, heading_offset: 1}
-      - {file: content/guides/c4-model/05-component-diagrams.md, heading_offset: 1}
-      - {file: content/guides/c4-model/06-structurizr-dsl-reference.md, heading_offset: 1}
-      - {file: content/guides/c4-model/07-deployment-and-dynamics.md, heading_offset: 1}
-      - {file: content/guides/cybersecurity/index.md, page_break: true}
-      - {file: content/guides/cybersecurity/01-threat-modeling-foundations.md, heading_offset: 1}
-      - {file: content/guides/cybersecurity/02-hardware-and-silicon-security.md, heading_offset: 1}
-      - {file: content/guides/cybersecurity/03-transport-and-network-security.md, heading_offset: 1}
-      - {file: content/guides/cybersecurity/04-secure-firmware-updates-ota.md, heading_offset: 1}
-      - {file: content/guides/cybersecurity/05-standards-and-compliance.md, heading_offset: 1}
-      - {file: content/guides/iot-endpoint-and-gateway-architecture/index.md, page_break: true}
-      - {file: content/guides/iot-endpoint-and-gateway-architecture/01-device-tiers-and-hardware-architecture.md, heading_offset: 1}
-      - {file: content/guides/iot-endpoint-and-gateway-architecture/02-connectivity-and-protocol-tradeoffs.md, heading_offset: 1}
-      - {file: content/guides/iot-endpoint-and-gateway-architecture/03-power-architecture-and-duty-cycling.md, heading_offset: 1}
-      - {file: content/guides/iot-endpoint-and-gateway-architecture/04-edge-storage-and-local-resilience.md, heading_offset: 1}
-      - {file: content/guides/iot-endpoint-and-gateway-architecture/05-edge-intelligence-and-processing.md, heading_offset: 1}
-      - {file: content/guides/iot-fleet-operations/index.md, page_break: true}
-      - {file: content/guides/iot-fleet-operations/01-zero-touch-device-onboarding.md, heading_offset: 1}
-      - {file: content/guides/iot-fleet-operations/02-scalable-telemetry-ingestion.md, heading_offset: 1}
-      - {file: content/guides/iot-fleet-operations/03-digital-twins-and-state-reconciliation.md, heading_offset: 1}
-      - {file: content/guides/iot-fleet-operations/04-fleet-scale-ota-campaigns.md, heading_offset: 1}
-      - {file: content/guides/iot-fleet-operations/05-fleet-observability-and-remote-diagnostics.md, heading_offset: 1}
-      - {file: content/guides/hil-and-automated-testing/index.md, page_break: true}
-      - {file: content/guides/hil-and-automated-testing/01-the-iot-testing-pyramid.md, heading_offset: 1}
-      - {file: content/guides/hil-and-automated-testing/02-host-based-firmware-testing.md, heading_offset: 1}
-      - {file: content/guides/hil-and-automated-testing/03-qemu-virtual-hardware-simulation.md, heading_offset: 1}
-      - {file: content/guides/hil-and-automated-testing/04-hil-bench-design-and-automation.md, heading_offset: 1}
-      - {file: content/guides/hil-and-automated-testing/05-network-simulation-and-chaos-testing.md, heading_offset: 1}
-      - {file: content/guides/scaling-architecture/index.md, page_break: true}
-      - {file: content/guides/scaling-architecture/01-advice-process.md, heading_offset: 1}
-      - {file: content/guides/scaling-architecture/02-alignment-mechanisms.md, heading_offset: 1}
-      - {file: content/guides/git/index.md, page_break: true}
-      - {file: content/guides/git/01-how-git-works.md, heading_offset: 1}
-      - {file: content/guides/git/02-branching-strategies.md, heading_offset: 1}
-      - {file: content/guides/git/03-choosing-a-version-control-system.md, heading_offset: 1}
-      - {file: content/guides/ways-of-working/index.md, page_break: true}
-      - {file: content/guides/ways-of-working/01-working-agreements.md, heading_offset: 1}
-      - {file: content/guides/ways-of-working/02-onboarding.md, heading_offset: 1}
-      - {file: content/guides/ways-of-working/03-development-process.md, heading_offset: 1}
-      - {file: content/guides/ways-of-working/04-ci-cd.md, heading_offset: 1}
-      - {file: content/guides/ways-of-working/05-documentation-standards.md, heading_offset: 1}
-      - {file: content/guides/ways-of-working/06-architecture-and-design-documentation.md, heading_offset: 1}
-      - {file: content/guides/ways-of-working/07-documentation-and-modelling-tools.md, heading_offset: 1}
-      - {file: content/guides/ways-of-working/08-metrics-and-feedback.md, heading_offset: 1}
-      - {file: content/guides/decision-records.md, page_break: true}
-      - {file: content/guides/software-design-specification.md, page_break: true}
-      - {file: content/guides/high-level-design.md, page_break: true}
-      - {file: content/guides/architecture-review-board.md, page_break: true}
-      - {file: content/guides/agile-requirements-and-user-stories.md, page_break: true}
-      - {file: content/guides/code-review.md, page_break: true}
-      - {file: content/guides/defect-management-and-debugging.md, page_break: true}
+      - {file: content/guides/group-architecture-and-design.md, site_path: architecture-and-design/index, page_break: true}
+      - {file: content/guides/c4-model/index.md, site_path: architecture-and-design/c4-model/index, heading_offset: 1}
+      - {file: content/guides/c4-model/01-c4-model-foundations.md, site_path: architecture-and-design/c4-model/01-c4-model-foundations, heading_offset: 2}
+      - {file: content/guides/c4-model/02-diagrams-as-code-tooling.md, site_path: architecture-and-design/c4-model/02-diagrams-as-code-tooling, heading_offset: 2}
+      - {file: content/guides/c4-model/03-system-context.md, site_path: architecture-and-design/c4-model/03-system-context, heading_offset: 2}
+      - {file: content/guides/c4-model/04-container-diagrams.md, site_path: architecture-and-design/c4-model/04-container-diagrams, heading_offset: 2}
+      - {file: content/guides/c4-model/05-component-diagrams.md, site_path: architecture-and-design/c4-model/05-component-diagrams, heading_offset: 2}
+      - {file: content/guides/c4-model/06-structurizr-dsl-reference.md, site_path: architecture-and-design/c4-model/06-structurizr-dsl-reference, heading_offset: 2}
+      - {file: content/guides/c4-model/07-deployment-and-dynamics.md, site_path: architecture-and-design/c4-model/07-deployment-and-dynamics, heading_offset: 2}
+      - {file: content/guides/scaling-architecture/index.md, site_path: architecture-and-design/scaling-architecture/index, heading_offset: 1}
+      - {file: content/guides/scaling-architecture/01-advice-process.md, site_path: architecture-and-design/scaling-architecture/01-advice-process, heading_offset: 2}
+      - {file: content/guides/scaling-architecture/02-alignment-mechanisms.md, site_path: architecture-and-design/scaling-architecture/02-alignment-mechanisms, heading_offset: 2}
+      - {file: content/guides/decision-records.md, site_path: architecture-and-design/decision-records, heading_offset: 1}
+      - {file: content/guides/high-level-design.md, site_path: architecture-and-design/high-level-design, heading_offset: 1}
+      - {file: content/guides/software-design-specification.md, site_path: architecture-and-design/software-design-specification, heading_offset: 1}
+      - {file: content/guides/architecture-review-board.md, site_path: architecture-and-design/architecture-review-board, heading_offset: 1}
+      - {file: content/guides/group-connected-devices.md, site_path: connected-devices/index, page_break: true}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/index.md, site_path: connected-devices/iot-endpoint-and-gateway-architecture/index, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/01-device-tiers-and-hardware-architecture.md, site_path: connected-devices/iot-endpoint-and-gateway-architecture/01-device-tiers-and-hardware-architecture, heading_offset: 2}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/02-connectivity-and-protocol-tradeoffs.md, site_path: connected-devices/iot-endpoint-and-gateway-architecture/02-connectivity-and-protocol-tradeoffs, heading_offset: 2}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/03-power-architecture-and-duty-cycling.md, site_path: connected-devices/iot-endpoint-and-gateway-architecture/03-power-architecture-and-duty-cycling, heading_offset: 2}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/04-edge-storage-and-local-resilience.md, site_path: connected-devices/iot-endpoint-and-gateway-architecture/04-edge-storage-and-local-resilience, heading_offset: 2}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/05-edge-intelligence-and-processing.md, site_path: connected-devices/iot-endpoint-and-gateway-architecture/05-edge-intelligence-and-processing, heading_offset: 2}
+      - {file: content/guides/iot-fleet-operations/index.md, site_path: connected-devices/iot-fleet-operations/index, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/01-zero-touch-device-onboarding.md, site_path: connected-devices/iot-fleet-operations/01-zero-touch-device-onboarding, heading_offset: 2}
+      - {file: content/guides/iot-fleet-operations/02-scalable-telemetry-ingestion.md, site_path: connected-devices/iot-fleet-operations/02-scalable-telemetry-ingestion, heading_offset: 2}
+      - {file: content/guides/iot-fleet-operations/03-digital-twins-and-state-reconciliation.md, site_path: connected-devices/iot-fleet-operations/03-digital-twins-and-state-reconciliation, heading_offset: 2}
+      - {file: content/guides/iot-fleet-operations/04-fleet-scale-ota-campaigns.md, site_path: connected-devices/iot-fleet-operations/04-fleet-scale-ota-campaigns, heading_offset: 2}
+      - {file: content/guides/iot-fleet-operations/05-fleet-observability-and-remote-diagnostics.md, site_path: connected-devices/iot-fleet-operations/05-fleet-observability-and-remote-diagnostics, heading_offset: 2}
+      - {file: content/guides/cybersecurity/index.md, site_path: connected-devices/cybersecurity/index, heading_offset: 1}
+      - {file: content/guides/cybersecurity/01-threat-modeling-foundations.md, site_path: connected-devices/cybersecurity/01-threat-modeling-foundations, heading_offset: 2}
+      - {file: content/guides/cybersecurity/02-hardware-and-silicon-security.md, site_path: connected-devices/cybersecurity/02-hardware-and-silicon-security, heading_offset: 2}
+      - {file: content/guides/cybersecurity/03-transport-and-network-security.md, site_path: connected-devices/cybersecurity/03-transport-and-network-security, heading_offset: 2}
+      - {file: content/guides/cybersecurity/04-secure-firmware-updates-ota.md, site_path: connected-devices/cybersecurity/04-secure-firmware-updates-ota, heading_offset: 2}
+      - {file: content/guides/cybersecurity/05-standards-and-compliance.md, site_path: connected-devices/cybersecurity/05-standards-and-compliance, heading_offset: 2}
+      - {file: content/guides/hil-and-automated-testing/index.md, site_path: connected-devices/hil-and-automated-testing/index, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/01-the-iot-testing-pyramid.md, site_path: connected-devices/hil-and-automated-testing/01-the-iot-testing-pyramid, heading_offset: 2}
+      - {file: content/guides/hil-and-automated-testing/02-host-based-firmware-testing.md, site_path: connected-devices/hil-and-automated-testing/02-host-based-firmware-testing, heading_offset: 2}
+      - {file: content/guides/hil-and-automated-testing/03-qemu-virtual-hardware-simulation.md, site_path: connected-devices/hil-and-automated-testing/03-qemu-virtual-hardware-simulation, heading_offset: 2}
+      - {file: content/guides/hil-and-automated-testing/04-hil-bench-design-and-automation.md, site_path: connected-devices/hil-and-automated-testing/04-hil-bench-design-and-automation, heading_offset: 2}
+      - {file: content/guides/hil-and-automated-testing/05-network-simulation-and-chaos-testing.md, site_path: connected-devices/hil-and-automated-testing/05-network-simulation-and-chaos-testing, heading_offset: 2}
+      - {file: content/guides/group-engineering-practice.md, site_path: engineering-practice/index, page_break: true}
+      - {file: content/guides/git/index.md, site_path: engineering-practice/git/index, heading_offset: 1}
+      - {file: content/guides/git/01-how-git-works.md, site_path: engineering-practice/git/01-how-git-works, heading_offset: 2}
+      - {file: content/guides/git/02-branching-strategies.md, site_path: engineering-practice/git/02-branching-strategies, heading_offset: 2}
+      - {file: content/guides/git/03-choosing-a-version-control-system.md, site_path: engineering-practice/git/03-choosing-a-version-control-system, heading_offset: 2}
+      - {file: content/guides/code-review.md, site_path: engineering-practice/code-review, heading_offset: 1}
+      - {file: content/guides/agile-requirements-and-user-stories.md, site_path: engineering-practice/agile-requirements-and-user-stories, heading_offset: 1}
+      - {file: content/guides/defect-management-and-debugging.md, site_path: engineering-practice/defect-management-and-debugging, heading_offset: 1}
+      - {file: content/guides/ways-of-working/index.md, site_path: engineering-practice/ways-of-working/index, heading_offset: 1}
+      - {file: content/guides/ways-of-working/01-working-agreements.md, site_path: engineering-practice/ways-of-working/01-working-agreements, heading_offset: 2}
+      - {file: content/guides/ways-of-working/02-onboarding.md, site_path: engineering-practice/ways-of-working/02-onboarding, heading_offset: 2}
+      - {file: content/guides/ways-of-working/03-development-process.md, site_path: engineering-practice/ways-of-working/03-development-process, heading_offset: 2}
+      - {file: content/guides/ways-of-working/04-ci-cd.md, site_path: engineering-practice/ways-of-working/04-ci-cd, heading_offset: 2}
+      - {file: content/guides/ways-of-working/05-documentation-standards.md, site_path: engineering-practice/ways-of-working/05-documentation-standards, heading_offset: 2}
+      - {file: content/guides/ways-of-working/06-architecture-and-design-documentation.md, site_path: engineering-practice/ways-of-working/06-architecture-and-design-documentation, heading_offset: 2}
+      - {file: content/guides/ways-of-working/07-documentation-and-modelling-tools.md, site_path: engineering-practice/ways-of-working/07-documentation-and-modelling-tools, heading_offset: 2}
+      - {file: content/guides/ways-of-working/08-metrics-and-feedback.md, site_path: engineering-practice/ways-of-working/08-metrics-and-feedback, heading_offset: 2}
       - {file: content/guides/deep-dives/index.md, page_break: true}
       - {file: content/guides/deep-dives/cbor.md, heading_offset: 1}
       - {file: content/guides/deep-dives/coap.md, heading_offset: 1}
@@ -161,80 +174,79 @@ documents:
     outputs: {docx: {}, pdf: {}}
 
   primers:
-    # Primers (the old Tech 101s): the overview, then one page per area, each followed by its
-    # primers. The primers sit one heading level below their area in the Word and PDF files.
+    # Primers (the old Tech 101s): the overview, then one group per area, led by the area's page.
     sources:
       - content/primers/index.md
-      - {file: content/primers/architecture.md, page_break: true}
-      - {file: content/primers/architecture-decision-records.md, heading_offset: 1}
-      - {file: content/primers/c4-model.md, heading_offset: 1}
-      - {file: content/primers/design-principles.md, heading_offset: 1}
-      - {file: content/primers/design-patterns.md, heading_offset: 1}
-      - {file: content/primers/anti-patterns.md, heading_offset: 1}
-      - {file: content/primers/hexagonal-architecture.md, heading_offset: 1}
-      - {file: content/primers/domain-driven-design.md, heading_offset: 1}
-      - {file: content/primers/event-driven-architecture.md, heading_offset: 1}
-      - {file: content/primers/modular-monolith-vs-microservices.md, heading_offset: 1}
-      - {file: content/primers/digital-twins-and-device-shadows.md, heading_offset: 1}
-      - {file: content/primers/distributed-systems.md, page_break: true}
-      - {file: content/primers/cap-and-pacelc.md, heading_offset: 1}
-      - {file: content/primers/consistency-models.md, heading_offset: 1}
-      - {file: content/primers/idempotency.md, heading_offset: 1}
-      - {file: content/primers/saga-pattern.md, heading_offset: 1}
-      - {file: content/primers/apis-and-data.md, page_break: true}
-      - {file: content/primers/rest-apis.md, heading_offset: 1}
-      - {file: content/primers/openapi-and-asyncapi.md, heading_offset: 1}
-      - {file: content/primers/data-formats.md, heading_offset: 1}
-      - {file: content/primers/cbor.md, heading_offset: 1}
-      - {file: content/primers/cloud.md, page_break: true}
-      - {file: content/primers/cicd-pipelines.md, heading_offset: 1}
-      - {file: content/primers/infrastructure-as-code.md, heading_offset: 1}
-      - {file: content/primers/serverless-computing.md, heading_offset: 1}
-      - {file: content/primers/kafka-event-streaming.md, heading_offset: 1}
-      - {file: content/primers/iot-on-google-cloud.md, heading_offset: 1}
-      - {file: content/primers/iot-and-embedded.md, page_break: true}
-      - {file: content/primers/embedded-systems-design.md, heading_offset: 1}
-      - {file: content/primers/rtos-and-freertos.md, heading_offset: 1}
-      - {file: content/primers/finite-state-machines.md, heading_offset: 1}
-      - {file: content/primers/interrupts-and-dma.md, heading_offset: 1}
-      - {file: content/primers/watchdog-timers.md, heading_offset: 1}
-      - {file: content/primers/bootloaders.md, heading_offset: 1}
-      - {file: content/primers/mqtt.md, heading_offset: 1}
-      - {file: content/primers/coap.md, heading_offset: 1}
-      - {file: content/primers/lwm2m.md, heading_offset: 1}
-      - {file: content/primers/cellular-lpwan.md, heading_offset: 1}
-      - {file: content/primers/firmware-over-the-air.md, heading_offset: 1}
-      - {file: content/primers/edge-computing-for-iot.md, heading_offset: 1}
-      - {file: content/primers/hardware-in-the-loop-testing.md, heading_offset: 1}
-      - {file: content/primers/security.md, page_break: true}
-      - {file: content/primers/cryptography-basics.md, heading_offset: 1}
-      - {file: content/primers/pki-and-certificates.md, heading_offset: 1}
-      - {file: content/primers/tls-and-dtls.md, heading_offset: 1}
-      - {file: content/primers/post-quantum-cryptography.md, heading_offset: 1}
-      - {file: content/primers/secure-coding-practices.md, heading_offset: 1}
-      - {file: content/primers/owasp-top-10.md, heading_offset: 1}
-      - {file: content/primers/oauth-and-oidc.md, heading_offset: 1}
-      - {file: content/primers/zero-trust-architecture.md, heading_offset: 1}
-      - {file: content/primers/etsi-en-303-645.md, heading_offset: 1}
-      - {file: content/primers/iso-30141.md, heading_offset: 1}
-      - {file: content/primers/methods-and-delivery.md, page_break: true}
-      - {file: content/primers/sdlc-models.md, heading_offset: 1}
-      - {file: content/primers/agile-development.md, heading_offset: 1}
-      - {file: content/primers/scrum-vs-kanban.md, heading_offset: 1}
-      - {file: content/primers/event-storming.md, heading_offset: 1}
-      - {file: content/primers/lightweight-architecture-evaluations.md, heading_offset: 1}
-      - {file: content/primers/testing-strategies.md, heading_offset: 1}
-      - {file: content/primers/code-review.md, heading_offset: 1}
-      - {file: content/primers/technical-debt.md, heading_offset: 1}
-      - {file: content/primers/docs-as-code.md, heading_offset: 1}
-      - {file: content/primers/root-cause-analysis.md, heading_offset: 1}
-      - {file: content/primers/programming-and-tools.md, page_break: true}
-      - {file: content/primers/git-best-practices.md, heading_offset: 1}
-      - {file: content/primers/static-code-analysis.md, heading_offset: 1}
-      - {file: content/primers/plantuml-and-mermaid.md, heading_offset: 1}
-      - {file: content/primers/python-for-automation.md, heading_offset: 1}
-      - {file: content/primers/rust-for-systems.md, heading_offset: 1}
-      - {file: content/primers/terminal-modernisation.md, heading_offset: 1}
+      - {file: content/primers/architecture.md, site_path: architecture/index, page_break: true}
+      - {file: content/primers/architecture-decision-records.md, site_path: architecture/architecture-decision-records, heading_offset: 1}
+      - {file: content/primers/c4-model.md, site_path: architecture/c4-model, heading_offset: 1}
+      - {file: content/primers/design-principles.md, site_path: architecture/design-principles, heading_offset: 1}
+      - {file: content/primers/design-patterns.md, site_path: architecture/design-patterns, heading_offset: 1}
+      - {file: content/primers/anti-patterns.md, site_path: architecture/anti-patterns, heading_offset: 1}
+      - {file: content/primers/hexagonal-architecture.md, site_path: architecture/hexagonal-architecture, heading_offset: 1}
+      - {file: content/primers/domain-driven-design.md, site_path: architecture/domain-driven-design, heading_offset: 1}
+      - {file: content/primers/event-driven-architecture.md, site_path: architecture/event-driven-architecture, heading_offset: 1}
+      - {file: content/primers/modular-monolith-vs-microservices.md, site_path: architecture/modular-monolith-vs-microservices, heading_offset: 1}
+      - {file: content/primers/digital-twins-and-device-shadows.md, site_path: architecture/digital-twins-and-device-shadows, heading_offset: 1}
+      - {file: content/primers/distributed-systems.md, site_path: distributed-systems/index, page_break: true}
+      - {file: content/primers/cap-and-pacelc.md, site_path: distributed-systems/cap-and-pacelc, heading_offset: 1}
+      - {file: content/primers/consistency-models.md, site_path: distributed-systems/consistency-models, heading_offset: 1}
+      - {file: content/primers/idempotency.md, site_path: distributed-systems/idempotency, heading_offset: 1}
+      - {file: content/primers/saga-pattern.md, site_path: distributed-systems/saga-pattern, heading_offset: 1}
+      - {file: content/primers/apis-and-data.md, site_path: apis-and-data/index, page_break: true}
+      - {file: content/primers/rest-apis.md, site_path: apis-and-data/rest-apis, heading_offset: 1}
+      - {file: content/primers/openapi-and-asyncapi.md, site_path: apis-and-data/openapi-and-asyncapi, heading_offset: 1}
+      - {file: content/primers/data-formats.md, site_path: apis-and-data/data-formats, heading_offset: 1}
+      - {file: content/primers/cbor.md, site_path: apis-and-data/cbor, heading_offset: 1}
+      - {file: content/primers/cloud.md, site_path: cloud/index, page_break: true}
+      - {file: content/primers/cicd-pipelines.md, site_path: cloud/cicd-pipelines, heading_offset: 1}
+      - {file: content/primers/infrastructure-as-code.md, site_path: cloud/infrastructure-as-code, heading_offset: 1}
+      - {file: content/primers/serverless-computing.md, site_path: cloud/serverless-computing, heading_offset: 1}
+      - {file: content/primers/kafka-event-streaming.md, site_path: cloud/kafka-event-streaming, heading_offset: 1}
+      - {file: content/primers/iot-on-google-cloud.md, site_path: cloud/iot-on-google-cloud, heading_offset: 1}
+      - {file: content/primers/iot-and-embedded.md, site_path: iot-and-embedded/index, page_break: true}
+      - {file: content/primers/embedded-systems-design.md, site_path: iot-and-embedded/embedded-systems-design, heading_offset: 1}
+      - {file: content/primers/rtos-and-freertos.md, site_path: iot-and-embedded/rtos-and-freertos, heading_offset: 1}
+      - {file: content/primers/finite-state-machines.md, site_path: iot-and-embedded/finite-state-machines, heading_offset: 1}
+      - {file: content/primers/interrupts-and-dma.md, site_path: iot-and-embedded/interrupts-and-dma, heading_offset: 1}
+      - {file: content/primers/watchdog-timers.md, site_path: iot-and-embedded/watchdog-timers, heading_offset: 1}
+      - {file: content/primers/bootloaders.md, site_path: iot-and-embedded/bootloaders, heading_offset: 1}
+      - {file: content/primers/mqtt.md, site_path: iot-and-embedded/mqtt, heading_offset: 1}
+      - {file: content/primers/coap.md, site_path: iot-and-embedded/coap, heading_offset: 1}
+      - {file: content/primers/lwm2m.md, site_path: iot-and-embedded/lwm2m, heading_offset: 1}
+      - {file: content/primers/cellular-lpwan.md, site_path: iot-and-embedded/cellular-lpwan, heading_offset: 1}
+      - {file: content/primers/firmware-over-the-air.md, site_path: iot-and-embedded/firmware-over-the-air, heading_offset: 1}
+      - {file: content/primers/edge-computing-for-iot.md, site_path: iot-and-embedded/edge-computing-for-iot, heading_offset: 1}
+      - {file: content/primers/hardware-in-the-loop-testing.md, site_path: iot-and-embedded/hardware-in-the-loop-testing, heading_offset: 1}
+      - {file: content/primers/security.md, site_path: security/index, page_break: true}
+      - {file: content/primers/cryptography-basics.md, site_path: security/cryptography-basics, heading_offset: 1}
+      - {file: content/primers/pki-and-certificates.md, site_path: security/pki-and-certificates, heading_offset: 1}
+      - {file: content/primers/tls-and-dtls.md, site_path: security/tls-and-dtls, heading_offset: 1}
+      - {file: content/primers/post-quantum-cryptography.md, site_path: security/post-quantum-cryptography, heading_offset: 1}
+      - {file: content/primers/secure-coding-practices.md, site_path: security/secure-coding-practices, heading_offset: 1}
+      - {file: content/primers/owasp-top-10.md, site_path: security/owasp-top-10, heading_offset: 1}
+      - {file: content/primers/oauth-and-oidc.md, site_path: security/oauth-and-oidc, heading_offset: 1}
+      - {file: content/primers/zero-trust-architecture.md, site_path: security/zero-trust-architecture, heading_offset: 1}
+      - {file: content/primers/etsi-en-303-645.md, site_path: security/etsi-en-303-645, heading_offset: 1}
+      - {file: content/primers/iso-30141.md, site_path: security/iso-30141, heading_offset: 1}
+      - {file: content/primers/methods-and-delivery.md, site_path: methods-and-delivery/index, page_break: true}
+      - {file: content/primers/sdlc-models.md, site_path: methods-and-delivery/sdlc-models, heading_offset: 1}
+      - {file: content/primers/agile-development.md, site_path: methods-and-delivery/agile-development, heading_offset: 1}
+      - {file: content/primers/scrum-vs-kanban.md, site_path: methods-and-delivery/scrum-vs-kanban, heading_offset: 1}
+      - {file: content/primers/event-storming.md, site_path: methods-and-delivery/event-storming, heading_offset: 1}
+      - {file: content/primers/lightweight-architecture-evaluations.md, site_path: methods-and-delivery/lightweight-architecture-evaluations, heading_offset: 1}
+      - {file: content/primers/testing-strategies.md, site_path: methods-and-delivery/testing-strategies, heading_offset: 1}
+      - {file: content/primers/code-review.md, site_path: methods-and-delivery/code-review, heading_offset: 1}
+      - {file: content/primers/technical-debt.md, site_path: methods-and-delivery/technical-debt, heading_offset: 1}
+      - {file: content/primers/docs-as-code.md, site_path: methods-and-delivery/docs-as-code, heading_offset: 1}
+      - {file: content/primers/root-cause-analysis.md, site_path: methods-and-delivery/root-cause-analysis, heading_offset: 1}
+      - {file: content/primers/programming-and-tools.md, site_path: programming-and-tools/index, page_break: true}
+      - {file: content/primers/git-best-practices.md, site_path: programming-and-tools/git-best-practices, heading_offset: 1}
+      - {file: content/primers/static-code-analysis.md, site_path: programming-and-tools/static-code-analysis, heading_offset: 1}
+      - {file: content/primers/plantuml-and-mermaid.md, site_path: programming-and-tools/plantuml-and-mermaid, heading_offset: 1}
+      - {file: content/primers/python-for-automation.md, site_path: programming-and-tools/python-for-automation, heading_offset: 1}
+      - {file: content/primers/rust-for-systems.md, site_path: programming-and-tools/rust-for-systems, heading_offset: 1}
+      - {file: content/primers/terminal-modernisation.md, site_path: programming-and-tools/terminal-modernisation, heading_offset: 1}
     outputs: {docx: {}, pdf: {}}
 
   reference:
@@ -279,46 +291,50 @@ documents:
     outputs: {docx: {}, pdf: {}}
 
   templates:
-    # Templates & Checklists: the checklists first, then the templates. Files that tools read
-    # (YAML, the commit-msg hook, the canvases) are in content/templates/files/.
+    # Templates & Checklists: the checklists, then the templates by stage, each a group with its own landing page.
+    # Files that tools read are in content/templates/files/.
     sources:
       - content/templates/index.md
-      - content/templates/definition-of-ready.md
-      - content/templates/definition-of-done.md
-      - content/templates/architecture-review-checklist.md
-      - content/templates/design-review-checklist.md
-      - content/templates/code-review-checklist.md
-      - content/templates/debugging-checklist.md
-      - content/templates/defect-report-checklist.md
-      - content/templates/project-vision.md
-      - content/templates/architecture-vision.md
-      - content/templates/architecture-principles.md
-      - content/templates/architecture-document.md
-      - content/templates/architecture-canvases.md
-      - content/templates/crosscutting-concerns.md
-      - content/templates/adr.md
-      - content/templates/rfc.md
-      - content/templates/requirements.md
-      - content/templates/nfr-scenario.md
-      - content/templates/requirements-traceability-matrix.md
-      - content/templates/interface-specification.md
-      - content/templates/software-design-specification.md
-      - content/templates/experiment-record.md
-      - content/templates/test-plan.md
-      - content/templates/systems-engineering-management-plan.md
-      - content/templates/team-working-agreement.md
-      - content/templates/meeting-minutes.md
-      - content/templates/decision-log.md
-      - content/templates/risk-register.md
-      - content/templates/technical-debt-register.md
-      - content/templates/release-plan.md
-      - content/templates/sbom.md
-      - content/templates/pull-request-and-commits.md
-      - content/templates/postmortem.md
-      - content/templates/lessons-learned.md
-      - content/templates/agent-task-brief.md
-      - content/templates/agents-md.md
-      - content/templates/product-conformance-profile.md
+      - {file: content/templates/group-checklists.md, site_path: checklists/index, page_break: true}
+      - {file: content/templates/definition-of-ready.md, site_path: checklists/definition-of-ready, heading_offset: 1}
+      - {file: content/templates/definition-of-done.md, site_path: checklists/definition-of-done, heading_offset: 1}
+      - {file: content/templates/architecture-review-checklist.md, site_path: checklists/architecture-review-checklist, heading_offset: 1}
+      - {file: content/templates/design-review-checklist.md, site_path: checklists/design-review-checklist, heading_offset: 1}
+      - {file: content/templates/code-review-checklist.md, site_path: checklists/code-review-checklist, heading_offset: 1}
+      - {file: content/templates/debugging-checklist.md, site_path: checklists/debugging-checklist, heading_offset: 1}
+      - {file: content/templates/defect-report-checklist.md, site_path: checklists/defect-report-checklist, heading_offset: 1}
+      - {file: content/templates/group-vision-and-architecture.md, site_path: vision-and-architecture/index, page_break: true}
+      - {file: content/templates/project-vision.md, site_path: vision-and-architecture/project-vision, heading_offset: 1}
+      - {file: content/templates/architecture-vision.md, site_path: vision-and-architecture/architecture-vision, heading_offset: 1}
+      - {file: content/templates/architecture-principles.md, site_path: vision-and-architecture/architecture-principles, heading_offset: 1}
+      - {file: content/templates/architecture-document.md, site_path: vision-and-architecture/architecture-document, heading_offset: 1}
+      - {file: content/templates/architecture-canvases.md, site_path: vision-and-architecture/architecture-canvases, heading_offset: 1}
+      - {file: content/templates/crosscutting-concerns.md, site_path: vision-and-architecture/crosscutting-concerns, heading_offset: 1}
+      - {file: content/templates/adr.md, site_path: vision-and-architecture/adr, heading_offset: 1}
+      - {file: content/templates/rfc.md, site_path: vision-and-architecture/rfc, heading_offset: 1}
+      - {file: content/templates/group-requirements-design-and-testing.md, site_path: requirements-design-and-testing/index, page_break: true}
+      - {file: content/templates/requirements.md, site_path: requirements-design-and-testing/requirements, heading_offset: 1}
+      - {file: content/templates/nfr-scenario.md, site_path: requirements-design-and-testing/nfr-scenario, heading_offset: 1}
+      - {file: content/templates/requirements-traceability-matrix.md, site_path: requirements-design-and-testing/requirements-traceability-matrix, heading_offset: 1}
+      - {file: content/templates/interface-specification.md, site_path: requirements-design-and-testing/interface-specification, heading_offset: 1}
+      - {file: content/templates/software-design-specification.md, site_path: requirements-design-and-testing/software-design-specification, heading_offset: 1}
+      - {file: content/templates/experiment-record.md, site_path: requirements-design-and-testing/experiment-record, heading_offset: 1}
+      - {file: content/templates/test-plan.md, site_path: requirements-design-and-testing/test-plan, heading_offset: 1}
+      - {file: content/templates/group-delivery-and-operations.md, site_path: delivery-and-operations/index, page_break: true}
+      - {file: content/templates/systems-engineering-management-plan.md, site_path: delivery-and-operations/systems-engineering-management-plan, heading_offset: 1}
+      - {file: content/templates/team-working-agreement.md, site_path: delivery-and-operations/team-working-agreement, heading_offset: 1}
+      - {file: content/templates/meeting-minutes.md, site_path: delivery-and-operations/meeting-minutes, heading_offset: 1}
+      - {file: content/templates/decision-log.md, site_path: delivery-and-operations/decision-log, heading_offset: 1}
+      - {file: content/templates/risk-register.md, site_path: delivery-and-operations/risk-register, heading_offset: 1}
+      - {file: content/templates/technical-debt-register.md, site_path: delivery-and-operations/technical-debt-register, heading_offset: 1}
+      - {file: content/templates/release-plan.md, site_path: delivery-and-operations/release-plan, heading_offset: 1}
+      - {file: content/templates/sbom.md, site_path: delivery-and-operations/sbom, heading_offset: 1}
+      - {file: content/templates/pull-request-and-commits.md, site_path: delivery-and-operations/pull-request-and-commits, heading_offset: 1}
+      - {file: content/templates/postmortem.md, site_path: delivery-and-operations/postmortem, heading_offset: 1}
+      - {file: content/templates/lessons-learned.md, site_path: delivery-and-operations/lessons-learned, heading_offset: 1}
+      - {file: content/templates/agent-task-brief.md, site_path: delivery-and-operations/agent-task-brief, heading_offset: 1}
+      - {file: content/templates/agents-md.md, site_path: delivery-and-operations/agents-md, heading_offset: 1}
+      - {file: content/templates/product-conformance-profile.md, site_path: delivery-and-operations/product-conformance-profile, heading_offset: 1}
     outputs: {docx: {}, pdf: {}}
 
   radar:
@@ -399,11 +415,14 @@ site:
   dir: site
   # Only the sections that have moved in are published. Add each section here when its pull request
   # merges; until then its placeholder page stays off both sites.
-  documents: [guidelines, standards, guides, handbook, primers, radar, glossary, templates, firmitas]
+  documents: [guidelines, standards, templates, firmitas, primers, guides, handbook, glossary, radar]
   downloads: [pdf, docx]
   targets:
     github: mkdocs.yml        # https://markbac.github.io/, personal home page
     tarf: mkdocs.tarf.yml     # https://tarf.co.uk/, the tarf home page
-  pages:                      # pages of our own, after the sections in the navigation
-    Tech Radar chart: radar-chart/index.md
-    Blog: blog/index.md
+  groups:                     # the top of the navigation: four headings over the sections
+    Ways of working: [guidelines, standards, templates, firmitas]
+    Learn: [primers, guides, handbook]
+    Reference: [glossary, radar]
+  pages:                      # pages of our own, after the sections in the navigation. The radar chart and
+    Blog: blog/index.md       # the blog's All posts page are linked from their sections rather than listed here.

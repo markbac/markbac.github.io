@@ -1,8 +1,8 @@
 ---
-title: The Advice Process
+title: The advice process
 ---
 
-# The Advice Process
+# The advice process
 
 The foundational engine of conversational architecture is the **Advice Process**. Adapted from organizational governance models and pioneered in software engineering by Andrew Harmel-Law, the Advice Process replaces hierarchical approval chains with empowered peer consultation.
 

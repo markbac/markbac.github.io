@@ -1,8 +1,8 @@
 ---
-title: Container Diagrams (Level 2)
+title: Container diagrams (level 2)
 ---
 
-# Container Diagrams (Level 2)
+# Container diagrams (level 2)
 
 ## 1. End-to-End IoT System Architecture
 

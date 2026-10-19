@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-006: Requirements and traceability
+# Requirements and traceability
 
 - **Owner:** Systems engineering lead
 - **Applies to:** All product requirements at every level
@@ -93,6 +93,25 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Non-functional requirements are selected from the NFR catalogue (REQ-11)
 - [ ] Regulatory and security requirements are captured as requirements (REQ-12)
 - [ ] Work items link to a requirement or defect, or state their justification (REQ-13)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Requirement levels and allocation rules are defined (REQ-01)
+- [ ] Each requirement is atomic, unambiguous, feasible, necessary, consistent and verifiable, with one verification method (REQ-02)
+- [ ] Requirements are stored as text in the repository with stable `REQ-<AREA>-<nnnn>` IDs (REQ-03)
+- [ ] Each requirement has a rationale, parent, owner and status (REQ-04)
+- [ ] Requirements are baselined by tag at each release (REQ-05)
+- [ ] IDs are referenced in commit footers, PRs and test names (REQ-06)
+- [ ] Every approved requirement is allocated, implemented and verified, and every test traces to a requirement (REQ-07)
+- [ ] The pipeline generates a trace report with gap gates (REQ-08)
+- [ ] A requirement change triggers a change impact check (REQ-09)
+- [ ] Requirements are reviewed by author, implementer and verifier before approval (REQ-10)
+- [ ] Non-functional requirements are selected from the NFR catalogue (REQ-11)
+- [ ] Regulatory and security requirements are captured as requirements (REQ-12)
+- [ ] Work items link to a requirement or defect, or state their justification (REQ-13)
+```
+
 
 ## Applying to personal projects and AI agents
 

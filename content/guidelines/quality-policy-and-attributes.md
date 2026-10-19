@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-003: Quality policy and quality attributes
+# Quality policy and quality attributes
 
 - **Owner:** Test and quality lead
 - **Applies to:** All products and all engineering activities
@@ -84,6 +84,20 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] There is no separate quality phase, the gates are the quality controls (QUA-06)
 - [ ] Each release has quality evidence in its evidence pack (QUA-07)
 - [ ] The model and objectives are reviewed annually using field data (QUA-08)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] A one-page quality policy is published (QUA-01)
+- [ ] A quality attribute model exists with definitions and example measures (QUA-02)
+- [ ] Each product has a ranked quality attribute profile, approved by the architecture lead and product owner (QUA-03)
+- [ ] Quality attributes are stated as measurable scenarios in requirements (QUA-04)
+- [ ] An NFR catalogue exists and requirements are selected from it (QUA-05)
+- [ ] There is no separate quality phase, the gates are the quality controls (QUA-06)
+- [ ] Each release has quality evidence in its evidence pack (QUA-07)
+- [ ] The model and objectives are reviewed annually using field data (QUA-08)
+```
+
 
 ## Applying to personal projects and AI agents
 

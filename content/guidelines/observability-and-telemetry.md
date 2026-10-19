@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-020: Observability and telemetry
+# Observability and telemetry
 
 - **Owner:** Platform lead
 - **Applies to:** Devices, backend platform and the tooling that receives and displays their data
@@ -73,6 +73,24 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Field insights are reviewed monthly and fed into triage and tests (OBS-10)
 - [ ] Lab and HIL environments emit the same telemetry (OBS-11)
 - [ ] Data quality checks are in place (OBS-12)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Observability requirements are defined per product (OBS-01)
+- [ ] The telemetry schema is versioned, owned and follows naming conventions (OBS-02)
+- [ ] Every record carries device, firmware, hardware, configuration and time context (OBS-03)
+- [ ] Bandwidth, battery, storage and cost budgets exist with a sampling policy (OBS-04)
+- [ ] Data minimisation, classification and retention are applied (OBS-05)
+- [ ] Transport handles offline buffering, ordering, de-duplication and loss detection (OBS-06)
+- [ ] Backend, dashboards and alerts are defined as code (OBS-07)
+- [ ] Health indicators and objectives are defined, and every alert has an owner, runbook and action (OBS-08, OBS-13)
+- [ ] Rollouts are gated by telemetry with automatic halt criteria (OBS-09)
+- [ ] Field insights are reviewed monthly and fed into triage and tests (OBS-10)
+- [ ] Lab and HIL environments emit the same telemetry (OBS-11)
+- [ ] Data quality checks are in place (OBS-12)
+```
+
 
 ## Applying to personal projects and AI agents
 

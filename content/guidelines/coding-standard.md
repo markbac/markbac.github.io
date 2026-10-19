@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-013: Coding standard
+# Coding standard
 
 - **Owner:** Firmware lead
 - **Applies to:** All languages used in product and tooling code
@@ -86,6 +86,24 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] The standard is reviewed annually through RFC (COD-10)
 - [ ] A quick reference, review checklist and agent rule list exist (COD-11)
 - [ ] Scripts and tooling code also have a proportionate standard (COD-12)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] There is one coding standard per language in use, with rule IDs that cite principles (COD-01)
+- [ ] Language version, subset and compiler are specified (COD-02)
+- [ ] The standard covers every required topic or says why not (COD-03)
+- [ ] The formatter is configured in the repository and checked in CI (COD-04)
+- [ ] Static analysis is configured and pinned, warnings are errors, and suppressions are justified and audited (COD-05)
+- [ ] Rules are classified mandatory, required or advisory, with a deviation log (COD-06)
+- [ ] Each rule has a rationale, examples and a checking tool (COD-07)
+- [ ] Compiler flags are standardised and identical locally and in CI (COD-08)
+- [ ] A legacy baseline is tracked and there is no drive-by reformatting (COD-09)
+- [ ] The standard is reviewed annually through RFC (COD-10)
+- [ ] A quick reference, review checklist and agent rule list exist (COD-11)
+- [ ] Scripts and tooling code also have a proportionate standard (COD-12)
+```
+
 
 ## Applying to personal projects and AI agents
 

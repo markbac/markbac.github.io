@@ -1,8 +1,8 @@
 ---
-title: Languages and Frameworks
+title: Languages and frameworks
 ---
 
-# Languages and Frameworks
+# Languages and frameworks
 
 This quadrant covers core programming languages, schema definition languages, and data serialisation formats used across our embedded firmware, edge gateways, and cloud platforms.
 

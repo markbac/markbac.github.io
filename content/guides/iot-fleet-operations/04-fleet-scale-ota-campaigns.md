@@ -1,8 +1,8 @@
 ---
-title: Fleet-Scale OTA Update Campaigns
+title: Fleet-scale OTA update campaigns
 ---
 
-# Fleet-Scale OTA Update Campaigns
+# Fleet-scale OTA update campaigns
 
 Firmware Over-The-Air (FOTA) updates represent both the most critical operational capability and the single highest-risk procedure in connected device engineering. A bug in cloud software can be rolled back within seconds by an SRE squad. A flawed firmware update dispatched globally can simultaneously brick an entire fleet of field-deployed hardware, requiring catastrophic physical recalls.
 

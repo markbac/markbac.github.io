@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-021: Release, update and production
+# Release, update and production
 
 - **Owner:** Release manager
 - **Applies to:** All releases, field updates, production programming and supported versions
@@ -84,6 +84,27 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Production programming and provisioning are controlled, with feedback, unit traceability and secure key injection (REL-13, REL-14, REL-15)
 - [ ] Artefacts, symbols and toolchains are retained for the supported life (REL-16)
 - [ ] A post-release review is held (REL-17)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Release stages, roles and a checklist are defined in the repository (REL-01)
+- [ ] The candidate is a tagged commit built once, and that artefact is promoted (REL-02)
+- [ ] Release criteria are met: gates, no open severity 1 or 2, trace, NFRs, budgets, docs, SBOM, security, regulatory (REL-03)
+- [ ] The evidence pack is generated automatically and retained (REL-04)
+- [ ] Release notes are generated from commits and defects (REL-05)
+- [ ] A bill of materials defines each baseline (REL-06)
+- [ ] A compatibility matrix and supported upgrade paths are maintained (REL-07)
+- [ ] The update mechanism is recorded in an ADR: authenticated, atomic, power-fail safe, with rollback and a downgrade policy (REL-08)
+- [ ] Rollouts are staged with health gates and the ability to halt (REL-09)
+- [ ] Upgrade and rollback are tested from supported versions (REL-10)
+- [ ] A hotfix process is defined (REL-11)
+- [ ] A support and end-of-life policy is published (REL-12)
+- [ ] Production programming and provisioning are controlled, with feedback, unit traceability and secure key injection (REL-13, REL-14, REL-15)
+- [ ] Artefacts, symbols and toolchains are retained for the supported life (REL-16)
+- [ ] A post-release review is held (REL-17)
+```
+
 
 ## Applying to personal projects and AI agents
 

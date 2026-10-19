@@ -1,8 +1,8 @@
 ---
-title: Transport and Network Security
+title: Transport and network security
 ---
 
-# Transport and Network Security
+# Transport and network security
 
 Edge devices transmit mission-critical telemetry and receive remote actuation commands over public, unmonitored networks (cellular 4G/5G, Wi-Fi, Ethernet, LoRaWAN, satellite). Network communication must assume an untrusted transport medium vulnerable to eavesdropping, packet modification, and man-in-the-middle (MitM) interception.
 

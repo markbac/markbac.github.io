@@ -1,8 +1,8 @@
 ---
-title: Zero-Touch Device Onboarding
+title: Zero-touch device onboarding
 ---
 
-# Zero-Touch Device Onboarding
+# Zero-touch device onboarding
 
 Deploying connected devices at fleet scale makes manual on-site configuration, keyboard credential entry, or technician pairing economically unviable. An installation technician mounting an asset tracker, air quality monitor, or industrial sensor should simply apply power, close the enclosure, and walk away.
 

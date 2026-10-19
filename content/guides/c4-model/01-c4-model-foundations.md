@@ -1,8 +1,8 @@
 ---
-title: "The C4 Model: Origins, Philosophy, and Core Mechanics"
+title: "The C4 model: origins, philosophy and core mechanics"
 ---
 
-# The C4 Model: Origins, Philosophy, and Core Mechanics
+# The C4 model: origins, philosophy and core mechanics
 
 ## 1. The Architecture Communication Crisis: Why Traditional Diagrams Fail
 

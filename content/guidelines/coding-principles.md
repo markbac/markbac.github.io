@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-012: Coding principles governance
+# Coding principles governance
 
 - **Owner:** Firmware and Software lead
 - **Applies to:** Code development by human engineers and AI agents

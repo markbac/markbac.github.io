@@ -1,8 +1,8 @@
 ---
-title: Threat Modelling Foundations
+title: Threat modelling foundations
 ---
 
-# Threat Modelling Foundations
+# Threat modelling foundations
 
 Threat modelling is a structured engineering process for identifying potential security threats, vulnerabilities, and attack vectors in a system before hardware is manufactured or software is deployed to production.
 

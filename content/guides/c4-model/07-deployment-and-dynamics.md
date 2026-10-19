@@ -1,8 +1,8 @@
 ---
-title: "Deployment, Tips & Tricks, and Anti-Patterns"
+title: Deployment, tips and anti-patterns
 ---
 
-# Deployment, Tips & Tricks, and Anti-Patterns
+# Deployment, tips and anti-patterns
 
 ## 1. Physical Deployment and Hardware Topology
 

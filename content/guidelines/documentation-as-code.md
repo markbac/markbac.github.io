@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-004: Documentation as code and terminology
+# Documentation as code and terminology
 
 - **Owner:** Build and tooling lead
 - **Applies to:** All documentation describing the product, its design or the way it is built
@@ -99,6 +99,26 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Naming conventions are followed for files, IDs and components (DOC-13)
 - [ ] Approval is PR approval unless a regulation requires a signature record (DOC-14)
 - [ ] Documents are structured with headings, front matter and IDs so people and agents can navigate them (DOC-15)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Documents are plain-text Markdown in the repository and linted (DOC-01, DOC-02)
+- [ ] Documentation changes go through PR like code (DOC-03)
+- [ ] Changes to behaviour, interfaces, configuration and build steps update docs in the same PR (DOC-04)
+- [ ] Diagrams are Mermaid or PlantUML source (DOC-05)
+- [ ] Every document has front matter with owner, status and review date (DOC-06)
+- [ ] CI builds the docs, fails on broken links and lint errors, and publishes versioned docs with each release (DOC-07)
+- [ ] The minimum document set exists: README, CONTRIBUTING, `AGENTS.md`, architecture overview, build and test instructions, `docs/adr/` (DOC-08)
+- [ ] Generated docs are generated and never hand-edited (DOC-09)
+- [ ] Documents state their question and audience, and are split by purpose (DOC-10)
+- [ ] Writing is plain British English with the conclusion first (DOC-11)
+- [ ] A single glossary exists and terms are used consistently (DOC-12)
+- [ ] Naming conventions are followed for files, IDs and components (DOC-13)
+- [ ] Approval is PR approval unless a regulation requires a signature record (DOC-14)
+- [ ] Documents are structured with headings, front matter and IDs so people and agents can navigate them (DOC-15)
+```
+
 
 ## Applying to personal projects and AI agents
 

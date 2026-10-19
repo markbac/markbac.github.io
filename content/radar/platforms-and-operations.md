@@ -1,8 +1,8 @@
 ---
-title: Platforms and Operations
+title: Platforms and operations
 ---
 
-# Platforms and Operations
+# Platforms and operations
 
 This quadrant covers real-time operating systems, embedded build distributions, container runtimes, cloud infrastructure platforms, and messaging protocols.
 

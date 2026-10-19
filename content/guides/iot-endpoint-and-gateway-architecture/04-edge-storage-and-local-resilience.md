@@ -1,8 +1,8 @@
 ---
-title: "Edge Storage & Local Resilience"
+title: Edge storage and local resilience
 ---
 
-# Edge Storage & Local Resilience
+# Edge storage and local resilience
 
 Connected devices deployed across harsh field environments encounter unexpected power interruptions, dead battery cutoffs, network brownouts, and physical shocks. Microcontrollers cannot assume clean shutdowns. A device may lose power while committing a database record, writing a telemetry batch or applying a firmware update. Its non-volatile storage must then recover deterministically on reboot, without human intervention.
 

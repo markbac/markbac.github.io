@@ -1,8 +1,8 @@
 ---
-title: "Edge Intelligence & Processing"
+title: Edge intelligence and processing
 ---
 
-# Edge Intelligence & Processing
+# Edge intelligence and processing
 
 As edge devices become equipped with higher-performance microcontrollers and digital signal processing (DSP) extensions, transmitting raw, uncompressed sensor streams to the cloud becomes both economically unviable and technically inefficient. Transmitting high-frequency vibration signals (such as 10 kHz accelerometer samples) over cellular or satellite networks would deplete battery budgets and incur enormous cellular data costs.
 

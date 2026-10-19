@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-002: Engineering values and ways of working
+# Engineering values and ways of working
 
 - **Owner:** Engineering manager
 - **Applies to:** All team members and sites
@@ -92,6 +92,23 @@ Tick an item when it is true for your project. Rule IDs point to the detail abov
 - [ ] Work status is visible in the tracker and pipeline (VAL-10)
 - [ ] Changes are small enough to review within one working day (VAL-11)
 - [ ] Raising a risk, disagreement or mistake is treated as expected behaviour (VAL-12)
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+```markdown
+- [ ] Values are published and used as tie-breakers (VAL-01)
+- [ ] Every component, pipeline, rig and tool has a named owner in CODEOWNERS or the ownership register (VAL-02)
+- [ ] The decision rights table is current (VAL-03)
+- [ ] Escalation steps and time limits are agreed, and decisions are committed to once made (VAL-04, VAL-05)
+- [ ] Decisions, agreements and meeting outcomes are written down within one working day (VAL-06)
+- [ ] Each component has an owning site and a deputy at another site (VAL-07)
+- [ ] Cross-site agreements cover overlap hours, response time and the handover note (VAL-08)
+- [ ] All sites use the same tools and conventions, and variants have an ADR (VAL-09)
+- [ ] Work status is visible in the tracker and pipeline (VAL-10)
+- [ ] Changes are small enough to review within one working day (VAL-11)
+- [ ] Raising a risk, disagreement or mistake is treated as expected behaviour (VAL-12)
+```
+
 
 ## Applying to personal projects and AI agents
 

@@ -1,8 +1,8 @@
 ---
-title: "Connectivity & Protocol Trade-Offs"
+title: Connectivity and protocol trade-offs
 ---
 
-# Connectivity & Protocol Trade-Offs
+# Connectivity and protocol trade-offs
 
 Connected endpoints and edge gateways rely on wireless and wired communication protocols to exchange telemetry, receive configuration updates, and report critical alarms. Selecting the optimal combination of physical layer (PHY), medium access control (MAC), transport, and application layer protocols dictates network scalability, battery longevity, and operational data expenditure.
 

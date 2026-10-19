@@ -1,8 +1,8 @@
 ---
-title: "Digital Twins & State Reconciliation"
+title: Digital twins and state reconciliation
 ---
 
-# Digital Twins & State Reconciliation
+# Digital twins and state reconciliation
 
 In large-scale IoT fleets, physical devices operate under intermittent connectivity, while enterprise web consoles, mobile applications, and scheduling microservices require continuous, instant read-and-write access to device settings. Directly issuing synchronous HTTP or RPC requests to physical field hardware fails because devices are frequently asleep, out of coverage, or executing high-priority sensing routines.
 

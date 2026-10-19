@@ -1,8 +1,8 @@
 ---
-title: The Four Alignment Mechanisms
+title: The four alignment mechanisms
 ---
 
-# The Four Alignment Mechanisms
+# The four alignment mechanisms
 
 To prevent decentralized decision-making from fracturing into architectural fragmentation, the Advice Process MUST be anchored by four interconnected alignment and learning mechanisms:
 

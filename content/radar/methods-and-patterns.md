@@ -1,8 +1,8 @@
 ---
-title: Methods and Patterns
+title: Methods and patterns
 ---
 
-# Methods and Patterns
+# Methods and patterns
 
 This quadrant covers software architecture styles, engineering methodologies, regulatory security standards, and operational quality practices.
 

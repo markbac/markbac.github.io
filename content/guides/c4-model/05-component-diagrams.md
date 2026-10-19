@@ -1,8 +1,8 @@
 ---
-title: Component Diagrams (Level 3)
+title: Component diagrams (level 3)
 ---
 
-# Component Diagrams (Level 3)
+# Component diagrams (level 3)
 
 ## 1. Decomposing Containers into Components
 

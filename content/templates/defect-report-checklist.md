@@ -110,3 +110,24 @@ Severity and priority are separate. Severity is how much damage the defect does,
 - [ ] **DR-5 The report lists the tests** that show the fix works, including the new regression test.
 - [ ] **DR-6 Commits and the pull request reference the defect,** so the fix can be traced both ways.
 - [ ] **DR-7 S1 and S2 defects in the field get a [postmortem](postmortem.md).**
+
+**As Markdown.** To copy it into an issue, a pull request or a review record:
+
+````markdown
+## Raising a defect
+- [ ] **DC-1 Describe the environment.** Give the hardware variant and revision, the firmware or software version with its commit, and the operating system or RTOS version. Include any non-default settings, build flags or feature flags, and the state the system was in before the failure.
+- [ ] **DC-2 Reproduce it.** Retest until you have the exact steps in the right order. If it is intermittent, say how often it happens, for example "3 in 100 power cycles". Narrow down which part of the system is involved, using error codes and logs.
+- [ ] **DC-3 Attach the evidence.** Include console logs, traces with their correlation IDs, logic analyser or network captures, crash dumps, register state and backtraces, and screenshots or recordings.
+- [ ] **DC-4 Stick to the facts.** Say what happened and what you expected. Leave out guesses about the cause, opinions and blame. Use the headings in the template below.
+- [ ] **DC-5 Set the severity, and let the product owner set the priority** (see below).
+
+## Closing a defect
+- [ ] **DR-1 You understand the area you changed,** not just the line that failed. The [debugging checklist](debugging-checklist.md) helps here.
+- [ ] **DR-2 The defect is classified,** as a requirement, design, architecture, integration or coding defect. The class shows where the process let it through.
+- [ ] **DR-3 The report says what was wrong** with the old behaviour.
+- [ ] **DR-4 The report says what changed** to fix it.
+- [ ] **DR-5 The report lists the tests** that show the fix works, including the new regression test.
+- [ ] **DR-6 Commits and the pull request reference the defect,** so the fix can be traced both ways.
+- [ ] **DR-7 S1 and S2 defects in the field get a [postmortem](postmortem.md).**
+````
+

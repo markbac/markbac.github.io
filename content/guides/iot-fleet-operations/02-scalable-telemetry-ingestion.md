@@ -1,8 +1,8 @@
 ---
-title: Scalable Telemetry Ingestion
+title: Scalable telemetry ingestion
 ---
 
-# Scalable Telemetry Ingestion
+# Scalable telemetry ingestion
 
 When an IoT fleet grows from ten thousand to one million devices, the telemetry pipeline must absorb millions of concurrent TCP connections and millions of messages per second. It must also survive the thundering herd of reconnections after a network outage ends. A naive cloud architecture that writes directly to relational databases will collapse under connection limits and disk I/O bottlenecks.
 
