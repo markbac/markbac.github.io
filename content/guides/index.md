@@ -42,3 +42,11 @@ Long-form guides that go into depth on one subject. The [Guidelines](../guidelin
 | [Agile requirements and user stories](agile-requirements-and-user-stories.md) | User stories, acceptance criteria and how they trace to requirements |
 | [Defect management and debugging](defect-management-and-debugging.md) | Raising and classifying defects, systematic debugging and root cause analysis |
 | [Ways of working](ways-of-working/index.md) | Working agreements, onboarding, the development process, CI/CD, documentation and metrics |
+
+## Deep dives
+
+[[CAPTION:Table]] The deep dives.
+
+| Guide | Covers |
+| --- | --- |
+| [Deep dives](deep-dives/index.md) | Long explanations of CBOR, CoAP, LwM2M, NB-IoT, certificates and keys, RTOS internals, SysVars, MISRA C, static analysis, Git internals, and docs, diagrams and architecture as code |

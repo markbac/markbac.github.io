@@ -132,6 +132,18 @@ documents:
       - {file: content/guides/agile-requirements-and-user-stories.md, page_break: true}
       - {file: content/guides/code-review.md, page_break: true}
       - {file: content/guides/defect-management-and-debugging.md, page_break: true}
+      - {file: content/guides/deep-dives/index.md, page_break: true}
+      - {file: content/guides/deep-dives/cbor.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/coap.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/lwm2m.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/nb-iot-and-cellular.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/certificates-and-keys.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/rtos-internals.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/sysvars.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/misra-c.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/static-analysis.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/git-internals.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/docs-diagrams-and-architecture-as-code.md, heading_offset: 1}
     outputs: {docx: {}, pdf: {}}
 
   handbook:
