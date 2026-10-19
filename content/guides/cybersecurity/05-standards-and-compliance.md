@@ -1,8 +1,8 @@
 ---
-title: "Standards & Regulatory Compliance"
+title: Standards and regulatory compliance
 ---
 
-# Standards & Regulatory Compliance
+# Standards and regulatory compliance
 
 Connected systems and IoT engineering have transitioned from an era of voluntary best-practice recommendations into a regime of strict, legally binding statutory regulations. Failure to comply with international product security standards now carries severe penalties, including market bans, mandatory product recalls, and multi-million pound fines.
 

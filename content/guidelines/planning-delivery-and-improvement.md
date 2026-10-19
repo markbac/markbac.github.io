@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-024: Planning, delivery and improvement
+# Planning, delivery and improvement
 
 - **Owner:** Engineering manager
 - **Applies to:** All planning, delivery management and improvement activity

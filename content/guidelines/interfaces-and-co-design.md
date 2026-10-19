@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-009: Interfaces and hardware and software co-design
+# Interfaces and hardware and software co-design
 
 - **Owner:** Architecture group
 - **Applies to:** All software, protocol, hardware and cross-site interfaces

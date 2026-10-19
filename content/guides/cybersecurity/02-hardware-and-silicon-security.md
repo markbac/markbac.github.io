@@ -1,8 +1,8 @@
 ---
-title: Hardware and Silicon Security
+title: Hardware and silicon security
 ---
 
-# Hardware and Silicon Security
+# Hardware and silicon security
 
 Software and firmware security guarantees are meaningless if the underlying silicon and circuit board can be compromised. Hardware security forms the immovable anchor of the entire security architecture—known as the **Hardware Root of Trust (RoT)**.
 

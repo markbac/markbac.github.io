@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-014: Version control, commits and versioning
+# Version control, commits and versioning
 
 - **Owner:** Build and tooling lead
 - **Applies to:** All repositories, branches, commits, tags and versioned artefacts

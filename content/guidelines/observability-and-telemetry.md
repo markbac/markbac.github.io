@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-020: Observability and telemetry
+# Observability and telemetry
 
 - **Owner:** Platform lead
 - **Applies to:** Devices, backend platform and the tooling that receives and displays their data

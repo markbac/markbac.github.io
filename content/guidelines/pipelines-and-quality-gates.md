@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-016: Pipelines and quality gates
+# Pipelines and quality gates
 
 - **Owner:** Build and tooling lead
 - **Applies to:** All build, test and release pipelines and their supporting infrastructure

@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-015: Pull requests and code review
+# Pull requests and code review
 
 - **Owner:** Firmware lead
 - **Applies to:** All changes to protected branches, by people and agents

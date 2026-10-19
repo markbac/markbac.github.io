@@ -1,8 +1,8 @@
 ---
-title: "Device Tiers & Hardware Architecture"
+title: Device tiers and hardware architecture
 ---
 
-# Device Tiers & Hardware Architecture
+# Device tiers and hardware architecture
 
 Selecting the appropriate silicon architecture, memory hierarchy, and peripheral interconnects forms the foundation of any connected device engineering programme. Inadequate compute capacity prevents future security updates, while over-specifying hardware inflates bill-of-materials (BOM) cost and accelerates battery drain.
 

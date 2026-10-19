@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-001: Guidelines governance
+# Guidelines governance
 
 - **Owner:** Architecture group
 - **Applies to:** All engineering teams, sites and agents

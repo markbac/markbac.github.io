@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-018: Defect and technical debt management
+# Defect and technical debt management
 
 - **Owner:** Test and quality lead
 - **Applies to:** All defects and technical debt in product and tooling

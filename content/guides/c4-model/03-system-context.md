@@ -1,8 +1,8 @@
 ---
-title: System Context Diagrams (Level 1)
+title: System context diagrams (level 1)
 ---
 
-# System Context Diagrams (Level 1)
+# System context diagrams (level 1)
 
 ## 1. Defining the Product Ecosystem Scope
 

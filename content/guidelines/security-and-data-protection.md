@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-022: Security and data protection
+# Security and data protection
 
 - **Owner:** Security lead
 - **Applies to:** All products, tooling, pipelines, data and AI tool use

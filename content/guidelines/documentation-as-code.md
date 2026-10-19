@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-004: Documentation as code and terminology
+# Documentation as code and terminology
 
 - **Owner:** Build and tooling lead
 - **Applies to:** All documentation describing the product, its design or the way it is built

@@ -1,4 +1,8 @@
-# Business & Vertical Principles Overview
+---
+title: Business and vertical principles
+---
+
+# Business and vertical principles
 
 ## Generic Guidelines vs. Business & Vertical Principles
 

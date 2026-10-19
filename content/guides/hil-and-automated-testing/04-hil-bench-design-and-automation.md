@@ -1,8 +1,8 @@
 ---
-title: "HIL Bench Design & Automation"
+title: HIL bench design and automation
 ---
 
-# HIL Bench Design & Automation
+# HIL bench design and automation
 
 While virtual simulators validate logic and scheduling, they cannot detect subtle analog race conditions, crystal oscillator tolerances, radio transmitter harmonics, physical battery droop, or PCB layout flaws. Verifying embedded products before mass manufacturing requires an automated **Hardware-in-the-Loop (HIL)** test bench executing test suites on production-grade silicon.
 

@@ -1,8 +1,8 @@
 ---
-title: Structurizr DSL Reference for Connected Systems
+title: Structurizr DSL reference for connected systems
 ---
 
-# Structurizr DSL Reference for Connected Systems
+# Structurizr DSL reference for connected systems
 
 ## 1. Why Structurizr DSL for IoT Architectures?
 

@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-008: Decision records: RFCs and ADRs
+# Decision records: RFCs and ADRs
 
 - **Owner:** Architecture group
 - **Applies to:** All significant technical, process and guideline decisions

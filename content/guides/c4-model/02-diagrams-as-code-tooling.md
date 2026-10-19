@@ -1,8 +1,8 @@
 ---
-title: "Diagrams as Code: Tooling, DSLs, and Repository Integration"
+title: "Diagrams as code: tooling, DSLs and repository integration"
 ---
 
-# Diagrams as Code: Tooling, DSLs, and Repository Integration
+# Diagrams as code: tooling, DSLs and repository integration
 
 ## 1. The Diagrams-as-Code Paradigm
 

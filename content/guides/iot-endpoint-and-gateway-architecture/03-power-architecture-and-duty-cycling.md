@@ -1,8 +1,8 @@
 ---
-title: "Power Architecture & Duty-Cycling"
+title: Power architecture and duty cycling
 ---
 
-# Power Architecture & Duty-Cycling
+# Power architecture and duty cycling
 
 Designing power architectures for connected devices requires balancing peak pulse requirements, sleep quiescent leakage, supply voltage ranges, and thermal dissipation. Whether an endpoint relies on a decade-long primary lithium cell, ambient solar energy harvesting, or Power-over-Ethernet (PoE), power architecture dictates system reliability and field operating life.
 

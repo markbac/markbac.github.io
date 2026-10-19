@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-017: Testing principles and strategy
+# Testing principles and strategy
 
 - **Owner:** Test and quality lead
 - **Applies to:** All verification activity, environments and test code

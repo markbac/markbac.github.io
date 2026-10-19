@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-026: Competence, tooling and onboarding
+# Competence, tooling and onboarding
 
 - **Owner:** Engineering manager
 - **Applies to:** All team members, all sites, and all tools and domains used

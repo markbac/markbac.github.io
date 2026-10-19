@@ -1,8 +1,8 @@
 ---
-title: Host-Based Firmware Testing
+title: Host-based firmware testing
 ---
 
-# Host-Based Firmware Testing
+# Host-based firmware testing
 
 Testing firmware directly on physical target microcontrollers slows development: flashing via SWD/JTAG takes seconds, setting hardware breakpoints disrupts real-time timers, and automated test runners require specialized physical racks. By decoupling application logic from physical silicon registers, engineering teams can execute thousands of unit tests natively on developer workstations and standard cloud CI runners in seconds.
 

@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-005: AI agent usage
+# AI agent usage
 
 - **Owner:** Build and tooling lead and Security lead
 - **Applies to:** All use of AI coding agents and assistants on team repositories

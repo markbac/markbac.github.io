@@ -1,8 +1,8 @@
 ---
-title: Tools and Utilities
+title: Tools and utilities
 ---
 
-# Tools and Utilities
+# Tools and utilities
 
 This quadrant covers development environments, diagram engines, static analysis linters, compilers, and local database engines.
 

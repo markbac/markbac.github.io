@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-003: Quality policy and quality attributes
+# Quality policy and quality attributes
 
 - **Owner:** Test and quality lead
 - **Applies to:** All products and all engineering activities

@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-010: Components, reuse and variants
+# Components, reuse and variants
 
 - **Owner:** Architecture group
 - **Applies to:** Every component, whether built in the product, reused from another product, or third party

@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-007: Architecture principles governance
+# Architecture principles governance
 
 - **Owner:** Architecture group
 - **Applies to:** Architecture governance and decision-making across products and teams

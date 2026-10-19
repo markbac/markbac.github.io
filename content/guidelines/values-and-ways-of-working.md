@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-002: Engineering values and ways of working
+# Engineering values and ways of working
 
 - **Owner:** Engineering manager
 - **Applies to:** All team members and sites

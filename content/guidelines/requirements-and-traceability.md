@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-006: Requirements and traceability
+# Requirements and traceability
 
 - **Owner:** Systems engineering lead
 - **Applies to:** All product requirements at every level

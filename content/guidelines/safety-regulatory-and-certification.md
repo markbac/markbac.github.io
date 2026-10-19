@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-023: Safety, regulatory and certification
+# Safety, regulatory and certification
 
 - **Owner:** Regulatory lead
 - **Applies to:** All products and changes subject to safety, legal or certification requirements

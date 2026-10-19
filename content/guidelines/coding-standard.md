@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-013: Coding standard
+# Coding standard
 
 - **Owner:** Firmware lead
 - **Applies to:** All languages used in product and tooling code

@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-025: Research, prototyping and experiments
+# Research, prototyping and experiments
 
 - **Owner:** Research lead
 - **Applies to:** All exploratory work: spikes, prototypes, experiments and evaluations

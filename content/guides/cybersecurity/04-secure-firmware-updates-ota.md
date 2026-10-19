@@ -1,8 +1,8 @@
 ---
-title: "Secure Firmware Updates & OTA"
+title: Secure firmware updates and OTA
 ---
 
-# Secure Firmware Updates & OTA
+# Secure firmware updates and OTA
 
 Over-the-Air (OTA) firmware updates are the single most critical capability in connected systems engineering. Without reliable, secure OTA update mechanisms, a newly discovered zero-day vulnerability in an RTOS or crypto library renders an entire deployed fleet permanently exposed, potentially necessitating costly physical recalls.
 

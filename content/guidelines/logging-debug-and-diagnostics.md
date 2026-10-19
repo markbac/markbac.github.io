@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-019: Logging, debug and fault diagnostics
+# Logging, debug and fault diagnostics
 
 - **Owner:** Firmware lead
 - **Applies to:** All firmware, debug tooling and production builds

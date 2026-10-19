@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-011: Technology selection and third-party components
+# Technology selection and third-party components
 
 - **Owner:** Architecture group
 - **Applies to:** All tools, platforms, libraries, vendor SDKs and open-source components

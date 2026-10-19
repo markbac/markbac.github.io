@@ -10,7 +10,7 @@ review-by: 2027-09-30
 supersedes:
 ---
 
-# EG-021: Release, update and production
+# Release, update and production
 
 - **Owner:** Release manager
 - **Applies to:** All releases, field updates, production programming and supported versions
