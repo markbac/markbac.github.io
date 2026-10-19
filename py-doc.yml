@@ -14,27 +14,150 @@ outputs:
 # in site/docs/blog/ for MkDocs Material's blog plugin.
 documents:
   guidelines:
-    # Guidelines. The section's own pull request lists the rest of its files here.
+    # Guidelines (from EngineeringProcess): the overview and core rules, the 26 guidelines in number order,
+    # then the principles, adoption, personal-project, agent and checklist pages.
     sources:
       - content/guidelines/index.md
+      - content/guidelines/core-rules.md
+      - content/guidelines/guidelines-governance.md
+      - content/guidelines/values-and-ways-of-working.md
+      - content/guidelines/quality-policy-and-attributes.md
+      - content/guidelines/documentation-as-code.md
+      - content/guidelines/ai-agent-usage.md
+      - content/guidelines/requirements-and-traceability.md
+      - content/guidelines/architecture-principles.md
+      - content/guidelines/decision-records.md
+      - content/guidelines/interfaces-and-co-design.md
+      - content/guidelines/components-reuse-and-variants.md
+      - content/guidelines/technology-and-third-party.md
+      - content/guidelines/coding-principles.md
+      - content/guidelines/coding-standard.md
+      - content/guidelines/version-control-and-versioning.md
+      - content/guidelines/pull-requests-and-review.md
+      - content/guidelines/pipelines-and-quality-gates.md
+      - content/guidelines/testing-principles-and-strategy.md
+      - content/guidelines/defects-and-technical-debt.md
+      - content/guidelines/logging-debug-and-diagnostics.md
+      - content/guidelines/observability-and-telemetry.md
+      - content/guidelines/release-update-and-production.md
+      - content/guidelines/security-and-data-protection.md
+      - content/guidelines/safety-regulatory-and-certification.md
+      - content/guidelines/planning-delivery-and-improvement.md
+      - content/guidelines/research-and-prototyping.md
+      - content/guidelines/competence-tooling-and-onboarding.md
+      - content/guidelines/principles-catalogue.md
+      - content/guidelines/business-principles.md
+      - content/guidelines/organisation-adoption.md
+      - content/guidelines/personal-projects.md
+      - content/guidelines/agent-rules.md
+      - content/guidelines/checklists.md
     outputs: {docx: {}, pdf: {}}
 
   standards:
-    # Standards. The section's own pull request lists the rest of its files here.
+    # Standards (from technical-documentation's specialised GU- documents): coding, design and interfaces,
+    # then connected devices.
     sources:
       - content/standards/index.md
+      - content/standards/c-coding-standard.md
+      - content/standards/misra-c.md
+      - content/standards/python.md
+      - content/standards/software-architecture-principles.md
+      - content/standards/api-design.md
+      - content/standards/unique-identifiers.md
+      - content/standards/lwm2m-objects.md
+      - content/standards/iot-device-architecture-principles.md
+      - content/standards/iot-battery-budgeting.md
+      - content/standards/constrained-binary-payloads.md
+      - content/standards/iot-edge-offline-storage.md
+      - content/standards/device-serialisation-and-factory-test.md
     outputs: {docx: {}, pdf: {}}
 
   guides:
-    # Guides. The section's own pull request lists the rest of its files here.
+    # Guides: each guide is a chapter, and a guide's numbered files are its sections (heading_offset 1).
+    # On the site each guide keeps its folder.
     sources:
       - content/guides/index.md
+      - {file: content/guides/c4-model/index.md, page_break: true}
+      - {file: content/guides/c4-model/01-c4-model-foundations.md, heading_offset: 1}
+      - {file: content/guides/c4-model/02-diagrams-as-code-tooling.md, heading_offset: 1}
+      - {file: content/guides/c4-model/03-system-context.md, heading_offset: 1}
+      - {file: content/guides/c4-model/04-container-diagrams.md, heading_offset: 1}
+      - {file: content/guides/c4-model/05-component-diagrams.md, heading_offset: 1}
+      - {file: content/guides/c4-model/06-structurizr-dsl-reference.md, heading_offset: 1}
+      - {file: content/guides/c4-model/07-deployment-and-dynamics.md, heading_offset: 1}
+      - {file: content/guides/cybersecurity/index.md, page_break: true}
+      - {file: content/guides/cybersecurity/01-threat-modeling-foundations.md, heading_offset: 1}
+      - {file: content/guides/cybersecurity/02-hardware-and-silicon-security.md, heading_offset: 1}
+      - {file: content/guides/cybersecurity/03-transport-and-network-security.md, heading_offset: 1}
+      - {file: content/guides/cybersecurity/04-secure-firmware-updates-ota.md, heading_offset: 1}
+      - {file: content/guides/cybersecurity/05-standards-and-compliance.md, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/index.md, page_break: true}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/01-device-tiers-and-hardware-architecture.md, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/02-connectivity-and-protocol-tradeoffs.md, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/03-power-architecture-and-duty-cycling.md, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/04-edge-storage-and-local-resilience.md, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/05-edge-intelligence-and-processing.md, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/index.md, page_break: true}
+      - {file: content/guides/iot-fleet-operations/01-zero-touch-device-onboarding.md, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/02-scalable-telemetry-ingestion.md, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/03-digital-twins-and-state-reconciliation.md, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/04-fleet-scale-ota-campaigns.md, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/05-fleet-observability-and-remote-diagnostics.md, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/index.md, page_break: true}
+      - {file: content/guides/hil-and-automated-testing/01-the-iot-testing-pyramid.md, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/02-host-based-firmware-testing.md, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/03-qemu-virtual-hardware-simulation.md, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/04-hil-bench-design-and-automation.md, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/05-network-simulation-and-chaos-testing.md, heading_offset: 1}
+      - {file: content/guides/scaling-architecture/index.md, page_break: true}
+      - {file: content/guides/scaling-architecture/01-advice-process.md, heading_offset: 1}
+      - {file: content/guides/scaling-architecture/02-alignment-mechanisms.md, heading_offset: 1}
+      - {file: content/guides/git/index.md, page_break: true}
+      - {file: content/guides/git/01-how-git-works.md, heading_offset: 1}
+      - {file: content/guides/git/02-branching-strategies.md, heading_offset: 1}
+      - {file: content/guides/git/03-choosing-a-version-control-system.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/index.md, page_break: true}
+      - {file: content/guides/ways-of-working/01-working-agreements.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/02-onboarding.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/03-development-process.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/04-ci-cd.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/05-documentation-standards.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/06-architecture-and-design-documentation.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/07-documentation-and-modelling-tools.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/08-metrics-and-feedback.md, heading_offset: 1}
+      - {file: content/guides/decision-records.md, page_break: true}
+      - {file: content/guides/software-design-specification.md, page_break: true}
+      - {file: content/guides/high-level-design.md, page_break: true}
+      - {file: content/guides/architecture-review-board.md, page_break: true}
+      - {file: content/guides/agile-requirements-and-user-stories.md, page_break: true}
+      - {file: content/guides/code-review.md, page_break: true}
+      - {file: content/guides/defect-management-and-debugging.md, page_break: true}
+      - {file: content/guides/deep-dives/index.md, page_break: true}
+      - {file: content/guides/deep-dives/cbor.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/coap.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/lwm2m.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/nb-iot-and-cellular.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/certificates-and-keys.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/rtos-internals.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/sysvars.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/misra-c.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/static-analysis.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/git-internals.md, heading_offset: 1}
+      - {file: content/guides/deep-dives/docs-diagrams-and-architecture-as-code.md, heading_offset: 1}
     outputs: {docx: {}, pdf: {}}
 
   handbook:
-    # Architecture Handbook. The section's own pull request lists the rest of its files here.
+    # Architecture Handbook (technical-documentation's handbook): the overview, then eight chapters.
     sources:
       - content/handbook/index.md
+      - {file: content/handbook/01-introduction-to-architecture.md, page_break: true}
+      - {file: content/handbook/02-architecture-vision-and-principles.md, page_break: true}
+      - {file: content/handbook/03-architecture-patterns.md, page_break: true}
+      - {file: content/handbook/04-api-design-and-management.md, page_break: true}
+      - {file: content/handbook/05-cloud-architecture.md, page_break: true}
+      - {file: content/handbook/06-iot-and-embedded-systems.md, page_break: true}
+      - {file: content/handbook/07-security-and-standards.md, page_break: true}
+      - {file: content/handbook/08-software-development-best-practices.md, page_break: true}
     outputs: {docx: {}, pdf: {}}
 
   primers:
@@ -121,16 +244,38 @@ documents:
     outputs: {docx: {}, pdf: {}}
 
   glossary:
-    # Glossary: the index, then one file per letter group. Each term is a ### heading, so it has
-    # its own anchor (content/glossary/redirects.tsv maps the old one-page-per-term URLs to them).
+    # Glossary: the index, then one page per letter, then Numbers and Symbols. Each term is a ## heading with
+    # its own anchor (content/glossary/redirects.tsv maps older URLs, including the letter-group pages, to them).
     sources:
       - content/glossary/index.md
-      - content/glossary/a-c.md
-      - content/glossary/d-f.md
-      - content/glossary/g-k.md
-      - content/glossary/l-n.md
-      - content/glossary/o-r.md
-      - content/glossary/s-z.md
+      - content/glossary/a.md
+      - content/glossary/b.md
+      - content/glossary/c.md
+      - content/glossary/d.md
+      - content/glossary/e.md
+      - content/glossary/f.md
+      - content/glossary/g.md
+      - content/glossary/h.md
+      - content/glossary/i.md
+      - content/glossary/j.md
+      - content/glossary/k.md
+      - content/glossary/l.md
+      - content/glossary/m.md
+      - content/glossary/n.md
+      - content/glossary/o.md
+      - content/glossary/p.md
+      - content/glossary/q.md
+      - content/glossary/r.md
+      - content/glossary/s.md
+      - content/glossary/t.md
+      - content/glossary/u.md
+      - content/glossary/v.md
+      - content/glossary/w.md
+      - content/glossary/x.md
+      - content/glossary/y.md
+      - content/glossary/z.md
+      - content/glossary/numbers.md
+      - content/glossary/symbols.md
     outputs: {docx: {}, pdf: {}}
 
   templates:
@@ -145,29 +290,99 @@ documents:
       - content/templates/code-review-checklist.md
       - content/templates/debugging-checklist.md
       - content/templates/defect-report-checklist.md
+      - content/templates/project-vision.md
+      - content/templates/architecture-vision.md
+      - content/templates/architecture-principles.md
+      - content/templates/architecture-document.md
+      - content/templates/architecture-canvases.md
+      - content/templates/crosscutting-concerns.md
       - content/templates/adr.md
       - content/templates/rfc.md
       - content/templates/requirements.md
+      - content/templates/nfr-scenario.md
+      - content/templates/requirements-traceability-matrix.md
       - content/templates/interface-specification.md
-      - content/templates/architecture-document.md
-      - content/templates/architecture-canvases.md
+      - content/templates/software-design-specification.md
       - content/templates/experiment-record.md
-      - content/templates/postmortem.md
+      - content/templates/test-plan.md
+      - content/templates/systems-engineering-management-plan.md
+      - content/templates/team-working-agreement.md
+      - content/templates/meeting-minutes.md
+      - content/templates/decision-log.md
+      - content/templates/risk-register.md
+      - content/templates/technical-debt-register.md
+      - content/templates/release-plan.md
+      - content/templates/sbom.md
       - content/templates/pull-request-and-commits.md
+      - content/templates/postmortem.md
+      - content/templates/lessons-learned.md
       - content/templates/agent-task-brief.md
+      - content/templates/agents-md.md
       - content/templates/product-conformance-profile.md
     outputs: {docx: {}, pdf: {}}
 
   radar:
-    # Tech Radar. The section's own pull request lists the rest of its files here.
+    # Tech Radar (technical-documentation's radar): the methodology, the four quadrants and the directory.
+    # The interactive chart is a site page of its own (site/docs/radar-chart/), since it is HTML and script.
     sources:
       - content/radar/index.md
+      - {file: content/radar/languages-and-frameworks.md, page_break: true}
+      - {file: content/radar/platforms-and-operations.md, page_break: true}
+      - {file: content/radar/methods-and-patterns.md, page_break: true}
+      - {file: content/radar/tools-and-utilities.md, page_break: true}
+      - {file: content/radar/directory.md, page_break: true}
     outputs: {docx: {}, pdf: {}}
 
   firmitas:
-    # Firmitas. The section's own pull request lists the rest of its files here.
+    # Firmitas (Firmitas 2 from docs-WoW): front matter, the three parts with their chapters, and the
+    # appendices, which come from the first edition. Chapters sit one level below their part.
     sources:
       - content/firmitas/index.md
+      - {file: content/firmitas/01-preface.md, page_break: true}
+      - {file: content/firmitas/02-acknowledgements.md, page_break: true}
+      - {file: content/firmitas/03-introduction.md, page_break: true}
+      - {file: content/firmitas/part-1-why-programmes-fail/index.md, page_break: true}
+      - {file: content/firmitas/part-1-why-programmes-fail/01-the-programme-that-failed-predictably.md, heading_offset: 1}
+      - {file: content/firmitas/part-1-why-programmes-fail/02-estimation-why-it-fails-and-what-honest-looks-like.md, heading_offset: 1}
+      - {file: content/firmitas/part-1-why-programmes-fail/03-the-commitment-that-wasnt-theirs.md, heading_offset: 1}
+      - {file: content/firmitas/part-1-why-programmes-fail/04-what-the-system-did-with-the-information.md, heading_offset: 1}
+      - {file: content/firmitas/part-1-why-programmes-fail/05-the-learning-that-doesnt-happen.md, heading_offset: 1}
+      - {file: content/firmitas/part-1-why-programmes-fail/06-engineering-is-a-systems-discipline.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/index.md, page_break: true}
+      - {file: content/firmitas/part-2-the-framework/07-leadership-owns-the-system.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/08-delivery-knowledge-lives-closest-to-the-work.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/09-commitments-estimates-and-honest-plans.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/10-risk-issues-and-the-register-that-actually-works.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/11-requirements-from-customer-need-to-testable-specification.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/12-slack-flow-and-why-efficiency-thinking-fails.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/13-architecture-as-delivery-infrastructure.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/14-the-delivery-model.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/15-quality-as-a-system-property.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/16-governance-guardrails-and-decision-authority.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/17-teams-cognitive-load-and-organisation-for-flow.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/18-communication-information-flow-and-documentation.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/19-technical-debt-and-change-management.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/20-capability-people-and-building-for-the-long-term.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/21-portfolio-flow-and-prioritisation.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/22-business-alignment-economics-and-the-customer.md, heading_offset: 1}
+      - {file: content/firmitas/part-2-the-framework/23-ai-automation-and-human-accountability.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/index.md, page_break: true}
+      - {file: content/firmitas/part-3-making-it-stick/24-the-leader-who-has-to-change.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/25-assessing-readiness-and-adopting-progressively.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/26-common-failure-modes-and-anti-patterns.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/27-measuring-what-actually-matters.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/28-what-firmitas-cannot-fix.md, heading_offset: 1}
+      - {file: content/firmitas/part-3-making-it-stick/29-the-long-view.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/index.md, page_break: true}
+      - {file: content/firmitas/appendices/a-glossary-of-terms.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/b-firmitas-templates.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/c-architectural-principles-for-firmitas.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/d-minimal-balanced-and-regulated-firmitas-profiles.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/e-end-to-end-worked-example.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/f-leadership-and-delivery-anti-patterns-firmitas-is-designed-to-prevent.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/g-bibliography-and-further-reading.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/h-engineering-practice-across-disciplines.md, heading_offset: 1}
+      - {file: content/firmitas/appendices/i-quality-regulation-and-assurance.md, heading_offset: 1}
     outputs: {docx: {}, pdf: {}}
 
 
@@ -184,10 +399,11 @@ site:
   dir: site
   # Only the sections that have moved in are published. Add each section here when its pull request
   # merges; until then its placeholder page stays off both sites.
-  documents: [glossary, templates]
+  documents: [guidelines, standards, guides, handbook, primers, radar, glossary, templates, firmitas]
   downloads: [pdf, docx]
   targets:
     github: mkdocs.yml        # https://markbac.github.io/, personal home page
     tarf: mkdocs.tarf.yml     # https://tarf.co.uk/, the tarf home page
   pages:                      # pages of our own, after the sections in the navigation
+    Tech Radar chart: radar-chart/index.md
     Blog: blog/index.md
