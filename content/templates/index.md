@@ -71,6 +71,7 @@ Grouped by when in a project you are likely to need them.
 | [Postmortem](postmortem.md) | Learning from an incident or a defect found in the field |
 | [Lessons learned](lessons-learned.md) | Looking back at the end of a project or phase |
 | [Task brief for an AI agent](agent-task-brief.md) | Handing a coding task to an AI agent |
+| [AGENTS.md for AI agents](agents-md.md) | Telling AI agents how to work in a repository |
 | [Conformance profile and component register](product-conformance-profile.md) | Tailoring guidelines to a product, and listing its components |
 
 ## Files to download

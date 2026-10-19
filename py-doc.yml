@@ -14,9 +14,43 @@ outputs:
 # in site/docs/blog/ for MkDocs Material's blog plugin.
 documents:
   guidelines:
-    # Guidelines. The section's own pull request lists the rest of its files here.
+    # Guidelines (from EngineeringProcess): the overview and core rules, the 26 guidelines in number order,
+    # then the principles, adoption, personal-project, agent and checklist pages.
     sources:
       - content/guidelines/index.md
+      - content/guidelines/core-rules.md
+      - content/guidelines/guidelines-governance.md
+      - content/guidelines/values-and-ways-of-working.md
+      - content/guidelines/quality-policy-and-attributes.md
+      - content/guidelines/documentation-as-code.md
+      - content/guidelines/ai-agent-usage.md
+      - content/guidelines/requirements-and-traceability.md
+      - content/guidelines/architecture-principles.md
+      - content/guidelines/decision-records.md
+      - content/guidelines/interfaces-and-co-design.md
+      - content/guidelines/components-reuse-and-variants.md
+      - content/guidelines/technology-and-third-party.md
+      - content/guidelines/coding-principles.md
+      - content/guidelines/coding-standard.md
+      - content/guidelines/version-control-and-versioning.md
+      - content/guidelines/pull-requests-and-review.md
+      - content/guidelines/pipelines-and-quality-gates.md
+      - content/guidelines/testing-principles-and-strategy.md
+      - content/guidelines/defects-and-technical-debt.md
+      - content/guidelines/logging-debug-and-diagnostics.md
+      - content/guidelines/observability-and-telemetry.md
+      - content/guidelines/release-update-and-production.md
+      - content/guidelines/security-and-data-protection.md
+      - content/guidelines/safety-regulatory-and-certification.md
+      - content/guidelines/planning-delivery-and-improvement.md
+      - content/guidelines/research-and-prototyping.md
+      - content/guidelines/competence-tooling-and-onboarding.md
+      - content/guidelines/principles-catalogue.md
+      - content/guidelines/business-principles.md
+      - content/guidelines/organisation-adoption.md
+      - content/guidelines/personal-projects.md
+      - content/guidelines/agent-rules.md
+      - content/guidelines/checklists.md
     outputs: {docx: {}, pdf: {}}
 
   standards:
@@ -172,6 +206,7 @@ documents:
       - content/templates/postmortem.md
       - content/templates/lessons-learned.md
       - content/templates/agent-task-brief.md
+      - content/templates/agents-md.md
       - content/templates/product-conformance-profile.md
     outputs: {docx: {}, pdf: {}}
 
@@ -201,7 +236,7 @@ site:
   dir: site
   # Only the sections that have moved in are published. Add each section here when its pull request
   # merges; until then its placeholder page stays off both sites.
-  documents: [primers, glossary, templates]
+  documents: [guidelines, primers, glossary, templates]
   downloads: [pdf, docx]
   targets:
     github: mkdocs.yml        # https://markbac.github.io/, personal home page
