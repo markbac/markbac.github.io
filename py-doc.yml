@@ -73,9 +73,65 @@ documents:
     outputs: {docx: {}, pdf: {}}
 
   guides:
-    # Guides. The section's own pull request lists the rest of its files here.
+    # Guides: each guide is a chapter, and a guide's numbered files are its sections (heading_offset 1).
+    # On the site each guide keeps its folder.
     sources:
       - content/guides/index.md
+      - {file: content/guides/c4-model/index.md, page_break: true}
+      - {file: content/guides/c4-model/01-c4-model-foundations.md, heading_offset: 1}
+      - {file: content/guides/c4-model/02-diagrams-as-code-tooling.md, heading_offset: 1}
+      - {file: content/guides/c4-model/03-system-context.md, heading_offset: 1}
+      - {file: content/guides/c4-model/04-container-diagrams.md, heading_offset: 1}
+      - {file: content/guides/c4-model/05-component-diagrams.md, heading_offset: 1}
+      - {file: content/guides/c4-model/06-structurizr-dsl-reference.md, heading_offset: 1}
+      - {file: content/guides/c4-model/07-deployment-and-dynamics.md, heading_offset: 1}
+      - {file: content/guides/cybersecurity/index.md, page_break: true}
+      - {file: content/guides/cybersecurity/01-threat-modeling-foundations.md, heading_offset: 1}
+      - {file: content/guides/cybersecurity/02-hardware-and-silicon-security.md, heading_offset: 1}
+      - {file: content/guides/cybersecurity/03-transport-and-network-security.md, heading_offset: 1}
+      - {file: content/guides/cybersecurity/04-secure-firmware-updates-ota.md, heading_offset: 1}
+      - {file: content/guides/cybersecurity/05-standards-and-compliance.md, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/index.md, page_break: true}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/01-device-tiers-and-hardware-architecture.md, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/02-connectivity-and-protocol-tradeoffs.md, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/03-power-architecture-and-duty-cycling.md, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/04-edge-storage-and-local-resilience.md, heading_offset: 1}
+      - {file: content/guides/iot-endpoint-and-gateway-architecture/05-edge-intelligence-and-processing.md, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/index.md, page_break: true}
+      - {file: content/guides/iot-fleet-operations/01-zero-touch-device-onboarding.md, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/02-scalable-telemetry-ingestion.md, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/03-digital-twins-and-state-reconciliation.md, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/04-fleet-scale-ota-campaigns.md, heading_offset: 1}
+      - {file: content/guides/iot-fleet-operations/05-fleet-observability-and-remote-diagnostics.md, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/index.md, page_break: true}
+      - {file: content/guides/hil-and-automated-testing/01-the-iot-testing-pyramid.md, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/02-host-based-firmware-testing.md, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/03-qemu-virtual-hardware-simulation.md, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/04-hil-bench-design-and-automation.md, heading_offset: 1}
+      - {file: content/guides/hil-and-automated-testing/05-network-simulation-and-chaos-testing.md, heading_offset: 1}
+      - {file: content/guides/scaling-architecture/index.md, page_break: true}
+      - {file: content/guides/scaling-architecture/01-advice-process.md, heading_offset: 1}
+      - {file: content/guides/scaling-architecture/02-alignment-mechanisms.md, heading_offset: 1}
+      - {file: content/guides/git/index.md, page_break: true}
+      - {file: content/guides/git/01-how-git-works.md, heading_offset: 1}
+      - {file: content/guides/git/02-branching-strategies.md, heading_offset: 1}
+      - {file: content/guides/git/03-choosing-a-version-control-system.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/index.md, page_break: true}
+      - {file: content/guides/ways-of-working/01-working-agreements.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/02-onboarding.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/03-development-process.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/04-ci-cd.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/05-documentation-standards.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/06-architecture-and-design-documentation.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/07-documentation-and-modelling-tools.md, heading_offset: 1}
+      - {file: content/guides/ways-of-working/08-metrics-and-feedback.md, heading_offset: 1}
+      - {file: content/guides/decision-records.md, page_break: true}
+      - {file: content/guides/software-design-specification.md, page_break: true}
+      - {file: content/guides/high-level-design.md, page_break: true}
+      - {file: content/guides/architecture-review-board.md, page_break: true}
+      - {file: content/guides/agile-requirements-and-user-stories.md, page_break: true}
+      - {file: content/guides/code-review.md, page_break: true}
+      - {file: content/guides/defect-management-and-debugging.md, page_break: true}
     outputs: {docx: {}, pdf: {}}
 
   handbook:
@@ -249,7 +305,7 @@ site:
   dir: site
   # Only the sections that have moved in are published. Add each section here when its pull request
   # merges; until then its placeholder page stays off both sites.
-  documents: [guidelines, standards, primers, glossary, templates]
+  documents: [guidelines, standards, guides, primers, glossary, templates]
   downloads: [pdf, docx]
   targets:
     github: mkdocs.yml        # https://markbac.github.io/, personal home page
